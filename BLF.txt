@@ -1130,6 +1130,7 @@
 ||adpulse.ir*
 ||adment.space*
 ||adment.me*
+||d3p2b5qewrnsyv.cloudfront.net*
 !------------------------Specific blocking rules------------------------!
 ||yasell.biz/images/pop^$popup
 ||shoptou.in^$popup
