@@ -1174,6 +1174,7 @@
 ||awin1.com^$popup
 ||love4.ir^$popup
 ||loxface.ir^$popup
+||joneself.com*$popup
 seehd.ws##script:inject(abort-current-inline-script.js, adBlockDetected)
 *##script:inject(abort-current-inline-script.js, LoadStandardPop)
 !-------------------------------- element hiding rules------------------------!
