@@ -1475,7 +1475,8 @@ ganool.*##div[id="hbanner"]
 ##*[class^="fix_ad "]
 ##*[class^='TopAds']
 ##*[class*='Tadsb']
-##*[class*='_ads']
+##*[class$='_ads']
+##*[class*='_ads ']
 ##*[class*='تبلیغات']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
