@@ -558,6 +558,7 @@
 */show_ads_*
 */Banner.aspx?code*
 */showad/*
+*/showad.*
 *&advId*
 */advert/*
 */adGallery.*
