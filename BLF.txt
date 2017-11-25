@@ -12,17 +12,13 @@
 ! https://adblockplus.org/blog/recognizing-third-party-content
 ! https://adblockplus.org/blog/third-party-javascript-yes-it-is-a-security-risk
 ! ---------- Generic Blocking Rules ----------
-*%advert*
-*%affiliate*
-"*&AdID=*"
 *&ad_*
-"*&ads=*"
+*&AdID=*
+*&ads=*
 *&advert*
-"*&affid=*"
+*&affid=*
 *&affiliate*
-*-600x120*.*
 *-ad/*
-*-adrunner.*
 *-ads-*
 *-ads.*
 *-ads/*
@@ -162,7 +158,7 @@
 */ADVS.*
 */ADVS/*
 */Adserver*
-"*/Affiliate/*.cfm?ID=*"
+*/Affiliate/*.cfm?ID*
 */ImgSponsor/*
 */SmartAd?*
 */accipiter/*
@@ -1182,13 +1178,9 @@ seehd.ws##script:inject(abort-current-inline-script.js, adBlockDetected)
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
-facebook.com##div[id="pagelet_canvas_nav_content"]
 videotoolbox.com##.advertisement_section_top
 www.zoomit.ir##DIV.ThirdPost
-www.zoomit.ir##DIV[class="panel panel-default text-adv-box clearfix"]
-www.kojaro.com##DIV[class="panel panel-default text-adv-box"]
 downloadly.ir##div[class="widget widget_text"]
-radiojavan.com##div[id="rj-video_ima-ad-container" class="rj-video_ima-ad-container ima-ad-container" style^="position: absolute;"]
 ##DIV[class^="bannerWrapper"]
 ##*.bannercontainer
 ##DIV[class^="text-adv-row"]
@@ -1205,7 +1197,7 @@ digiato.com##A[href^="http://digiato.com/ads/"]
 ##*.agahi
 ##*.topads1
 ##*.تبلیغات
-www.zoomg.ir##div[data-bind="with: advertisementManagerViewModel"]
+##*[data-bind=" advertisement"]
 mediahide.com##div[id^="iklan"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
@@ -1213,7 +1205,7 @@ donya-e-eqtesad.com##DIV.sizebaneer
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 ganool.*##div[id="fbanner"]
 ganool.*##div[id="hbanner"]
-##a[href^="http://www.clicksgear.com/watch"]
+##a[href*="clicksgear.com/watch"]
 ##a[title*="تبلیغات"]
 ##a[href*="/counter/click.php?id"]
 ##img[alt="ad"]
@@ -1476,6 +1468,9 @@ ganool.*##div[id="hbanner"]
 ##*[class$='_ads']
 ##*[class*='_ads ']
 ##*[class*='تبلیغات']
+##*[class*='-adv-box']
+##*[id*='-ad-container']
+##*[class*='-ad-container']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
