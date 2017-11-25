@@ -576,6 +576,7 @@
 */cryptonight.wasm*
 *-popunder.js*
 *_popunder.js*
+*/ShowAdWithJson*
 !------------------------Specific blocking rules------------------------!
 ||ligatus.de*
 ||lop.com*
@@ -989,6 +990,7 @@
 ||lordpopup.com/go.php?user*
 ||sarzaminekhabar.com*
 ||sabavision.com*.php?posid*
+||click.sabavision.com*
 ||nextads.ir*.js*
 ||persianv.com*box.php*
 ||impressions.ir*.php*
@@ -1035,7 +1037,6 @@
 ||adnegah.net*
 ||paypop.org*
 *pl126353.puhtml.com*
-||click.sabavision.com*
 ||yasell.biz/images/pop/*
 ||vatanclick.ir*
 ||tabligheirani.com*
@@ -1178,6 +1179,8 @@
 seehd.ws##script:inject(abort-current-inline-script.js, adBlockDetected)
 *##script:inject(abort-current-inline-script.js, LoadStandardPop)
 ||adsclick.click*
+||magnetadservices.com^
+||fastclick.ir^
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
@@ -1473,6 +1476,8 @@ ganool.*##div[id="hbanner"]
 ##*[class^="aside_ads"]
 ##div[class^='TopAds']
 ##div[class*='Tadsb']
+##fieldset[class*='_ads']
+##legend[class*='تبلیغات']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
