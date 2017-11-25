@@ -1,5 +1,3 @@
-[adblock plus 2.0]
-! Nimasa  Adblock list
 ! Title: Nimasa adblock filter list
 ! Expires: 7 days (update frequency)
 ! Version: 1.4
@@ -1485,4 +1483,27 @@ ganool.*##div[id="hbanner"]
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||videotoolbox.com^$generichide
 @@||bambergerkennanchitinous.com/.adframesrc.
-@@||http://www.fbdown.net/js/adframe.js
+@@||fbdown.net/js/adframe.js
+@@||app.dinero.dk
+@@||arduinotech.dk
+@@||cgi5.ebay.com
+@@||dcc.godaddy.com
+@@||danskebank.dk
+@@||lycamobileeshop.dk
+@@||lycamobile.dk
+@@||partners.sigfox.com
+@@||pay1.dibspayment.com
+@@||secure.oceanpayment.com
+@@||tickets.airbaltic.com
+@@||banggood.com
+@@||dsb.dk
+@@||flysas.com
+@@||hackster.io
+@@||nemadgang.dk
+@@||nyidanmark.dk
+@@||researchgate.net
+@@||sciencedirect.com
+@@||skyscanner.net
+@@||talahost.com
+@@||trialpay.com
+@@||uasdenmark.dk
