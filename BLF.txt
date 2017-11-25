@@ -1196,7 +1196,22 @@ merriam-webster.com##DIV[id="adaptvDiv"]
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
 ##a[href*="/ads/"]
-##a[href*="/advertisements/"]
+##a[href*="/ads-"]
+##a[href*="/ads_"]
+##a[href*="/ads "]
+##a[href*="-ads-"]
+##a[href*="-ads_"]
+##a[href*="-ads/"]
+##a[href*="-ads "]
+##a[href*="_ads_"]
+##a[href*="_ads-"]
+##a[href*="_ads/"]
+##a[href*="_ads "]
+##a[href*=" ads-"]
+##a[href*=" ads_"]
+##a[href*=" ads/"]
+##a[href*=" ads "]
+##a[href*="advertisement"]
 ##*.agahi
 ##*.topads1
 ##*.تبلیغات
