@@ -8,8 +8,11 @@
 ! ------------ Valuable resources ------------
 ! https://adblockplus.org/filters
 ! https://adblockplus.org/filter-cheatsheet
+! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 ! https://github.com/uBlockOrigin/uAssets/issues/618
 ! https://github.com/gorhill/uBlock/wiki
+! https://adblockplus.org/blog/recognizing-third-party-content
+! https://adblockplus.org/blog/third-party-javascript-yes-it-is-a-security-risk
 ! ---------- Generic Blocking Rules ----------
 *%advert*
 *%affiliate*
@@ -1173,6 +1176,7 @@
 ||joneself.com*$popup
 seehd.ws##script:inject(abort-current-inline-script.js, adBlockDetected)
 *##script:inject(abort-current-inline-script.js, LoadStandardPop)
+||adsclick.click*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
@@ -1466,6 +1470,8 @@ ganool.*##div[id="hbanner"]
 ##*[style="width:120px;height:240px;position:relative;"]
 ##*[class^="fix_ad "]
 ##*[class^="aside_ads"]
+##div[class^='TopAds']
+##div[class*='Tadsb']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
