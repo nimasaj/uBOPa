@@ -1138,7 +1138,7 @@
 ||dortina.com/em/pop-up^$popup
 ||bia*movie.com^$popup
 ||telegram.html^$popup
-||*gasht.ir^$popup
+*gasht.ir^$popup
 ||0098sms.com^$popup
 ||salammag.com^$popup
 ||mehdi-online.ir^*$popup
