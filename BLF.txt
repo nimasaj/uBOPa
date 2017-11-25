@@ -1175,6 +1175,8 @@ seehd.ws##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||adsclick.click*
 ||magnetadservices.com^
 ||fastclick.ir^
+||advertising.digikala.com*
+||adapi.digikala.com*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
@@ -1193,7 +1195,7 @@ merriam-webster.com##DIV[id="adaptvDiv"]
 2baksa.net##*[id^="bn_"]
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
-digiato.com##A[href^="http://digiato.com/ads/"]
+*##A[href*="/ads/"]
 ##*.agahi
 ##*.topads1
 ##*.تبلیغات
