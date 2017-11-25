@@ -1171,7 +1171,7 @@
 ||loxface.ir^$popup
 ||joneself.com*$popup
 seehd.ws##script:inject(abort-current-inline-script.js, adBlockDetected)
-*##script:inject(abort-current-inline-script.js, LoadStandardPop)
+##script:inject(abort-current-inline-script.js, LoadStandardPop)
 ||adsclick.click*
 ||magnetadservices.com^
 ||fastclick.ir^
@@ -1195,7 +1195,8 @@ merriam-webster.com##DIV[id="adaptvDiv"]
 2baksa.net##*[id^="bn_"]
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
-*##A[href*="/ads/"]
+##a[href*="/ads/"]
+##a[href*="/advertisements/"]
 ##*.agahi
 ##*.topads1
 ##*.تبلیغات
