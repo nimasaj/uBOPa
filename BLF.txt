@@ -1052,7 +1052,6 @@
 ||puserving.com*.js*
 ||content-ad.net*
 ||kixer.com*.js*
-||jwpsrv.com*
 ||mobon.com/vendor/*.php*
 ||popunderjs.com*
 ||lqpkjasgqjve.com*.js*
