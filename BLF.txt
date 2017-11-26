@@ -1,5 +1,5 @@
 ! Title: Nimasa adblock filter list
-! Expires: 7 days (update frequency)
+! Expires: 2 days (update frequency)
 ! Version: 1.4
 ! http://nimasa.net/BLF.txt
 ! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt
