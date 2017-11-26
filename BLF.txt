@@ -1170,13 +1170,16 @@
 ||love4.ir^$popup
 ||loxface.ir^$popup
 ||joneself.com*$popup
-seehd.ws##script:inject(abort-current-inline-script.js, adBlockDetected)
+seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ##script:inject(abort-current-inline-script.js, LoadStandardPop)
 ||adsclick.click*
 ||magnetadservices.com^
 ||fastclick.ir^
 ||advertising.digikala.com*
 ||adapi.digikala.com*
+||ths9j89.com/watch^$popup
+||ths9j89.com*.js*
+||remarketingpixel.com/stats*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
