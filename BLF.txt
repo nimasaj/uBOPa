@@ -1180,6 +1180,9 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||ths9j89.com/watch^$popup
 ||ths9j89.com*
 ||remarketingpixel.com/stats*
+||d2wl3qmk54t3ha.cloudfront.net*
+||elthamely.com*$popup
+||elthamely.com*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
