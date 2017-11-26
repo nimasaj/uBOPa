@@ -1178,7 +1178,7 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||advertising.digikala.com*
 ||adapi.digikala.com*
 ||ths9j89.com/watch^$popup
-||ths9j89.com*.js*
+||ths9j89.com*
 ||remarketingpixel.com/stats*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
