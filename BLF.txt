@@ -1183,6 +1183,8 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||d2wl3qmk54t3ha.cloudfront.net*
 ||elthamely.com*$popup
 ||elthamely.com*
+||rsc.cdn77.org*$popup
+||rsc.cdn77.org*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
