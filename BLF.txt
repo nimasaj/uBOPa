@@ -1496,6 +1496,7 @@ ganool.*##div[id="hbanner"]
 ##*[class*='-adv-box']
 ##*[id*='-ad-container']
 ##*[class*='-ad-container']
+##*[class*='ad-desktop-container']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
