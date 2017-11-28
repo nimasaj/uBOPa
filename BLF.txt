@@ -1513,6 +1513,8 @@ ganool.*##div[id="hbanner"]
 ##*[class^='adv ']
 ##*[id^='adv ']
 ##*[id*="_ads_"]
+##*[id$='topAdv']
+##*[class$='topAdv']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
