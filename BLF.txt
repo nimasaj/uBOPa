@@ -1548,3 +1548,4 @@ ganool.*##div[id="hbanner"]
 @@||trialpay.com
 @@||uasdenmark.dk
 caranddriver.com#@#*[class^="ads-"]
+mail.google.com#@#*[class$=' ads']
