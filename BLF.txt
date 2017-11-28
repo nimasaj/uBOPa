@@ -1188,6 +1188,7 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 */vpaid/*$script
 ||selectmedia.asia/adi.evt*
 ||jumpstartmediavault.com/abd/*$script
+||adtube.ir*$script
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
