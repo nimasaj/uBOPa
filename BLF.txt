@@ -1184,6 +1184,10 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||elthamely.com*
 ||rsc.cdn77.org*$popup
 ||rsc.cdn77.org*
+||lkqd.net*
+*/vpaid/*$script
+||selectmedia.asia/adi.evt*
+||jumpstartmediavault.com/abd/*$script
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
@@ -1242,6 +1246,15 @@ ganool.*##div[id="hbanner"]
 ##*[class^="ads-"]
 ##*[class^="ads_"]
 ##*[class^="adsx"]
+##*[class$='_ads']
+##*[class$='-ads']
+##*[class$=' ads']
+##*[class*='_ads ']
+##*[class*="_ads_"]
+##*[class*="_ads-"]
+##*[class*='-ads-']
+##*[class*='-ads_']
+##*[class*=' ads ']
 ##*[id^="ads-"]
 ##*[id^="ads_"]
 ##*[id^="adsx"]
@@ -1339,7 +1352,6 @@ ganool.*##div[id="hbanner"]
 ##*[class*="sidebgbanner"]
 ##*[class^="adsbg"]
 ##*[class*='itemAds']
-##*[class*='-ads-']
 ##*[alt^="ad9"]
 ##*[alt^="ad8"]
 ##*[alt^="ad7"]
@@ -1493,13 +1505,14 @@ ganool.*##div[id="hbanner"]
 ##*[class*="fix_ad "]
 ##*[class*='TopAds']
 ##*[class*='Tadsb']
-##*[class$='_ads']
-##*[class*='_ads ']
 ##*[class*='تبلیغات']
 ##*[class*='-adv-box']
 ##*[id*='-ad-container']
 ##*[class*='-ad-container']
 ##*[class*='ad-desktop-container']
+##*[class^='adv ']
+##*[id^='adv ']
+##*[id*="_ads_"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
@@ -1531,3 +1544,4 @@ ganool.*##div[id="hbanner"]
 @@||talahost.com
 @@||trialpay.com
 @@||uasdenmark.dk
+caranddriver.com#@#*[class^="ads-"]
