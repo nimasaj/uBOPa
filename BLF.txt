@@ -1516,6 +1516,12 @@ ganool.*##div[id="hbanner"]
 ##*[id*="_ads_"]
 ##*[id$='topAdv']
 ##*[class$='topAdv']
+##*[class^='ad_']
+##*[class^='ad-']
+##*[class^='ad ']
+##*[id^='ad_']
+##*[id^='ad-']
+##*[id^='ad ']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
