@@ -1555,3 +1555,4 @@ ganool.*##div[id="hbanner"]
 @@||uasdenmark.dk
 caranddriver.com#@#*[class^="ads-"]
 mail.google.com#@#*[class$=' ads']
+bbc.com#@#*[class*='-ads-']
