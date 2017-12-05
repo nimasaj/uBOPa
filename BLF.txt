@@ -433,7 +433,7 @@
 */popup.htm*
 */popup.js*
 */popupkp.*
-*/rekl/*$image
+*/rekl/$image
 */reklama.*
 */reklama/*
 */reklama_*
@@ -1189,6 +1189,7 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||selectmedia.asia/adi.evt*
 ||jumpstartmediavault.com/abd/*$script
 ||adtube.ir*$script
+*/banner120x240$image
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
