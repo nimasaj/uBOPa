@@ -1104,6 +1104,7 @@
 ||dwf6crl4raal7.cloudfront.net*
 ||d5nxst8fruw4z.cloudfront.net*
 ||d31qbv1cthcecs.cloudfront.net*
+||dc08i221b0n8a.cloudfront.net*
 ||solic.info*
 ||cpm20.com*
 ||ov2ochu.bid*$script
@@ -1191,6 +1192,8 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||adtube.ir*$script
 */banner120x240$image
 ||aparat.com*/aparatAds$script
+||findepended.com^$popup
+||boudja.com^$popup
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
