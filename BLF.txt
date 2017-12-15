@@ -9,6 +9,8 @@
 ! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 ! https://github.com/uBlockOrigin/uAssets/issues/618
 ! https://github.com/gorhill/uBlock/wiki
+! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#scriptinject
+! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
 ! https://adblockplus.org/blog/recognizing-third-party-content
 ! https://adblockplus.org/blog/third-party-javascript-yes-it-is-a-security-risk
 ! ---------- Generic Blocking Rules ----------
@@ -1134,7 +1136,7 @@
 ||p30world.com/blog2/site.php^$popup
 ||30nama.com^$popup
 ||telegram.me/joinchat/*$popup
-||t.me/^$popup
+||t.me/*$popup
 ||dortina.com/em/pop-up^$popup
 ||bia*movie.com^$popup
 ||telegram.html^$popup
@@ -1194,6 +1196,9 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||aparat.com*/aparatAds$script
 ||findepended.com^$popup
 ||boudja.com^$popup
+||shwclk.com/click*
+||shwclk.com/click*$popup
+||wideads.com/website/js*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
