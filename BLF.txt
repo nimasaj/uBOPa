@@ -1198,6 +1198,7 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||shwclk.com/click*
 ||shwclk.com/click*$popup
 ||wideads.com/website/js*
+||wideads.com^$popup
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
@@ -1208,7 +1209,6 @@ downloadly.ir##div[class="widget widget_text"]
 ##*.bannercontainer
 ##DIV[class^="text-adv-row"]
 1pezeshk.com##div[class="textwidget widget-text"]
-1pezeshk.com##*[class="content"][tabindex="0"][style="overflow-y: hidden; outline: none;"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
 2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
