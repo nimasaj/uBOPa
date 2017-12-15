@@ -1014,7 +1014,6 @@
 ||popads.net*
 ||d-h.st/assets/img/download*
 *gaee.hit.gemius.pl/xgemius.js*
-||rzb.ir*
 ||qandak.ir*
 ||b0b.ir*
 ||rozfa.ir*
