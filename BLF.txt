@@ -1532,6 +1532,7 @@ ganool.*##div[id="hbanner"]
 ##*[id^='ad-']
 ##*[id^='ad ']
 ##a[href*="http://www.2dda.ir/"]
+##*[id*='adtube']
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
