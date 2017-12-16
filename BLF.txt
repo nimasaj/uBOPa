@@ -1192,13 +1192,14 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||jumpstartmediavault.com/abd/*$script
 ||adtube.ir*$script
 */banner120x240$image
-||aparat.com*/aparatAds$script
+||aparat.com*/aparatAds^$script
 ||findepended.com^$popup
 ||boudja.com^$popup
 ||shwclk.com/click*
 ||shwclk.com/click*$popup
 ||wideads.com/website/js*
 ||wideads.com^$popup
+||cdn.mihan360.com^$script
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
