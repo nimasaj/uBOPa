@@ -985,7 +985,6 @@
 ||adsvip.ir*
 ||lordpopup.com/go.php?user*
 ||sarzaminekhabar.com*
-||sabavision.com*
 ||click.sabavision.com*
 ||nextads.ir*$script
 ||persianv.com*box.php*
