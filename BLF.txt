@@ -937,7 +937,7 @@
 ||madnet.ru*
 ||vogorana.ru/*$script
 ||nickhel.com/*$script
-||clickyab.com/*$script
+||clickyab.com*
 ||popmaster.ir/pop.php*
 ||popupads.ir/popupcode*
 ||iranmoosighi.ir/*$script
@@ -985,7 +985,7 @@
 ||adsvip.ir*
 ||lordpopup.com/go.php?user*
 ||sarzaminekhabar.com*
-||sabavision.com*.php?posid*
+||sabavision.com*
 ||click.sabavision.com*
 ||nextads.ir*$script
 ||persianv.com*box.php*
