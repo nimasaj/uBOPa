@@ -1098,6 +1098,7 @@
 ||sendword.ir*
 ||popsho.ir*
 ||channelsho.ir^$popup
+||channelsho.ir/tg.php
 ||birdana.ir*$script
 ||popupplus.ir*
 ||d2ghscazvn398x.cloudfront.net*
@@ -1199,6 +1200,13 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||wideads.com/website/js*
 ||wideads.com^$popup
 ||cdn.mihan360.com^$script
+||newagahi.ir^$popup
+||facebogh.com^$popup
+||farrazteb.com^$popup
+*/up/x.js
+!http://www.taknaz.net/  
+*/js/upx.js
+!http://www.pixnaz.info/
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
@@ -1527,12 +1535,17 @@ ganool.*##div[id="hbanner"]
 ##*[class$='topAdv']
 ##*[class^='ad_']
 ##*[class^='ad-']
+##*[class$='_ad']
 ##*[class^='ad ']
 ##*[id^='ad_']
 ##*[id^='ad-']
 ##*[id^='ad ']
+##*[id$='_ad']
 ##a[href*="http://www.2dda.ir/"]
 ##*[id*='adtube']
+##*[class*='-e3lanat ']
+##*[class*='-e3lanat-']
+##*[class="topadv"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
