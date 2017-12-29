@@ -13,6 +13,7 @@
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
 ! https://adblockplus.org/blog/recognizing-third-party-content
 ! https://adblockplus.org/blog/third-party-javascript-yes-it-is-a-security-risk
+! https://adblockplus.org/development-builds/new-filter-options-generichide-and-genericblock
 ! ---------- Generic Blocking Rules ----------
 *&ad_*
 *&AdID=*
@@ -1204,9 +1205,13 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||facebogh.com^$popup
 ||farrazteb.com^$popup
 */up/x.js
-!http://www.taknaz.net/  
+!taknaz.net
 */js/upx.js
-!http://www.pixnaz.info/
+!pixnaz.info
+||backlinka.ir^$popup
+||jiwvbck.com^$popup
+||jiwvbck.com^$script
+||adexchangecloud.com*/display.php*
 !-------------------------------- element hiding rules------------------------!
 seehd.ws##div[class*='adBlockDetectModal']
 seehd.ws##footer[id*='gk-footer']
