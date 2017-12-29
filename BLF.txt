@@ -1213,8 +1213,9 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||jiwvbck.com^$script
 ||adexchangecloud.com*/display.php*
 !-------------------------------- element hiding rules------------------------!
-seehd.ws##div[class*='adBlockDetectModal']
-seehd.ws##footer[id*='gk-footer']
+seehd.*##div[class*='adBlockDetectModal']
+seehd.*##footer[id*='gk-footer']
+rapidvideo.com##*[id^="top350"]
 videotoolbox.com##.advertisement_section_top
 www.zoomit.ir##DIV.ThirdPost
 downloadly.ir##div[class="widget widget_text"]
