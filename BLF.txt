@@ -1212,6 +1212,8 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||jiwvbck.com^$script
 ||adexchangecloud.com*/display.php*
 ||brightonclick.com*/display.php*
+||cdn.iranweb.click*
+||sheypoor.com/static/ra/nofollow.html*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##div[class*='adBlockDetectModal']
 seehd.*##footer[id*='gk-footer']
