@@ -1209,9 +1209,9 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 */js/upx.js
 !pixnaz.info
 ||backlinka.ir^$popup
-||jiwvbck.com^$popup
 ||jiwvbck.com^$script
 ||adexchangecloud.com*/display.php*
+||brightonclick.com*/display.php*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##div[class*='adBlockDetectModal']
 seehd.*##footer[id*='gk-footer']
