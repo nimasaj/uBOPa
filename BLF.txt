@@ -3,6 +3,9 @@
 ! Version: 1.4
 ! http://nimasa.net/BLF.txt
 ! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt
+!
+! >> report issues on https://github.com/nimasaj/uBO_Filterlist/issues
+!
 ! ------------ Valuable resources ------------
 ! https://adblockplus.org/filters
 ! https://adblockplus.org/filter-cheatsheet
