@@ -577,7 +577,14 @@
 *-popunder.js*
 *_popunder.js*
 */ShowAdWithJson*
+*/vpaid/*$script
+*/banner120x240$image
+*/up/x.js
+!taknaz.net
+*/js/upx.js
+!pixnaz.info
 */aparatAds_*.js
+*gasht.ir^$popup
 !------------------------Specific blocking rules------------------------!
 ||ligatus.de*
 ||lop.com*
@@ -1145,7 +1152,6 @@
 ||dortina.com/em/pop-up^$popup
 ||bia*movie.com^$popup
 ||telegram.html^$popup
-*gasht.ir^$popup
 ||0098sms.com^$popup
 ||salammag.com^$popup
 ||mehdi-online.ir^*$popup
@@ -1177,8 +1183,6 @@
 ||love4.ir^$popup
 ||loxface.ir^$popup
 ||joneself.com*$popup
-seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
-##script:inject(abort-current-inline-script.js, LoadStandardPop)
 ||adsclick.click*
 ||magnetadservices.com^
 ||fastclick.ir^
@@ -1193,11 +1197,9 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||rsc.cdn77.org*$popup
 ||rsc.cdn77.org*
 ||lkqd.net*
-*/vpaid/*$script
 ||selectmedia.asia/adi.evt*
 ||jumpstartmediavault.com/abd/*$script
 ||adtube.ir*$script
-*/banner120x240$image
 ||aparat.com*/aparatAds^$script
 ||findepended.com^$popup
 ||boudja.com^$popup
@@ -1209,10 +1211,6 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||newagahi.ir^$popup
 ||facebogh.com^$popup
 ||farrazteb.com^$popup
-*/up/x.js
-!taknaz.net
-*/js/upx.js
-!pixnaz.info
 ||backlinka.ir^$popup
 ||jiwvbck.com^$script
 ||adexchangecloud.com*/display.php*
@@ -1220,7 +1218,10 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||cdn.iranweb.click*
 ||sheypoor.com/static/ra/nofollow.html*
 ||parsads.com*$script
+||mediaad.org^$script
 !-------------------------------- element hiding rules------------------------!
+seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
+##script:inject(abort-current-inline-script.js, LoadStandardPop)
 seehd.*##div[class*='adBlockDetectModal']
 seehd.*##footer[id*='gk-footer']
 rapidvideo.com##*[id^="top350"]
