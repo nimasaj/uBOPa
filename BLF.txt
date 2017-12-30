@@ -577,6 +577,7 @@
 *-popunder.js*
 *_popunder.js*
 */ShowAdWithJson*
+*/aparatAds_*.js
 !------------------------Specific blocking rules------------------------!
 ||ligatus.de*
 ||lop.com*
@@ -990,6 +991,7 @@
 ||lordpopup.com/go.php?user*
 ||sarzaminekhabar.com*
 ||click.sabavision.com*
+||sabavision.com/showcamp*
 ||nextads.ir*$script
 ||persianv.com*box.php*
 ||impressions.ir*.php*
@@ -1560,6 +1562,7 @@ ganool.*##div[id="hbanner"]
 ##*[class="topadv"]
 ##*[itemtype*="WPAdBlock"]
 !gooyait.com
+##a[href*="mihanstore.net/in.php?id="]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
