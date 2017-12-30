@@ -1214,6 +1214,7 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 ||brightonclick.com*/display.php*
 ||cdn.iranweb.click*
 ||sheypoor.com/static/ra/nofollow.html*
+||parsads.com*$script
 !-------------------------------- element hiding rules------------------------!
 seehd.*##div[class*='adBlockDetectModal']
 seehd.*##footer[id*='gk-footer']
@@ -1554,6 +1555,8 @@ ganool.*##div[id="hbanner"]
 ##*[class*='-e3lanat ']
 ##*[class*='-e3lanat-']
 ##*[class="topadv"]
+##*[itemtype*="WPAdBlock"]
+!gooyait.com
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
@@ -1585,6 +1588,7 @@ ganool.*##div[id="hbanner"]
 @@||talahost.com
 @@||trialpay.com
 @@||uasdenmark.dk
+@@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 caranddriver.com#@#*[class^="ads-"]
 mail.google.com#@#*[class$=' ads']
 bbc.com#@#*[class*='-ads-']
