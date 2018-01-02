@@ -1592,6 +1592,7 @@ ganool.*##div[id="hbanner"]
 ##img[alt*="تبلیغ"]
 ##img[title*="آگهی"]
 ##img[alt*="آگهی"]
+##img[src*="/banner.gif" width="468" height="60"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
