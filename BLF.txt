@@ -1084,7 +1084,7 @@
 ||popupearn.com/website/*
 ||popupearn.com/popbox/*
 ||neginpop.ir*/js*
-||ad.adtube.ir*
+||adtube.ir*
 ||process.i-frame.ir/index.php?params*
 ||unztsvrjofqp.com*$script
 ||ihriduffgkel.com*$script
