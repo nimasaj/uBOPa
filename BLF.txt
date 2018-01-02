@@ -1,6 +1,6 @@
 ! Title: Nimasa adblock filter list
 ! Expires: 2 days (update frequency)
-! Version: 1.4
+! Version: 1.5
 ! http://nimasa.net/BLF.txt
 ! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt
 !
@@ -1229,6 +1229,7 @@
 ||mediaad.org^$script
 ||d1pozdfelzfhyt.cloudfront.net*
 ||enteder.com*
+||tapsell.ir*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
