@@ -1623,6 +1623,8 @@ ganool.*##div[id="hbanner"]
 ##img[title*="آگهی"]
 ##img[alt*="آگهی"]
 ##img[src*="/banner.gif"][width="468"][height="60"]
+##img[alt="ads"]
+##a[href$="/ads"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
