@@ -63,7 +63,6 @@
 *-newads/*
 *-reklama-*
 *-reklama.*
-||4d5.net*
 ||Adserver*
 ||ad-*
 ||ad.*
@@ -571,7 +570,8 @@
 */advert/*
 */adGallery.*
 */ban1$image
-*/ads/*.swf*
+*/ads/$image
+*/ads/$script
 *ad_type=*&ad_size*
 */page/shopads*
 */adserve/*
@@ -593,6 +593,7 @@
 */aparatAds_*.js
 *gasht.ir^$popup
 !------------------------Specific blocking rules------------------------!
+||4d5.net*
 ||ligatus.de*
 ||lop.com*
 ||pegasoweb.com*
@@ -1226,6 +1227,8 @@
 ||sheypoor.com/static/ra/nofollow.html*
 ||parsads.com*$script
 ||mediaad.org^$script
+||d1pozdfelzfhyt.cloudfront.net*
+||enteder.com*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
