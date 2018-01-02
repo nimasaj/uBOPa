@@ -1574,6 +1574,7 @@ ganool.*##div[id="hbanner"]
 ##*[itemtype*="WPAdBlock"]
 !gooyait.com
 ##a[href*="mihanstore.net/in.php?id="]
+##a[href*="/ads?"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
