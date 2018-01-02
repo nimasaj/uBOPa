@@ -1576,6 +1576,8 @@ ganool.*##div[id="hbanner"]
 ##a[href*="mihanstore.net/in.php?id="]
 ##a[href*="/ads?"]
 ##*[class*="ADTUBE"]
+##a[href*="bit.do"]
+##a[href*="betchi90.club"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
