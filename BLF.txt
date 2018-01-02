@@ -592,6 +592,9 @@
 !pixnaz.info
 */aparatAds_*.js
 *gasht.ir^$popup
+*/code/popup*
+!alborzpatogh.ir
+*/tabligh/*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -1230,6 +1233,10 @@
 ||d1pozdfelzfhyt.cloudfront.net*
 ||enteder.com*
 ||tapsell.ir*
+||ashoora.*
+||zarin.link$script
+||popup94.ir*
+||popup94.ir$script
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
