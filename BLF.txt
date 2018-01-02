@@ -7,16 +7,23 @@
 ! >> report issues on https://github.com/nimasaj/uBO_Filterlist/issues
 !
 ! ------------ Valuable resources ------------
-! https://adblockplus.org/filters
-! https://adblockplus.org/filter-cheatsheet
-! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 ! https://github.com/uBlockOrigin/uAssets/issues/618
 ! https://github.com/gorhill/uBlock/wiki
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#scriptinject
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
+!
+! https://adblockplus.org/filters
+! https://adblockplus.org/filter-cheatsheet
+! https://adblockplus.org/elemhidehelper
+! https://adblockplus.org/development-builds/new-filter-options-generichide-and-genericblock
+! https://adblockplus.org/development-builds/new-css-property-filter-syntax
+! https://adblockplus.org/development-builds/new-filter-type-option-for-websockets
+! https://adblockplus.org/development-builds/new-filter-type-option-for-webrtc-connections
+! https://adblockplus.org/development-builds/new-syntax-for-advanced-element-hiding-rules
 ! https://adblockplus.org/blog/recognizing-third-party-content
 ! https://adblockplus.org/blog/third-party-javascript-yes-it-is-a-security-risk
 ! https://adblockplus.org/development-builds/new-filter-options-generichide-and-genericblock
+! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 ! ---------- Generic Blocking Rules ----------
 *&ad_*
 *&AdID=*
@@ -56,111 +63,111 @@
 *-newads/*
 *-reklama-*
 *-reklama.*
-*.4d5.net*
-*.Adserver*
-*.ad-*
-*.ad.*
-*.ad/*
-*.ad0*
-*.ad1*
-*.ad2*
-*.ad3*
-*.ad4*
-*.ad5*
-*.ad6*
-*.ad7*
-*.ad8*
-*.ad9*
-*.ad0*
-*.ad?*
-*.ad_*
-*.adbox*
-*.adlink*
-*.ads-*
-*.ads.*
-*.ads/*
-*.ads0*
-*.ads1*
-*.ads2*
-*.ads3*
-*.ads4*
-*.ads5*
-*.ads6*
-*.ads7*
-*.ads8*
-*.ads9*
-*.adv-*
-*.adv.*
-*.adv/*
-*.adv_*
-*.advert*
-*.ariabox.*
-*.baner.*
-*.baner/*
-*.baner1*
-*.baner2*
-*.baner3*
-*.baner4*
-*.baner5*
-*.banniere.*
-*.bidderad.*
-*.blogad.*
-*.blogclick.*
-*.boxads.*
-*.boxads/*
-*.centralad.*
-*.channelad.*
-*.contextad.*
-*.displaypopup.*
-*.exchangead.*
-*.fuseads.*
-*.housead.*
-*.htmlads.*
-*.httpads.*
-*.imageads.*
-*.indiads.*
-*.innerads.*
-*.link-box.*
-*.linkbox-*
-*.linkbox.*
-*.linkbox/*
-*.linkbox1*
-*.linkbox2*
-*.linkbox3*
-*.linkbox4*
-*.linkbox5*
-*.linkbox6*
-*.linkbox_*
-*.linkboxed-*
-*.linkboxed.*
-*.linkboxed/*
-*.linkdoni.*
-*.linkdony.*
-*.linksbox.*
-*.netads.*
-*.newad.*
-*.newads-*
-*.newads.*
-*.puffboxes.*
-*.push_pop.*
-*.rawpop.*
-*.realtextads.*
-*.reklama.*
-*.scraperad.*
-*.servead.*
-*.sideads.*
-*.singlesnet.*
-*.siteads.*
-*.storyads.*
-*.subs_pop.*
-*.swapads.*
-*.tabligh*
-*.textad.*
-*.textads.*
-*.valuead.*
-*.valuepop.*
-*.viewad.*
-*.webads.*
+||4d5.net*
+||Adserver*
+||ad-*
+||ad.*
+||ad/*
+||ad0*
+||ad1*
+||ad2*
+||ad3*
+||ad4*
+||ad5*
+||ad6*
+||ad7*
+||ad8*
+||ad9*
+||ad0*
+||ad?*
+||ad_*
+||adbox*
+||adlink*
+||ads-*
+||ads.*
+||ads/*
+||ads0*
+||ads1*
+||ads2*
+||ads3*
+||ads4*
+||ads5*
+||ads6*
+||ads7*
+||ads8*
+||ads9*
+||adv-*
+||adv.*
+||adv/*
+||adv_*
+||advert*
+||ariabox.*
+||baner.*
+||baner/*
+||baner1*
+||baner2*
+||baner3*
+||baner4*
+||baner5*
+||banniere.*
+||bidderad.*
+||blogad.*
+||blogclick.*
+||boxads.*
+||boxads/*
+||centralad.*
+||channelad.*
+||contextad.*
+||displaypopup.*
+||exchangead.*
+||fuseads.*
+||housead.*
+||htmlads.*
+||httpads.*
+||imageads.*
+||indiads.*
+||innerads.*
+||link-box.*
+||linkbox-*
+||linkbox.*
+||linkbox/*
+||linkbox1*
+||linkbox2*
+||linkbox3*
+||linkbox4*
+||linkbox5*
+||linkbox6*
+||linkbox_*
+||linkboxed-*
+||linkboxed.*
+||linkboxed/*
+||linkdoni.*
+||linkdony.*
+||linksbox.*
+||netads.*
+||newad.*
+||newads-*
+||newads.*
+||puffboxes.*
+||push_pop.*
+||rawpop.*
+||realtextads.*
+||reklama.*
+||scraperad.*
+||servead.*
+||sideads.*
+||singlesnet.*
+||siteads.*
+||storyads.*
+||subs_pop.*
+||swapads.*
+||tabligh*
+||textad.*
+||textads.*
+||valuead.*
+||valuepop.*
+||viewad.*
+||webads.*
 */ADVS.*
 */ADVS/*
 */Adserver*
@@ -1221,7 +1228,7 @@
 ||mediaad.org^$script
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
-##script:inject(abort-current-inline-script.js, LoadStandardPop)
+!##script:inject(abort-current-inline-script.js, LoadStandardPop)
 seehd.*##div[class*='adBlockDetectModal']
 seehd.*##footer[id*='gk-footer']
 rapidvideo.com##*[id^="top350"]
