@@ -1660,6 +1660,7 @@ ganool.*##div[id="hbanner"]
 @@||trialpay.com
 @@||uasdenmark.dk
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
+@@||digitaltrends.com^$generichide
 caranddriver.com#@#*[class^="ads-"]
 mail.google.com#@#*[class$=' ads']
 bbc.com#@#*[class*='-ads-']
