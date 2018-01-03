@@ -1237,6 +1237,7 @@
 ||zarin.link$script
 ||popup94.ir*
 ||popup94.ir$script
+||130.185.76.109*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
@@ -1625,6 +1626,8 @@ ganool.*##div[id="hbanner"]
 ##img[src*="/banner.gif"][width="468"][height="60"]
 ##img[alt="ads"]
 ##a[href$="/ads"]
+##*[class*="random-ad-"]
+##*[class$="random-ad"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
