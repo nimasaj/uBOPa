@@ -443,7 +443,7 @@
 */popunder/*
 */popunder_*
 */popup.htm*
-*/popup.js*
+*/popup.^$script
 */popupkp.*
 */rekl/$image
 */reklama.*
@@ -522,7 +522,7 @@
 *phpads2*
 *phpadsnew*
 *tizer.*/cgi-bin/iframe*
-*topban.js*
+*topban.^$script
 */linkads.*
 */linkha.*
 */adroot/*
@@ -546,7 +546,7 @@
 */imgadv/*
 */adwidgets/*
 ||adsyndication.*
-*/getads.js*
+*/getads.^$script
 */js/bodyclick.php*
 */delivery/*/s/*/z/*/*
 */click/display?pid*
@@ -575,14 +575,14 @@
 *ad_type=*&ad_size*
 */page/shopads*
 */adserve/*
-*/tinybox.js*
-*/pop3.js*
-*/pop2.js*
-*/popnew.js*
+*/tinybox.^$script
+*/pop3.^$script
+*/pop2.^$script
+*/popnew.^$script
 */xpopup/*
 */cryptonight.wasm*
-*-popunder.js*
-*_popunder.js*
+*-popunder.^$script
+*_popunder.^$script
 */ShowAdWithJson*
 */vpaid/*$script
 */banner120x240$image
@@ -590,11 +590,13 @@
 !taknaz.net
 */js/upx.js
 !pixnaz.info
-*/aparatAds_*.js
+*/aparatAds_*.^$script
 *gasht.ir^$popup
 */code/popup*
 !alborzpatogh.ir
 */tabligh/*
+*/popunder*.$popup
+*.ir*/popup.*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -652,7 +654,7 @@
 ||4reh.com/displaycode.php*
 ||51yes.com/click.aspx?id*
 ||5rah.*/linkbox*
-||ParstoOls.net/text_day/shiayan-hadith.js*
+||ParstoOls.net/text_day/shiayan-hadith.^$script
 ||aftabshop.com/links.htm*
 ||marketgid.com*
 ||double-click.ir*
@@ -671,7 +673,7 @@
 ||script.i30t.com/script/*
 ||tablighfa.com*
 ||tkqlhce.com/click-*
-||tooscom.com/linkkey.js*
+||tooscom.com/linkkey.^$script
 ||topcdbazar.com/webmasters/feed2js/*
 ||vatanshop.com/webmaster/*
 ||vu.hadith.ac.ir/tipofday*
@@ -703,7 +705,7 @@
 ||bin-layer.de/*.php?val*
 ||bin-layer.ru/layer*
 ||datefunclub.com/pics.php?did*
-||rufull.ru/tmp/rufull.js*
+||rufull.ru/tmp/rufull.^$script
 ||rus-teenageri.ru/tds/?rid*
 ||pishtazweb.org/eshop/*
 ||pishtazweb.org*view.php?uid*
@@ -730,19 +732,19 @@
 ||1dar1.com/shop_box*
 ||navrcholu.cz/code?site*
 ||merikhi.com/index.php?iduser*
-*echo.teasernet.ru/step*.php*
-*echo.teasernet.ru/funcs*.php*
-*media.fairlink.ru/click?*
-*media.fairlink.ru/carnage/*
+||teasernet.ru/step*.php*
+||teasernet.ru/funcs*.php*
+||fairlink.ru/click?*
+||fairlink.ru/carnage/*
 ||hostmir.net/21_36_240_f.js*
 ||prre.ru/*out.php?id*
 ||hostmir.net/click.php?site*
-*rts.sparkstudios.com/r.poptracking?*
-*rts.sparkstudios.com/*.js?random*
-*this.content.served.by.adshuffle.com*
+||sparkstudios.com/r.poptracking?*
+||sparkstudios.com/^$script
+||adshuffle.com*
 ||bu520.com/popup.php*
 ||adsfast.com*
-*ua.badongo.com/js/ua-remote.js*
+||badongo.com/js/ua-remote.js*
 *c*.net.ua/show?*_pid*
 *.boxcdn.net/*/js/box_*$script
 *text.mplayer.org.cn/*/*.html*
@@ -1087,7 +1089,7 @@
 ||popupearn.com/website/*
 ||popupearn.com/popbox/*
 ||neginpop.ir*/js*
-||adtube.ir*
+||adtube.ir^$script
 ||process.i-frame.ir/index.php?params*
 ||unztsvrjofqp.com*$script
 ||ihriduffgkel.com*$script
@@ -1210,7 +1212,6 @@
 ||lkqd.net*
 ||selectmedia.asia/adi.evt*
 ||jumpstartmediavault.com/abd/*$script
-||adtube.ir*$script
 ||aparat.com*/aparatAds^$script
 ||findepended.com^$popup
 ||boudja.com^$popup
@@ -1236,8 +1237,31 @@
 ||ashoora.*
 ||zarin.link$script
 ||popup94.ir*
-||popup94.ir$script
+||popup94.ir^$script
 ||130.185.76.109*
+||adscloob.com^$script
+||hadis.toolsir.com*
+||weclick.ir^$script
+||clickbux.ir*
+||e3cript.com*
+||kimiaonline.com*$popup
+||kimiaonline.com/redirect.*
+||narsense.com*$popup
+||narsense.com/redirect.*
+||hiapple.ir*$popup
+||hiapple.ir/redirect.*
+||wtoqymftbf.bid^$script
+||efotdwuui.bid^$script
+||tiunnitm.bid^$script
+||avokvnpqunol.bid^$script
+||vixono.com*$popup
+||vixono.com/redirect.*
+||kimexa.com*$popup
+||kimexa.com/redirect.*
+||kimate.com*$popup
+||kimate.com/redirect.*
+!yalda.xyz
+!javab.xyz
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
@@ -1628,6 +1652,16 @@ ganool.*##div[id="hbanner"]
 ##a[href$="/ads"]
 ##*[class*="random-ad-"]
 ##*[class$="random-ad"]
+##*[class*="centerads"]
+##*[class$="-ad"]
+##*[id$="-ad"]
+##*[alt$="-ad"]
+##*[class$="_ad"]
+##*[id$="_ad"]
+##*[alt$="_ad"]
+##*[id="ads"]
+##*[class="ads"]
+##*[alt="ads"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
