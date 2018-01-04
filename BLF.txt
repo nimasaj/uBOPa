@@ -597,6 +597,10 @@
 */tabligh/*
 */popunder*.$popup
 *.ir*/popup.*
+*/renderAds?*
+*/backlinkboxref/*
+*/backlink/*
+*/nextads^$script
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -1012,7 +1016,7 @@
 ||sarzaminekhabar.com*
 ||click.sabavision.com*
 ||sabavision.com/showcamp*
-||nextads.ir*$script
+||nextads.ir*
 ||persianv.com*box.php*
 ||impressions.ir*.php*
 ||acff.ir*$script
@@ -1058,6 +1062,7 @@
 ||paypop.org*
 *pl126353.puhtml.com*
 ||yasell.biz/images/pop/*
+||yasell.biz/images/pop^$popup
 ||vatanclick.ir*
 ||tabligheirani.com*
 ||popupha.com*
@@ -1153,7 +1158,6 @@
 ||adment.space*
 ||adment.me*
 ||d3p2b5qewrnsyv.cloudfront.net*
-||yasell.biz/images/pop^$popup
 ||shoptou.in^$popup
 ||shopty.in^$popup
 ||130.211.198.219^$popup
@@ -1260,8 +1264,14 @@
 ||kimexa.com/redirect.*
 ||kimate.com*$popup
 ||kimate.com/redirect.*
+||weblogmaster.com*$popup
+||weblogmaster.com/redirect.*
 !yalda.xyz
 !javab.xyz
+||backority.ir^$script
+||popbox.skinak.ir*
+||dunro.com/embeded*
+||cdn.ampproject.org^$script
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
@@ -1423,6 +1433,9 @@ ganool.*##div[id="hbanner"]
 ##*[src*="/tanliq"]
 ##*[src*="/tabligh"]
 ##*[class*="topbanner"]
+##*[class*="TopBanner"]
+##*[id*="topbanner"]
+##*[id*="TopBanner"]
 ##*[class*="Xbanner"]
 ##*[class*="sbanner"]
 ##*[class*="sidebgbanner"]
@@ -1662,6 +1675,23 @@ ganool.*##div[id="hbanner"]
 ##*[id="ads"]
 ##*[class="ads"]
 ##*[alt="ads"]
+##*[class="banner"]
+##*[id="banner"]
+##*[alt="banner"]
+##a[href*="alibaba.ir"]
+##a[onclick="_gaq.push(['_trackEvent', 'AdsClicks', 'MidPageAd', 'BaniKhodro MidPage AdsClicks',,'false']);"]
+##a[onclick="_gaq.push(['_trackEvent', 'AdsClicks', 'SidebarAd', 'BaniKhodro AdsClicks',,'false']);"]
+##a[onclick="_gaq.push(['_trackEvent', 'AdsClicks', 'MidPageAd', 'AliBaba MidPage AdsClicks',,'false']);"]
+##a[onclick="_gaq.push(['_trackEvent', 'AdsClicks', 'SidebarAd', 'AliBaba AdsClicks',,'false']);"]
+##*[id*="_ADV_"]
+##*[id*="_AdRotator"]
+##*[class*="_ADV_"]
+##*[class*="_AdRotator"]
+##*[class^="e3lan e3lan-"]
+##*[class*="RightAds-"]
+##*[id*="RightAds-"]
+##*[class*="LeftAds-"]
+##*[id*="LeftAds-"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
