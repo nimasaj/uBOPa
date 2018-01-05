@@ -545,7 +545,6 @@
 */affcb/?id*
 */imgadv/*
 */adwidgets/*
-||adsyndication.*
 */getads.^$script
 */js/bodyclick.php*
 */delivery/*/s/*/z/*/*
