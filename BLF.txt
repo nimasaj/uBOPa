@@ -600,6 +600,7 @@
 */backlinkboxref/*
 */backlink/*
 */nextads^$script
+*/bannervip.php?tag*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -780,7 +781,6 @@
 ||zirve100.com*
 ||bridesagency.com/lnd/*
 ||widgets.amazon.com/Amazon*Widget/?id*
-||static.addtoany.com/menu/page.js*
 ||xmemory.ru/*.php?referer*
 ||multonly.ru/s/script.js*
 ||mobua.com/f/dg.php*
@@ -1120,7 +1120,7 @@
 ||zyxtecsff.bid*
 ||oaogilidstvm.bid*
 ||toppopup.com*
-||kaprila.com/a/show.php*
+||kaprila.com*/show.*
 ||35.188.14.213*
 ||superfastcdn.com*
 ||velocecdn.com*
@@ -1271,6 +1271,11 @@
 ||popbox.skinak.ir*
 ||dunro.com/embeded*
 ||cdn.ampproject.org^$script
+||1000click.ir*
+||rzb.ir^$script
+||bannerv.cf*
+||static.locopoc.ir*
+||amarfa.ir^$script
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
@@ -1691,6 +1696,8 @@ ganool.*##div[id="hbanner"]
 ##*[id*="RightAds-"]
 ##*[class*="LeftAds-"]
 ##*[id*="LeftAds-"]
+##*[class="adsimg"]
+##*[id="adsimg"]
 !------------------------whitelist rules------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
