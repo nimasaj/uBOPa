@@ -601,6 +601,8 @@
 */backlink/*
 */nextads^$script
 */bannervip.php?tag*
+*/click?pid*
+||aclick.*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -1276,6 +1278,10 @@
 ||bannerv.cf*
 ||static.locopoc.ir*
 ||amarfa.ir^$script
+||35.188.59.75^$popup
+||adhoc2.net*
+||media-fire.org*
+||tracking.prmtracking.com*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
