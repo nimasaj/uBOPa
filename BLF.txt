@@ -604,6 +604,7 @@
 */click?pid*
 ||aclick.*
 */jump/next.php?r*
+*/adplexmedia/*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -1290,6 +1291,12 @@
 ||venturead.com^$popup
 ||theads.me*
 ||onclkds.com*
+||waframedia20.com*
+||adsvids.com*
+||adplex.media*
+||bannersnack.com^$script
+||bannersnack.com/iframe/*
+||d3bed7ljup8c9t.cloudfront*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
