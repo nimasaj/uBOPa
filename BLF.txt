@@ -603,6 +603,7 @@
 */bannervip.php?tag*
 */click?pid*
 ||aclick.*
+*/jump/next.php?r*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -1283,6 +1284,12 @@
 ||adhoc2.net*
 ||media-fire.org*
 ||tracking.prmtracking.com*
+||pqowedazx.bid*
+||3l4r8d61yz.com^$popup
+||venturead.com*
+||venturead.com^$popup
+||theads.me*
+||onclkds.com*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
