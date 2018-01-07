@@ -1,0 +1,38 @@
+! Title: Nimasa personal adblock filter list
+! Expires: 2 days (update frequency)
+! Version: 0.1
+! http://nimasa.net/Personal_BLF.txt
+! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/Personal_BLF.txt
+!
+! >> report issues on https://github.com/nimasaj/uBO_Filterlist/issues
+!
+!-------------------------Generic Blocking Rules------------------------!
+!
+!------------------------Specific blocking rules------------------------!
+!
+!--------------------------element hiding rules-------------------------!
+!
+!----------------------------whitelist rules----------------------------!
+@@||app.dinero.dk
+@@||arduinotech.dk
+@@||cgi5.ebay.com
+@@||dcc.godaddy.com
+@@||danskebank.dk
+@@||lycamobileeshop.dk
+@@||lycamobile.dk
+@@||partners.sigfox.com
+@@||pay1.dibspayment.com
+@@||secure.oceanpayment.com
+@@||tickets.airbaltic.com
+@@||banggood.com
+@@||dsb.dk
+@@||flysas.com
+@@||hackster.io
+@@||nemadgang.dk
+@@||nyidanmark.dk
+@@||researchgate.net
+@@||sciencedirect.com
+@@||skyscanner.net
+@@||talahost.com
+@@||trialpay.com
+@@||uasdenmark.dk
