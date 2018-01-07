@@ -1297,6 +1297,7 @@
 ||bannersnack.com^$script
 ||bannersnack.com/iframe/*
 ||d3bed7ljup8c9t.cloudfront*
+||enrgg.com/match.php*
 !-------------------------------- element hiding rules------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
