@@ -1301,6 +1301,8 @@
 ||enrgg.com/match.php*
 ||mediapalmtree.com*$script
 ||clksite.com*
+||ycfprujylukkx.bid*
+||ckyxscaeockj.bid*
 !--------------------------element hiding rules-------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
