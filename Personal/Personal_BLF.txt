@@ -2,7 +2,7 @@
 ! Expires: 2 days (update frequency)
 ! Version: 0.1
 ! http://nimasa.net/Personal_BLF.txt
-! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/Personal_BLF.txt
+! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/Personal/Personal_BLF.txt
 !
 ! >> report issues on https://github.com/nimasaj/uBO_Filterlist/issues
 !
