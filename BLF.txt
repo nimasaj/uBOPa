@@ -606,6 +606,7 @@
 */jump/next.php?r*
 */adplexmedia/*
 */adserve/*
+*/click.php?key*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -1305,6 +1306,11 @@
 ||ckyxscaeockj.bid*
 ||s2block.com^$script
 ||adnimo.com/code^$script
+||mtpjldykpuhnmg.bid*
+||32a79e2833309ebe.com*
+||com-wkejf32ljd23409system.net*
+||zbzksshdcwrka.bid*
+||c0594.com*
 !--------------------------element hiding rules-------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
