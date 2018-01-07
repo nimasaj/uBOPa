@@ -6,7 +6,7 @@
 !
 ! >> report issues on https://github.com/nimasaj/uBO_Filterlist/issues
 !
-! ------------ Valuable resources ------------
+!---------------------------Valuable resources--------------------------!
 ! https://github.com/uBlockOrigin/uAssets/issues/618
 ! https://github.com/gorhill/uBlock/wiki
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#scriptinject
@@ -24,7 +24,7 @@
 ! https://adblockplus.org/blog/third-party-javascript-yes-it-is-a-security-risk
 ! https://adblockplus.org/development-builds/new-filter-options-generichide-and-genericblock
 ! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
-! ---------- Generic Blocking Rules ----------
+!-------------------------Generic Blocking Rules------------------------!
 *&ad_*
 *&AdID=*
 *&ads=*
@@ -605,6 +605,7 @@
 ||aclick.*
 */jump/next.php?r*
 */adplexmedia/*
+*/adserve/*
 !------------------------Specific blocking rules------------------------!
 ||4d5.net*
 ||ligatus.de*
@@ -1299,7 +1300,8 @@
 ||d3bed7ljup8c9t.cloudfront*
 ||enrgg.com/match.php*
 ||mediapalmtree.com*$script
-!-------------------------------- element hiding rules------------------------!
+||clksite.com*
+!--------------------------element hiding rules-------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
 seehd.*##div[class*='adBlockDetectModal']
@@ -1721,7 +1723,7 @@ ganool.*##div[id="hbanner"]
 ##*[id*="LeftAds-"]
 ##*[class="adsimg"]
 ##*[id="adsimg"]
-!------------------------whitelist rules------------------------!
+!----------------------------whitelist rules----------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
 @@banner.$domain=msdn.microsoft.com
