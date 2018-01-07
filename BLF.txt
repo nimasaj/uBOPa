@@ -1303,6 +1303,8 @@
 ||clksite.com*
 ||ycfprujylukkx.bid*
 ||ckyxscaeockj.bid*
+||s2block.com^$script
+||adnimo.com/code^$script
 !--------------------------element hiding rules-------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
