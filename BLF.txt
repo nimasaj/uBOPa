@@ -442,6 +442,7 @@
 */placead/*
 */popunder/*
 */popunder_*
+*/popunder.*
 */popup.htm*
 */popup.^$script
 */popupkp.*
@@ -1311,6 +1312,7 @@
 ||com-wkejf32ljd23409system.net*
 ||zbzksshdcwrka.bid*
 ||c0594.com*
+||trafficshop.com*
 !--------------------------element hiding rules-------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
