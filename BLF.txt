@@ -4,6 +4,7 @@
 ! Version: 1.6
 ! http://nimasa.net/BLF.txt
 ! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt
+! https://cdn.rawgit.com/nimasaj/uBO_Filterlist/master/BLF.txt
 !
 ! >> report issues on https://github.com/nimasaj/uBO_Filterlist/issues
 !
@@ -1318,6 +1319,11 @@
 ||do69ifsly4.me*
 ||hzsod71wov.me*
 ||npdaqy6x1.me*
+||displayingads.com*
+||skurki.info/js/^$popup
+||clk.myretargeting.com*
+||clk.tradedoubler.com/click*
+||chikhanos.info^$script
 !--------------------------element hiding rules-------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
