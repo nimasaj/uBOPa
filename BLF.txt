@@ -64,7 +64,6 @@
 *-adv/*
 *-adv_*
 *-advert*
-
 *-link-box-*
 *-link-box.*
 *-link_box-*
