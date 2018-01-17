@@ -1,4 +1,3 @@
-[adblock plus 2.0]
 ! Title: Nimasa adblock filter list
 ! Expires: 2 days (update frequency)
 ! Version: 1.6
