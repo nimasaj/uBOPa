@@ -1398,7 +1398,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[id^="banner8"]
 ##*[id^="banner9"]
 ##*[id^="banners"]
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!##*[id*="-ad-container"]
+##*[id*="-ad-container"]
 ##*[id*="-ads0"]
 ##*[id*="-ads1"]
 ##*[id*="-ads2"]
