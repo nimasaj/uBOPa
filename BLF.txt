@@ -515,8 +515,8 @@
 !----------------Sorted alphabetically based on domain name-------------!
 ||35.188.14.213*
 ||35.188.14.213^$popup
-||35.188.59.75^$popup
 ||35.188.59.75*
+||35.188.59.75^$popup
 ||80.93.49.192/*.php?id*
 ||104.154.237.193^$popup
 ||130.211.230.53^$popup
@@ -596,6 +596,7 @@
 ||addfreestats.com/cgi-bin/afstrack.cgi*
 ||adexchangecloud.com*/display.php*
 ||adframesrc.com*
+||adgup.com*
 ||adhance.com/www/delivery/*
 ||adhitzads.com*
 ||adhoc2.net*
@@ -680,6 +681,8 @@
 ||bannersnack.com^$script
 ||bannersnack.com/iframe/*
 ||bannerv.cf*
+||bayanbox.ir/id/*
+||bayanbox.ir/view/*
 ||autocontext.begun.ru/*$script
 ||bermoda.biz*
 ||bia2dj.com/link*
@@ -1203,9 +1206,10 @@
 ||zeroredirect1.com*
 ||zirve100.com*
 ||zyxtecsff.bid*
-!--------------------------element hiding rules-------------------------!
+!--------------------------Script injection-------------------------!
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 !##script:inject(abort-current-inline-script.js, LoadStandardPop)
+!--------------------------element hiding rules-------------------------!
 seehd.*##div[class*='adBlockDetectModal']
 seehd.*##footer[id*='gk-footer']
 rapidvideo.com##*[id^="top350"]
@@ -1625,6 +1629,7 @@ ganool.*##div[id="hbanner"]
 ##*[id*="LeftAds-"]
 ##*[class="adsimg"]
 ##*[id="adsimg"]
+##a[href*="adgup.com"]
 !----------------------------whitelist rules----------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 @@/ads_$domain=mail.yahoo.com
