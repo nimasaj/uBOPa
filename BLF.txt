@@ -513,10 +513,12 @@
 */telegram.html^$popup
 !------------------------Specific blocking rules------------------------!
 !----------------Sorted alphabetically based on domain name-------------!
+||34.212.19.168*
 ||35.188.14.213*
 ||35.188.14.213^$popup
 ||35.188.59.75*
 ||35.188.59.75^$popup
+||54.68.166.58*
 ||80.93.49.192/*.php?id*
 ||104.154.237.193^$popup
 ||130.211.230.53^$popup
@@ -532,6 +534,7 @@
 ||1000ip.com*
 ||1000toman.com/webmasters/feed2js/*
 ||100si.com*
+||cdn.1120057983.world*
 ||1133.cc*/show_code.php?pid*
 ||1133.cc*/showpage.php?pid*
 ||123movies.party/assets/js/custombanner.js*
