@@ -6,4 +6,3 @@ As a precaution, it is advisable to **disable** you Adblocker when you take **im
 
 ## Get it
 [Here](https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt)
-[Download](abp:subscribe?location=https%3A//cdn.rawgit.com/SlashArash/adblockfa/master/adblockfa.txt&title=AdBlockFarsi)
