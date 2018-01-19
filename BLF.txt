@@ -3,7 +3,6 @@
 ! Version: 1.8
 ! http://nimasa.net/BLF.txt
 ! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt
-! https://cdn.rawgit.com/nimasaj/uBO_Filterlist/master/BLF.txt
 !
 ! >> report issues on https://github.com/nimasaj/uBO_Filterlist/issues
 !
