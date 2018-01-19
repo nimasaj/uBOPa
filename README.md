@@ -4,5 +4,4 @@ Filterlist to block ads. Compatible with most ad blockers, but specifically writ
 ## Note 
 As a precaution, it is advisable to **disable** you Adblocker when you take **important steps** on trusted sites (banks, customer spaces, online shops...).
 
-## Get it
-[Here](https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt)
+## Get it [Here](https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt)
