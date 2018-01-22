@@ -1648,6 +1648,7 @@ zoomit.ir##DIV.ThirdPost
 @@||digitaltrends.com^$generichide
 @@||fbdown.net/js/adframe.js
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
+@@||varagh.com/advertisement.js
 @@||videotoolbox.com^$generichide
 !-----------------------Whitelist Element hiding------------------------!
 bbc.com#@#*[class*="-ads-"]
