@@ -1207,10 +1207,11 @@
 ||zedo.com*
 ||zeroredirect1.com*
 ||zirve100.com*
+||zlx.com.br/assets/playermon.js*
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
+ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
-!##script:inject(abort-current-inline-script.js, LoadStandardPop)
 !--------------------element hiding rules-Specific----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
@@ -1637,8 +1638,8 @@ zoomit.ir##DIV.ThirdPost
 ##*[class$="random-ad"]
 ##*[class$="topAdv"]
 !----------------------------whitelist rules----------------------------!
-!---------------------------Whitelist Generic---------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
+!---------------------------Whitelist Generic---------------------------!
 @@/ads_$domain=mail.yahoo.com
 @@banner.$domain=msdn.microsoft.com
 !---------------------------Whitelist Specific--------------------------!
