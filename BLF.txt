@@ -12,6 +12,7 @@
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#scriptinject
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
 !
+! https://www.reddit.com/r/uBlockOrigin/
 ! https://adblockplus.org/filters
 ! https://adblockplus.org/filter-cheatsheet
 ! https://adblockplus.org/elemhidehelper
@@ -1550,6 +1551,8 @@ zoomit.ir##DIV.ThirdPost
 ##*[class^="e3lan e3lan-"]
 ##*[class*="تبلیغات"]
 ##*[class*=" ads "]
+##*[class*=" banner "]
+##*[class*=" banner-"]
 ##*[class*="-ad-container"]
 ##*[class*="-ads0"]
 ##*[class*="-ads1"]
