@@ -1658,6 +1658,6 @@ zoomit.ir##DIV.ThirdPost
 !-----------------------Whitelist Element hiding------------------------!
 bbc.com#@#*[class*="-ads-"]
 caranddriver.com#@#*[class^="ads-"]
+watch.cbc.ca#@#*[class$="-ads"]
 gizmodo.com#@#*[class*="_ads_"]
 mail.google.com#@#*[class$=" ads"]
-watch.cbc.ca#@#*[class$="-ads"]
