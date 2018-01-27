@@ -858,7 +858,7 @@
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
 ||irhc.in*.php*
-||irpopup.ir*
+||irpopup.ir^$third-party
 ||iu1xoe7o.com^$popup
 *player.jambovideonetwork.com/js/player.php?pubsite_id*
 *static.jango.com/javascripts/promos/*
