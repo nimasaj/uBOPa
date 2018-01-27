@@ -333,6 +333,7 @@
 */cgi-bin/go_ban.cgi*
 */channelad/*
 */currentads/*
+*/feedclick?*
 */flashbanners/*
 */fluxads/*
 */follow_ad?*
@@ -542,6 +543,7 @@
 ||1phads.com*
 *1traff.ru/script/js.php?id*
 ||1under.ru*
+||20popup.com/website/js*
 ||24smile.org/top/*
 *inf.24smile.org/informer.php?inf*
 ||2baksa.net/download/00*
@@ -670,6 +672,7 @@
 ||anetwork.ir*$script
 ||apanet.net*
 ||aparat.com*/aparatAds^$script
+||as-popup.ir/website/js*
 ||content.aseadnet.com/show.php?*
 *wms.assoc-amazon.com/*$script
 ||atis.ir/script?*
@@ -684,6 +687,7 @@
 ||bannersnack.com^$script
 ||bannersnack.com/iframe/*
 ||bannerv.cf*
+||baxfa.in/pop*
 ||bayanbox.ir/id/*
 ||bayanbox.ir/view/*
 ||autocontext.begun.ru/*$script
@@ -722,6 +726,7 @@
 ||channelsho.ir/tg.php
 ||chikhanos.info^$script
 ||ckyxscaeockj.bid*
+||clickar.ir/?ref*
 ||clickbux.ir*
 *tds.clickcashmoney.com/b*
 ||clickcpm.com*
@@ -840,6 +845,7 @@
 ||hzsod71wov.me*
 ||script.i30t.com/script/*
 ||process.i-frame.ir/index.php?params*
+||iclik.ir/widget*
 ||icqwindow.com/okno.php?*
 ||icqwindow.com/click.php?*
 ||ihriduffgkel.com*$script
