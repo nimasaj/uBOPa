@@ -701,7 +701,6 @@
 ||bin-layer.de/*.php?val*
 ||bin-layer.ru/layer*
 ||birdana.ir*$script
-||birmusic.org^$popup
 ||bixbix.ir*
 ||biz2008.com*
 ||galleries.blamcity.com*
@@ -809,6 +808,7 @@
 ||exoclick.com*
 ||facebogh.com^$popup
 ||facenama.com*
+||facepop.org/website/js*
 ||fairlink.ru/click?*
 ||fairlink.ru/carnage/*
 ||farin724.com*
@@ -892,7 +892,7 @@
 ||loo3.com/dailylink/links.php*
 ||looksmile.ru*
 ||lop.com*
-||lordpopup.com/go.php?user*
+||lordpopup.com/go.php*$third-party,popup
 ||lqpkjasgqjve.com*$script
 ||lux-traf.net/?r*
 *id*.luxup.ru/show/*
@@ -1025,17 +1025,17 @@
 ||poprush.net*
 ||popsho.ir*
 ||popunderjs.com*
-||popup94.ir^$script
+||popup94.ir^$third-party,script
 ||popupad.net*
 ||popupads.ir/popupcode*
-||popupearn.com*$script
+||popupearn.com*$third-party,script
 ||popupearn.com/website/*
 ||popupearn.com/popbox/*
 ||popupha.com*
-||popupirani.ir*$script
+||popupirani.ir*$third-party,script
 ||popupirani.ir/popbox/*
 ||popupirani.ir/website/*
-||popupme.net/*/popupme*
+||popupme.net^$third-party,script
 ||popupplus.ir*
 ||popwin.net*
 ||pqowedazx.bid*
@@ -1106,7 +1106,7 @@
 ||block.stableprofit.ru/show.js*
 ||superfastcdn.com*
 ||superfastcdn.com^$popup
-||t.me/*$popup
+||t.me/*$third-party,popup
 ||tabligheirani.com*
 ||tablighfa.com*
 ||tafrihi.com/link*
@@ -1119,7 +1119,7 @@
 ||teasernet.ru/funcs*.php*
 ||teasertop.ru/js/teasertop.js*
 ||te1.ir*$script
-||telegram.me/joinchat/*$popup
+||telegram.me/joinchat/*$third-party,popup
 ||terraclicks.com/watch*
 ||static.terrhq.ru*
 ||tgju.org/mme.html*
@@ -1219,8 +1219,10 @@
 ||zlx.com.br/assets/playermon.js*
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
+avangmusic.net##script:inject(abort-on-property-read.js, InitPop)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
+nwtehranmusic.com##script:inject(abort-on-property-read.js, InitPop)
 pixnaz.info##script:inject(abort-on-property-read.js, InitPop)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 taknaz.net##script:inject(abort-on-property-read.js, InitPop)
