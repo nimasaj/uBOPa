@@ -688,6 +688,7 @@
 ||bannersnack.com/iframe/*
 ||bannerv.cf*
 ||baxfa.in/pop*
+||baxfa.in/pop*$popup
 ||bayanbox.ir/id/*
 ||bayanbox.ir/view/*
 ||autocontext.begun.ru/*$script
@@ -811,7 +812,6 @@
 ||fairlink.ru/click?*
 ||fairlink.ru/carnage/*
 ||farin724.com*
-||farrazteb.com^$popup
 ||fastclick.ir^
 ||fbfd396918c60838.com^$popup
 ||fhserve.com/www/delivery/*
@@ -1100,6 +1100,7 @@
 ||sparkstudios.com/r.poptracking?*
 ||sparkstudios.com/^$script
 ||rts.sparkstudios.com/pp/*?pid*
+||spop.ir/website/js*
 ||spottt.com/js/spottt.js*
 ||spottt.com/sp_*
 ||block.stableprofit.ru/show.js*
@@ -1110,6 +1111,7 @@
 ||tablighfa.com*
 ||tafrihi.com/link*
 ||takkhal.net*
+||talaads.com/website/js*
 ||tapsell.ir*
 ||cbn.tbn.ru/sa/image?parentid*
 ||teasernet.com/block2.htm*
@@ -1218,7 +1220,10 @@
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
+music-online.ir##script:inject(set-constant.js, needpop, 0)
+pixnaz.info##script:inject(abort-on-property-read.js, InitPop)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
+taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 !--------------------element hiding rules-Specific----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
