@@ -1645,6 +1645,7 @@ zoomit.ir##DIV.ThirdPost
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 !---------------------------Whitelist Filters---------------------------!
 @@/ads_$domain=mail.yahoo.com
+@@_banner*$domain=utah.edu
 @@banner.$domain=msdn.microsoft.com
 @@||bambergerkennanchitinous.com/.adframesrc.
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
@@ -1659,4 +1660,5 @@ caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca#@#*[class$="-ads"]
 gizmodo.com#@#*[class*="_ads_"]
 mail.google.com#@#*[class$=" ads"]
+utah.edu#@#*[class^="banner-"]
 webmd.com#@#*[class$="-banner"]
