@@ -1653,10 +1653,10 @@ zoomit.ir##DIV.ThirdPost
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 @@||varagh.com/advertisement.js
 @@||videotoolbox.com^$generichide
-@@||webmd.com^$generichide
 !--------------------------Whitelist Elements---------------------------!
 bbc.com#@#*[class*="-ads-"]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca#@#*[class$="-ads"]
 gizmodo.com#@#*[class*="_ads_"]
 mail.google.com#@#*[class$=" ads"]
+webmd.com#@#*[class$="-banner"]
