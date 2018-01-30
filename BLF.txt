@@ -1643,10 +1643,9 @@ zoomit.ir##DIV.ThirdPost
 ##*[class$="topAdv"]
 !----------------------------whitelist rules----------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
-!---------------------------Whitelist Generic---------------------------!
+!---------------------------Whitelist Filters---------------------------!
 @@/ads_$domain=mail.yahoo.com
 @@banner.$domain=msdn.microsoft.com
-!---------------------------Whitelist Specific--------------------------!
 @@||bambergerkennanchitinous.com/.adframesrc.
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||digitaltrends.com^$generichide
@@ -1654,7 +1653,8 @@ zoomit.ir##DIV.ThirdPost
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 @@||varagh.com/advertisement.js
 @@||videotoolbox.com^$generichide
-!-----------------------Whitelist Element hiding------------------------!
+@@||webmd.com^$generichide
+!--------------------------Whitelist Elements---------------------------!
 bbc.com#@#*[class*="-ads-"]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca#@#*[class$="-ads"]
