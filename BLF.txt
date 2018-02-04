@@ -451,6 +451,7 @@
 */pop1.^$script
 */pop2.^$script
 */pop3.^$script
+*/poparya.js*
 */popnew.^$script
 */popunder.*
 */popunder*.$popup
@@ -679,6 +680,7 @@
 ||baxfa.in/pop*$popup
 ||bayanbox.ir/id/*
 ||bayanbox.ir/view/*
+||bebinin.com/popads*$script
 ||autocontext.begun.ru/*$script
 ||bermoda.biz*
 ||bia2dj.com/link*
@@ -741,7 +743,7 @@
 ||cloudfront.net/atrk.js^
 ||coinurl.com/get.php*
 ||com-wkejf32ljd23409system.net*
-||widget.congoro.com/widget/script^
+||widget.congoro.com/widget/script^$third-party
 ||content-ad.net*
 ||cpm20.com*
 ||server.cpmstar.com/view.aspx*
@@ -790,6 +792,7 @@
 ||enteder.com*
 ||eplinx.com*/ads.php*
 ||eplinx.com*/adclick.php*
+||eranico.com^$third-party
 ||eshetab.com*
 ||esults.net*
 ||serve.eurogrand.com/promo*
@@ -842,6 +845,7 @@
 ||impressions.ir*.php*
 *resources.infolinks.com*
 ||iptsunami.com/show/*
+||iranecona.com^$third-party
 ||iranmoosighi.ir/*$script
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
@@ -880,8 +884,7 @@
 ||loo3.com/dailylink/links.php*
 ||looksmile.ru*
 ||lop.com*
-||lordpopup.com/pop.php*
-||lordpopup.com/go.php*$third-party,popup
+||lordpopup.com/pop.php*$third-party
 ||lqpkjasgqjve.com*$script
 ||lux-traf.net/?r*
 *id*.luxup.ru/show/*
@@ -909,6 +912,7 @@
 ||meebocdn.net/cim/*
 ||s.megaclick.com/mc.js*
 ||mehdi-online.ir^*$popup
+||melatema.com*$third-party
 ||merikhi.com/index.php?iduser*
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
@@ -985,6 +989,8 @@
 ||pegasoweb.com*
 ||persiaLink.com*
 ||adverse.persiangig.com/*
+||persiannode.ir^$popup
+||persiannode.ir/iq*$script
 ||persianv.com*box.php*
 *rts.pgmediaserve.com/Publishers/*$script
 *rts.pgmediaserve.com/r.poptracking?pcid*
@@ -1026,6 +1032,7 @@
 ||popupirani.ir/website/*
 ||popupme.net^$third-party,script
 ||popupplus.ir*
+||popupplus.org*
 ||popwin.net*
 ||pqowedazx.bid*
 ||prepay.ir/prepyin/*
@@ -1068,6 +1075,7 @@
 ||galleries.secure-softwaremanager.com*
 ||js.securesoft.info/galleries/software_lp_deprecated.js*
 ||selectmedia.asia/adi.evt*
+||cdn.sendpulse.com*$script
 ||sendword.ir*
 ||sfesd.net*
 ||sheypoor.com/static/ra/nofollow.html*
@@ -1084,6 +1092,7 @@
 ||slopeac.com/static/*$script
 ||smi2.ru/data/js/*
 ||softexia.com/wp-content/*/js/attentionGrabber.js*
+||solhkhabar.ir^$third-party
 ||solic.info*
 ||sooran.ir/ac/?*
 ||sparkstudios.com/r.poptracking?*
@@ -1102,6 +1111,8 @@
 ||takkhal.net*
 ||talaads.com/website/js*
 ||tapsell.ir*
+||tapshow.ir^$popup
+||tapshow.ir/iq*$script
 ||cbn.tbn.ru/sa/image?parentid*
 ||teasernet.com/block2.htm*
 ||teasernet.ru/step*.php*
@@ -1209,13 +1220,16 @@
 ||zlx.com.br/assets/playermon.js*
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
-avangmusic.net##script:inject(abort-on-property-read.js, InitPop)
+avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
+farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
+i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,downloadhappymp3.com##script:inject(abort-current-inline-script.js, vc_url)
+ir-song.com,behmusic.com,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
-nwtehranmusic.com##script:inject(abort-on-property-read.js, InitPop)
-pixnaz.info##script:inject(abort-on-property-read.js, InitPop)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
-taknaz.net##script:inject(abort-on-property-read.js, InitPop)
+tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
+topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
 !--------------------element hiding rules-Specific----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
@@ -1352,7 +1366,9 @@ zoomit.ir##DIV.ThirdPost
 !
 ##*[id="adnFloatbr"]
 ##*[id="ads"]
+##*[id="adsbar"]
 ##*[id="adsimg"]
+##*[id="advBan"]
 ##*[id="banner"]
 ##*[id="tabliq"]
 ##*[id^="ad "]
