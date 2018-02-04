@@ -1150,6 +1150,7 @@
 ||velocecdn.com^$popup
 ||venturead.com*
 ||venturead.com^$popup
+||vidlox.tv/js/hrpr.js*
 ||vimgs.ru/javascripts/*$script
 ||vixono.com*$popup
 ||vixono.com/redirect.*
