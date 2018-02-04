@@ -571,6 +571,7 @@
 ||4dsply.com*
 ||51yes.com/click.aspx?id*
 ||5rah.*/linkbox*
+||7mu36somt5.com*$~third-party
 ||a1channel.net*$script
 ||a1channel.net/img/*
 *esl.about.com/gi/siteafs.txt?*
@@ -706,7 +707,6 @@
 ||bubblesmedia.ru/invoke.php?id*
 ||c0594.com*
 ||www3.cbox.ws/box/*
-||rsc.cdn77.org*
 ||rsc.cdn77.org*$popup
 ||channelsho.ir^$popup
 ||channelsho.ir/tg.php
