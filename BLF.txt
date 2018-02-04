@@ -512,6 +512,7 @@
 ||130.211.212.60^$popup
 ||130.185.76.109*
 ||130.211.198.219^$popup
+||178.132.0.217*
 ||185.4.29.74/*
 ||209.222.8.217/*
 ||0098sms.com^$popup
@@ -740,6 +741,7 @@
 ||cloudfront.net/atrk.js^
 ||coinurl.com/get.php*
 ||com-wkejf32ljd23409system.net*
+||widget.congoro.com/widget/script^
 ||content-ad.net*
 ||cpm20.com*
 ||server.cpmstar.com/view.aspx*
@@ -878,6 +880,7 @@
 ||loo3.com/dailylink/links.php*
 ||looksmile.ru*
 ||lop.com*
+||lordpopup.com/pop.php*
 ||lordpopup.com/go.php*$third-party,popup
 ||lqpkjasgqjve.com*$script
 ||lux-traf.net/?r*
