@@ -1222,6 +1222,7 @@
 !--------------------------Script injection uBO-------------------------!
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
+farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,downloadhappymp3.com##script:inject(abort-current-inline-script.js, vc_url)
