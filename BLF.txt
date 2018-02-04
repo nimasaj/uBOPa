@@ -1,4 +1,4 @@
-! Title: Nimasa adblock filter list
+! Title: MyNext adblock filter list
 ! Expires: 2 days (update frequency)
 ! Version: 1.9
 ! http://mynext.pro/BLF.txt
