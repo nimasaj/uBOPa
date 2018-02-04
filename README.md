@@ -5,3 +5,6 @@ Filterlist to block ads. Compatible with most ad blockers, but specifically writ
 As a precaution, it is advisable to **disable** you Adblocker when you take **important steps** on trusted sites (banks, customer spaces, online shops...).
 
 ## Get it [Here](https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt)
+
+## Help in Farsi
+راهنمای نصب افزونه و اضافه کردن این فیلتر لیست را از [اینجا](http://nimasa.net/uBO_installation_help_Farsi.pdf) دریافت کنید
