@@ -9,4 +9,4 @@ Get it [**Here**](https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/maste
 
 
 ## Help in Farsi
-راهنمای نصب افزونه و اضافه کردن این فیلتر لیست را از [اینجا](http://nimasa.net/uBO_installation_help_Farsi.pdf) دریافت کنید
+راهنمای نصب افزونه و اضافه کردن این فیلتر لیست را از [اینجا](http://mynext.pro/uBO_installation_help_Farsi.pdf) دریافت کنید
