@@ -1,6 +1,6 @@
 ! Title: MyNext adblock filter list
 ! Expires: 2 days (update frequency)
-! Version: 1.9
+! Version: 2.0
 ! http://mynext.pro/BLF.txt
 ! https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt
 !
@@ -678,8 +678,6 @@
 ||bannerv.cf*
 ||baxfa.in/pop*
 ||baxfa.in/pop*$popup
-||bayanbox.ir/id/*
-||bayanbox.ir/view/*
 ||bebinin.com/popads*$script
 ||autocontext.begun.ru/*$script
 ||bermoda.biz*
@@ -975,8 +973,9 @@
 ||oxcash.com*
 ||oxinads.com*
 ||oxincode.com*
-||p30world.com/blog2/site.php*
-||p30world.com/blog2/site.php^$popup
+||p30world.com/blog/popnew*$script
+||p30world.com/blog2/*.php*
+||p30world.com/blog2/*.php^$popup
 ||padsdel.com*
 ||padstm.com*
 ||parsads.com*$script
@@ -1664,6 +1663,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class$="topAdv"]
 !----------------------------whitelist rules----------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
+!$ource,@mynext.pro/BLF.txt
 !---------------------------Whitelist Filters---------------------------!
 @@/ads_$domain=mail.yahoo.com
 @@_banner*$domain=utah.edu
