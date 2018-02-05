@@ -5,7 +5,7 @@ Filterlist to block ads. It's specifically written for uBlock Origin, but still 
 As a precaution, it is advisable to **disable** your Adblocker when you take **important steps** on trusted sites (bank portals, customer spaces, online shops, etc).
 
 ## Support 
-In case of any unblocked advertisement, or false blocking, please open a new issue and explain problem. 
+In case of any unblocked advertisement, or false blocking, please open a [new issue](https://github.com/nimasaj/uBO_Filterlist/issues/new) and explain problem. 
 
 ## Liability
 By using this filter list, one agrees that all responsibilities is solely on user. Developers is just developing this filterlist as it is to improve his experience of web browsing.  
