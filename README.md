@@ -8,7 +8,7 @@ As a precaution, it is advisable to **disable** your Adblocker when you take **i
 In case of any unblocked advertisement, or false blocking, please open a [new issue](https://github.com/nimasaj/uBO_Filterlist/issues/new) and explain problem. 
 
 ## Liability
-By using this filter list, one agrees that all responsibilities is solely on user. Developers is just developing this filterlist as it is to improve his experience of web browsing.  
+By using this filter list, one agrees that all responsibilities is solely on the user. Developers is just developing this filterlist as it is to improve his experience of web browsing, and does not take any responsibility of any type of damage/harm caused by using this filter list or uBO.  
 
 ## Download
 Get it [**Here**](https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt).
