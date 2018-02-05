@@ -83,7 +83,7 @@
 *-newads-*
 *-newads.*
 *-newads/*
-*-popunder.^$script
+*-popunder.*$script
 *-reklama-*
 *-reklama.*
 *_ad&*
@@ -117,7 +117,7 @@
 *_linkdony-*
 *_linkdony.*
 *_linkdony_*
-*_popunder.^$script
+*_popunder.*$script
 *_reklama.*
 *_superad/*
 ||adserver*
@@ -337,7 +337,7 @@
 */adz/*
 */affads/*
 */agahi/*
-*/aparatAds_*.^$script
+*/aparatAds_*.*$script
 */ariabox.*
 */backlink/*
 */backlinkboxref/*
@@ -439,7 +439,7 @@
 */mybaner/*
 */narrowad/*
 */newads/*
-*/nextads^$script
+*/nextads*$script
 */novintabligh/*
 */page/shopads*
 */paidads/*
@@ -477,7 +477,7 @@
 */textad/*
 */textads.*
 */textads/*
-*/tinybox.^$script
+*/tinybox.*$script
 */tizers.php?sid*
 */viewad/*
 */www/delivery/*
@@ -497,7 +497,7 @@
 *phpads2*
 *phpadsnew*
 *tizer.*/cgi-bin/iframe*
-*topban.^$script
+*topban.*$script
 !------------------------Specific blocking rules------------------------!
 !----------------Sorted alphabetically based on domain name-------------!
 ||34.212.19.168*
@@ -604,7 +604,7 @@
 ||admpads.com/x1_webfly_popup.php*
 ||adnegah.net*
 ||adnetworkperformance.com/a/display.php*
-||adnimo.com/code^$script
+||adnimo.com/code*$script
 ||adoneast.ru/click/*
 ||adonweb.ru*
 ||adoperator.com/*$script
@@ -616,7 +616,7 @@
 ||adrunnr.com*
 ||ads360.com*
 ||adsclick.click*
-||adscloob.com^$script
+||adscloob.com*$script
 ||adscpm.net/adsxml.php*
 ||adseo.net*
 ||adsfast.com*
@@ -635,7 +635,7 @@
 ||adtaily.pl/widget.js*
 ||adtgs.com/*$script
 ||adtraff.ru*$script
-||adtube.ir^$script
+||adtube.ir^$third-party,script
 ||adverigo.com*
 ||advon.net^
 ||adweb.ir*
@@ -651,28 +651,27 @@
 ||am10.ru/*.php*
 ||am11.ru/code*
 ||am15.net/*.php?s*
-||amarfa.ir^$script
+||amarfa.ir*$script
 ||amazon.com/widgets/*
 ||widgets.amazon.com/Amazon*Widget/?id*
 *ws.amazon.com/widgets/q?ServiceVersion*
-||cdn.ampproject.org^$script
+||cdn.ampproject.org*$script
 ||androidkade.com/tag/^$popup
 ||anetwork.ir*$script
 ||apanet.net*
-||aparat.com*/aparatAds^$script
 ||as-popup.ir/website/js*
 ||content.aseadnet.com/show.php?*
 *wms.assoc-amazon.com/*$script
 ||atis.ir/script?*
 ||avablog.ir/redirect.php^$popup
 ||avalanchers.com/wcode/*
-||avokvnpqunol.bid^$script
+||avokvnpqunol.bid*$script
 ||awin1.com^$popup
 ||b0b.ir*
 ||backlinka.ir^$popup
-||backority.ir^$script
+||backority.ir*$script
 ||badongo.com/js/ua-remote.js*
-||bannersnack.com^$script
+||bannersnack.com*$script
 ||bannersnack.com/iframe/*
 ||bannerv.cf*
 ||baxfa.in/pop*
@@ -710,7 +709,7 @@
 ||rsc.cdn77.org*$popup
 ||channelsho.ir^$popup
 ||channelsho.ir/tg.php
-||chikhanos.info^$script
+||chikhanos.info*$script
 ||ckyxscaeockj.bid*
 ||clickar.ir/?ref*
 ||clickbux.ir*
@@ -720,7 +719,7 @@
 ||clickiran.ir/script?*
 ||clksite.com*
 ||clickunder.ru*
-||clickyab.com*
+||clickyab.com*$third-party
 ||group.clip2ni.com*
 ||clix.ir*
 ||clkfeed.com*
@@ -769,14 +768,14 @@
 ||dt07.net*$script
 ||dumedia.ru*
 ||dunro.com/embeded*
-||e3cript.com*
+||e3cript.com*$third-party
 ||e85440ec98f04725.com^$popup
 ||eads.ir*
 ||adn.ebay.com*
 ||eclick.vn*
 ||eda-prosto.ru*
 ||edomz.net/popup.js*
-||efotdwuui.bid^$script
+||efotdwuui.bid*$script
 ||eghtesadban.com*
 ||egooad.c*$script
 ||egooad.com*show.php?*
@@ -795,8 +794,8 @@
 ||serve.eurogrand.com/promo*
 ||exoclick.com*
 ||facebogh.com^$popup
-||facenama.com*
-||facepop.org/website/js*
+||facenama.com*$third-party
+||facepop.org/website/js*$third-party
 ||fairlink.ru/click?*
 ||fairlink.ru/carnage/*
 ||farin724.com*
@@ -851,7 +850,7 @@
 ||iu1xoe7o.com^$popup
 *player.jambovideonetwork.com/js/player.php?pubsite_id*
 *static.jango.com/javascripts/promos/*
-||jiwvbck.com^$script
+||jiwvbck.com*$script
 ||jokemaster.ir^$popup
 ||joneself.com*$popup
 ||js1.ir*
@@ -901,7 +900,7 @@
 ||mdn2015x2.com*
 ||mdn2015x4.com*
 ||media-fire.org*
-||mediaad.org^$script
+||mediaad.org*$script
 ||medianaft.ru/js/bodyclick.php?*
 ||medianaft.ru/js/vk.php*
 ||mediapalmtree.com*$script
@@ -913,7 +912,7 @@
 ||merikhi.com/index.php?iduser*
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
-||cdn.mihan360.com^$script
+||cdn.mihan360.com*$script
 ||mihannama.ir/*$script
 ||mikhak.net*
 ||minimumpay.info*
@@ -980,7 +979,7 @@
 ||parsads.com*$script
 ||parscloob.com*$script
 ||parsindex.com/directory/service.aspx?cat*
-||parstoOls.net/text_day/shiayan-hadith.^$script
+||parstoOls.net/text_day/shiayan-hadith.*$script
 ||parstools.com^$popup
 ||payeganltd.com/nabimages/*
 ||paypop.org*
@@ -1059,12 +1058,12 @@
 ||rozfa.ir*
 ||rozup.ir/up/*$script*
 ||rtbsystem.com*
-||rufull.ru/tmp/rufull.^$script
+||rufull.ru/tmp/rufull.*$script
 ||clicks.runews.radeant.com/informer/java_inf.php*
 ||rus-teenageri.ru/tds/?rid*
 ||rutvind.com*
-||rzb.ir^$script
-||s2block.com^$script
+||rzb.ir*$script
+||s2block.com*$script
 ||sabavision.com/showcamp*
 ||click.sabavision.com*
 ||salammag.com^$popup
@@ -1094,7 +1093,7 @@
 ||solic.info*
 ||sooran.ir/ac/?*
 ||sparkstudios.com/r.poptracking?*
-||sparkstudios.com/^$script
+||sparkstudios.com/*$script
 ||rts.sparkstudios.com/pp/*?pid*
 ||spop.ir/website/js*
 ||spottt.com/js/spottt.js*
@@ -1125,7 +1124,7 @@
 ||theadsnet.com*
 ||ths9j89.com*
 ||ths9j89.com/watch^$popup
-||tiunnitm.bid^$script
+||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
 ||tizer*.net/tizer*.php?sid*
 ||tizerda.net/*.php?sid*
@@ -1138,7 +1137,7 @@
 ||tophot-news.com/ldr.js*
 ||toplinks.dom.ir*
 ||toppopup.com*
-||tooscom.com/linkkey.^$script
+||tooscom.com/linkkey.*$script
 ||tprs.ir^$popup
 ||trade7.ru/slide/pic_slide.js*
 ||tracktrk.net*
@@ -1179,13 +1178,13 @@
 ||webring.org/navbar*
 ||cdn.webrupee.com/js*
 ||webtrackerplus.com*
-||weclick.ir^$script
+||weclick.ir*$script
 ||wideads.com^$popup
 ||wideads.com/website/js*
 ||wie9eig.top*$script
 ||wigetmedia.com*
 ||wordupiran.com/images/*
-||wtoqymftbf.bid^$script
+||wtoqymftbf.bid*$script
 ||wwwpromoter.com*
 ||xcounter.ru/counter.php?*
 ||xmemory.ru/*.php?referer*
