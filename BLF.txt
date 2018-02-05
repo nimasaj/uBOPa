@@ -54,7 +54,6 @@
 *?advId=*
 *?advert*
 *?linkson*
-*.ir*/popup.*
 *-ad/*
 *-ads-*
 *-ads.*
@@ -1541,6 +1540,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class^="adsx"]
 ##*[class^="adtube"]
 ##*[class^="adv "]
+##*[class^="adv_b"]
 ##*[class^="adv0"]
 ##*[class^="adv1"]
 ##*[class^="adv2"]
