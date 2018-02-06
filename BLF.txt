@@ -25,6 +25,10 @@
 ! https://adblockplus.org/blog/third-party-javascript-yes-it-is-a-security-risk
 ! https://adblockplus.org/development-builds/new-filter-options-generichide-and-genericblock
 ! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
+!
+!---------------------------Redundancy checker--------------------------!
+! https://arestwo.org/famlam/redundantRuleChecker.html
+! https://adblockplus.org/en/redundancy_check
 !-------------------------Generic Blocking Rules------------------------!
 *&ads=*
 *&ad_*
@@ -57,7 +61,7 @@
 *-ad/*
 *-ads-*
 *-ads.*
-*-ads/*
+!*-ads/*
 *-adserv*
 *-adv-*
 *-adv.*
@@ -83,16 +87,16 @@
 *-newads-*
 *-newads.*
 *-newads/*
-*-popunder.*$script
+*-popunder.js*
 *-reklama-*
 *-reklama.*
 *_ad&*
 *_ad.*
-*_ad/*
+!*_ad/*
 *_ad1*
 *_ad?*
 *_ads.*
-*_ads/*
+!*_ads/*
 *_adserv*
 *_adv-*
 *_adv.*
@@ -117,7 +121,7 @@
 *_linkdony-*
 *_linkdony.*
 *_linkdony_*
-*_popunder.*$script
+*_popunder.js*
 *_reklama.*
 *_superad/*
 ||adserver*
@@ -132,7 +136,6 @@
 ||ad7*
 ||ad8*
 ||ad9*
-||ad0*
 ||ad_*
 ||adbox*
 ||adlink*
@@ -193,7 +196,6 @@
 */ad?*
 */advs.*
 */advs/*
-*/adserver*
 */imgsponsor/*
 */smartad?*
 */adrotate.js*
@@ -247,7 +249,6 @@
 */adjsc?*
 */adlayer*
 */adlink*
-*/adlog*
 */adlogo*
 */admanager.*
 */admedia*
@@ -275,7 +276,7 @@
 */ads?*
 */ads.*
 */ads-*
-*/ads_*
+!*/ads_*
 */ads/$image
 */ads/$script
 */ads0*
@@ -297,7 +298,6 @@
 */adsensebig.*
 */adsensedetective.*
 */adserv*
-*/adservice/*
 */adsframe*
 */adshow.js*
 */adshow.php?*
@@ -309,7 +309,6 @@
 */adspace/*
 */adspics/*
 */adsrc*
-*/adsrc/*
 */adsremote.*
 */adsrv.*
 */adsvr/*
@@ -337,7 +336,7 @@
 */adz/*
 */affads/*
 */agahi/*
-*/aparatAds_*.*$script
+*/aparatAds_*$script
 */ariabox.*
 */backlink/*
 */backlinkboxref/*
@@ -380,7 +379,6 @@
 */channelad/*
 */click?pid*
 */click/display?pid*
-*/click/click?pid*
 */code/popup*
 !alborzpatogh.ir
 */cryptonight.wasm*
@@ -388,7 +386,7 @@
 */feedclick?*
 */flashbanners/*
 */fluxads/*
-*/follow_ad?*
+!*/follow_ad?*
 */forumads/*
 */framead/*
 */getad.*
@@ -446,12 +444,12 @@
 */panelad/*
 */place-ads/*
 */placead/*
-*/pop.*$script
-*/pop1.*$script
-*/pop2.*$script
-*/pop3.*$script
+*/pop.js*
+*/pop1.js*
+*/pop2.js*
+*/pop3.js*
 */poparya.js*
-*/popnew.*$script
+*/popnew.js
 */popunder.*
 */popunder*.*$popup
 */popunder_*
@@ -465,7 +463,7 @@
 */reklama_*
 */renderAds?*
 */show_ad/*
-*/show_ads.*
+!*/show_ads.*
 */show_ads_*
 */showad.*
 */showad/*
@@ -477,16 +475,13 @@
 */textad/*
 */textads.*
 */textads/*
-*/tinybox.*$script
+*/tinybox.js*
 */tizers.php?sid*
 */viewad/*
 */www/delivery/*
 */xpopup/*
 *2advert*
-*ad_type=*&ad_size*
 *baner&*
-*baners.*
-*baners/*
 *gasht.ir^$popup
 *geoad?*
 *gobanner.php*
@@ -556,7 +551,6 @@
 ||2baksa.net/download/vsexshop*.gif*
 ||2baksa.net/download/hideme.gif*
 ||2baksa.net/download/kinofer.swf*
-||2baksa.net/download/reklama/dl-gate_600_200.png*
 ||2baksa.net/js/vivo.js*
 ||2baksa.net/msg.php*
 ||2daylink.com/ip-lightbox/*
@@ -579,10 +573,7 @@
 *z.about.com/*/ip/*
 ||acff.ir*$script
 ||actiondesk.com/?*
-||ad004.ru/code/*
-||ad2perf.com*
 ||redir.adap.tv/redir/javascript/adaptvAdPlayer.js*
-||adbid.pl/afiliat/linkads.php?*
 ||adbid.pl/afiliat/r_show.php?*
 ||adbrau.com*
 ||adcash.com*
@@ -590,7 +581,6 @@
 ||adexchangecloud.com*/display.php*
 ||adframesrc.com*
 ||adgup.com*
-||adhance.com/www/delivery/*
 ||adhitzads.com*
 ||adhoc2.net*
 ||adhref.pl*$script
@@ -608,13 +598,11 @@
 ||adoneast.ru/click/*
 ||adonweb.ru*
 ||adoperator.com/*$script
-||adpersia.com/showad/*
 ||adplex.media*
 ||adplxmd.com*
 ||adpulse.ir*
 ||adrich.cash*
 ||adrunnr.com*
-||ads360.com*
 ||adsclick.click*
 ||adscloob.com*$script
 ||adscpm.net/adsxml.php*
@@ -744,13 +732,12 @@
 ||cpm20.com*
 ||server.cpmstar.com/view.aspx*
 ||server.cpmstar.com/cached/*$script
-||server.cpmstar.com/view.aspx?poolid*
 ||cpxserving.com*
 ||d-h.st/assets/img/download*
 *img.daodao001.cn/*/*.html*
 ||datefunclub.com/pics.php?did*
 ||adapi.digikala.com*
-||advertising.digikala.com*
+!||advertising.digikala.com*
 ||directadvert.ru/show.cgi*
 ||directoral.info*
 ||directrev.com*
@@ -786,8 +773,6 @@
 ||emediate.eu/eas?*
 ||enrgg.com/match.php*
 ||enteder.com*
-||eplinx.com*/ads.php*
-||eplinx.com*/adclick.php*
 ||eranico.com^$third-party
 ||eshetab.com*
 ||esults.net*
@@ -801,7 +786,6 @@
 ||farin724.com*
 ||fastclick.ir^
 ||fbfd396918c60838.com^$popup
-||fhserve.com/www/delivery/*
 ||fileir.ir^$popup
 ||findepended.com^$popup
 ||finishclueobscure.info*
@@ -979,7 +963,7 @@
 ||parsads.com*$script
 ||parscloob.com*$script
 ||parsindex.com/directory/service.aspx?cat*
-||parstoOls.net/text_day/shiayan-hadith.*$script
+||parstoOls.net/text_day/shiayan-hadith.js*
 ||parstools.com^$popup
 ||payeganltd.com/nabimages/*
 ||paypop.org*
@@ -1047,7 +1031,7 @@
 ||rarenok.biz*
 ||readserver.net*
 ||recomendedsite.com/*
-||recreativ.ru/rcode.*$script
+||recreativ.ru/rcode.js*
 ||widget.reformal.ru/*$script
 ||regpole.com*
 ||remarketingpixel.com/stats*
@@ -1058,7 +1042,7 @@
 ||rozfa.ir*
 ||rozup.ir/up/*$script*
 ||rtbsystem.com*
-||rufull.ru/tmp/rufull.*$script
+||rufull.ru/tmp/rufull.js*
 ||clicks.runews.radeant.com/informer/java_inf.php*
 ||rus-teenageri.ru/tds/?rid*
 ||rutvind.com*
@@ -1102,8 +1086,8 @@
 ||superfastcdn.com*
 ||superfastcdn.com^$popup
 ||t.me/*$third-party,popup
-||tabligheirani.com*
-||tablighfa.com*
+!||tabligheirani.com*
+!||tablighfa.com*
 ||tafrihi.com/link*
 ||takkhal.net*
 ||talaads.com/website/js*
@@ -1137,7 +1121,7 @@
 ||tophot-news.com/ldr.js*
 ||toplinks.dom.ir*
 ||toppopup.com*
-||tooscom.com/linkkey.*$script
+||tooscom.com/linkkey.js*
 ||tprs.ir^$popup
 ||trade7.ru/slide/pic_slide.js*
 ||tracktrk.net*
@@ -1252,7 +1236,6 @@ zoomit.ir##DIV.ThirdPost
 !----------------------element hiding rules-Generic---------------------!
 ###sidebar.fixads
 ##*.agahi
-##*.تبلیغات
 ##*.ads-
 ##*.bannercontainer
 ##*.topads1
@@ -1270,7 +1253,6 @@ zoomit.ir##DIV.ThirdPost
 !pishkhaan.net
 !
 ##*[title*="آگهی"]
-##*[title*="تبلیغات"]
 ##*[title*="تبلیغ"]
 !
 ##a[href*=" ads "]
@@ -1306,9 +1288,7 @@ zoomit.ir##DIV.ThirdPost
 !
 ##img[alt*="آگهی"]
 ##img[alt*="تبلیغ"]
-##img[alt*="تبلیغات"]
 ##img[alt="ad"]
-##img[alt="ads"]
 !
 ##img[src*="/ads/"]
 ##*[src*="/agahi"]
@@ -1493,7 +1473,6 @@ zoomit.ir##DIV.ThirdPost
 ##*[id$="0banner"]
 ##*[id$="1banner"]
 ##*[id$="2banner"]
-##*[id$="2banner"]
 ##*[id$="3banner"]
 ##*[id$="4banner"]
 ##*[id$="5banner"]
@@ -1510,7 +1489,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class="banner"]
 ##*[class="topadv"]
 ##*[class^="ad "]
-##*[class^="ad-"]
+!##*[class^="ad-"]
 ##*[class^="ad_"]
 ##*[class^="ad0"]
 ##*[class^="ad1"]
@@ -1658,7 +1637,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class$="9ad"]
 ##*[class$="9ads"]
 ##*[class$="9banner"]
-##*[class$="random-ad"]
+!##*[class$="random-ad"]
 ##*[class$="topAdv"]
 !----------------------------whitelist rules----------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
