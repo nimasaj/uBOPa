@@ -1202,6 +1202,7 @@
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
+edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
