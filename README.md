@@ -1,5 +1,5 @@
 # uBO_Filterlist
-Filterlist to block ads. It's specifically written for [uBlock Origin](https://github.com/gorhill/uBlock/), but still compatible with most ad blockers though some rules could only be detected by uBO. Main focus of this filter list is to cover websites which are mostly used in Iran, or other Farsi speaking countries, either Iranian or non-Iranian, that are not covered by other major filter lists.
+A filterlist to block ads. It's specifically written for [uBlock Origin](https://github.com/gorhill/uBlock/), but still compatible with most ad blockers though some rules could only be detected by uBO. Main focus of this filter list is to cover most-visited websites in Iran, or other Farsi speaking countries, that are not covered by other major filter lists.
 
 ## Note 
 As a precaution, it is advisable to **disable** your Adblocker when you take **important steps** on trusted sites (bank portals, customer spaces, online shops, etc).
