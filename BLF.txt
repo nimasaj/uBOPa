@@ -1207,10 +1207,9 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,downloadhappymp3.com##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
-putlockers.*##script:inject(abort-on-property-read.js, performance)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
@@ -1660,10 +1659,7 @@ bbc.com#@#*[class*="-ads-"]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca#@#*[class$="-ads"]
 gizmodo.com#@#*[class*="_ads_"]
-instructables.com#@#*[class$="-ads"]
 mail.google.com#@#*[class$=" ads"]
 pay98.net#@#*[class*="-ads-"]
-putlockertoday.org#@#*[id$="-banner"]
-putlockertoday.org#@#*[id="banner"]
 utah.edu#@#*[class^="banner-"]
 webmd.com#@#*[class$="-banner"]
