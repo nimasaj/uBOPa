@@ -521,6 +521,7 @@
 ||cdn.1120057983.world*
 ||1133.cc*/show_code.php?pid*
 ||1133.cc*/showpage.php?pid*
+||11news.ir/9200/p001.html*
 ||123movies.party/assets/js/custombanner.js*
 ||1dar1.com/shop_box*
 ||1phads.com*
@@ -651,6 +652,7 @@
 ||as-popup.ir/website/js*
 ||content.aseadnet.com/show.php?*
 *wms.assoc-amazon.com/*$script
+||atiehnews.ir/7001/97uj.html*
 ||atis.ir/script?*
 ||avablog.ir/redirect.php^$popup
 ||avalanchers.com/wcode/*
@@ -736,6 +738,7 @@
 ||cpxserving.com*
 ||d-h.st/assets/img/download*
 *img.daodao001.cn/*/*.html*
+||dariconline.ir/ii88/*
 ||datefunclub.com/pics.php?did*
 ||adapi.digikala.com*
 !||advertising.digikala.com*
@@ -764,7 +767,9 @@
 ||eda-prosto.ru*
 ||edomz.net/popup.js*
 ||efotdwuui.bid*$script
+||eghtesadazad.com/a1aa/*
 ||eghtesadban.com*
+||eghtesadi.org/600e/*
 ||egooad.c*$script
 ||egooad.com*show.php?*
 ||ekod.info/*$script
@@ -772,9 +777,10 @@
 ||elthamely.com*
 *eas.apm.emediate.eu/*
 ||emediate.eu/eas?*
+||energypress.ir/7722.html*
 ||enrgg.com/match.php*
 ||enteder.com*
-||eranico.com^$third-party
+||eranico.com/h62/*
 ||eshetab.com*
 ||esults.net*
 ||serve.eurogrand.com/promo*
@@ -826,7 +832,8 @@
 ||impressions.ir*.php*
 *resources.infolinks.com*
 ||iptsunami.com/show/*
-||iranecona.com^$third-party
+||ir-dl.com/e3e/*
+||iranecona.com/s2s/*
 ||iranmoosighi.ir/*$script
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
@@ -893,8 +900,12 @@
 ||meebo.com/cim/*
 ||meebocdn.net/cim/*
 ||s.megaclick.com/mc.js*
-||mehdi-online.ir^*$popup
-||melatema.com*$third-party
+||mehdi-online.ir*$popup
+||melatema.com*
+||mellati.com/c/*
+||mellati.com/c/*$popup
+||mellati.com/h/*
+||mellati.com/h/*$popup
 ||merikhi.com/index.php?iduser*
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
@@ -905,6 +916,7 @@
 ||club.minoogroup.com*
 ||mobilife.com/js/dealoftheday.js*
 ||mobisla.com*
+||mobna.com/m53m/*
 ||mobon.com/vendor/*.php*
 ||mobua.com/f/dg.php*
 *text.mplayer.org.cn/*/*.html*
@@ -986,6 +998,7 @@
 ||plugrush.com/*$script
 ||pmsrvr.com/click/*
 ||pocitadlo.sk/?cid*
+||polymeran.com/16hf.html*
 ||pop-bazar.net/*/web/*
 ||pop-bazar.ru*
 ||popads.net*
@@ -1042,6 +1055,7 @@
 ||post.rmbn.ru/js/smartblock/*
 ||rmxads.com*iframe*
 ||content.rmxads.com/rmtag*$script
+||roozno.com/3044/rr0.html*
 ||rozfa.ir*
 ||rozup.ir/up/*$script*
 ||rtbsystem.com*
@@ -1053,6 +1067,9 @@
 ||s2block.com*$script
 ||sabavision.com/showcamp*
 ||click.sabavision.com*
+||saghybux.com*
+||salamaneh.com/a100/*
+||salamatism.com/e91/*
 ||salammag.com^$popup
 ||sarayecd.ir/$image
 ||sarzaminekhabar.com*
@@ -1076,7 +1093,7 @@
 ||slopeac.com/static/*$script
 ||smi2.ru/data/js/*
 ||softexia.com/wp-content/*/js/attentionGrabber.js*
-||solhkhabar.ir^$third-party
+||solhkhabar.ir/t5t/*
 ||solic.info*
 ||sooran.ir/ac/?*
 ||sparkstudios.com/r.poptracking?*
@@ -1098,6 +1115,7 @@
 ||tapsell.ir*
 ||tapshow.ir^$popup
 ||tapshow.ir/iq*$script
+||tasvirrooz.ir/8222f.html*
 ||cbn.tbn.ru/sa/image?parentid*
 ||teasernet.com/block2.htm*
 ||teasernet.ru/step*.php*
@@ -1108,6 +1126,7 @@
 ||terraclicks.com/watch*
 ||static.terrhq.ru*
 ||tgju.org/mme.html*
+||tgju.org/channel/*
 ||theads.me*
 ||theadsnet.com*
 ||ths9j89.com*
@@ -1186,6 +1205,7 @@
 ||ycfprujylukkx.bid*
 ||ydc.ir/web/?*
 ||yekmizban.com/web_tools/*$script
+||yekpop.com*$script
 ||cdn.yektanet.com^
 ||yesadvertising.com*
 ||yify-movies.to/js/rx/vdkj.js*
