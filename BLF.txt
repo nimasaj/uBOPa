@@ -383,6 +383,7 @@
 !alborzpatogh.ir
 */cryptonight.wasm*
 */currentads/*
+*/earn.php?zone*$third-party,popup
 */feedclick?*
 */flashbanners/*
 */fluxads/*
@@ -884,6 +885,7 @@
 ||mdn2015x2.com*
 ||mdn2015x4.com*
 ||media-fire.org*
+||mediaad.org/serve/*$third-party
 ||mediaad.org*$script
 ||medianaft.ru/js/bodyclick.php?*
 ||medianaft.ru/js/vk.php*
@@ -945,6 +947,7 @@
 ||onclickads.net*
 ||onclkds.com*
 ||onegate.ir*
+||onesignal.com/webPushIframe*
 ||onesignal.com*$script
 ||widgets.outbrain.com/OutbrainRater.js*
 ||partner.onga.ru/?ref*
@@ -1083,6 +1086,7 @@
 ||spottt.com/js/spottt.js*
 ||spottt.com/sp_*
 ||block.stableprofit.ru/show.js*
+||starpopup.com/website/js*$third-party
 ||superfastcdn.com*
 ||superfastcdn.com^$popup
 ||t.me/*$third-party,popup
