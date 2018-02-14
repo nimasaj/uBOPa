@@ -457,6 +457,7 @@
 */popunder/*
 */popup.htm*
 */popup.js|
+*/popup.php*
 */popupkp.*
 */rekl/$image
 */reklama.*
@@ -569,6 +570,7 @@
 ||51yes.com/click.aspx?id*
 ||5rah.*/linkbox*
 ||7mu36somt5.com*$~third-party
+||click.8tad.ir/click/*
 ||a1channel.net*$script
 ||a1channel.net/img/*
 *esl.about.com/gi/siteafs.txt?*
@@ -970,6 +972,7 @@
 ||oxcash.com*
 ||oxinads.com*
 ||oxincode.com*
+!||p30rank.ir/popup.php?secid*
 ||p30world.com/blog/popnew*$script
 ||p30world.com/blog2/*.php*
 ||p30world.com/blog2/*.php^$popup
@@ -1306,6 +1309,8 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="betchi90.club"]
 ##a[href*="bit.do"]
 ##a[href*="clicksgear.com/watch"]
+##a[href*="dateesco.com?site"]
+##a[href*="ghasedak24.com"]
 ##a[href*="http://www.2dda.ir"]
 ##a[href^="http://adgup.com"]
 ##a[href*="mihanstore.net/in.php?id="]
@@ -1511,6 +1516,7 @@ zoomit.ir##DIV.ThirdPost
 !
 ##*[class="ad-desktop-container"]
 ##*[class="ads"]
+##*[class="adsheader"]
 ##*[class="adsimg"]
 ##*[class="banner"]
 ##*[class="topadv"]
