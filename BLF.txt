@@ -1253,6 +1253,9 @@ donya-e-eqtesad.com##DIV.sizebaneer
 downloadly.ir##div[class="widget widget_text"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 ganool.*##div[id*="banner"]
+live.com##div:if(:scope > div > span:has-text(an ad blocker))
+live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
+! two upper rules are taken from AAK-Cont list
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 rapidvideo.com##*[id^="top350"]
