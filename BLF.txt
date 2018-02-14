@@ -1549,6 +1549,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class^="ads8"]
 ##*[class^="ads9"]
 ##*[class^="adsbg"]
+##*[class^="AdsRow"]
 ##*[class^="adsss"]
 ##*[class^="adsx"]
 ##*[class^="adtube"]
