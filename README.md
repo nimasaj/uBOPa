@@ -4,7 +4,7 @@
 A filterlist to block ads. It's specifically written for [uBlock Origin](https://github.com/gorhill/uBlock/), but still compatible with most ad blockers though some rules could only be detected by uBO. Main focus of this filter list is to cover most-visited websites in Iran, or other Farsi speaking countries, that are not covered by other major filter lists.
 
 ## Note 
-توصیه میکنم هنگامی که به سایت بانک مراجعه میکنید، یا هنگام پرداخت تراکنش های بانکی، این افزونه را **غیرفعال** کنید
+توصیه میکنم هنگامی که به سایت بانک مراجعه میکنید، یا هنگام پرداخت تراکنش های بانکی، و یا زمانی که در حال انجام کارهای مهمی هستید(انتخاب واحد دانشگاه، واریز های آنلاین و ...) این افزونه را **غیرفعال** کنید
 
 As a precaution, it is advisable to **disable** your Adblocker when you take **important steps** on trusted sites (bank portals, customer spaces, online shops, etc).
 
