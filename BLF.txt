@@ -1237,11 +1237,12 @@ i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
+nokiapoweruser.com##script:inject(abort-current-inline-script.js, anOptions)
 putlockers.*##script:inject(abort-on-property-read.js, performance)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
-!--------------------element hiding rules-Specific----------------------!
+!--------------------Specific element hiding rules----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
 2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
@@ -1265,7 +1266,7 @@ solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 videotoolbox.com##.advertisement_section_top
 zoomit.ir##DIV.ThirdPost
-!----------------------element hiding rules-Generic---------------------!
+!----------------------Generic element hiding rules---------------------!
 ###sidebar.fixads
 ##*.agahi
 ##*.ads-
