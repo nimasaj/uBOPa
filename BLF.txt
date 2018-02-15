@@ -1259,6 +1259,7 @@ live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
+nokiapoweruser.com##*[class="wpa"]
 rapidvideo.com##*[id^="top350"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
