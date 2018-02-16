@@ -1281,27 +1281,27 @@ zoomit.ir##DIV.ThirdPost
 ##*[title*="آگهی"]
 ##*[title*="تبلیغ"]
 !
-##a[href^="ads/"]>img
-##a[href^="http://adgup.com"]>img
-##a[href*=" ads "]>img
-##a[href*=" ads-"]>img
-##a[href*=" ads_"]>img
-##a[href*=" ads/"]>img
-##a[href*="-ads "]>img
-##a[href*="-ads-"]>img
-##a[href*="-ads_"]>img
-##a[href*="-ads/"]>img
-##a[href*="_ads "]>img
-##a[href*="_ads-"]>img
-##a[href*="_ads_"]>img
-##a[href*="_ads/"]>img
-##a[href*="/ads "]>img
-##a[href*="/ads?"]>img
-##a[href*="/ads-"]>img
-##a[href*="/ads_"]>img
-##a[href*="/ads/"]>img
-##a[href*="/agahi"]>img
-##a[href*="/counter/click.php?id"]>img
+##a[href^="ads/"]
+##a[href^="http://adgup.com"]
+##a[href*=" ads "]
+##a[href*=" ads-"]
+##a[href*=" ads_"]
+##a[href*=" ads/"]
+##a[href*="-ads "]
+##a[href*="-ads-"]
+##a[href*="-ads_"]
+##a[href*="-ads/"]
+##a[href*="_ads "]
+##a[href*="_ads-"]
+##a[href*="_ads_"]
+##a[href*="_ads/"]
+##a[href*="/ads "]
+##a[href*="/ads?"]
+##a[href*="/ads-"]
+##a[href*="/ads_"]
+##a[href*="/ads/"]
+##a[href*="/agahi"]
+##a[href*="/counter/click.php?id"]
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
@@ -1309,7 +1309,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="1o2.ir"]>img
 ##a[href*="2dda.ir"]>img
 ##a[href*="3dmaxclass.com"]>img
-##a[href*="advertisement"]>img
+##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
 ##a[href*="amlakbaharan.com"]>img
 ##a[href*="betchi90.club"]>img
@@ -1334,7 +1334,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="stnews.ir"]>img
 ##a[href*="titrebartar.ir"]>img
 ##a[href*="tracking.appdana.com"]>img
-##a[href$="/ads"]>img
+##a[href$="/ads"]
 ##a[href$="=banner"]>img
 !
 ##img[alt*="آگهی"]
