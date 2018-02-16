@@ -901,7 +901,7 @@
 ||mehdi-online.ir*$popup
 ||melatema.com*$inline-script
 ||mellati.com/c/*$inline-script, popup
-||mellati.com/h/*$$inline-script, popup
+||mellati.com/h/*$inline-script, popup
 ||merikhi.com/index.php?iduser*
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
