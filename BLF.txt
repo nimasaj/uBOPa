@@ -1315,6 +1315,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
 ##a[href*="cigoul-clothing.com"]>img
+##a[href*="click_ads.php?id"]>img
 ##a[href*="clicksgear.com/watch"]
 ##a[href*="dateesco.com?site"]>img
 ##a[href*="fastclick.biz/helper/click/"]>img
@@ -1328,6 +1329,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="mihanstore.net/in.php?id="]>img
 ##a[href*="modiryatnovin.com"]>img
 ##a[href*="pandcaspian.com/news"]>img
+##a[href*="rahoja.com"]>img
 ##a[href*="sharifngo.com"]>img
 ##a[href*="stnews.ir"]>img
 ##a[href*="titrebartar.ir"]>img
@@ -1738,6 +1740,7 @@ pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 pay98.net#@#*[class*="-ads-"]
 putlockertoday.org#@#*[id$="-banner"]
 putlockertoday.org#@#*[id="banner"]
+rahoja.com#@#a[href*="rahoja.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
