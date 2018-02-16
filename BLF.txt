@@ -1231,6 +1231,7 @@ music-online.ir##script:inject(set-constant.js, needpop, 0)
 nokiapoweruser.com##script:inject(abort-current-inline-script.js, anOptions)
 putlockers.*##script:inject(abort-on-property-read.js, performance)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
+seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
 !--------------------Specific element hiding rules----------------------!
@@ -1256,6 +1257,7 @@ nokiapoweruser.com##*[class="wpa"]
 rapidvideo.com##*[id^="top350"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
+seemorgh.com##*[id="floatadheadid"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 videotoolbox.com##.advertisement_section_top
@@ -1606,6 +1608,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class^="e3lan e3lan-"]
 ##*[class*="تبلیغات"]
 ##*[class*=" ads "]
+##*[class*=" ads-"]
 ##*[class*=" banner "]
 ##*[class*=" banner-"]
 ##*[class*="-ad-container"]
