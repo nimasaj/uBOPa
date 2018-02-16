@@ -1,7 +1,7 @@
 # uBO_Filterlist
-فیلتر لیستی برای مسدود سازی تبلیغات. این فیلتر لیست بصورت مشخص برای افزونه ی [یوبلاک](https://github.com/gorhill/uBlock/) نوشته شده است، ولی امکان استفاده از این لیست در افزونه های دیگر هم وجود دارد، گرچه بعضی از فیلتر ها/دستورات توسط افزونه های دیگر شناسایی نمیشوند. این لیست برای پوشش سایت های فارسی زبان و همچنین سایت های پربازدید (فارسی زبان یا غیرفارسی زبان) که توسط لیست های مرجع پشتیبانی نمیشوند نوشته شده است
+فیلتر لیستی برای مسدود سازی تبلیغات. این فیلتر لیست بصورت مشخص برای افزونه ی [یوبلاک](https://github.com/gorhill/uBlock/) نوشته شده است، ولی امکان استفاده از این لیست در افزونه های دیگر هم وجود دارد، گرچه بعضی از فیلتر ها/دستورات توسط افزونه های دیگر شناسایی نمیشوند. این لیست برای پوشش سایت های فارسی زبان و همچنین سایت های پربازدید (غیرفارسی زبان) که توسط لیست های مرجع پشتیبانی نمیشوند نوشته شده است
 
-A filterlist to block ads. It's specifically written for [uBlock Origin](https://github.com/gorhill/uBlock/), but still compatible with most ad blockers though some rules could only be detected by uBO. Main focus of this filter list is to cover most-visited websites in Iran, or other Farsi speaking countries, that are not covered by other major filter lists.
+A filterlist to block ads. It's specifically written for [uBlock Origin](https://github.com/gorhill/uBlock/), but still compatible with most ad blockers though some rules could only be detected by uBO. Main focus of this filter list is to cover Farsi websites and also most-visited websites in Iran, or other Farsi speaking countries, that are not covered by other major filter lists.
 
 ## Note 
 توصیه میکنم هنگامی که از سایت بانک بازدید میکنید، یا هنگام پرداخت تراکنش های بانکی، و یا انجام موارد مهم دیگری هستید (انتخاب واحد دانشگاه، واریز های آنلاین و ...) این افزونه را **غیرفعال** کنید
