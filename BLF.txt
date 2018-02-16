@@ -852,11 +852,11 @@
 ||kakgu.ru*
 ||kaprila.com*/show.*
 ||kho3au7l4z.me*
-||kimate.com*$popup
+||kimate.com*$document,popup
 ||kimate.com/redirect.*
-||kimexa.com*$popup
+||kimexa.com*$document,popup
 ||kimexa.com/redirect.*
-||kimiaonline.com*$popup
+||kimiaonline.com*$document,popup
 ||kimiaonline.com/redirect.*
 ||kixer.com*$script
 ||krutilka.net*
@@ -1244,8 +1244,9 @@ topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
 donya-e-eqtesad.com##DIV.sizebaneer
 downloadly.ir##div[class="widget widget_text"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
+electro-tech-online.com##*[id="post-00000"]
 ganool.*##div[id*="banner"]
-khabarfarsi.com##*[id^="banners_120_top"]
+khabarfarsi.com##*[id="banners_120_top"]
 live.com##div:if(:scope > div > span:has-text(an ad blocker))
 live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
@@ -1733,6 +1734,7 @@ hostiran.net#@#a[href*="hostiran.net"]>img
 instructables.com#@#*[class$="-ads"]
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
+khabarfarsi.com#@#*[id^="banners"]
 mail.google.com#@#*[class$=" ads"]
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
