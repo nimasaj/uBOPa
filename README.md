@@ -22,6 +22,6 @@ Get it [**Here**](https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/maste
 ## Help in Farsi
 برای اضافه کردن این لیست، بعد از باز کردن صفحه ی تنظیمات افزونه، به تب زیر رفته و آدرس را در انتهای صفحه اضافه کنید
 
-3rd-party filters 
+`3rd-party filters`
 
 راهنمای کامل نصب افزونه و اضافه کردن این فیلتر لیست را هم میتوانید از [اینجا](http://mynext.pro/uBO_installation_help_Farsi.pdf) دریافت کنید
