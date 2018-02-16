@@ -700,7 +700,7 @@
 ||www3.cbox.ws/box/*
 ||rsc.cdn77.org*$popup
 ||channelsho.ir^$popup,document
-!||channelsho.ir/tg.php
+!||channelsho.ir/tg.php*
 ||chikhanos.info*$script
 ||ckyxscaeockj.bid*
 ||clickar.ir/?ref*
@@ -1064,7 +1064,7 @@
 ||s2block.com*$script
 ||sabavision.com/showcamp*
 ||click.sabavision.com*
-||saghybux.com*$document
+||saghybux.com*$document,popup
 ||salamaneh.com/a100/*$document,popup
 ||salamatism.com/e91/*$document,popup
 ||salammag.com^$popup,document
@@ -1297,7 +1297,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/ads/"]
 ##a[href*="/agahi"]
 ##a[href*="/counter/click.php?id"]
-##a[href$="=banner"]
+##a[href*="1o2.ir"]
 ##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]
 ##a[href*="betchi90.club"]
@@ -1305,11 +1305,12 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="clicksgear.com/watch"]
 ##a[href*="dateesco.com?site"]
 ##a[href*="ghasedak24.com"]
-##a[href*="http://www.2dda.ir"]
+##a[href*="2dda.ir"]
 ##a[href^="http://adgup.com"]
 ##a[href*="mihanstore.net/in.php?id="]
 ##a[href*="tracking.appdana.com"]
 ##a[href$="/ads"]
+##a[href$="=banner"]
 !
 ##img[alt*="آگهی"]
 ##img[alt*="تبلیغ"]
