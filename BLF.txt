@@ -1318,6 +1318,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="clicksgear.com/watch"]
 ##a[href*="dateesco.com?site"]>img
 ##a[href*="fastclick.biz/helper/click/"]>img
+##a[href*="favajam.com"]>img
 ##a[href*="ghasedak24.com"]>img
 ##a[href*="giftcard.ir"]>img
 ##a[href*="hormozhotel.com"]>img
@@ -1537,6 +1538,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class="adsheader"]
 ##*[class="adsimg"]
 ##*[class="banner"]
+##*[class="inneradv"]
 ##*[class="topadv"]
 ##*[class^="ad "]
 !##*[class^="ad-"]
@@ -1720,6 +1722,7 @@ caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca#@#*[class$="-ads"]
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
 dateesco.com#@#a[href*="dateesco.com?site"]>img
+favajam.com#@#a[href*="favajam.com"]>img
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
 gizmodo.com#@#*[class*="_ads_"]
