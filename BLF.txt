@@ -418,7 +418,7 @@
 */linkads.*
 */linkbox-*
 */linkbox.*
-*/linkbox/*
+!*/linkbox/*
 */linkbox1*
 */linkbox2*
 */linkbox3*
@@ -1304,6 +1304,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/ads_"]
 ##a[href*="/ads/"]
 ##a[href*="/agahi"]
+##a[href*="/banners/click/"]>img
 ##a[href*="/counter/click.php?id"]
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
@@ -1609,6 +1610,10 @@ zoomit.ir##DIV.ThirdPost
 ##*[class*="تبلیغات"]
 ##*[class*=" ads "]
 ##*[class*=" ads-"]
+##*[class*=" ads_"]
+##*[class*=" adv "]
+##*[class*=" adv-"]
+##*[class*=" adv_"]
 ##*[class*=" banner "]
 ##*[class*=" banner-"]
 ##*[class*="-ad-container"]
@@ -1746,6 +1751,7 @@ pay98.net#@#*[class*="-ads-"]
 putlockertoday.org#@#*[id$="-banner"]
 putlockertoday.org#@#*[id="banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
+seemorgh.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
