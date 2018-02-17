@@ -651,6 +651,7 @@
 ||androidkade.com/tag/^$popup
 ||anetwork.ir*$script
 ||apanet.net*
+||app2ads.com^$third-party
 ||as-popup.ir/website/js*
 ||content.aseadnet.com/show.php?*
 *wms.assoc-amazon.com/*$script
@@ -828,6 +829,7 @@
 ||icqwindow.com/click.php?*
 ||ihriduffgkel.com*$script
 ||ijms.ir^$popup
+||iliama.com^$third-party
 ||ilivid.com/?appid*
 ||impressions.ir*.php*
 *resources.infolinks.com*
@@ -913,6 +915,8 @@
 ||mikhak.net*
 ||minimumpay.info*
 ||club.minoogroup.com*
+||mitranet.ir^$third-party
+||mitrarank.ir^$third-party
 ||mobilife.com/js/dealoftheday.js*
 ||mobisla.com*
 ||mobna.com/m53m/*$document,popup
@@ -989,6 +993,7 @@
 *rts.pgmediaserve.com/Publishers/*$script
 *rts.pgmediaserve.com/r.poptracking?pcid*
 *services.picadmedia.com/js/picad.js*
+||pichak.net/nohe/amar.js^
 ||pishtazweb.org/eshop/*
 ||pishtazweb.org*view.php?uid*
 ||pixazza.com/widget/*
@@ -1040,7 +1045,7 @@
 ||puserving.com*$script
 ||pxl2015x1.com*
 ||qandak.ir*
-||r98.ir*
+||r98.ir/code/popup*
 ||radikal.ru/bh.ashx?pt*
 ||rarenok.biz*
 ||readserver.net*
@@ -1261,6 +1266,7 @@ seemorgh.com##*[id="floatadheadid"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 videotoolbox.com##.advertisement_section_top
+yasdl.com##*[id^="post-sabet-"]
 zoomit.ir##DIV.ThirdPost
 !----------------------Generic element hiding rules---------------------!
 ###sidebar.fixads
@@ -1305,7 +1311,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/ads/"]
 ##a[href*="/agahi"]
 ##a[href*="/banners/click/"]>img
-##a[href*="/counter/click.php?id"]
+##a[href*="/counter/click.php?id"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
