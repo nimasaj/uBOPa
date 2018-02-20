@@ -522,7 +522,7 @@
 ||cdn.1120057983.world*
 ||1133.cc*/show_code.php?pid*
 ||1133.cc*/showpage.php?pid*
-||11news.ir/9200/p001.html*$document,popup
+||11news.ir/9200/*$document,popup
 ||123movies.party/assets/js/custombanner.js*
 ||1dar1.com/shop_box*
 ||1phads.com*
@@ -655,7 +655,7 @@
 ||as-popup.ir/website/js*
 ||content.aseadnet.com/show.php?*
 *wms.assoc-amazon.com/*$script
-||atiehnews.ir/7001/97uj.html*$document,popup
+||atiehnews.ir/7001/*$document,popup
 ||atis.ir/script?*
 ||avablog.ir/redirect.php^$popup
 ||avalanchers.com/wcode/*
@@ -935,13 +935,13 @@
 ||neginpop.ir*/js*
 ||negolist.com/backend.php/*
 *c*.net.ua/show?*_pid*
-||netadclick.com*
-||netbina.net/webcodes/*
-||netpool.netbookia.net*
+||netadclick.com*$third-party
+||netbina.net/webcodes/*$third-party
+||netpool.netbookia.net*$third-party
 ||newagahi.ir^$popup
-||nex1network.com*
-||nextads.ir*
-||nextpopup.ir*
+||nex1network.com*$third-party
+||nextads.ir*$third-party
+||nextpopup.ir*$third-party
 ||niazto.com*
 ||nicepopups.ir/website/js*
 ||nickhel.com/*$script
@@ -1162,7 +1162,7 @@
 ||unblockmyproxy.site/js/*
 ||unztsvrjofqp.com*$script
 ||cdn.uservoice.com/javascripts/widgets/tab.js*
-||vatanclick.ir*
+||vatanclick.ir*$third-party
 ||vatanshop.com/webmaster/*
 ||vcfs6ip5h6.bid*
 ||velocecdn.com*|$document,popup
@@ -1237,8 +1237,8 @@ nokiapoweruser.com##script:inject(abort-current-inline-script.js, anOptions)
 putlockers.*##script:inject(abort-on-property-read.js, performance)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
-tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
-topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
+!tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
+!topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
 !--------------------Specific element hiding rules----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
@@ -1322,6 +1322,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
 ##a[href*="amlakbaharan.com"]>img
+##a[href*="amlakvitrin.com"]>img
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
 ##a[href*="cigoul-clothing.com"]>img
@@ -1336,6 +1337,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="hostiran.net"]>img
 ##a[href*="iraneconomist.com"]>img
 ##a[href*="kamelpack.ir"]
+##a[href*="kingsera.ir"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
 ##a[href*="modiryatnovin.com"]>img
 ##a[href*="pandcaspian.com/news"]>img
@@ -1622,6 +1624,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class*=" adv_"]
 ##*[class*=" banner "]
 ##*[class*=" banner-"]
+##*[class*=" topadver "]
 ##*[class*="-ad-container"]
 ##*[class*="-ads0"]
 ##*[class*="-ads1"]
@@ -1710,6 +1713,8 @@ zoomit.ir##DIV.ThirdPost
 ##*[class$="9banner"]
 !##*[class$="random-ad"]
 ##*[class$="topAdv"]
+##*[class$="topadvers"]
+
 !
 ##*[data-extension="gif"][class="ad"]
 !----------------------------whitelist rules----------------------------!
