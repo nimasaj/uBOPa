@@ -1714,7 +1714,6 @@ zoomit.ir##DIV.ThirdPost
 !##*[class$="random-ad"]
 ##*[class$="topAdv"]
 ##*[class$="topadvers"]
-
 !
 ##*[data-extension="gif"][class="ad"]
 !----------------------------whitelist rules----------------------------!
