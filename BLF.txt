@@ -654,6 +654,8 @@
 ||app2ads.com^$third-party
 ||as-popup.ir/website/js*
 ||content.aseadnet.com/show.php?*
+||asrfarda.ir/newslink*.php$document,popup
+||asrfarda.ir/page.php$document,popup
 *wms.assoc-amazon.com/*$script
 ||atiehnews.ir/7001/*$document,popup
 ||atis.ir/script?*
@@ -812,6 +814,8 @@
 ||grt02.org*
 ||vu.hadith.ac.ir/tipofday*
 ||healthline.com/js/partner/mw/link.js*
+||hezarlink.com/newslink*$document,popup
+||hezarlink.com/newsfa*$document,popup
 ||hiad.biz/*$script
 ||hiad.biz/pop/*
 ||hiapple.ir*$popup
@@ -1229,7 +1233,7 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
@@ -1329,6 +1333,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="click_ads.php?id"]>img
 ##a[href*="clicksgear.com/watch"]
 ##a[href*="dateesco.com?site"]>img
+##a[href*="eshopfa.net/Detail.aspx"]>img
 ##a[href*="fastclick.biz/helper/click/"]>img
 ##a[href*="favajam.com"]>img
 ##a[href*="ghasedak24.com"]>img
@@ -1743,6 +1748,7 @@ caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca#@#*[class$="-ads"]
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
 dateesco.com#@#a[href*="dateesco.com?site"]>img
+eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
 favajam.com#@#a[href*="favajam.com"]>img
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
