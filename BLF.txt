@@ -1229,8 +1229,8 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,mixjavan.ir,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
 nokiapoweruser.com##script:inject(abort-current-inline-script.js, anOptions)
@@ -1749,6 +1749,7 @@ giftcard.ir#@#a[href*="giftcard.ir"]>img
 gizmodo.com#@#*[class*="_ads_"]
 hormozhotel.com#@#a[href*="hormozhotel.com"]>img
 hostiran.net#@#a[href*="hostiran.net"]>img
+icelove.ir#@#*[class*="-ads-"]
 instructables.com#@#*[class$="-ads"]
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
