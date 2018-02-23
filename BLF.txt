@@ -916,7 +916,7 @@
 ||cdn.mgsrvr.com/clicktraffic/*
 ||cdn.mihan360.com*$script
 ||mihannama.ir/*$script
-||mikhak.net*
+!||mikhak.net*
 ||minimumpay.info*
 ||club.minoogroup.com*
 ||mitranet.ir^$third-party
@@ -1062,7 +1062,7 @@
 ||post.rmbn.ru/js/smartblock/*
 ||rmxads.com*iframe*
 ||content.rmxads.com/rmtag*$script
-||roozno.com/3044/rr0.html*$document,popup
+||roozno.com/3044/*$document,popup
 ||rozfa.ir*
 ||rozup.ir/up/*$script*
 ||rtbsystem.com*
@@ -1079,7 +1079,7 @@
 ||salamatism.com/e91/*$document,popup
 ||salammag.com^$popup,document
 ||sarayecd.ir/$image
-||sarzaminekhabar.com*
+!||sarzaminekhabar.com*
 ||galleries.secure-softwaremanager.com*
 ||js.securesoft.info/galleries/software_lp_deprecated.js*
 ||selectmedia.asia/adi.evt*
@@ -1236,6 +1236,7 @@ i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
+makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
 nokiapoweruser.com##script:inject(abort-current-inline-script.js, anOptions)
 putlockers.*##script:inject(abort-on-property-read.js, performance)
