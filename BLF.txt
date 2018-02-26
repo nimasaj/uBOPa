@@ -736,6 +736,7 @@
 ||com-wkejf32ljd23409system.net*
 ||widget.congoro.com/widget/script^$third-party
 ||content-ad.net*
+||cowledges.com^$third-party,popup
 ||cpm20.com*
 ||server.cpmstar.com/view.aspx*
 ||server.cpmstar.com/cached/*$script
@@ -816,6 +817,7 @@
 ||healthline.com/js/partner/mw/link.js*
 ||hezarlink.com/newslink*$document,popup
 ||hezarlink.com/newsfa*$document,popup
+!m00d.ir/
 ||hiad.biz/*$script
 ||hiad.biz/pop/*
 ||hiapple.ir*$popup
@@ -981,6 +983,7 @@
 ||p30world.com/blog2/*.php*|$document,popup
 ||padsdel.com*
 ||padstm.com*
+||parabled.info*
 ||parsads.com*$script
 ||parscloob.com*$script
 ||parsindex.com/directory/service.aspx?cat*
@@ -1016,13 +1019,13 @@
 ||popcpm.com/*$script
 ||popgozar.ir/pop.php*
 ||popitunder.com*
-||popkade.ir*
-||popking.ir/*p*
+||popkade.ir*$third-party
+||popking.ir/*p*$third-party
 ||popland.ir*.php*user*
 ||popmaster.ir/pop.php*
-||poppop.ir*
+||poppop.ir*$third-party
 ||poprush.net*
-||popsho.ir*
+||popsho.ir*$third-party
 ||popunderjs.com*
 ||popup94.ir^$third-party,script
 ||popupad.net*
@@ -1030,7 +1033,7 @@
 ||popupearn.com*$third-party,script
 ||popupearn.com/website/*
 ||popupearn.com/popbox/*
-||popupha.com*
+||popupha.com*$third-party
 ||popupirani.ir*$third-party,script
 ||popupirani.ir/popbox/*
 ||popupirani.ir/website/*
@@ -1049,7 +1052,8 @@
 ||puserving.com*$script
 ||pxl2015x1.com*
 ||qandak.ir*
-||r98.ir/code/popup*
+||queenmag.ir/widgets/rsswidget.php^$third-party
+||r98.ir/code/popup*$third-party
 ||radikal.ru/bh.ashx?pt*
 ||rarenok.biz*
 ||readserver.net*
@@ -1105,9 +1109,10 @@
 ||sparkstudios.com/r.poptracking?*
 ||sparkstudios.com/*$script
 ||rts.sparkstudios.com/pp/*?pid*
-||spop.ir/website/js*
+||spop.ir/website/js*$third-party
 ||spottt.com/js/spottt.js*
 ||spottt.com/sp_*
+||squartedo.info*
 ||block.stableprofit.ru/show.js*
 ||starpopup.com/website/js*$third-party
 ||superfastcdn.com*|$document,popup
@@ -1159,7 +1164,7 @@
 ||trafmag.com*$script
 ||traforet.ru/click/body.php?*
 ||traforet.ru/js/*.php*
-||traktrafficflow.com^$~third-party
+||traktrafficflow.com^$third-party
 ||zi.r.tv.com*
 ||ubxtoqsqusyx.com*$script
 ||uelect.com*$script
@@ -1189,6 +1194,7 @@
 ||cdn.webrupee.com/js*
 ||webtrackerplus.com*
 ||weclick.ir*$script
+||whistorica.info*
 ||wideads.com^$popup
 ||wideads.com/website/js*
 ||wie9eig.top*$script
@@ -1208,7 +1214,7 @@
 ||ydc.ir/web/?*
 ||yekmizban.com/web_tools/*$script
 ||yekpop.com*$script
-||cdn.yektanet.com^
+||cdn.yektanet.com^$third-party
 ||yesadvertising.com*
 ||yify-movies.to/js/rx/vdkj.js*
 ||yimg.com/*/syndication/yad.js*
@@ -1263,6 +1269,8 @@ live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
+namnak.com##*[class="leftct Bads"]
+namnak.com##*[id="adsarea"]
 nokiapoweruser.com##*[class="wpa"]
 rapidvideo.com##*[id^="top350"]
 seehd.*##div[class*="adBlockDetectModal"]
