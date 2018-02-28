@@ -1366,6 +1366,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href$="/ads"]
 ##a[href$="=banner"]>img
 !
+##*[data-href*="ads.ad-center.com/offer?prod"]
 ##*[data-href*="look.ichlnk.com/offer?prod="]
 !
 ##img[alt*="آگهی"]
