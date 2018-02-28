@@ -472,6 +472,7 @@
 */showad.*
 */showad/*
 */ShowAdWithJson*
+*/signup?ad_domain=*$document,popup
 */tablig/*
 */tabligh*
 */telegram.html^$popup
@@ -831,6 +832,7 @@
 ||script.i30t.com/script/*
 ||process.i-frame.ir/index.php?params*
 ||iclik.ir/widget*
+||ichlnk.com/offer?prod*$document,popup
 ||icqwindow.com/okno.php?*
 ||icqwindow.com/click.php?*
 ||ihriduffgkel.com*$script
@@ -923,6 +925,7 @@
 ||club.minoogroup.com*
 ||mitranet.ir^$third-party
 ||mitrarank.ir^$third-party
+||mp3-red.cc/Home/Ac?q=*$document,popup
 ||mobilife.com/js/dealoftheday.js*
 ||mobisla.com*
 ||mobna.com/m53m/*$document,popup
@@ -1362,6 +1365,8 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="tracking.appdana.com"]>img
 ##a[href$="/ads"]
 ##a[href$="=banner"]>img
+!
+##*[data-href*="look.ichlnk.com/offer?prod="]
 !
 ##img[alt*="آگهی"]
 ##img[alt*="تبلیغ"]
