@@ -795,7 +795,6 @@
 ||facepop.org/website/js*$third-party
 ||fairlink.ru/click?*
 ||fairlink.ru/carnage/*
-||fapmeth.com*$document
 ||farin724.com*
 ||fastclick.ir^
 ||fbfd396918c60838.com^$popup
@@ -1055,6 +1054,7 @@
 ||puhtml.com*
 ||content.pulse360.com/cgi-bin/context.cgi?id*
 ||puserving.com*$script
+||pushance.com/ntfc.php*$third-party
 ||pxl2015x1.com*
 ||qandak.ir*
 ||queenmag.ir/widgets/rsswidget.php^$third-party
@@ -1244,7 +1244,7 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,ava2music.com,mixjavan.ir,tikfilm.net,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
