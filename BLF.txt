@@ -1270,7 +1270,8 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
 donya-e-eqtesad.com##DIV.sizebaneer
-donya-e-eqtesad.com##*[class="overview-auto zxc-m"]
+donya-e-eqtesad.com##*[class^="add-view-des"]
+donya-e-eqtesad.com##*[class*="overview-auto zxc"]
 downloadly.ir##div[class="widget widget_text"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 electro-tech-online.com##*[id="post-00000"]
