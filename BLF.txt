@@ -654,6 +654,7 @@
 ||anetwork.ir*$script
 ||apanet.net*
 ||app2ads.com^$third-party
+||ariamovie*/content/themes/ariamovie/js/show.js^$script
 ||as-popup.ir/website/js*
 ||content.aseadnet.com/show.php?*
 ||asrfarda.ir/newslink*.php$document,popup
@@ -1240,7 +1241,7 @@
 ||zlx.com.br/assets/playermon.js*
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
-ava2music.com,ariamovie5.*##script:inject(abort-on-property-read.js, checkCookie)
+ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
@@ -1269,6 +1270,7 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
 donya-e-eqtesad.com##DIV.sizebaneer
+donya-e-eqtesad.com##*[class="overview-auto zxc-m"]
 downloadly.ir##div[class="widget widget_text"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 electro-tech-online.com##*[id="post-00000"]
@@ -1354,6 +1356,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[href*="arshantour.net"]>img
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
+##*[href*="bunjee-link.tk"]>img
 ##a[href*="cigoul-clothing.com"]>img
 ##a[href*="click_ads.php?id"]>img
 ##a[href*="clicksgear.com/watch"]
@@ -1372,6 +1375,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="kingsera.ir"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
 ##a[href*="modiryatnovin.com"]>img
+##*[href*="onspd.tk"]>img
 ##a[href*="pandcaspian.com/news"]>img
 ##a[href*="rahoja.com"]>img
 ##*[href*="sarafiroyal.com"]>img
