@@ -781,7 +781,7 @@
 ||eghtesadazad.com/a1aa/*$document,popup
 ||eghtesadban.com*$document,popup
 ||eghtesadi.org/600e/*$document,popup
-||eghtesadi.org/dagh*
+||eghtesadi.org/dagh*$document,popup
 !eghtesadi.org/daghbcq.html,eghtesadi.org/daghbiw.html,eghtesadi.org/daghlts.html,eghtesadi.org/daghnpc.html
 ||egooad.c*$script
 ||egooad.com*show.php?*
@@ -991,7 +991,7 @@
 ||widgets.outbrain.com/OutbrainRater.js*
 ||partner.onga.ru/?ref*
 ||optimuum.com*
-||ostadnews.ir/dvj*
+||ostadnews.ir/dvj*$document,popup
 !ostadnews.ir/dvj24.html,ostadnews.ir/dvj25.html
 ||ov2ochu.bid*$script
 ||owaho.ru/js/*
@@ -1114,7 +1114,7 @@
 ||sendword.ir*
 ||sfesd.net*
 ||sheypoor.com/static/ra/nofollow.html*
-||shohadayeiran.com/dash*
+||shohadayeiran.com/dash*$document,popup
 !shohadayeiran.com/dashxyz.html,shohadayeiran.com/dashkrv.html
 ||shoptou.in^$popup
 ||shopty.in^$popup
@@ -1131,7 +1131,7 @@
 ||solhkhabar.ir/t5t/*
 ||solic.info*
 ||sooran.ir/ac/?*
-||sornakhabar.com/dsor*
+||sornakhabar.com/dsor*$document,popup
 !sornakhabar.com/dsor123x.html,sornakhabar.com/dsor124y.html
 ||sparkstudios.com/r.poptracking?*
 ||sparkstudios.com/*$script
@@ -1174,7 +1174,7 @@
 ||tizerda.net/*.php?sid*
 ||tizergo.net/*.php?sid*
 ||tkqlhce.com/click-*
-||tolideirani.com/dat*
+||tolideirani.com/dat*$document,popup
 !tolideirani.com/datonx.html,tolideirani.com/datoyk.html
 ||tookan.ir/lb.php?*
 ||hadis.toolsir.com*
