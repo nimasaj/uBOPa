@@ -570,6 +570,9 @@
 ||4reh.com/displaycode.php*
 ||4dsply.com*
 ||51yes.com/click.aspx?id*
+||55online.ir/da55*$document,popup
+||55online.ir/daa55*$document,popup
+!55online.ir/da55ot.html,55online.ir/da55trd.html,55online.ir/daa55ed7120.html,55online.ir/daa55nvcasdfg1.html,55online.ir/daa55qsdsdsd.html,55online.ir/daa55457x4w.html
 ||5rah.*/linkbox*
 ||7mu36somt5.com*$~third-party
 ||click.8tad.ir/click/*
@@ -778,6 +781,8 @@
 ||eghtesadazad.com/a1aa/*$document,popup
 ||eghtesadban.com*$document,popup
 ||eghtesadi.org/600e/*$document,popup
+||eghtesadi.org/dagh*
+!eghtesadi.org/daghbcq.html,eghtesadi.org/daghbiw.html,eghtesadi.org/daghlts.html,eghtesadi.org/daghnpc.html
 ||egooad.c*$script
 ||egooad.com*show.php?*
 ||ekod.info/*$script
@@ -814,6 +819,7 @@
 *smarticon.geotrust.com/si.js*
 ||globaltraffico.com*
 *ps.friendconnect.gmodules.com/ps/ifr?synd*
+||gozarkade.ir/goz123.html*$document,popup
 ||grand-casino.com/?eugn*
 ||grt02.org*
 ||vu.hadith.ac.ir/tipofday*
@@ -852,6 +858,8 @@
 ||cdn.iranweb.click*
 ||irhc.in*.php*
 ||irpopup.ir^$third-party
+||iscanews.ir/daisc12*$document,popup
+!iscanews.ir/daisc124.html,iscanews.ir/daisc123%20-%20copy.html
 ||iu1xoe7o.com^$popup
 *player.jambovideonetwork.com/js/player.php?pubsite_id*
 *static.jango.com/javascripts/promos/*
@@ -864,6 +872,7 @@
 ||justclicktowatch.to*
 ||kakgu.ru*
 ||kaprila.com*/show.*
+||khabarehonline.ir/khonkhon130.html*$document,popup
 ||kho3au7l4z.me*
 ||kimate.com*$document,popup
 ||kimate.com/redirect.*
@@ -932,6 +941,8 @@
 ||mp3-red.cc/Home/Ac?q=*$document,popup
 ||mobilife.com/js/dealoftheday.js*
 ||mobisla.com*
+||mobna.com/jnnsft/*$document,popup
+!mobna.com/jnnsft/drnout3.html,mobna.com/jnnsft/dplp12.html,mobna.com/jnnsft/dxb359.html,mobna.com/jnnsft/dvpsvp231.html,mobna.com/jnnsft/dtalk3xyz.html,mobna.com/jnnsft/ddfox91.html
 ||mobna.com/m53m/*$document,popup
 ||mobon.com/vendor/*.php*
 ||mobua.com/f/dg.php*
@@ -952,6 +963,7 @@
 ||netbina.net/webcodes/*$third-party
 ||netpool.netbookia.net*$third-party
 ||newagahi.ir^$popup
+||newsjet.ir/jet1005.html*$document,popup
 ||nex1network.com*$third-party
 ||nextads.ir*$third-party
 ||nextpopup.ir*$third-party
@@ -979,6 +991,8 @@
 ||widgets.outbrain.com/OutbrainRater.js*
 ||partner.onga.ru/?ref*
 ||optimuum.com*
+||ostadnews.ir/dvj*
+!ostadnews.ir/dvj24.html,ostadnews.ir/dvj25.html
 ||ov2ochu.bid*$script
 ||owaho.ru/js/*
 ||oxado.com*
@@ -1058,6 +1072,7 @@
 ||content.pulse360.com/cgi-bin/context.cgi?id*
 ||puserving.com*$script
 ||pushance.com/ntfc.php*$third-party
+||puyeshnews47.ir/back.js^$script
 ||pxl2015x1.com*
 ||qandak.ir*
 ||queenmag.ir/widgets/rsswidget.php^$third-party
@@ -1099,6 +1114,8 @@
 ||sendword.ir*
 ||sfesd.net*
 ||sheypoor.com/static/ra/nofollow.html*
+||shohadayeiran.com/dash*
+!shohadayeiran.com/dashxyz.html,shohadayeiran.com/dashkrv.html
 ||shoptou.in^$popup
 ||shopty.in^$popup
 ||shwclk.com/click*|$document,popup
@@ -1114,6 +1131,8 @@
 ||solhkhabar.ir/t5t/*
 ||solic.info*
 ||sooran.ir/ac/?*
+||sornakhabar.com/dsor*
+!sornakhabar.com/dsor123x.html,sornakhabar.com/dsor124y.html
 ||sparkstudios.com/r.poptracking?*
 ||sparkstudios.com/*$script
 ||rts.sparkstudios.com/pp/*?pid*
@@ -1155,6 +1174,8 @@
 ||tizerda.net/*.php?sid*
 ||tizergo.net/*.php?sid*
 ||tkqlhce.com/click-*
+||tolideirani.com/dat*
+!tolideirani.com/datonx.html,tolideirani.com/datoyk.html
 ||tookan.ir/lb.php?*
 ||hadis.toolsir.com*
 ||topadvert.ru^
@@ -1657,7 +1678,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class^="bannerWrapper"]
 ##*[class^="text-adv-row"]
 ##*[class^="e3lan e3lan-"]
-##*[class*="تبلیغات"]
+##*[class*="تبلیغ"]
 ##*[class*=" ads "]
 ##*[class*=" ads-"]
 ##*[class*=" ads_"]
