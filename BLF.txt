@@ -12,6 +12,7 @@
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#scriptinject
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
 ! https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide
+! https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode
 ! https://github.com/uBlockAdmin/uBlock/issues/433#issuecomment-68488686
 !
 ! https://www.reddit.com/r/uBlockOrigin/
@@ -1238,6 +1239,7 @@
 ||zlx.com.br/assets/playermon.js*
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
+ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
@@ -1765,6 +1767,8 @@ zoomit.ir##DIV.ThirdPost
 adgup.com#@#a[href^="http://adgup.com"]>img
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
 bbc.com#@#*[class*="-ads-"]
+bozemanscience.com#@#*[class*=" banner-"]
+bozemanscience.com#@#*[id^="banner-"]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca#@#*[class$="-ads"]
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
