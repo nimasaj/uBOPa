@@ -1034,8 +1034,8 @@
 ||pop-bazar.ru*
 ||popads.net*
 ||popadscdn.net/*$script
-||poparya.com*/js*
-||poparya.com^$popup
+||poparya.com*/js*$third-party
+||poparya.com^$third-party,popup
 ||popcash.net/*$script
 ||popcpm.com/*$script
 ||popgozar.ir/pop.php*
@@ -1043,14 +1043,14 @@
 ||popkade.ir*$third-party
 ||popking.ir/*p*$third-party
 ||popland.ir*.php*user*
-||popmaster.ir/pop.php*
+||popmaster.ir/pop.php*$third-party
 ||poppop.ir*$third-party
 ||poprush.net*
 ||popsho.ir*$third-party
 ||popunderjs.com*
 ||popup94.ir^$third-party,script
 ||popupad.net*
-||popupads.ir/popupcode*
+||popupads.ir/popupcode*$third-party
 ||popupearn.com*$third-party,script
 ||popupearn.com/website/*
 ||popupearn.com/popbox/*
@@ -1224,8 +1224,8 @@
 ||webtrackerplus.com*
 ||weclick.ir*$script
 ||whistorica.info*
-||wideads.com^$popup
-||wideads.com/website/js*
+||wideads.com^$third-party,popup
+||wideads.com/website/js*$third-party
 ||wie9eig.top*$script
 ||wigetmedia.com*
 ||wordupiran.com/images/*
@@ -1617,7 +1617,6 @@ zoomit.ir##DIV.ThirdPost
 ##*[class="adsimg"]
 ##*[class="banner"]
 ##*[class="inneradv"]
-##*[class="topadv"]
 ##*[class^="ad "]
 !##*[class^="ad-"]
 ##*[class^="ad_"]
@@ -1678,8 +1677,9 @@ zoomit.ir##DIV.ThirdPost
 ##*[class^="banner9"]
 ##*[class^="banners"]
 ##*[class^="bannerWrapper"]
-##*[class^="text-adv-row"]
 ##*[class^="e3lan e3lan-"]
+##*[class^="text-adv-row"]
+##*[class^="topadv"]
 ##*[class*="تبلیغ"]
 ##*[class*=" ads "]
 ##*[class*=" ads-"]
