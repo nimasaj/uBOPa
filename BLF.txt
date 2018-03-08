@@ -1300,7 +1300,7 @@ electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
 ganool.*##div[id*="banner"]
-hidoctor.ir##*[class="pdsifradsbn"]
+hidoctor.ir##*[class^="pdsifradsbn"]
 khabarfarsi.com##*[id="banners_120_top"]
 live.com##div:if(:scope > div > span:has-text(an ad blocker))
 live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
@@ -1394,6 +1394,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="hormozhotel.com"]>img
 ##a[href*="hostiran.net"]>img
 ##a[href*="iraneconomist.com"]>img
+##*[href*="iranserver.com/aff.php?aff"]>img
 ##*[href*="iranjib.ir/ra.php?adid="]>img
 ##a[href*="kamelpack.ir"]
 ##a[href*="kingsera.ir"]>img
@@ -1825,6 +1826,7 @@ hostiran.net#@#a[href*="hostiran.net"]>img
 icelove.ir#@#*[class*="-ads-"]
 instructables.com#@#*[class$="-ads"]
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
+iranserver.com#@#*[href*="iranserver.com/aff.php?aff"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
 khabarfarsi.com#@#*[id^="banners"]
 mail.google.com#@#*[class$=" ads"]
