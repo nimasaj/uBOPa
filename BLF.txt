@@ -1284,7 +1284,7 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 !topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
 !--------------------Specific element hiding rules----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
-1pezeshk.com##*[class="rd-post-list"]:if(div > h3:has-text(تبلیغ))
+1pezeshk.com##div[class="rd-post-list"]:if(div > h3:has-text(تبلیغ))
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
 2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
 2baksa.net##div[id^="smile_teaser_"]
@@ -1315,6 +1315,7 @@ rooziato.com##*[class="single_section"]:if([src*="clickyab.com/js/native_ad.js"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
+seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading...))
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 tubeload.tv##a[href*="/po-direct.html?type="]
