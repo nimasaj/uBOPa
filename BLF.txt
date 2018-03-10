@@ -1143,7 +1143,7 @@
 ||block.stableprofit.ru/show.js*
 ||starpopup.com/website/js*$third-party
 ||superfastcdn.com*|$document,popup
-||t.me/*$third-party,popup
+||t.me/*$third-party,popup,domain=~virgool.io
 !||tabligheirani.com*
 !||tablighfa.com*
 ||tafrihi.com/link*
@@ -1807,13 +1807,13 @@ adgup.com#@#a[href^="http://adgup.com"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
-bbc.com#@#*[class*="-ads-"]
+bbc.com,pay98.net,icelove.ir#@#*[class*="-ads-"]
 bozemanscience.com#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
 caranddriver.com#@#*[class^="ads-"]
-watch.cbc.ca#@#*[class$="-ads"]
+watch.cbc.ca,instructables.com#@#*[class$="-ads"]
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
-cyber.ir#@#*[class^="banner-"]
+cyber.ir,utah.edu#@#*[class^="banner-"]
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
@@ -1823,8 +1823,6 @@ giftcard.ir#@#a[href*="giftcard.ir"]>img
 gizmodo.com#@#*[class*="_ads_"]
 hormozhotel.com#@#a[href*="hormozhotel.com"]>img
 hostiran.net#@#a[href*="hostiran.net"]>img
-icelove.ir#@#*[class*="-ads-"]
-instructables.com#@#*[class$="-ads"]
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
 iranserver.com#@#*[href*="iranserver.com/aff.php?aff"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
@@ -1833,7 +1831,6 @@ mail.google.com#@#*[class$=" ads"]
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
-pay98.net#@#*[class*="-ads-"]
 putlockertoday.org#@#*[id$="-banner"]
 putlockertoday.org#@#*[id="banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
@@ -1842,5 +1839,4 @@ seemorgh.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
-utah.edu#@#*[class^="banner-"]
 webmd.com#@#*[class$="-banner"]
