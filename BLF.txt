@@ -1317,6 +1317,7 @@ seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
+shirazsong.net##*[class="box"]:if(div>p>a[href*="zula.ir/register/new?utm_source"])
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir/register/new?utm_source"])
