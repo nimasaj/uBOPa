@@ -1263,13 +1263,14 @@
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
 ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
+ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,ava2music.com,mixjavan.ir,mrcode.ir,tikfilm.net,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,mrcode.ir,tikfilm.net,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
