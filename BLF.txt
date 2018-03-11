@@ -1316,9 +1316,10 @@ rooziato.com##*[class="single_section"]:if([src*="clickyab.com/js/native_ad.js"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
-seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading...))
+seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
+tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir/register/new?utm_source"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
