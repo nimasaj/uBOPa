@@ -988,6 +988,7 @@
 ||onegate.ir*
 ||onesignal.com/webPushIframe*
 ||onesignal.com*$script
+||o-oo.ooo*$third-party
 ||widgets.outbrain.com/OutbrainRater.js*
 ||partner.onga.ru/?ref*
 ||optimuum.com*
@@ -1130,7 +1131,8 @@
 ||softexia.com/wp-content/*/js/attentionGrabber.js*
 ||solhkhabar.ir/t5t/*
 ||solic.info*
-||sooran.ir/ac/?*
+||soob.xyz*$third-party
+||sooran.ir/ac/?*$third-party
 ||sornakhabar.com/dsor*$document,popup
 !sornakhabar.com/dsor123x.html,sornakhabar.com/dsor124y.html
 ||sparkstudios.com/r.poptracking?*
@@ -1143,8 +1145,8 @@
 ||block.stableprofit.ru/show.js*
 ||starpopup.com/website/js*$third-party
 ||superfastcdn.com*|$document,popup
-!||t.me*$third-party,popup,domain=~virgool.io
-||t.me/joinchat/*$third-party,popup
+||t.me*$third-party,popup,domain=~virgool.io
+!||t.me/joinchat/*$third-party,popup
 !||tabligheirani.com*
 !||tablighfa.com*
 ||tafrihi.com/link*
@@ -1263,7 +1265,7 @@
 ||zlx.com.br/assets/playermon.js*
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
-androidiha.net##script:inject(abort-current-inline-script.js, checkCookie)
+androidiha.net,webgardee.ir##script:inject(abort-current-inline-script.js, checkCookie)
 ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
@@ -1272,7 +1274,7 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,mrcode.ir,tikfilm.net,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
@@ -1391,6 +1393,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="alibaba.ir"]>img
 ##a[href*="amlakbaharan.com"]>img
 ##a[href*="amlakvitrin.com"]>img
+##*[href*="arefrayaneh.com"]>img
 ##*[href*="arshantour.net"]>img
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
@@ -1414,6 +1417,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="kamelpack.ir"]
 ##a[href*="kingsera.ir"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
+##*[href*="mizbanwp.com/aff.php?aff"]>img
 ##a[href*="modiryatnovin.com"]>img
 ##*[href*="novakala.com"]>img
 ##*[href*="onspd.tk"]>img
