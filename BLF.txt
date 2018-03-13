@@ -1274,7 +1274,7 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musicone.ir,radiobaran.ir,song2song.com,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
@@ -1706,6 +1706,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class*=" ads "]
 ##*[class*=" ads-"]
 ##*[class*=" ads_"]
+##*[class*=" ads2col"]
 ##*[class*=" adv "]
 ##*[class*=" adv-"]
 ##*[class*=" adv_"]
@@ -1826,6 +1827,7 @@ zoomit.ir##DIV.ThirdPost
 adgup.com#@#a[href^="http://adgup.com"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
+arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
 bbc.com,pay98.net,icelove.ir#@#*[class*="-ads-"]
 bozemanscience.com#@#*[class*=" banner-"]
@@ -1850,6 +1852,7 @@ kamelpack.ir#@#a[href*="kamelpack.ir"]
 khabarfarsi.com#@#*[id^="banners"]
 mail.google.com#@#*[class$=" ads"]
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
+mizbanwp.com#@#*[href*="mizbanwp.com/aff.php?aff"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
 novakala.com#@#*[href*="novakala.com"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
@@ -1859,6 +1862,7 @@ rahoja.com#@#a[href*="rahoja.com"]>img
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 seemorgh.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
+spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
 webmd.com#@#*[class$="-banner"]
