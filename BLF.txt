@@ -751,6 +751,7 @@
 *img.daodao001.cn/*/*.html*
 ||dariconline.ir/ii88/*$document,popup
 ||datefunclub.com/pics.php?did*
+||debadu.com*$third-party
 ||adapi.digikala.com*
 !||advertising.digikala.com*
 ||directadvert.ru/show.cgi*
@@ -805,6 +806,7 @@
 ||farin724.com*
 ||fastclick.ir^
 ||fbfd396918c60838.com^$popup
+||ffinwwfpqi.gq*$third-party
 ||fileir.ir^$popup
 ||findepended.com^$popup
 ||finishclueobscure.info*
@@ -884,6 +886,7 @@
 ||kimiaonline.com/redirect.*
 ||kixer.com*$script
 ||krutilka.net*
+||liczniki.org*$third-party
 ||ligatus.de*
 ||linkafarin.com*
 ||linkchin.com/code.php*
@@ -1073,7 +1076,7 @@
 ||pub2srv.com*
 ||puhtml.com*
 ||content.pulse360.com/cgi-bin/context.cgi?id*
-||puserving.com*$script
+!||puserving.com*$third=party,script
 ||pushance.com/ntfc.php*$third-party
 ||puyeshnews47.ir/back.js^$script
 ||pxl2015x1.com*
@@ -1265,6 +1268,7 @@
 ||zeroredirect1.com*
 ||zirve100.com*
 ||zlx.com.br/assets/playermon.js*
+||zmbvnvhzpx.ga*$third-party
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
 androidiha.net,webgardee.ir##script:inject(abort-current-inline-script.js, checkCookie)
