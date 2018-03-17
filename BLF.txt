@@ -875,7 +875,7 @@
 ||jumpstartmediavault.com/abd/*$script
 ||justclicktowatch.to*
 ||kakgu.ru*
-||kaprila.com*/show.*
+||kaprila.com*/show.*$third-party
 ||khabarehonline.ir/khonkhon130.html*$document,popup
 ||kho3au7l4z.me*
 ||kimate.com*$document,popup
@@ -1065,11 +1065,11 @@
 ||popupirani.ir/popbox/*
 ||popupirani.ir/website/*
 ||popupme.net^$third-party,script
-||popupplus.ir*
-||popupplus.org*
-||popwin.net*
-||pqowedazx.bid*
-||prepay.ir/prepyin/*
+||popupplus.ir*$third-party
+||popupplus.org*$third-party
+||popwin.net*$third-party
+||pqowedazx.bid*$third-party
+||prepay.ir/prepyin/*$third-party
 ||tracking.prmtracking.com*
 ||propellerads.com*
 ||prre.ru/*out.php?id*
@@ -1105,8 +1105,8 @@
 ||rutvind.com*
 ||rzb.ir*$script
 ||s2block.com*$script
-||sabavision.com/showcamp*
-||click.sabavision.com*
+||sabavision.com/showcamp*$third-party
+||click.sabavision.com*$third-party
 ||saghybux.com*$document,popup
 ||salamaneh.com/a100/*$document,popup
 ||salamatism.com/e91/*$document,popup
@@ -1305,6 +1305,10 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 android30t.com##*[id="modal-body"]
 android30t.com##*[id="modal-overlay"]
 androidiha.net##*[class="afarinak apc"]
+asandl.com##article[class="post game"]:if(article>div>figure>a[href*="zula.ir"])
+asandl.com##article[class="post ebook"]:if(article>div>figure>a[href*="tankionline.com"])
+asandl.com##*[class="asan468 box center"]
+asandl.com##div[class="text-asan"]:if(div>h3:has-text(Text ADS in AsanDownload))
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
@@ -1326,8 +1330,8 @@ namnak.com##*[id="adsarea"]
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nokiapoweruser.com##*[class="wpa"]
-p30download.com##*[class="article-wrapper"]:if(div>article>div>div>a[href*="zula.ir/register/new?utm_source"])
-p30download.com##*[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
+p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="zula.ir"])
+p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
 rapidvideo.com##*[id^="top350"]
 rooziato.com##*[class="single_section"]:if([src*="clickyab.com/js/native_ad.js"])
@@ -1335,10 +1339,10 @@ seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
-shirazsong.net##*[class="box"]:if(div>p>a[href*="zula.ir/register/new?utm_source"])
+shirazsong.net##div[class="box"]:if(div>div>p>a[href*="zula.ir"])
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
-tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir/register/new?utm_source"])
+tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
@@ -1452,6 +1456,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[src*="/tanliq"]
 ##img[src*="tamasha.com/v3/static/bpx/"]
 ##img[src$=".gif"][width="560"][height="90"]
+##img[src$=".gif"][width="468"][height="60"][title*="بنر"]
 !
 ##*[alt="ads"]
 ##*[alt="banner"]
