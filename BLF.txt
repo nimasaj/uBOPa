@@ -632,7 +632,7 @@
 ||adtaily.pl/widget.js*
 ||adtgs.com/*$script
 ||adtraff.ru*$script
-||adtube.ir^$third-party,script
+||adtube.ir*$third-party,script
 ||adverigo.com*
 ||advon.net^
 ||adweb.ir*$third-party
@@ -817,6 +817,7 @@
 *adactiongapl.hit.gemius.pl/pp_gemius.js*
 *gaee.hit.gemius.pl/xgemius.js*
 *smarticon.geotrust.com/si.js*
+||gikvmseyuk.ml*$third-party
 ||globaltraffico.com*
 *ps.friendconnect.gmodules.com/ps/ifr?synd*
 ||gozarkade.ir/goz123.html*$document,popup
@@ -850,6 +851,7 @@
 ||ilivid.com/?appid*
 ||impressions.ir*.php*
 *resources.infolinks.com*
+||ininmacerad.pro*$third-party
 ||iptsunami.com/show/*
 ||ir-dl.com/e3e/*$document,popup
 ||iranecona.com/s2s/*$document,popup
