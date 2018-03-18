@@ -654,7 +654,7 @@
 *ws.amazon.com/widgets/q?ServiceVersion*
 ||cdn.ampproject.org*$script
 ||androidkade.com/tag/^$popup
-||anetwork.ir*$script$third-party
+||anetwork.ir*$script,third-party
 ||apanet.net*$third-party
 ||app2ads.com^$third-party
 ||ariamovie*/content/themes/ariamovie/js/show.js^$script
@@ -960,6 +960,7 @@
 ||mypopup.ir*
 ||clk.myretargeting.com*
 ||nabzino.com/client/*$third-party,script
+||najva.com/static/*$third-party,script
 ||narsense.com/redirect.*|$document,popup
 ||navrcholu.cz/code?site*
 ||neginpop.ir*/js*
@@ -1338,6 +1339,9 @@ mihandownload.com##*[class="fix well"]
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 namnak.com##a[href*="/ag_"]>img
+naslemusic.com##div[class="post"]:if(div>div>div>a[title="Jadval"])
+naslemusic.com##div[class="post"]:if(div>div>div>a[title="tanki"])
+naslemusic.com##div[class="post"]:if(div>div>div>a[title="zula"])
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nokiapoweruser.com##*[class="wpa"]
@@ -1352,10 +1356,12 @@ seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
 shirazsong.net##div[class="box"]:if(div>div>p>a[href*="zula.ir"])
+smusic.ir##article:if(article>center>div>a[title*="زولا"])
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tubeload.tv##a[href*="/po-direct.html?type="]
+uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
 zoomit.ir##DIV.ThirdPost
@@ -1416,6 +1422,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="amlakbaharan.com"]>img
 ##a[href*="amlakvitrin.com"]>img
 ##*[href*="arefrayaneh.com"]>img
+##*[href*="arian-motor.com"]>img
 ##*[href*="arshantour.net"]>img
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
@@ -1853,6 +1860,7 @@ adgup.com#@#a[href^="http://adgup.com"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
+arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
 bbc.com,pay98.net,icelove.ir#@#*[class*="-ads-"]
 bozemanscience.com#@#*[class*=" banner-"]
