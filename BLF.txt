@@ -1062,8 +1062,8 @@
 ||popupearn.com/popbox/*
 ||popupha.com*$third-party
 ||popupirani.ir*$third-party,script
-||popupirani.ir/popbox/*
-||popupirani.ir/website/*
+||popupirani.ir/popbox/*$third-party
+||popupirani.ir/website/*$third-party
 ||popupme.net^$third-party,script
 ||popupplus.ir*$third-party
 ||popupplus.org*$third-party
@@ -1176,6 +1176,7 @@
 ||theadsnet.com*
 ||ths9j89.com*
 ||ths9j89.com/watch^$popup,document
+||api.ticketing-service.com/topTickets/*$third-party
 ||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
 ||tizer*.net/tizer*.php?sid*
@@ -1321,7 +1322,11 @@ electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
 ganool.*##div[id*="banner"]
+gooyait.com##*[class="header-popup"]
+gooyait.com##*[id^="anetwork-"]
 hidoctor.ir##*[class^="pdsifradsbn"]
+ir-dl.com##*[id="stickytop"]
+ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
 khabarfarsi.com##*[id="banners_120_top"]
 live.com##div:if(:scope > div > span:has-text(an ad blocker))
 live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
@@ -1339,7 +1344,7 @@ p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="
 p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
 rapidvideo.com##*[id^="top350"]
-rooziato.com##*[class="single_section"]:if([src*="clickyab.com/js/native_ad.js"])
+rooziato.com##*[class="single_section"]:if([src*="clickyab.com"])
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
@@ -1423,6 +1428,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="favajam.com"]>img
 ##a[href*="ghasedak24.com"]>img
 ##a[href*="giftcard.ir"]>img
+##*[href*="hicpm10.com/watch?key"]>img
 ##a[href*="hormozhotel.com"]>img
 ##a[href*="hostiran.net"]>img
 ##a[href*="iraneconomist.com"]>img
@@ -1437,6 +1443,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[href*="novakala.com"]>img
 ##*[href*="onspd.tk"]>img
 ##a[href*="pandcaspian.com/news"]>img
+##*[href*="parsnafe.com/?utm_source"]>img
 ##a[href*="rahoja.com"]>img
 ##*[href*="sarafiroyal.com"]>img
 ##a[href*="sharifngo.com"]>img
