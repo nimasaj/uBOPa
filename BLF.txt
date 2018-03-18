@@ -1121,7 +1121,7 @@
 ||cdn.sendpulse.com*$script
 ||sendword.ir*
 ||sfesd.net*
-||sheypoor.com/static/ra/nofollow.html*
+||sheypoor.com/static/ra/nofollow.html*$third-party
 ||shohadayeiran.com/dash*$document,popup
 !shohadayeiran.com/dashxyz.html,shohadayeiran.com/dashkrv.html
 ||shoptou.in^$popup
@@ -1305,6 +1305,7 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 2baksa.net##*[id^="bn_"]
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
+anaj.ir##*[class="bannerPosition"]
 android30t.com##*[id="modal-body"]
 android30t.com##*[id="modal-overlay"]
 androidiha.net##*[class="afarinak apc"]
@@ -1350,6 +1351,7 @@ p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="
 p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
 rapidvideo.com##*[id^="top350"]
+rokna.net##div:if(div>div[class*="type-scriptiframe position-a"])
 rooziato.com##*[class="single_section"]:if([src*="clickyab.com"])
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
