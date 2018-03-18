@@ -1309,9 +1309,12 @@ asandl.com##article[class="post game"]:if(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class="post ebook"]:if(article>div>figure>a[href*="tankionline.com"])
 asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="text-asan"]:if(div>h3:has-text(Text ADS in AsanDownload))
+dlroozane.net##div[class="static-post"]:if(div>div>h4:has-text(تبلیغ))
+dlroozane.net##div[class="blockin"]:if(div>div>div>h3:has-text(تبلیغ))
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
+downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 electro-tech-online.com##*[id="post-00000"]
@@ -1325,11 +1328,13 @@ live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
+mihandownload.com##*[class="fix well"]
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nokiapoweruser.com##*[class="wpa"]
+p30day.com##*[class="static_posts adsblockpop"]
 p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="zula.ir"])
 p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
