@@ -959,6 +959,7 @@
 *scripts.mycounter.ua/counter2.0.js*
 ||mypopup.ir*
 ||clk.myretargeting.com*
+||nabzino.com/client/*$third-party,script
 ||narsense.com/redirect.*|$document,popup
 ||navrcholu.cz/code?site*
 ||neginpop.ir*/js*
@@ -1336,6 +1337,7 @@ merriam-webster.com##DIV[id="adaptvDiv"]
 mihandownload.com##*[class="fix well"]
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
+namnak.com##a[href*="/ag_"]>img
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nokiapoweruser.com##*[class="wpa"]
