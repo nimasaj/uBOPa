@@ -347,6 +347,7 @@
 */ban/*$script
 */ban1$image
 */baner/*
+*/banner/*.gif
 */baners.*
 */baners/*
 */banner.aspx?code*
@@ -1418,6 +1419,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="1o2.ir"]>img
 ##a[href*="2dda.ir"]>img
 ##a[href*="3dmaxclass.com"]>img
+##a[href*="7sharj.ir"]>img
 ##*[href*="adonisparvaz.com"]>img
 ##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
@@ -1428,6 +1430,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[href*="arshantour.net"]>img
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
+##a[href*="bitgame.ir/?"]>img
 ##*[href*="bunjee-link.tk"]>img
 ##a[href*="cigoul-clothing.com"]>img
 ##a[href*="click_ads.php?id"]>img
