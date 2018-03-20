@@ -348,6 +348,7 @@
 */ban1$image
 */baner/*
 */banner/*.gif
+*/banners/*.gif
 */baners.*
 */baners/*
 */banner.aspx?code*
@@ -1031,8 +1032,8 @@
 *rts.pgmediaserve.com/r.poptracking?pcid*
 *services.picadmedia.com/js/picad.js*
 ||pichak.net/nohe/amar.js^
-||pishtazweb.org/eshop/*
-||pishtazweb.org*view.php?uid*
+||pishtazweb.org/eshop/*$third-party
+||pishtazweb.org*view.php?uid*$third-party
 ||pixazza.com/widget/*
 ||pixfuture.net*afr*
 ||plugrush.com/*$script
@@ -1043,7 +1044,7 @@
 ||pop-bazar.ru*
 ||popads.net*
 ||popadscdn.net/*$script
-||poparya.com*/js*$third-party
+!||poparya.com*/js*$third-party
 ||poparya.com^$third-party,popup
 ||popcash.net/*$script
 ||popcpm.com/*$script
@@ -1061,12 +1062,12 @@
 ||popupad.net*
 ||popupads.ir/popupcode*$third-party
 ||popupearn.com*$third-party,script
-||popupearn.com/website/*
+!||popupearn.com/website/*
 ||popupearn.com/popbox/*
 ||popupha.com*$third-party
 ||popupirani.ir*$third-party,script
-||popupirani.ir/popbox/*$third-party
-||popupirani.ir/website/*$third-party
+!||popupirani.ir/popbox/*$third-party
+!||popupirani.ir/website/*$third-party
 ||popupme.net^$third-party,script
 ||popupplus.ir*$third-party
 ||popupplus.org*$third-party
@@ -1177,8 +1178,8 @@
 ||tgju.org/channel/*|$document,popup
 ||theads.me*
 ||theadsnet.com*
-||ths9j89.com*
-||ths9j89.com/watch^$popup,document
+||ths9j89.com*$popup,document
+!||ths9j89.com/watch^$popup,document
 ||api.ticketing-service.com/topTickets/*$third-party
 ||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
@@ -1244,6 +1245,7 @@
 ||wtoqymftbf.bid*$script
 ||wwwpromoter.com*
 ||xcounter.ru/counter.php?*
+||xdoygumiams.com*$third-party,popup
 ||xmemory.ru/*.php?referer*
 ||xtgem.com*
 ||ard.xxxblackbook.com/geoprofiles/iframe.php*
@@ -1275,7 +1277,7 @@
 ||zmbvnvhzpx.ga*$third-party
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
-androidiha.net,webgardee.ir##script:inject(abort-current-inline-script.js, checkCookie)
+androidiha.net,webgardee.ir,birmusic.org##script:inject(abort-current-inline-script.js, checkCookie)
 ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
