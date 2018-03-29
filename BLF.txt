@@ -504,8 +504,8 @@
 !------------------------Specific blocking rules------------------------!
 !----------------Sorted alphabetically based on domain name-------------!
 ||34.212.19.168*
-||35.188.14.213*|$document,popup
-||35.188.59.75*|$document,popup
+||35.188.14.213*$document,popup
+||35.188.59.75*$document,popup
 ||54.68.166.58*
 ||80.93.49.192/*.php?id*
 ||104.154.237.193^$popup
@@ -519,10 +519,10 @@
 ||0098sms.com^$popup
 ||021cd.com/index.php?option*
 ||021cd.com/webmaster/*
-||1000click.ir*
-||1000ip.com*
-||1000toman.com/webmasters/feed2js/*
-||100si.com*
+||1000click.ir*$third-party
+||1000ip.com*$third-party
+||1000toman.com/webmasters/feed2js/*$third-party,script
+||100si.com*$third-party
 ||cdn.1120057983.world*
 ||1133.cc*/show_code.php?pid*$third-party
 ||1133.cc*/showpage.php?pid*$third-party
@@ -576,6 +576,7 @@
 ||55online.ir/daa55*$document,popup
 !55online.ir/da55ot.html,55online.ir/da55trd.html,55online.ir/daa55ed7120.html,55online.ir/daa55nvcasdfg1.html,55online.ir/daa55qsdsdsd.html,55online.ir/daa55457x4w.html
 ||5rah.*/linkbox*$third-party
+||6198399e4910e66-ovc.com*$popup
 ||7mu36somt5.com*$~third-party
 ||click.8tad.ir/click/*$third-party
 ||a1channel.net*$script
@@ -643,11 +644,11 @@
 ||aflrmalpha.com/nav*
 ||aftabshop.com/links.htm*
 ||agreemand.com^$popup
-||click.alibaba.com*$third-party
+||click.alibaba.com*$third-party,popup
 ||always-parser.xyz*
 ||am10.ru/*pop*
 ||am10.ru/code*
-!||am10.ru/*.php*
+||am10.ru/*.php*
 ||am11.ru/code*
 ||am15.net/*.php?s*
 ||amarfa.ir*$script
@@ -678,7 +679,7 @@
 ||bannersnack.com*$script
 ||bannersnack.com/iframe/*
 ||bannerv.cf*
-||baxfa.in/pop*|$document,popup
+||baxfa.in/pop*$document,popup
 ||bebinin.com/popads*$script,third-party
 ||autocontext.begun.ru/*$script
 ||bermoda.biz*$third-party
@@ -786,10 +787,10 @@
 ||eghtesadi.org/600e/*$document,popup
 ||eghtesadi.org/dagh*$document,popup
 !eghtesadi.org/daghbcq.html,eghtesadi.org/daghbiw.html,eghtesadi.org/daghlts.html,eghtesadi.org/daghnpc.html
-||egooad.c*$script,third-party
+||egooad.c*$third-party
 !||egooad.com*show.php?*
 ||ekod.info/*$script
-||elthamely.com*|$popup
+||elthamely.com*$third-party,popup
 *eas.apm.emediate.eu/*
 ||emediate.eu/eas?*
 ||energypress.ir/7722.html*$document,popup
@@ -930,10 +931,10 @@
 ||meebocdn.net/cim/*
 ||s.megaclick.com/mc.js*
 ||mehdi-online.ir*$popup
-||melatema.com/t/*|$popup,document
-||melatema.com/e/*|$popup,document
-||mellati.com/c/*|$document,popup
-||mellati.com/h/*|$document,popup
+||melatema.com/t/*$popup,document
+||melatema.com/e/*$popup,document
+||mellati.com/c/*$document,popup
+||mellati.com/h/*$document,popup
 ||meried.co/*$document,script,popup
 ||merikhi.com/index.php?iduser*
 ||jsn.mgid.com*
@@ -963,7 +964,7 @@
 ||clk.myretargeting.com*
 ||nabzino.com/client/*$third-party,script
 ||najva.com/static/*$third-party,script
-||narsense.com/redirect.*|$document,popup
+||narsense.com/redirect.*$document,popup
 ||navrcholu.cz/code?site*
 ||neginpop.ir*/js*
 ||negolist.com/backend.php/*
@@ -1011,7 +1012,7 @@
 ||oxincode.com*
 !||p30rank.ir/popup.php?secid*
 ||p30world.com/blog/popnew*$script
-||p30world.com/blog2/*.php*|$document,popup
+||p30world.com/blog2/*.php*$document,popup
 ||padsdel.com*
 ||padstm.com*
 ||parabled.info*
@@ -1044,7 +1045,7 @@
 ||pop-bazar.ru*
 ||popads.net*
 ||popadscdn.net/*$script
-!||poparya.com*/js*$third-party
+||poparya.com*/js*$third-party
 ||poparya.com^$third-party,popup
 ||popcash.net/*$script
 ||popcpm.com/*$script
@@ -1128,7 +1129,7 @@
 !shohadayeiran.com/dashxyz.html,shohadayeiran.com/dashkrv.html
 ||shoptou.in^$popup
 ||shopty.in^$popup
-||shwclk.com/click*|$document,popup
+||shwclk.com/click*$document,popup
 ||sitemerkezi.net*
 ||sixsigmatraffic.com/cs/iframe*
 ||skimresources.com*
@@ -1153,7 +1154,7 @@
 ||squartedo.info*
 ||block.stableprofit.ru/show.js*
 ||starpopup.com/website/js*$third-party
-||superfastcdn.com*|$document,popup
+||superfastcdn.com*$document,popup
 ||t.me*$popup,domain=~virgool.io
 !||t.me/joinchat/*$third-party,popup
 !||tabligheirani.com*
@@ -1174,8 +1175,8 @@
 ||telegram.me/joinchat/*$popup
 ||terraclicks.com/watch*
 ||static.terrhq.ru*
-||tgju.org/mme.html*|$document,popup
-||tgju.org/channel/*|$document,popup
+||tgju.org/mme.html*$document,popup
+||tgju.org/channel/*$document,popup
 ||theads.me*
 ||theadsnet.com*
 ||ths9j89.com*$popup,document
@@ -1216,8 +1217,8 @@
 ||vatanclick.ir*$third-party
 ||vatanshop.com/webmaster/*
 ||vcfs6ip5h6.bid*
-||velocecdn.com*|$document,popup
-||venturead.com*|$document,popup
+||velocecdn.com*$document,popup
+||venturead.com*$document,popup
 ||vidlox.tv/js/hrpr.js*
 ||vimgs.ru/javascripts/*$script
 ||vixono.com*$popup
@@ -1252,7 +1253,7 @@
 ||ard.xxxblackbook.com/impopup/im_pop.js*
 ||yahnataetu.com*
 ||yaisha0.bid*$script
-||yasell.biz/images/pop/*|$document,popup
+||yasell.biz/images/pop/*$document,popup
 ||ycfprujylukkx.bid*
 ||ydc.ir/web/?*
 ||yekmizban.com/web_tools/*$script
@@ -1286,7 +1287,7 @@ edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
@@ -1299,10 +1300,9 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 !topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
-!musicone.ir,
 !--------------------Specific element hiding rules----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
-1pezeshk.com##div[class="rd-post-list"]:if(div > h3:has-text(تبلیغ))
+1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
 2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
 2baksa.net##div[id^="smile_teaser_"]
@@ -1313,6 +1313,7 @@ anaj.ir##*[class="bannerPosition"]
 android30t.com##*[id="modal-body"]
 android30t.com##*[id="modal-overlay"]
 androidiha.net##*[class="afarinak apc"]
+androidiha.net##*[class*="lightbox-easy-popup"]
 asandl.com##article[class="post game"]:if(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class="post ebook"]:if(article>div>figure>a[href*="tankionline.com"])
 asandl.com##*[class="asan468 box center"]
@@ -1896,6 +1897,7 @@ janebi.com#@#*[href*="janebi.com"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
 khabarfarsi.com#@#*[id^="banners"]
 mail.google.com#@#*[class$=" ads"]
+mail.google.com#@#*[class$="9ad"]
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
