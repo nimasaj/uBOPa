@@ -1897,6 +1897,15 @@ janebi.com#@#*[href*="janebi.com"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
 khabarfarsi.com#@#*[id^="banners"]
 mail.google.com#@#*[class$=" ads"]
+mail.google.com#@#*[class$="0ad"]
+mail.google.com#@#*[class$="1ad"]
+mail.google.com#@#*[class$="2ad"]
+mail.google.com#@#*[class$="3ad"]
+mail.google.com#@#*[class$="4ad"]
+mail.google.com#@#*[class$="5ad"]
+mail.google.com#@#*[class$="6ad"]
+mail.google.com#@#*[class$="7ad"]
+mail.google.com#@#*[class$="8ad"]
 mail.google.com#@#*[class$="9ad"]
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
