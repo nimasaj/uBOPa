@@ -14,6 +14,7 @@
 ! https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide
 ! https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode
 ! https://github.com/uBlockAdmin/uBlock/issues/433#issuecomment-68488686
+! https://github.com/uBlockOrigin/uAssets/issues/1896
 !
 ! https://www.reddit.com/r/uBlockOrigin/
 ! https://adblockplus.org/filters
@@ -1279,11 +1280,13 @@
 ||zyxtecsff.bid*
 !--------------------------Script injection uBO-------------------------!
 androidiha.net,webgardee.ir,birmusic.org##script:inject(abort-current-inline-script.js, checkCookie)
+androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
+androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
 ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
-!farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
+farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
@@ -1312,7 +1315,7 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 anaj.ir##*[class="bannerPosition"]
 android30t.com##*[id="modal-body"]
 android30t.com##*[id="modal-overlay"]
-androidiha.net##*[class="afarinak apc"]
+androidiha.net##*[id*="lightbox-easy-popup"]
 androidiha.net##*[class*="lightbox-easy-popup"]
 asandl.com##article[class="post game"]:if(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class="post ebook"]:if(article>div>figure>a[href*="tankionline.com"])
@@ -1363,10 +1366,12 @@ seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
 shirazsong.net##div[class="box"]:if(div>div>p>a[href*="zula.ir"])
+skyscanner.net##li[id*="tame-slot-day-view-inline"]
 smusic.ir##article:if(article>center>div>a[title*="زولا"])
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
+tikfilm.net##*[class="wapper-posts"]:if(section>section>div>div>a[href*="tankionline.com/fa"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
