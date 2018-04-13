@@ -1306,6 +1306,8 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 !--------------------Specific element hiding rules----------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
+1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
+1pezeshk.com##div[class*="category-ad-sidebar"]
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
 2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
 2baksa.net##div[id^="smile_teaser_"]
