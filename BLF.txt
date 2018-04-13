@@ -1315,8 +1315,9 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 anaj.ir##*[class="bannerPosition"]
 android30t.com##*[id="modal-body"]
 android30t.com##*[id="modal-overlay"]
-androidiha.net##*[id*="lightbox-easy-popup"]
+androidiha.net##*[class*="afarinak"]
 androidiha.net##*[class*="lightbox-easy-popup"]
+androidiha.net##*[id*="lightbox-easy-popup"]
 asandl.com##article[class="post game"]:if(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class="post ebook"]:if(article>div>figure>a[href*="tankionline.com"])
 asandl.com##*[class="asan468 box center"]
@@ -1332,12 +1333,16 @@ edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
+farsroid.com##*[class="warn-copyright-note row"]
+farsroid.com##*[class^="post-sabets"]
 ganool.*##div[id*="banner"]
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 hidoctor.ir##*[class^="pdsifradsbn"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
+itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
+itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
 khabarfarsi.com##*[id="banners_120_top"]
 live.com##div:if(:scope > div > span:has-text(an ad blocker))
 live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
