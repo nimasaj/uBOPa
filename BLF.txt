@@ -1375,6 +1375,7 @@ seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
 shirazsong.net##div[class="box"]:if(div>div>p>a[href*="zula.ir"])
 skyscanner.net##li[id*="tame-slot-day-view-inline"]
 smusic.ir##article:if(article>center>div>a[title*="زولا"])
+smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
@@ -1934,4 +1935,5 @@ sharifngo.com#@#a[href*="sharifngo.com"]>img
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
+turbofuture.com#@#*[class$="-ads"]
 webmd.com#@#*[class$="-banner"]
