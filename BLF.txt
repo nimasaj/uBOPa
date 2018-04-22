@@ -529,6 +529,7 @@
 ||1133.cc*/showpage.php?pid*$third-party
 ||11news.ir/9200/*$document,popup
 ||123movies.party/assets/js/custombanner.js*
+||123gomovies.co/hd/index.php
 ||1dar1.com/shop_box*$third-party
 ||1phads.com*
 *1traff.ru/script/js.php?id*
@@ -1308,6 +1309,7 @@ seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
 1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
 1pezeshk.com##div[class*="category-ad-sidebar"]
+123gomovies.co##.embed-container
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
 2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
 2baksa.net##div[id^="smile_teaser_"]
@@ -1338,6 +1340,7 @@ emp3e.com##a[href*="/spons/downloader/"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
 ganool.*##div[id*="banner"]
+gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 hidoctor.ir##*[class^="pdsifradsbn"]
@@ -1358,6 +1361,8 @@ namnak.com##a[href*="/ag_"]>img
 naslemusic.com##div[class="post"]:if(div>div>div>a[title="Jadval"])
 naslemusic.com##div[class="post"]:if(div>div>div>a[title="tanki"])
 naslemusic.com##div[class="post"]:if(div>div>div>a[title="zula"])
+netnevesht.com##div[class^="netne-content"]
+netnevesht.com##div[class="netne-after-content"]
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nokiapoweruser.com##*[class="wpa"]
@@ -1380,6 +1385,7 @@ solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tikfilm.net##*[class="wapper-posts"]:if(section>section>div>div>a[href*="tankionline.com/fa"])
+tikfilm.net##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
@@ -1932,6 +1938,7 @@ samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 seemorgh.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
+shirazsong.net#@#*[class$=" ads"]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
