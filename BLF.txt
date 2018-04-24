@@ -1322,6 +1322,7 @@ android30t.com##*[id="modal-overlay"]
 androidiha.net##*[class*="afarinak"]
 androidiha.net##*[class*="lightbox-easy-popup"]
 androidiha.net##*[id*="lightbox-easy-popup"]
+asaldl.com##*[class="banas"]
 asandl.com##article[class="post game"]:if(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class="post ebook"]:if(article>div>figure>a[href*="tankionline.com"])
 asandl.com##*[class="asan468 box center"]
