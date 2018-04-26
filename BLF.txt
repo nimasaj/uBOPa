@@ -641,6 +641,7 @@
 ||adverigo.com*
 ||advon.net^
 ||adweb.ir*$third-party
+||adziran.ml/*$third-party
 ||afdads.com/widget*$third-party
 ||affilize.com*
 ||aflrmalpha.com/nav*
@@ -1126,7 +1127,10 @@
 ||cdn.sendpulse.com*$script
 ||sendword.ir*$third-party
 ||sfesd.net*$third-party
-||sheypoor.com/static/ra/nofollow.html*$third-party
+!||sheypoor.com/static/ra/nofollow.html*$third-party
+!||sheypoor.com/static/ra/verticalnofollow.html*$third-party
+||sheypoor.com/static/ra/*$third-party
+||shirazsong.net/*pop.js$script
 ||shohadayeiran.com/dash*$document,popup
 !shohadayeiran.com/dashxyz.html,shohadayeiran.com/dashkrv.html
 ||shoptou.in^$popup
@@ -1291,8 +1295,8 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir##script:inject(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir##script:inject(abort-on-property-read.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir##script:inject(abort-on-property-read.js, vc_url)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
@@ -1332,6 +1336,7 @@ dlroozane.net##div[class="blockin"]:if(div>div>div>h3:has-text(تبلیغ))
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
+doostihaa.com##div[class="adsfix_box"]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
@@ -1384,10 +1389,16 @@ smusic.ir##article:if(article>center>div>a[title*="زولا"])
 smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
+texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
 tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tikfilm.net##*[class="wapper-posts"]:if(section>section>div>div>a[href*="tankionline.com/fa"])
 tikfilm.net##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
 tubeload.tv##a[href*="/po-direct.html?type="]
+uptvs.com##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir/jadvalpostuptv"])
+uptvs.com##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
+uptvs.com##article[class="post"]:if(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
+uptvs.com##article[class="post"]:if(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
+uptvs.com##div[class*="-popup-"]
 uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
@@ -1416,6 +1427,7 @@ zoomit.ir##DIV.ThirdPost
 !
 ##a[href^="ads/"]
 ##a[href^="http://adgup.com"]
+##a[href^="http://izee.ir/"]>img
 ##a[href*=" ads "]
 ##a[href*=" ads-"]
 ##a[href*=" ads_"]
@@ -1428,6 +1440,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="_ads-"]
 ##a[href*="_ads_"]
 ##a[href*="_ads/"]
+##a[href*="//gig-dl.ir"]>img
 ##a[href*="/ads "]
 ##a[href*="/ads?"]
 ##a[href*="/ads-"]
@@ -1474,7 +1487,9 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="iraneconomist.com"]>img
 ##*[href*="iranserver.com/aff.php?aff"]>img
 ##*[href*="iranjib.ir/ra.php?adid="]>img
+##a[href*="jadvalyab.ir"]>img
 ##*[href*="janebi.com"]>img
+##a[href*="jarmizanam.ir/getapp"]>img
 ##a[href*="kamelpack.ir"]
 ##a[href*="kingsera.ir"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
@@ -1894,6 +1909,7 @@ amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
+banifilm.ir#@#*[class="banner"]
 bbc.com,pay98.net,icelove.ir#@#*[class*="-ads-"]
 bozemanscience.com#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
@@ -1913,9 +1929,12 @@ hormozhotel.com#@#a[href*="hormozhotel.com"]>img
 hostiran.net#@#a[href*="hostiran.net"]>img
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
 iranserver.com#@#*[href*="iranserver.com/aff.php?aff"]>img
+jadvalyab.ir#@#a[href*="jadvalyab.ir"]>img
 janebi.com#@#*[href*="janebi.com"]>img
+jarmizanam.ir#@#a[href*="jarmizanam.ir/getapp"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
 khabarfarsi.com#@#*[id^="banners"]
+gig-dl.ir#@#a[href*="//gig-dl.ir"]>img
 mail.google.com#@#*[class$=" ads"]
 mail.google.com#@#*[class$="0ad"]
 mail.google.com#@#*[class$="1ad"]
@@ -1932,6 +1951,7 @@ mizbanwp.com#@#*[href*="mizbanwp.com"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
 novakala.com#@#*[href*="novakala.com"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
+poptaraneh.com#@#*[class^="banners"]
 putlockertoday.org#@#*[id$="-banner"]
 putlockertoday.org#@#*[id="banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
