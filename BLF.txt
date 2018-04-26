@@ -33,7 +33,7 @@
 !---------------------------Redundancy checker--------------------------!
 ! https://arestwo.org/famlam/redundantRuleChecker.html
 ! https://adblockplus.org/en/redundancy_check
-!-------------------------Generic Blocking Rules------------------------!
+!-------------------------Generic Network Filters-----------------------!
 *&ads=*
 *&ad_*
 *&adID=*
@@ -502,8 +502,8 @@
 *phpadsnew*
 *tizer.*/cgi-bin/iframe*
 *topban.*$script
-!------------------------Specific blocking rules------------------------!
-!----------------Sorted alphabetically based on domain name-------------!
+!-------------------------Specific Network Filters----------------------!
+!---------------Sorted alphabetically based on domain name--------------!
 ||34.212.19.168*
 ||35.188.14.213*$document,popup
 ||35.188.59.75*$document,popup
@@ -1068,7 +1068,7 @@
 ||popupads.ir/popupcode*$third-party
 ||popupearn.com*$third-party,script
 !||popupearn.com/website/*
-||popupearn.com/popbox/*
+!||popupearn.com/popbox/*
 ||popupha.com*$third-party
 ||popupirani.ir*$third-party,script
 !||popupirani.ir/popbox/*$third-party
@@ -1130,6 +1130,7 @@
 ||sfesd.net*$third-party
 !||sheypoor.com/static/ra/nofollow.html*$third-party
 !||sheypoor.com/static/ra/verticalnofollow.html*$third-party
+!||sheypoor.com/static/ra/mininofollow.html*$third-party
 ||sheypoor.com/static/ra/*$third-party
 ||shirazsong.net/*pop.js$script
 ||shohadayeiran.com/dash*$document,popup
@@ -1284,7 +1285,7 @@
 ||zlx.com.br/assets/playermon.js*
 ||zmbvnvhzpx.ga*$third-party
 ||zyxtecsff.bid*
-!--------------------------Script injection uBO-------------------------!
+!----------------------uBO Script Injection Filters---------------------!
 androidiha.net,webgardee.ir,birmusic.org##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
@@ -1309,7 +1310,7 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 !topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
-!--------------------Specific element hiding rules----------------------!
+!-----------------------Specific Cosmeic Filters------------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
 1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
@@ -1395,16 +1396,16 @@ tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tikfilm.net##*[class="wapper-posts"]:if(section>section>div>div>a[href*="tankionline.com/fa"])
 tikfilm.net##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
 tubeload.tv##a[href*="/po-direct.html?type="]
-uptvs.com##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir/jadvalpostuptv"])
-uptvs.com##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
-uptvs.com##article[class="post"]:if(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
-uptvs.com##article[class="post"]:if(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
-uptvs.com##div[class*="-popup-"]
+uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir/jadvalpostuptv"])
+uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
+uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
+uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
+uptvs.com,uptv.ir##div[class*="-popup-"]
 uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
 zoomit.ir##DIV.ThirdPost
-!----------------------Generic element hiding rules---------------------!
+!------------------------Generic Cosmetic Filters-----------------------!
 ###sidebar.fixads
 ##*.agahi
 ##*.ads-
@@ -1884,10 +1885,10 @@ zoomit.ir##DIV.ThirdPost
 ##*[class$="topadvers"]
 !
 ##*[data-extension="gif"][class="ad"]
-!----------------------------whitelist rules----------------------------!
+!---------------------------whitelist Section---------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 !$ource,@mynext.pro/BLF.txt
-!---------------------------Whitelist Filters---------------------------!
+!-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
 @@_banner*$domain=utah.edu
 @@banner.$domain=msdn.microsoft.com
@@ -1898,7 +1899,7 @@ zoomit.ir##DIV.ThirdPost
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 @@||varagh.com/advertisement.js
 @@||videotoolbox.com^$generichide
-!--------------------------Whitelist Elements---------------------------!
+!----------------------Whitelist Cosmetic Filters-----------------------!
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
 1o2.ir#@#a[href*="1o2.ir"]>img
