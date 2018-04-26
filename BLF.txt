@@ -1106,7 +1106,7 @@
 ||content.rmxads.com/rmtag*$script
 ||roozno.com/3044/*$document,popup
 ||rozfa.ir*
-||rozup.ir/up/*$script*
+||rozup.ir/up/*$script
 ||rtbsystem.com*
 ||rufull.ru/tmp/rufull.js*
 ||clicks.runews.radeant.com/informer/java_inf.php*
@@ -1310,7 +1310,7 @@ seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 !topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
-!-----------------------Specific Cosmeic Filters------------------------!
+!-----------------------Specific Cosmetic Filters------------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
 1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
@@ -1885,7 +1885,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class$="topadvers"]
 !
 ##*[data-extension="gif"][class="ad"]
-!---------------------------whitelist Section---------------------------!
+!---------------------------Whitelist Section---------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 !$ource,@mynext.pro/BLF.txt
 !-----------------------Whitelist Network Filters-----------------------!
