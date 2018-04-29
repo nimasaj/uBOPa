@@ -1956,6 +1956,7 @@ pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 poptaraneh.com#@#*[class^="banners"]
 putlockertoday.org#@#*[id$="-banner"]
 putlockertoday.org#@#*[id="banner"]
+quora.com#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
