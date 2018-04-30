@@ -1395,6 +1395,7 @@ texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?ut
 tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tikfilm.net##*[class="wapper-posts"]:if(section>section>div>div>a[href*="tankionline.com/fa"])
 tikfilm.net##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
+tikfilm.net##section[class="post-content"]:if(section>div>div>a[href*="jarmizanam.ir"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir/jadvalpostuptv"])
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
