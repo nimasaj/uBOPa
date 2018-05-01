@@ -1379,7 +1379,9 @@ p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="
 p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
 rapidvideo.com##*[id^="top350"]
-rokna.net##div:if(div>div[class*="type-scriptiframe position-a"])
+!rokna.net##div:if(div>div[class*="type-scriptiframe position-a"])
+rokna.net##div[class*="zxc clearbox noprint"]:if(div>div>a[href*="/advertisements/"])
+rokna.net##div[class*="type-scriptiframe position"]>iframe
 rooziato.com##*[class="single_section"]:if([src*="clickyab.com"])
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
