@@ -1,4 +1,4 @@
-! Title: MyNext adblock filter list
+! Title: MyNext uBlock filter list
 ! Expires: 2 days (update frequency)
 ! Version: 2.0
 ! http://mynext.pro/BLF.txt
@@ -30,6 +30,7 @@
 ! https://adblockplus.org/development-builds/new-filter-options-generichide-and-genericblock
 ! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 !
+! RegExpVisualizer http://www.regexper.com/
 !---------------------------Redundancy checker--------------------------!
 ! https://arestwo.org/famlam/redundantRuleChecker.html
 ! https://adblockplus.org/en/redundancy_check
@@ -611,7 +612,7 @@
 ||adnimo.com/code*$script
 ||adoneast.ru/click/*
 ||adonweb.ru*
-||adoperator.com/*$script
+||adoperator.com*$script
 ||adplex.media*
 ||adplxmd.com*
 ||adpulse.ir*
@@ -635,13 +636,13 @@
 ||adsvip.ir*$third-party
 ||adtaily.pl/links/*$script
 ||adtaily.pl/widget.js*
-||adtgs.com/*$script
+||adtgs.com*$script
 ||adtraff.ru*$script
 ||adtube.ir*$third-party,script
 ||adverigo.com*
 ||advon.net^
 ||adweb.ir*$third-party
-||adziran.ml/*$third-party
+||adziran.ml*$third-party
 ||afdads.com/widget*$third-party
 ||affilize.com*
 ||aflrmalpha.com/nav*
@@ -668,7 +669,7 @@
 ||content.aseadnet.com/show.php?*
 ||asrfarda.ir/newslink*.php$document,popup
 ||asrfarda.ir/page.php$document,popup
-*wms.assoc-amazon.com/*$script
+*wms.assoc-amazon.com*$script
 ||atiehnews.ir/7001/*$document,popup
 ||atis.ir/script?*$third-party
 ||avablog.ir/redirect.php^$popup
@@ -684,7 +685,7 @@
 ||bannerv.cf*
 ||baxfa.in/pop*$document,popup
 ||bebinin.com/popads*$script,third-party
-||autocontext.begun.ru/*$script
+||autocontext.begun.ru*$script
 ||bermoda.biz*$third-party
 ||bia2dj.com/link*
 ||bia*movie.com^$popup
@@ -792,7 +793,7 @@
 !eghtesadi.org/daghbcq.html,eghtesadi.org/daghbiw.html,eghtesadi.org/daghlts.html,eghtesadi.org/daghnpc.html
 ||egooad.c*$third-party
 !||egooad.com*show.php?*
-||ekod.info/*$script
+||ekod.info*$script
 ||elthamely.com*$third-party,popup
 *eas.apm.emediate.eu/*
 ||emediate.eu/eas?*
@@ -836,7 +837,7 @@
 ||hezarlink.com/newslink*$document,popup
 ||hezarlink.com/newsfa*$document,popup
 !m00d.ir/
-||hiad.biz/*$script
+||hiad.biz*$script
 ||hiad.biz/pop/*$document
 ||hiapple.ir*$popup
 ||hiapple.ir/redirect.*$document
@@ -863,7 +864,7 @@
 ||iptsunami.com/show/*
 ||ir-dl.com/e3e/*$document,popup
 ||iranecona.com/s2s/*$document,popup
-||iranmoosighi.ir/*$script
+||iranmoosighi.ir*$script
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
 ||irhc.in*.php*
@@ -938,12 +939,12 @@
 ||melatema.com/e/*$popup,document
 ||mellati.com/c/*$document,popup
 ||mellati.com/h/*$document,popup
-||meried.co/*$document,script,popup
+||meried.co*$document,script,popup
 ||merikhi.com/index.php?iduser*
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
 ||cdn.mihan360.com*$script
-||mihannama.ir/*$script
+||mihannama.ir*$script
 !||mikhak.net*
 ||minimumpay.info*
 ||club.minoogroup.com*
@@ -982,7 +983,7 @@
 ||nextpopup.ir*$third-party
 ||niazto.com*$third-party
 ||nicepopups.ir/website/js*
-||nickhel.com/*$script
+||nickhel.com*$script
 ||adseu.novem.pl*
 *tracking.novem.pl/rotator/*
 ||novintabligh.com/peikiran/*$third-party
@@ -1041,18 +1042,18 @@
 ||pishtazweb.org*view.php?uid*$third-party
 ||pixazza.com/widget/*
 ||pixfuture.net*afr*
-||plugrush.com/*$script
+||plugrush.com*$script
 ||pmsrvr.com/click/*
 ||pocitadlo.sk/?cid*
 ||polymeran.com/16hf.html*$document,popup
 ||pop-bazar.net/*/web/*
 ||pop-bazar.ru*
 ||popads.net*
-||popadscdn.net/*$script
+||popadscdn.net*$script
 ||poparya.com*/js*$third-party
 ||poparya.com^$third-party,popup
-||popcash.net/*$script
-||popcpm.com/*$script
+||popcash.net*$script
+||popcpm.com*$script
 ||popgozar.ir/pop.php*
 ||popitunder.com*
 ||popkade.ir*$third-party
@@ -1097,7 +1098,7 @@
 ||readserver.net*
 ||recomendedsite.com/*
 ||recreativ.ru/rcode.js*
-||widget.reformal.ru/*$script
+||widget.reformal.ru*$script
 ||regpole.com*
 ||remarketingpixel.com/stats*
 ||post.rmbn.ru/cgi-bin/main.fcgi?place_id*
@@ -1154,7 +1155,7 @@
 ||sornakhabar.com/dsor*$document,popup
 !sornakhabar.com/dsor123x.html,sornakhabar.com/dsor124y.html
 ||sparkstudios.com/r.poptracking?*
-||sparkstudios.com/*$script
+||sparkstudios.com*$script
 ||rts.sparkstudios.com/pp/*?pid*
 ||spop.ir/website/js*$third-party
 ||spottt.com/js/spottt.js*
@@ -1232,7 +1233,7 @@
 ||vixono.com*$popup
 ||vixono.com/redirect.*$third-party
 ||vogodita.com*
-||vogorana.ru/*$script
+||vogorana.ru*$script
 ||voluumtrk.com*
 ||vsexshop.ru/store/widget*
 ||waframedia20.com*
@@ -1286,7 +1287,7 @@
 ||zmbvnvhzpx.ga*$third-party
 ||zyxtecsff.bid*
 !----------------------uBO Script Injection Filters---------------------!
-androidiha.net,webgardee.ir,birmusic.org##script:inject(abort-current-inline-script.js, checkCookie)
+androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
 ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
@@ -1299,6 +1300,7 @@ ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir##script:inject(abort-on-property-read.js, vc_url)
+iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
@@ -1354,6 +1356,7 @@ gooyait.com##*[id^="anetwork-"]
 hidoctor.ir##*[class^="pdsifradsbn"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
+iranfilmplus.com##div[id="infoi"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
 khabarfarsi.com##*[id="banners_120_top"]
@@ -1379,7 +1382,6 @@ p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="
 p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
 rapidvideo.com##*[id^="top350"]
-!rokna.net##div:if(div>div[class*="type-scriptiframe position-a"])
 rokna.net##div[class*="zxc clearbox noprint"]:if(div>div>a[href*="/advertisements/"])
 rokna.net##div[class*="type-scriptiframe position"]>iframe
 rooziato.com##*[class="single_section"]:if([src*="clickyab.com"])
