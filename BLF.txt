@@ -30,7 +30,7 @@
 ! https://adblockplus.org/development-builds/new-filter-options-generichide-and-genericblock
 ! https://kb.adguard.com/en/general/how-to-create-your-own-ad-filters
 !
-! RegExpVisualizer http://www.regexper.com/
+! RegExpVisualizer http://www.regexper.com
 !---------------------------Redundancy checker--------------------------!
 ! https://arestwo.org/famlam/redundantRuleChecker.html
 ! https://adblockplus.org/en/redundancy_check
@@ -1290,7 +1290,7 @@
 androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
-ava2music.com##script:inject(abort-on-property-read.js, checkCookie)
+ava2music.com,shirazsong.net##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
@@ -1390,6 +1390,7 @@ seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
 shirazsong.net##div[class="box"]:if(div>div>p>a[href*="zula.ir"])
+shirazsong.net##div[class="content"]:if(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
 skyscanner.net##li[id*="tame-slot-day-view-inline"]
 smusic.ir##article:if(article>center>div>a[title*="زولا"])
 smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
