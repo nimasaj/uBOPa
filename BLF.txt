@@ -1366,6 +1366,7 @@ live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 mihandownload.com##*[class="fix well"]
+mihandownload.com##div[class="textwidget widget-text"]:if(div>div>div>a[href*="tracking.travian.ir"])
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 namnak.com##a[href*="/ag_"]>img
@@ -1383,7 +1384,8 @@ p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
 rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:if(div>div>a[href*="/advertisements/"])
-rokna.net##div[class*="type-scriptiframe position"]>iframe
+!rokna.net##div[class*="type-scriptiframe position"]>iframe
+rokna.net##div[class^="type-script"]
 rooziato.com##*[class="single_section"]:if([src*="clickyab.com"])
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
@@ -1485,6 +1487,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="dateesco.com?site"]>img
 ##*[href*="dtour.ir"]>img
 ##a[href*="eshopfa.net/Detail.aspx"]>img
+##a[href*="faraz-system.com"]>img
 ##a[href*="fastclick.biz/helper/click/"]>img
 ##a[href*="favajam.com"]>img
 ##a[href*="ghasedak24.com"]>img
@@ -1505,6 +1508,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="modiryatnovin.com"]>img
 ##*[href*="novakala.com"]>img
 ##*[href*="onspd.tk"]>img
+##a[href*="orico-iran.ir"]>img
 ##a[href*="pandcaspian.com/news"]>img
 ##*[href*="parsnafe.com/?utm_source"]>img
 ##a[href*="rahoja.com"]>img
@@ -1801,6 +1805,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class*=" banner-"]
 ##*[class*=" topadver "]
 ##*[class*="-ad-container"]
+##*[class*="-ads "]
 ##*[class*="-ads0"]
 ##*[class*="-ads1"]
 ##*[class*="-ads2"]
@@ -1930,6 +1935,7 @@ dateesco.com#@#a[href*="dateesco.com?site"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
 favajam.com#@#a[href*="favajam.com"]>img
+faraz-system.com#@#a[href*="faraz-system.com"]>img
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
 gizmodo.com#@#*[class*="_ads_"]
@@ -1958,6 +1964,7 @@ mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
 novakala.com#@#*[href*="novakala.com"]>img
+orico-iran.ir#@#a[href*="orico-iran.ir"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 poptaraneh.com#@#*[class^="banners"]
 putlockertoday.org#@#*[id$="-banner"]
