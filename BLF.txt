@@ -1294,13 +1294,14 @@ ava2music.com,shirazsong.net##script:inject(abort-on-property-read.js, checkCook
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
+downloadsoftware.ir##script:inject(abort-on-property-read.js, urlToShow)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir##script:inject(abort-on-property-read.js, vc_url)
-iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
+iranfilmplus.com,trainbit.com##script:inject(abort-current-inline-script.js, $.ready)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
@@ -1438,6 +1439,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href^="ads/"]
 ##a[href^="http://adgup.com"]
 ##a[href^="http://izee.ir/"]>img
+##a[href^="https://link.limo/"]>img
 ##a[href*=" ads "]
 ##a[href*=" ads-"]
 ##a[href*=" ads_"]
@@ -1978,4 +1980,5 @@ sharifngo.com#@#a[href*="sharifngo.com"]>img
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
+trainbit.com#@#a[href$="=banner"]>img
 webmd.com#@#*[class$="-banner"]
