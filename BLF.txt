@@ -1116,6 +1116,7 @@
 ||rzb.ir*$script
 ||s2block.com*$script
 ||sabavision.com/showcamp*$third-party
+!||sabavision.com/get_camp.php*$third-party
 ||click.sabavision.com*$third-party
 ||saghybux.com*$document,popup
 ||salamaneh.com/a100/*$document,popup
@@ -1301,7 +1302,7 @@ ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir##script:inject(abort-on-property-read.js, vc_url)
-iranfilmplus.com,trainbit.com##script:inject(abort-current-inline-script.js, $.ready)
+iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
@@ -1311,6 +1312,8 @@ putlockers.*##script:inject(abort-on-property-read.js, performance)
 putlockers.*##script:inject(nowebrtc.js)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
+trainbit.com##script:inject(abort-current-inline-script.js, getCookie)
+trainbit.com##script:inject(nano-setTimeout-booster.js)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 !topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
 !-----------------------Specific Cosmetic Filters------------------------!
