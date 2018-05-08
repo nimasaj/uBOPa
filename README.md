@@ -17,7 +17,7 @@ As a precaution, it is advisable to <b>disable</b> your Adblocker when you take 
 </p></br>
 <h2 dir="rtl">- پشتیبانی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSupport -</h2>
 <p dir="rtl">
-در صورتی که تبلیغی مسدود نشده بود، و یا بخشی از وبسایت به اشتباه مسدود شده بود، <a href="https://github.com/nimasaj/uBO_Filterlist/issues/new">اینجا</a> مشکل را توضیح دهید 
+در صورتی که تبلیغی مسدود نشده بود، و یا بخشی از وبسایت به اشتباه مسدود شده بود، <a href="https://github.com/nimasaj/uBO_Filterlist/issues/new">اینجا</a> و یا از راه ایمیل hello at mynext.pro مشکل را توضیح دهید 
 </p>
 <p dir="ltr">
 In case of any unblocked advertisement, or false blocking, please open a <a href="https://github.com/nimasaj/uBO_Filterlist/issues/new">new issue</a> and explain the problem.
