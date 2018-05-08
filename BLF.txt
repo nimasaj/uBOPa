@@ -1300,7 +1300,7 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir##script:inject(abort-on-property-read.js, vc_url)
 iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
@@ -1493,6 +1493,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[href*="dtour.ir"]>img
 ##a[href*="eshopfa.net/Detail.aspx"]>img
 ##a[href*="faraz-system.com"]>img
+##a[href*="farzamweb.com"]>img
 ##a[href*="fastclick.biz/helper/click/"]>img
 ##a[href*="favajam.com"]>img
 ##a[href*="ghasedak24.com"]>img
@@ -1941,6 +1942,7 @@ dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
 favajam.com#@#a[href*="favajam.com"]>img
 faraz-system.com#@#a[href*="faraz-system.com"]>img
+farzamweb.com#@#a[href*="farzamweb.com"]>img
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
 gizmodo.com#@#*[class*="_ads_"]
