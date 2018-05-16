@@ -968,6 +968,7 @@
 ||clk.myretargeting.com*
 ||nabzino.com/client/*$third-party,script
 ||najva.com/static/*$third-party,script
+||namasha.com/advast?id*
 ||narsense.com/redirect.*$document,popup
 ||navrcholu.cz/code?site*
 ||neginpop.ir*/js*
@@ -1224,6 +1225,7 @@
 ||unblockmyproxy.site/js/*
 ||unztsvrjofqp.com*$script
 ||cdn.uservoice.com/javascripts/widgets/tab.js*
+||utop.ir*$third-party
 ||vatanclick.ir*$third-party
 ||vatanshop.com/webmaster/*
 ||vcfs6ip5h6.bid*
@@ -1496,6 +1498,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="farzamweb.com"]>img
 ##a[href*="fastclick.biz/helper/click/"]>img
 ##a[href*="favajam.com"]>img
+##a[href*="followeryab.com/?utm_source"]>img
 ##a[href*="ghasedak24.com"]>img
 ##a[href*="giftcard.ir"]>img
 ##*[href*="hicpm10.com/watch?key"]>img
@@ -1945,7 +1948,7 @@ faraz-system.com#@#a[href*="faraz-system.com"]>img
 farzamweb.com#@#a[href*="farzamweb.com"]>img
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
-gizmodo.com#@#*[class*="_ads_"]
+gizmodo.com,lifehacker.com#@#*[class*="_ads_"]
 hormozhotel.com#@#a[href*="hormozhotel.com"]>img
 hostiran.net#@#a[href*="hostiran.net"]>img
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
@@ -1980,7 +1983,7 @@ quora.com#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
-seemorgh.com#@#*[class*=" ads-"]
+seemorgh.com,bbc.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
