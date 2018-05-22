@@ -1337,8 +1337,9 @@ androidiha.net##*[class*="afarinak"]
 androidiha.net##*[class*="lightbox-easy-popup"]
 androidiha.net##*[id*="lightbox-easy-popup"]
 asaldl.com##*[class="banas"]
-asandl.com##article[class="post game"]:if(article>div>figure>a[href*="zula.ir"])
-asandl.com##article[class="post ebook"]:if(article>div>figure>a[href*="tankionline.com"])
+asandl.com##article[class^="post"]:if(article>div>figure>a[href*="zula.ir"])
+asandl.com##article[class^="post"]:if(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
+asandl.com##article[class^="post"]:if(article>div>figure>a[href*="webzi.ir/?utm_source"])
 asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="text-asan"]:if(div>h3:has-text(Text ADS in AsanDownload))
 dlroozane.net##div[class="static-post"]:if(div>div>h4:has-text(تبلیغ))
@@ -1359,6 +1360,7 @@ ganool.*##div[id*="banner"]
 gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
+gooyait.com##*[itemtype*="WPAdBlock"]
 hidoctor.ir##*[class^="pdsifradsbn"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
@@ -1426,8 +1428,6 @@ zoomit.ir##DIV.ThirdPost
 ##*.bannercontainer
 ##*.topads1
 ##*[data-bind=" advertisement"]
-##*[itemtype*="WPAdBlock"]
-!gooyait.com
 !
 ##*[style="width:120px;height:240px;position:relative;"]
 ##*[style*="tabliq"]
@@ -1445,6 +1445,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href^="http://adgup.com"]
 ##a[href^="http://izee.ir/"]>img
 ##a[href^="https://link.limo/"]>img
+##a[href^="https://mehran-web.com"]>img
 ##a[href*=" ads "]
 ##a[href*=" ads-"]
 ##a[href*=" ads_"]
@@ -1918,8 +1919,8 @@ zoomit.ir##DIV.ThirdPost
 @@||fbdown.net/js/adframe.js
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 @@||varagh.com/advertisement.js
-@@||videotoolbox.com^$generichide
 !----------------------Whitelist Cosmetic Filters-----------------------!
+@@||videotoolbox.com^$generichide
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
 1o2.ir#@#a[href*="1o2.ir"]>img
@@ -1970,6 +1971,7 @@ mail.google.com#@#*[class$="6ad"]
 mail.google.com#@#*[class$="7ad"]
 mail.google.com#@#*[class$="8ad"]
 mail.google.com#@#*[class$="9ad"]
+mehran-web.com#@#a[href^="https://mehran-web.com"]>img
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
@@ -1985,6 +1987,7 @@ samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 seemorgh.com,bbc.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
+sourceforge.net#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
