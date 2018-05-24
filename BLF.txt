@@ -1096,6 +1096,7 @@
 ||r98.ir/code/popup*$third-party
 ||radikal.ru/bh.ashx?pt*
 ||rarenok.biz*
+||landings.ravitel.com/seq*$popup
 ||readserver.net*
 ||recomendedsite.com/*
 ||recreativ.ru/rcode.js*
@@ -1193,6 +1194,7 @@
 ||ths9j89.com*$popup,document
 !||ths9j89.com/watch^$popup,document
 ||api.ticketing-service.com/topTickets/*$third-party
+||tikfilm.net/wp-content/uploads/ub.png
 ||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
 ||tizer*.net/tizer*.php?sid*
@@ -1293,10 +1295,11 @@
 androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
-ava2music.com,shirazsong.net##script:inject(abort-on-property-read.js, checkCookie)
+ava2music.com,shirazsong.net,p30day.com##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
+dlroozane.net##script:inject(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##script:inject(abort-on-property-read.js, urlToShow)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
@@ -1310,6 +1313,7 @@ khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.
 makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
 music-online.ir##script:inject(set-constant.js, needpop, 0)
 nokiapoweruser.com##script:inject(abort-current-inline-script.js, anOptions)
+p30day.com##script:inject(abort-on-property-read.js, window.open)
 putlockers.*##script:inject(abort-on-property-read.js, performance)
 putlockers.*##script:inject(nowebrtc.js)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
@@ -1364,6 +1368,7 @@ gooyait.com##*[itemtype*="WPAdBlock"]
 hidoctor.ir##*[class^="pdsifradsbn"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
+ir-dl.com##div[class="beetads block"]
 iranfilmplus.com##div[id="infoi"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
@@ -1375,6 +1380,7 @@ mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 mihandownload.com##*[class="fix well"]
 mihandownload.com##div[class="textwidget widget-text"]:if(div>div>div>a[href*="tracking.travian.ir"])
+mihandownload.com##div[class="well tip tags"]
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 namnak.com##a[href*="/ag_"]>img
@@ -1390,6 +1396,7 @@ p30day.com##*[class="static_posts adsblockpop"]
 p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="zula.ir"])
 p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
+p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
 rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:if(div>div>a[href*="/advertisements/"])
 !rokna.net##div[class*="type-scriptiframe position"]>iframe
@@ -1401,6 +1408,7 @@ seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
 shirazsong.net##div[class="box"]:if(div>div>p>a[href*="zula.ir"])
 shirazsong.net##div[class="content"]:if(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
+shirazsong.net##div[style="text-align:center"]>div[class="content"]:if(div>div>p>a[href*="tankionline.com/fa?utm_source"])
 skyscanner.net##li[id*="tame-slot-day-view-inline"]
 smusic.ir##article:if(article>center>div>a[title*="زولا"])
 smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
@@ -1416,7 +1424,9 @@ uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir/j
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
+uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href$="goo.gl/y3oDgW"])
 uptvs.com,uptv.ir##div[class*="-popup-"]
+uptvs.com##div[class="tags"]
 uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
