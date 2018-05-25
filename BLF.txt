@@ -1305,7 +1305,7 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir##script:inject(abort-on-property-read.js, vc_url)
 iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
@@ -1318,10 +1318,10 @@ putlockers.*##script:inject(abort-on-property-read.js, performance)
 putlockers.*##script:inject(nowebrtc.js)
 seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
 seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
+topseda.me,mytopseda.ir##script:inject(abort-current-inline-script.js, APOP_LINKS)
 trainbit.com##script:inject(abort-current-inline-script.js, getCookie)
 trainbit.com##script:inject(nano-setTimeout-booster.js)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
-!topseda.me##script:inject(abort-current-inline-script.js, APOP_LINKS)
 !-----------------------Specific Cosmetic Filters------------------------!
 1pezeshk.com##div[class="textwidget widget-text"]
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
@@ -1512,6 +1512,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="followeryab.com/?utm_source"]>img
 ##a[href*="ghasedak24.com"]>img
 ##a[href*="giftcard.ir"]>img
+##a[href*="go.oclaserver.com/afu.php?zoneid"]>img
 ##*[href*="hicpm10.com/watch?key"]>img
 ##a[href*="hormozhotel.com"]>img
 ##a[href*="hostiran.net"]>img
@@ -1536,6 +1537,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[href*="sarafiroyal.com"]>img
 ##a[href*="sharifngo.com"]>img
 ##a[href*="stnews.ir"]>img
+##a[href*="tikstore.ir/product.php?id"]>img
 ##a[href*="titrebartar.ir"]>img
 ##a[href*="tracking.appdana.com"]>img
 ##a[href$="/ads"]
@@ -1609,6 +1611,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[id="adsimg"]
 ##*[id="advBan"]
 ##*[id="banner"]
+##div[id="lightbox-easy-popup"]
 ##*[id="tabliq"]
 ##*[id^="ad "]
 ##*[id^="ad-"]
