@@ -1430,6 +1430,8 @@ uptvs.com##div[class="tags"]
 uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
+yasdl.com##div[class="post-des-box"]:if(div>div>div>div:has-text(تبليغات))
+yasdl.com##div[class="post-body post-tags row"]
 zoomit.ir##DIV.ThirdPost
 !------------------------Generic Cosmetic Filters-----------------------!
 ###sidebar.fixads
@@ -1474,6 +1476,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/ads-"]
 ##a[href*="/ads_"]
 ##a[href*="/ads/"]
+##a[href*="/ads/"]>img
 ##a[href*="/agahi"]
 ##a[href*="/banners/click/"]>img
 ##a[href*="/counter/click.php?id"]>img
@@ -1485,12 +1488,13 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="2dda.ir"]>img
 ##a[href*="3dmaxclass.com"]>img
 ##a[href*="7sharj.ir"]>img
-##*[href*="account.zula.ir/pages/new-iran?utm_source"]>img
+##a[href*="app.adjust.com"]>img
 ##*[href*="adonisparvaz.com"]>img
 ##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
 ##a[href*="amlakbaharan.com"]>img
 ##a[href*="amlakvitrin.com"]>img
+##a[href*="tracking.appdana.com"]>img
 ##*[href*="arefrayaneh.com"]>img
 ##*[href*="arian-motor.com"]>img
 ##*[href*="arshantour.net"]>img
@@ -1502,6 +1506,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="cigoul-clothing.com"]>img
 ##a[href*="click_ads.php?id"]>img
 ##a[href*="clicksgear.com/watch"]
+##a[href*="cobal.ir/app?utm_source"]>img
 ##a[href*="dateesco.com?site"]>img
 ##*[href*="dtour.ir"]>img
 ##a[href*="eshopfa.net/Detail.aspx"]>img
@@ -1539,7 +1544,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="stnews.ir"]>img
 ##a[href*="tikstore.ir/product.php?id"]>img
 ##a[href*="titrebartar.ir"]>img
-##a[href*="tracking.appdana.com"]>img
+##*[href*="account.zula.ir/pages/new-iran?utm_source"]>img
 ##a[href$="/ads"]
 ##a[href$="=banner"]>img
 !
@@ -1947,7 +1952,7 @@ arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
 banifilm.ir#@#*[class="banner"]
 bbc.com,pay98.net,icelove.ir#@#*[class*="-ads-"]
-bozemanscience.com#@#*[class*=" banner-"]
+bozemanscience.com,ucsd.edu#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca,instructables.com,turbofuture.com#@#*[class$="-ads"]
@@ -1998,7 +2003,7 @@ quora.com#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
-seemorgh.com,bbc.com#@#*[class*=" ads-"]
+seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 sourceforge.net#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
