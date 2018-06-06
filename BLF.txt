@@ -794,6 +794,7 @@
 ||egooad.c*$third-party
 !||egooad.com*show.php?*
 ||ekod.info*$script
+||electro-tech-online.com/interstitial/interstitial.js*$script
 ||elthamely.com*$third-party,popup
 *eas.apm.emediate.eu/*
 ||emediate.eu/eas?*
@@ -1291,7 +1292,7 @@
 ||zlx.com.br/assets/playermon.js*
 ||zmbvnvhzpx.ga*$third-party
 ||zyxtecsff.bid*
-!----------------------uBO Script Injection Filters---------------------!
+!--------------------------uBO Scriptlet Filters-------------------------!
 androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
@@ -1999,13 +2000,14 @@ pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 poptaraneh.com#@#*[class^="banners"]
 putlockertoday.org#@#*[id$="-banner"]
 putlockertoday.org#@#*[id="banner"]
+qr-code-generator.com#@#*[class$="-ad"]
 quora.com#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
-sourceforge.net#@#*[class*="-ads "]
+sourceforge.net,instructables.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
