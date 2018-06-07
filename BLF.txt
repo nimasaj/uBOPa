@@ -1125,6 +1125,7 @@
 ||salamaneh.com/a100/*$document,popup
 ||salamatism.com/e91/*$document,popup
 ||salammag.com^$popup,document
+||sanjagh.net/assets/client.js$script,third-party
 ||sarayecd.ir/$image
 !||sarzaminekhabar.com*
 ||galleries.secure-softwaremanager.com*
@@ -1296,7 +1297,7 @@
 androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
-ava2music.com,shirazsong.net##script:inject(abort-on-property-read.js, checkCookie)
+ava2music.com,shirazsong.net,ariapix.net##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
@@ -1952,7 +1953,7 @@ arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
 banifilm.ir#@#*[class="banner"]
-bbc.com,pay98.net,icelove.ir#@#*[class*="-ads-"]
+bbc.com,pay98.net,icelove.ir,ofoghnews.ir#@#*[class*="-ads-"]
 bozemanscience.com,ucsd.edu#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
 caranddriver.com#@#*[class^="ads-"]
