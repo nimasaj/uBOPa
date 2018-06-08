@@ -1294,10 +1294,10 @@
 ||zmbvnvhzpx.ga*$third-party
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
-androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz##script:inject(abort-current-inline-script.js, checkCookie)
+androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
-ava2music.com,shirazsong.net,ariapix.net,gamelive.ir##script:inject(abort-on-property-read.js, checkCookie)
+ava2music.com,shirazsong.net,ariapix.net##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
