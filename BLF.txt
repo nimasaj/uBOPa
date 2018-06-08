@@ -1125,7 +1125,7 @@
 ||salamaneh.com/a100/*$document,popup
 ||salamatism.com/e91/*$document,popup
 ||salammag.com^$popup,document
-||sanjagh.net/assets/client.js$script,third-party
+||sanjagh.net/assets/client.js$third-party,script
 ||sarayecd.ir/$image
 !||sarzaminekhabar.com*
 ||galleries.secure-softwaremanager.com*
@@ -1297,7 +1297,7 @@
 androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
-ava2music.com,shirazsong.net,ariapix.net##script:inject(abort-on-property-read.js, checkCookie)
+ava2music.com,shirazsong.net,ariapix.net,gamelive.ir##script:inject(abort-on-property-read.js, checkCookie)
 ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
 avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
 edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
@@ -1421,6 +1421,7 @@ tikfilm.net##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tikfilm.net##*[class="wapper-posts"]:if(section>section>div>div>a[href*="tankionline.com/fa"])
 tikfilm.net##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
 tikfilm.net##section[class="post-content"]:if(section>div>div>a[href*="jarmizanam.ir"])
+top2download.com##article:if(article>header>div>a[href="https://top2download.com/ads.html"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir/jadvalpostuptv"])
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
@@ -1457,6 +1458,8 @@ zoomit.ir##DIV.ThirdPost
 !
 ##a[href^="ads/"]
 ##a[href^="http://adgup.com"]
+##a[href^="http://botsaz.com"]>img
+##a[href^="http://iran20tel.ir"]>img
 ##a[href^="http://izee.ir/"]>img
 ##a[href^="https://link.limo/"]>img
 ##a[href^="https://mehran-web.com"]>img
@@ -1542,6 +1545,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="rahoja.com"]>img
 ##*[href*="samiclick.com"]
 ##*[href*="sarafiroyal.com"]>img
+##a[href*="shahrfarang.net"]>img
 ##a[href*="sharifngo.com"]>img
 ##a[href*="stnews.ir"]>img
 ##a[href*="tikstore.ir/product.php?id"]>img
@@ -1885,6 +1889,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[class*="Xbanner"]
 ##*[class$=" ads"]
 ##*[class$=" advContainer"]
+##*[class$=" fixedadv"]
 ##*[class$="-ad"]
 ##*[class$="-ads"]
 ##*[class$="-banner"]
@@ -1940,6 +1945,7 @@ zoomit.ir##DIV.ThirdPost
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 @@||varagh.com/advertisement.js
 !----------------------Whitelist Cosmetic Filters-----------------------!
+||lasttours.net^$generichide
 @@||videotoolbox.com^$generichide
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
