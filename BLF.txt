@@ -15,6 +15,7 @@
 ! https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode
 ! https://github.com/uBlockAdmin/uBlock/issues/433#issuecomment-68488686
 ! https://github.com/uBlockOrigin/uAssets/issues/1896
+! https://github.com/uBlockOrigin/uAssets/issues/2505
 !
 ! https://www.reddit.com/r/uBlockOrigin/
 ! https://adblockplus.org/filters
@@ -2014,7 +2015,7 @@ samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
-sourceforge.net,instructables.com#@#*[class*="-ads "]
+sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
