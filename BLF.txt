@@ -617,6 +617,8 @@
 ||adonweb.ru*
 ||adoperator.com*$script
 ||adpin.ir/pop.php*$popup,document
+||adpin.ir/iq$script
+||adpin.ir/tgch.php$popup,document
 ||adplex.media*
 ||adplxmd.com*
 ||adpulse.ir*
@@ -1567,6 +1569,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[href*="sarafiroyal.com"]>img
 ##a[href*="shahrfarang.net"]>img
 ##a[href*="sharifngo.com"]>img
+##a[href*="shopdey.ir/product"]>img
 ##a[href*="stnews.ir"]>img
 ##a[href*="tikstore.ir/product.php?id"]>img
 ##a[href*="titrebartar.ir"]>img
@@ -2042,6 +2045,7 @@ sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
 seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
+shopdey.ir#@#a[href*="shopdey.ir/product"]>img
 sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
