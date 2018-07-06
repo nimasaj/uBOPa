@@ -16,6 +16,7 @@
 ! https://github.com/uBlockAdmin/uBlock/issues/433#issuecomment-68488686
 ! https://github.com/uBlockOrigin/uAssets/issues/1896
 ! https://github.com/uBlockOrigin/uAssets/issues/2505
+! https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering
 !
 ! https://www.reddit.com/r/uBlockOrigin/
 ! https://adblockplus.org/filters
@@ -448,6 +449,7 @@
 */newads/*
 */nextads*$script
 */novintabligh/*
+*/OneSignalSDKWorker.js*
 */page/shopads*
 */paidads/*
 */panelad/*
@@ -614,6 +616,7 @@
 ||adoneast.ru/click/*
 ||adonweb.ru*
 ||adoperator.com*$script
+||adpin.ir/pop.php*$popup,document
 ||adplex.media*
 ||adplxmd.com*
 ||adpulse.ir*
@@ -819,6 +822,9 @@
 ||fileir.ir^$popup
 ||findepended.com^$popup
 ||finishclueobscure.info*
+||fitone.ir/iq$script
+||fitone.ir/pop.php*$popup,document
+||fitone.ir/tgch.php$popup,document
 ||fluidads.co*
 ||js.freedownloadsoft.net/*/gallery.js*
 *m.friendlyduck.com*/MediaServer/*
@@ -845,6 +851,7 @@
 ||hiapple.ir/redirect.*$document
 ||hidoctor.ir/adp/*$third-party
 ||hitcpm.com*$third-party
+||hitcpm.com/watch?key*$document
 ||hitplus.ir*$third-party
 ||hitpop.ir/website/js*$third-party
 ||hostmir.net/21_36_240_f.js*$third-party,script
@@ -1134,6 +1141,7 @@
 ||selectmedia.asia/adi.evt*
 ||cdn.sendpulse.com*$script
 ||sendword.ir*$third-party
+||sendword.ir/pop.php*$popup,document
 ||sfesd.net*$third-party
 !||sheypoor.com/static/ra/nofollow.html*$third-party
 !||sheypoor.com/static/ra/verticalnofollow.html*$third-party
@@ -1295,7 +1303,7 @@
 ||zmbvnvhzpx.ga*$third-party
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
-androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir##script:inject(abort-current-inline-script.js, checkCookie)
+androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir,tinymov.top##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
 ava2music.com,shirazsong.net,ariapix.net##script:inject(abort-on-property-read.js, checkCookie)
@@ -1309,7 +1317,7 @@ farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir##script:inject(abort-on-property-read.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com##script:inject(abort-on-property-read.js, vc_url)
 iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
