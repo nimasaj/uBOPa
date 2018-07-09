@@ -616,8 +616,8 @@
 ||adoneast.ru/click/*
 ||adonweb.ru*
 ||adoperator.com*$script
-||adpin.ir/pop.php*$popup,document
 ||adpin.ir/iq$script
+||adpin.ir/pop.php*$popup,document
 ||adpin.ir/tgch.php$popup,document
 ||adplex.media*
 ||adplxmd.com*
@@ -1468,12 +1468,15 @@ zoomit.ir##DIV.ThirdPost
 ##*[title*="تبلیغ"]
 !
 ##a[href^="ads/"]
+##a[href^="http://40nama.com"]>img
 ##a[href^="http://adgup.com"]
 ##a[href^="http://astiak.net"]>img
 ##a[href^="http://botsaz.com"]>img
 ##a[href^="http://iran20tel.ir"]>img
 ##a[href^="http://izee.ir/"]>img
 ##a[href^="https://pfh.co.ir"]>img
+##a[href^="http://pooyano.com"]>img
+##a[href^="http://shahrekaghazdivari.com"]>img
 ##a[href^="http://www.aradsamaneh.com"]>img
 ##a[href^="http://www.barsait.com"]>img
 ##a[href^="http://www.favaafzar.com"]>img
@@ -1960,6 +1963,7 @@ zoomit.ir##DIV.ThirdPost
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
 @@_banner*$domain=utah.edu
+@@.com/ads.$domain=uploadboy.com
 @@banner.$domain=msdn.microsoft.com
 @@||bambergerkennanchitinous.com/.adframesrc.
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
@@ -1975,6 +1979,7 @@ zoomit.ir##DIV.ThirdPost
 1o2.ir#@#a[href*="1o2.ir"]>img
 2dda.ir#@#a[href*="2dda.ir"]>img
 3dmaxclass.com#@#a[href*="3dmaxclass.com"]>img
+40nama.com#@#a[href^="http://40nama.com"]>img
 adgup.com#@#a[href^="http://adgup.com"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
@@ -2033,6 +2038,7 @@ novakala.com#@#*[href*="novakala.com"]>img
 orico-iran.ir#@#a[href*="orico-iran.ir"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
+pooyano.com#@#a[href^="http://pooyano.com"]>img
 poptaraneh.com#@#*[class^="banners"]
 putlockertoday.org#@#*[id$="-banner"]
 putlockertoday.org#@#*[id="banner"]
@@ -2044,6 +2050,7 @@ samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
 seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
+shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 shopdey.ir#@#a[href*="shopdey.ir/product"]>img
 sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
