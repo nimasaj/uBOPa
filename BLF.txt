@@ -1510,6 +1510,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/banners/click/"]>img
 ##a[href*="/counter/click.php?id"]>img
 ##a[href*="&utm_medium=banner&utm_campaign="]>img
+##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
@@ -1963,7 +1964,7 @@ zoomit.ir##DIV.ThirdPost
 !$ource,@mynext.pro/BLF.txt
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
-@@_banner*$domain=utah.edu
+@@_banner*$domain=utah.edu|cable.co.uk
 @@.com/ads.$domain=uploadboy.com
 @@banner.$domain=msdn.microsoft.com
 @@||bambergerkennanchitinous.com/.adframesrc.
@@ -1993,13 +1994,14 @@ bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 banifilm.ir#@#*[class="banner"]
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 bbc.com,pay98.net,icelove.ir,ofoghnews.ir#@#*[class*="-ads-"]
-bozemanscience.com,ucsd.edu#@#*[class*=" banner-"]
+bozemanscience.com,ucsd.edu,cable.co.uk#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
+cable.co.uk#@#*[class*=" banner "]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca,instructables.com,turbofuture.com#@#*[class$="-ads"]
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
-cyber.ir,utah.edu#@#*[class^="banner-"]
+cyber.ir,utah.edu,cable.co.uk#@#*[class^="banner-"]
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
