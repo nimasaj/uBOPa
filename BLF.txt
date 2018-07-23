@@ -1158,6 +1158,7 @@
 ||shoptou.in^$popup
 ||shopty.in^$popup
 ||shwclk.com/click*$document,popup
+||sigmaad.com*$script,third-party
 ||sitemerkezi.net*
 ||sixsigmatraffic.com/cs/iframe*
 ||skimresources.com*
@@ -1382,6 +1383,7 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
+hexdownload.net##div[class="widget-con"]:if(div>figure>a[href*="zula.ir"])
 hidoctor.ir##*[class^="pdsifradsbn"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
@@ -1440,11 +1442,12 @@ tikfilm.net,tikfilm.org##div[class="content_text"]:if(div>div>a[href*="netkar.or
 tikfilm.net,tikfilm.org##section[class="post-content"]:if(section>div>div>a[href*="jarmizanam.ir"])
 top2download.com##article:if(article>header>div>a[href*=".com/ads."])
 tubeload.tv##a[href*="/po-direct.html?type="]
-uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir/jadvalpostuptv"])
+uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir"])
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href$="goo.gl/y3oDgW"])
+uptvs.com,uptv.ir##div[class="widget-con"]:if(div>h4:has-text(زولا))
 uptvs.com,uptv.ir##div[class*="-popup-"]
 uptvs.com##div[class="tags"]
 uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
@@ -1556,6 +1559,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="ghasedak24.com"]>img
 ##a[href*="giftcard.ir"]>img
 ##a[href*="go.oclaserver.com/afu.php?zoneid"]>img
+##a[href*="hibids10.com"]>img
 ##*[href*="hicpm10.com/watch?key"]>img
 ##a[href*="hormozhotel.com"]>img
 ##a[href*="hostiran.net"]>img
@@ -1570,6 +1574,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="mihanstore.net/in.php?id="]>img
 ##*[href*="mizbanwp.com"]>img
 ##a[href*="modiryatnovin.com"]>img
+##a[href*="nikfarshop.ir"]>img
 ##*[href*="novakala.com"]>img
 ##*[href*="onspd.tk"]>img
 ##a[href*="orico-iran.ir"]>img
@@ -1999,14 +2004,14 @@ bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 banifilm.ir#@#*[class="banner"]
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 bbc.com,pay98.net,icelove.ir,ofoghnews.ir#@#*[class*="-ads-"]
-bozemanscience.com,ucsd.edu,cable.co.uk#@#*[class*=" banner-"]
+bozemanscience.com,ucsd.edu,cable.co.uk,truustneuroimaging.com#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
 cable.co.uk#@#*[class*=" banner "]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca,instructables.com,turbofuture.com#@#*[class$="-ads"]
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
-cyber.ir,utah.edu,cable.co.uk#@#*[class^="banner-"]
+cyber.ir,utah.edu,cable.co.uk,truustneuroimaging.com#@#*[class^="banner-"]
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
@@ -2042,6 +2047,7 @@ mehran-web.com#@#a[href^="https://mehran-web.com"]>img
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
+nikfarshop.ir#@#a[href*="nikfarshop.ir"]>img
 novakala.com#@#*[href*="novakala.com"]>img
 orico-iran.ir#@#a[href*="orico-iran.ir"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
@@ -2049,7 +2055,7 @@ pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
 poptaraneh.com#@#*[class^="banners"]
 putlockertoday.org#@#*[id$="-banner"]
-putlockertoday.org#@#*[id="banner"]
+putlockertoday.org,truustneuroimaging.com#@#*[id="banner"]
 qr-code-generator.com#@#*[class$="-ad"]
 quora.com,downloadly.ir#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
