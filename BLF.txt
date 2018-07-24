@@ -1432,10 +1432,8 @@ shirazsong.net##div[style="text-align:center"]>div[class="content"]:if(div>div>p
 skyscanner.net##li[id*="tame-slot-day-view-inline"]
 smusic.ir##article:if(article>center>div>a[title*="زولا"])
 smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
-soft98.ir##div[class^="adx-"]
-soft98.ir##*[class="adx-image"]
-soft98.ir##*[class="adx-link"]
-soft98.ir##div[class="adx__inner"]
+soft98.ir##*[class^="adx-"]
+soft98.ir##*[class^="adx_"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
