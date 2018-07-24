@@ -836,6 +836,8 @@
 ||funfarsi.ir/*pop.js*$third-party,script
 ||fungoiddempseyimpasse.info*
 *service.futuremark.com/ecom/js/ecom.js*
+||gashtesafiran.com/id8.html*$document,popup
+||gashtesafiran.com/hh7.html*$document,popup
 *adactiongapl.hit.gemius.pl/pp_gemius.js*
 *gaee.hit.gemius.pl/xgemius.js*
 *smarticon.geotrust.com/si.js*
@@ -1325,6 +1327,7 @@ i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com##script:inject(abort-on-property-read.js, vc_url)
 iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
+iranfilmplus.net##script:inject(abort-on-property-read.js, $)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
 makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
@@ -1527,6 +1530,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="1000SITE.IR"]>img
 ##a[href*="1000music.ir"]>img
 ##a[href*="1o2.ir"]>img
+##a[href*="19kala.com"]>img
 ##a[href*="2dda.ir"]>img
 ##a[href*="3dmaxclass.com"]>img
 ##a[href*="7sharj.ir"]>img
@@ -1543,6 +1547,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
 ##a[href*="bitgame.ir/?"]>img
+##a[href*="boorsika.com"]>img
 ##*[href*="bunjee-link.tk"]>img
 ##a[href*="campaign=SideAds&"]>img
 ##*[href*="chinstore.ir"]>img
@@ -1991,6 +1996,7 @@ zoomit.ir##DIV.ThirdPost
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
 1o2.ir#@#a[href*="1o2.ir"]>img
+19kala.com#@#a[href*="19kala.com"]>img
 2dda.ir#@#a[href*="2dda.ir"]>img
 3dmaxclass.com#@#a[href*="3dmaxclass.com"]>img
 40nama.com#@#a[href^="http://40nama.com"]>img
@@ -2006,6 +2012,7 @@ bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 banifilm.ir#@#*[class="banner"]
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 bbc.com,pay98.net,icelove.ir,ofoghnews.ir#@#*[class*="-ads-"]
+boorsika.com#@#a[href*="boorsika.com"]>img
 bozemanscience.com,ucsd.edu,cable.co.uk,truustneuroimaging.com#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
 cable.co.uk#@#*[class*=" banner "]
