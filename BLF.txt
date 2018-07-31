@@ -1214,6 +1214,7 @@
 !||ths9j89.com/watch^$popup,document
 ||api.ticketing-service.com/topTickets/*$third-party
 ||tikfilm.net/wp-content/uploads/ub.png
+||tikfilm.org/wp-content/uploads/ub.png
 ||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
 ||tizer*.net/tizer*.php?sid*
@@ -1445,6 +1446,7 @@ tikfilm.net,tikfilm.org##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
 tikfilm.net,tikfilm.org##section[class="post"]:if(section>article>section>section>div>div>a[href*="tankionline.com/fa"])
 tikfilm.net,tikfilm.org##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
 tikfilm.net,tikfilm.org##section[class="post-content"]:if(section>div>div>a[href*="jarmizanam.ir"])
+tikfilm.net,tikfilm.org##section[class="post-content"]:if(section>div>div>a[href*="tankionline.com/fa?utm_source"])
 top2download.com##article:if(article>header>div>a[href*=".com/ads."])
 tubeload.tv##a[href*="/po-direct.html?type="]
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir"])
@@ -2020,7 +2022,7 @@ caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca,instructables.com,turbofuture.com#@#*[class$="-ads"]
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
-cyber.ir,utah.edu,cable.co.uk,truustneuroimaging.com#@#*[class^="banner-"]
+cyber.ir,utah.edu,cable.co.uk,truustneuroimaging.com,chaharrah.tv#@#*[class^="banner-"]
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
@@ -2063,8 +2065,8 @@ pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
 poptaraneh.com#@#*[class^="banners"]
-putlockertoday.org#@#*[id$="-banner"]
-putlockertoday.org,truustneuroimaging.com#@#*[id="banner"]
+putlockertoday.org,truustneuroimaging.com#@#*[id$="-banner"]
+putlockertoday.org#@#*[id="banner"]
 qr-code-generator.com#@#*[class$="-ad"]
 quora.com,downloadly.ir#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
