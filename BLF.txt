@@ -1325,7 +1325,7 @@ farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com##script:inject(abort-on-property-read.js, vc_url)
 iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
 iranfilmplus.net##script:inject(abort-on-property-read.js, $)
@@ -1393,6 +1393,7 @@ ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
 ir-dl.com##div[class="beetads block"]
 iranfilmplus.com##div[id="infoi"]
+iranfilmplus.net##div[id="infoi"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
 khabarfarsi.com##*[id="banners_120_top"]
@@ -1435,7 +1436,9 @@ shirazsong.net##div[class="content"]:if(div>div>article>p>a[href*="tankionline.c
 shirazsong.net##div[style="text-align:center"]>div[class="content"]:if(div>div>p>a[href*="tankionline.com/fa?utm_source"])
 skyscanner.net##li[id*="tame-slot-day-view-inline"]
 smusic.ir##article:if(article>center>div>a[title*="زولا"])
+smusic.ir##article:if(article>div>div>a[title*="زولا"])
 smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
+smusic.ir##article:if(article>div>div>a[href*="tankionline.com/fa?utm_source"])
 soft98.ir##*[class^="adx-"]
 soft98.ir##*[class^="adx_"]
 solidfiles.com##*[class^="bnr"]
@@ -2066,7 +2069,7 @@ pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
 poptaraneh.com#@#*[class^="banners"]
 putlockertoday.org,truustneuroimaging.com#@#*[id$="-banner"]
-putlockertoday.org#@#*[id="banner"]
+putlockertoday.org,ngmodem.com#@#*[id="banner"]
 qr-code-generator.com#@#*[class$="-ad"]
 quora.com,downloadly.ir#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
