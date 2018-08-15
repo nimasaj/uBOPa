@@ -1133,15 +1133,13 @@
 ||rutvind.com*
 ||rzb.ir*$script
 ||s2block.com*$script
-||sabavision.com/showcamp*$third-party
-!||sabavision.com/get_camp.php*$third-party
-||click.sabavision.com*$third-party
+||sabavision.com^$third-party
 ||saghybux.com*$document,popup
 ||salamaneh.com/a100/*$document,popup
 ||salamatism.com/e91/*$document,popup
-||salammag.com^$popup,document
+!||salammag.com^$popup,document
+||salammag.com^$popup
 ||sanjagh.net/assets/client.js$third-party,script
-||sarayecd.ir/$image
 !||sarzaminekhabar.com*
 ||galleries.secure-softwaremanager.com*
 ||js.securesoft.info/galleries/software_lp_deprecated.js*
@@ -1226,7 +1224,6 @@
 ||tookan.ir/lb.php?*
 ||hadis.toolsir.com*
 ||topadvert.ru^
-||topcdbazar.com/webmasters/feed2js/*$third-party
 ||tophot-news.com/ldr.js*
 ||toplinks.dom.ir*
 ||toppopup.com*
@@ -1601,6 +1598,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="stnews.ir"]>img
 ##a[href*="tikstore.ir/product.php?id"]>img
 ##a[href*="titrebartar.ir"]>img
+##a[href*="utm_source=aparat&utm_medium=htmlBanner&utm_campaign="]>img
 ##*[href*="account.zula.ir/pages/new-iran?utm_source"]>img
 ##a[href$="/ads"]
 ##a[href$="=banner"]>img
@@ -1987,6 +1985,7 @@ zoomit.ir##DIV.ThirdPost
 !$ource,@mynext.pro/BLF.txt
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
+@@-ads.$domain=aparat.com
 @@_banner*$domain=utah.edu|cable.co.uk
 @@.com/ads.$domain=uploadboy.com
 @@banner.$domain=msdn.microsoft.com
