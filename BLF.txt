@@ -2007,6 +2007,7 @@ zoomit.ir##DIV.ThirdPost
 adgup.com#@#a[href^="http://adgup.com"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
+aparat.com#@#*[class*=" ads-"]
 aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
