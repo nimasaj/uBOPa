@@ -1438,6 +1438,8 @@ smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"
 smusic.ir##article:if(article>div>div>a[href*="tankionline.com/fa?utm_source"])
 soft98.ir##.adx-image
 soft98.ir##.adx-link
+soft98.ir##div[class="row"]:if(div>div[class="col-lg pl-0 pr-0 pl-sm-3 pr-sm-3 pr-sm-3"])
+soft98.ir##div[class="row"]:if(div>div[class="col-lg pt-3 pl-0 pr-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"])
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
