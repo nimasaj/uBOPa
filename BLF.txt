@@ -1436,8 +1436,8 @@ smusic.ir##article:if(article>center>div>a[title*="زولا"])
 smusic.ir##article:if(article>div>div>a[title*="زولا"])
 smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
 smusic.ir##article:if(article>div>div>a[href*="tankionline.com/fa?utm_source"])
-soft98.ir##*[class^="adx-"]
-soft98.ir##*[class^="adx_"]
+soft98.ir##.adx-image
+soft98.ir##.adx-link
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
@@ -1995,7 +1995,7 @@ zoomit.ir##DIV.ThirdPost
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 @@||varagh.com/advertisement.js
 !----------------------Whitelist Cosmetic Filters-----------------------!
-||lasttours.net^$generichide
+@@||lasttours.net^$generichide
 @@||videotoolbox.com^$generichide
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
