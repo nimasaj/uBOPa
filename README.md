@@ -2,10 +2,10 @@
 <p dir="rtl">
 فیلتر لیستی برای مسدود سازی تبلیغات.
   </br>
-  این فیلتر لیست بصورت مشخص برای افزونه ی <a href="https://github.com/gorhill/uBlock/">uBlock Origin</a> نوشته شده است، ولی امکان استفاده از این لیست در افزونه های دیگر هم وجود دارد، گرچه بعضی از فیلتر ها/دستورات توسط افزونه های دیگر شناسایی نمیشوند. این لیست برای پوشش سایت های فارسی زبان و همچنین سایت های پربازدید (غیرفارسی زبان) که توسط لیست های مرجع پشتیبانی نمیشوند نوشته شده است
+  این فیلتر لیست بصورت مشخص برای افزونه ی <a href="https://github.com/gorhill/uBlock/">uBlock Origin</a> نوشته شده است، ولی امکان استفاده از این لیست در افزونه های دیگر هم وجود دارد، گرچه بعضی از فیلتر ها/دستورات توسط افزونه های دیگر شناسایی نمیشوند. این لیست برای پوشش سایت های پارسی زبان و همچنین سایت های پربازدید (غیرپارسی زبان) که توسط لیست های مرجع پشتیبانی نمیشوند نوشته شده است
 </p>
 <p dir="ltr">
-A filterlist to block ads. </br>It's specifically written for <a href="https://github.com/gorhill/uBlock">uBlock Origin</a>, but still compatible with most ad blockers. However, some filters could only be detected by uBO. Main focus of this filter list is to cover Farsi websites and also most-visited websites in Iran, or other Farsi speaking countries, that are not covered by other major filter lists.
+A filterlist to block ads. </br>It's specifically written for <a href="https://github.com/gorhill/uBlock">uBlock Origin</a>, but still compatible with most ad blockers. However, some filters could only be detected by uBO. Main focus of this filter list is to cover Parsi websites and also most-visited websites in Iran, or other Parsi speaking countries, that are not covered by other major filter lists.
 </p></br>
 <h2 dir="rtl">- پروا&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNote -</h2>
 
@@ -30,8 +30,8 @@ In case of any unblocked advertisement, or false blocking, please open a <a href
 Get it <a href=https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt><b>Here</b></a>.
 </p></br>
 
-<h2 dir="rtl">- راهنمای فارسی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHelp in Farsi -</h2>
+<h2 dir="rtl">- راهنمای پارسی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHelp in Parsi -</h2>
 <p dir="rtl">
 برای اضافه کردن این لیست، بعد از باز کردن صفحه ی تنظیمات افزونه، به تب Filter lists رفته و آدرس را در انتهای صفحه در بخش Custom اضافه کنید.</br>
-راهنمای کامل نصب افزونه و اضافه کردن این فیلتر لیست را هم میتوانید از <a href="http://mynext.pro/uBO_installation_help_Farsi.pdf">اینجا</a> دریافت کنید
+راهنمای کامل نصب افزونه و اضافه کردن این فیلتر لیست را هم میتوانید از <a href="http://mynext.pro/uBO_installation_help_Parsi.pdf">اینجا</a> دریافت کنید
 </p>
