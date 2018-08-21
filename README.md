@@ -17,17 +17,17 @@ As a precaution, it is advisable to <b>disable</b> your Adblocker when you take 
 </p></br>
 <h2 dir="rtl">- پشتیبانی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSupport -</h2>
 <p dir="rtl">
-در صورتی که تبلیغی مسدود نشده بود، و یا بخشی از وبسایت به اشتباه مسدود شده بود، <a href="https://github.com/nimasaj/uBO_Filterlist/issues/new">اینجا</a> و یا از راه ایمیل hello at mynext.pro مشکل را توضیح دهید 
+در صورتی که تبلیغی مسدود نشده بود، و یا بخشی از وبسایت به اشتباه مسدود شده بود، <a href="https://github.com/nimasaj/uBOPa/issues/new">اینجا</a> و یا از راه ایمیل hello at mynext.pro مشکل را توضیح دهید 
 </p>
 <p dir="ltr">
-In case of any unblocked advertisement, or false blocking, please open a <a href="https://github.com/nimasaj/uBO_Filterlist/issues/new">new issue</a> and explain the problem.
+In case of any unblocked advertisement, or false blocking, please open a <a href="https://github.com/nimasaj/uBOPa/issues/new">new issue</a> and explain the problem.
 </p></br>
 <h2 dir="rtl">- دریافت&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDownload -</h2>
 <p dir="rtl">
-دریافت از <a href=https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt><b>اینجا</b></a>.
+دریافت از <a href=https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt><b>اینجا</b></a>.
 </p>
 <p dir="ltr">
-Get it <a href=https://raw.githubusercontent.com/nimasaj/uBO_Filterlist/master/BLF.txt><b>Here</b></a>.
+Get it <a href=https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt><b>Here</b></a>.
 </p></br>
 
 <h2 dir="rtl">- راهنمای فارسی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHelp in Farsi -</h2>
