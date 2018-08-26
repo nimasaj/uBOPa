@@ -1360,6 +1360,10 @@ android30t.com##*[id="modal-overlay"]
 androidiha.net##*[class*="afarinak"]
 androidiha.net##*[class*="lightbox-easy-popup"]
 androidiha.net##*[id*="lightbox-easy-popup"]
+aparat.com##div[class="ac_main-wrapper"]
+aparat.com##div[class="aparat-pause-ad show"]
+aparat.com##div[class="filimo_movies_wrapper]
+aparat.com##div[class="videoonepromotion--wrapper hidden-end-recom"]
 asaldl.com##*[class="banas"]
 asandl.com##article[class^="post"]:if(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class^="post"]:if(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
@@ -2023,7 +2027,7 @@ astiak.net#@#a[href^="http://astiak.net"]>img
 bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 banifilm.ir#@#*[class="banner"]
 barsait.com#@#a[href^="http://www.barsait.com"]>img
-bbc.com,pay98.net,icelove.ir,ofoghnews.ir#@#*[class*="-ads-"]
+bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com#@#*[class*="-ads-"]
 boorsika.com#@#a[href*="boorsika.com"]>img
 bozemanscience.com,ucsd.edu,cable.co.uk,truustneuroimaging.com#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
