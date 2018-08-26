@@ -1,6 +1,6 @@
-! Title: uBOPa filterlist
+! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 2.0
+! Version: 2.1
 ! http://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -884,6 +884,7 @@
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
 ||irhc.in*.php*
+||ironia.ml*$third-party
 ||irpopup.ir^$third-party
 ||iscanews.ir/daisc12*$document,popup
 !iscanews.ir/daisc124.html,iscanews.ir/daisc123%20-%20copy.html
@@ -1436,10 +1437,13 @@ smusic.ir##article:if(article>center>div>a[title*="زولا"])
 smusic.ir##article:if(article>div>div>a[title*="زولا"])
 smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
 smusic.ir##article:if(article>div>div>a[href*="tankionline.com/fa?utm_source"])
-soft98.ir##.adx-image
-soft98.ir##.adx-link
+!soft98.ir##.adx-image
+!soft98.ir##.adx-link
 soft98.ir##div[class="row"]:if(div>div[class="col-lg pl-0 pr-0 pl-sm-3 pr-sm-3 pr-sm-3"])
 soft98.ir##div[class="row"]:if(div>div[class="col-lg pt-3 pl-0 pr-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"])
+soft98.ir##div[class="col-12 col-lg"]:if(div>div[class="adx"])
+soft98.ir##section[class="card d-block bg-light"]:if(section>header>h4:has-text(پشتیبان سرور سافت))
+soft98.ir##section[class="card bg-light"]:if(section>header>h4:has-text(مکان تبلیغات))
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
@@ -1999,6 +2003,7 @@ zoomit.ir##DIV.ThirdPost
 !----------------------Whitelist Cosmetic Filters-----------------------!
 @@||lasttours.net^$generichide
 @@||videotoolbox.com^$generichide
+!!!!!!!!!!!!!!!!@@*$generichide,domain=magesy.be|magesy.eu|magesy.club|magesy.info|magesy.website
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
 1o2.ir#@#a[href*="1o2.ir"]>img
