@@ -884,7 +884,7 @@
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
 ||irhc.in*.php*
-||ironia.ml*$third-party,~domain=soft98.ir
+||ironia.ml*$third-party,domain=~soft98.ir
 ||irpopup.ir^$third-party
 ||iscanews.ir/daisc12*$document,popup
 !iscanews.ir/daisc124.html,iscanews.ir/daisc123%20-%20copy.html
