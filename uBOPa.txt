@@ -884,7 +884,7 @@
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
 ||irhc.in*.php*
-||ironia.ml*$third-party
+||ironia.ml*$third-party,~domain=soft98.ir
 ||irpopup.ir^$third-party
 ||iscanews.ir/daisc12*$document,popup
 !iscanews.ir/daisc124.html,iscanews.ir/daisc123%20-%20copy.html
@@ -1448,6 +1448,8 @@ soft98.ir##div[class="row"]:if(div>div[class="col-lg pt-3 pl-0 pr-0 pl-sm-3 pr-s
 soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="adx"])
 soft98.ir##section[class="card d-block bg-light"]:if(section>header>h4:has-text(پشتیبان سرور سافت))
 soft98.ir##section[class="card bg-light"]:if(section>header>h4:has-text(مکان تبلیغات))
+soft98.ir##.adx-image:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
+! The upper filter is taken from okiehsch in Github/uBlockOrigin/uAssets/issues/3011
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
@@ -1629,6 +1631,7 @@ zoomit.ir##DIV.ThirdPost
 ##img[src*="tamasha.com/v3/static/bpx/"]
 ##img[src$=".gif"][width="560"][height="90"]
 ##img[src$=".gif"][width="468"][height="60"][title*="بنر"]
+##img[src*="ironia.ml"]
 !
 ##*[alt="ads"]
 ##*[alt="banner"]
@@ -2002,7 +2005,7 @@ zoomit.ir##DIV.ThirdPost
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||digitaltrends.com^$generichide
 @@||fbdown.net/js/adframe.js
-@@||ironia.ml*$third-party,domain=soft98.ir
+!@@||ironia.ml*$third-party,domain=soft98.ir
 @@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
 @@||varagh.com/advertisement.js
 !----------------------Whitelist Cosmetic Filters-----------------------!
@@ -2095,6 +2098,7 @@ sharifngo.com#@#a[href*="sharifngo.com"]>img
 shopdey.ir#@#a[href*="shopdey.ir/product"]>img
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
+soft98.ir#@#img[src*="ironia.ml"]
 sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
