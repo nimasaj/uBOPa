@@ -187,7 +187,7 @@
 ||linkbox_*
 ||linkboxed-*
 ||linkboxed.*
-||linkdoni.*
+||linkdoni.*$domain=~soft98.ir
 ||linkdony.*
 ||linksbox.*
 ||puffboxes.*
@@ -439,7 +439,7 @@
 */linkboxed-*
 */linkboxed.*
 */linkboxed/*
-*/linkdoni.*
+*/linkdoni.*$domain=~soft98.ir
 */linkdony.*
 */linksbox.*
 */linkson-*
