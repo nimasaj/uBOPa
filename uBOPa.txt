@@ -744,6 +744,7 @@
 ||clkrev.com*
 ||d1k5qlz5hbz8am.cloudfront.net^
 ||d1pozdfelzfhyt.cloudfront.net*
+||d2d8qsxiai9qwj.cloudfront.net*
 ||d2ghscazvn398x.cloudfront.net*
 ||d2wl3qmk54t3ha.cloudfront.net*
 ||d31qbv1cthcecs.cloudfront.net*
@@ -1383,6 +1384,7 @@ edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
+faceit.ir##div[class$=" advertising"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
 ganool.*##div[id*="banner"]
