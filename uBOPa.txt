@@ -1453,8 +1453,11 @@ soft98.ir##section[class="card d-block bg-light"]:if(section>header>h4:has-text(
 soft98.ir##section[class="card bg-light"]:if(section>header>h4:has-text(مکان تبلیغات))
 soft98.ir##.adx-image:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 ! The upper filter is taken from okiehsch in Github/uBlockOrigin/uAssets/issues/3011
+soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="ad2"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="adzb"])
+soft98.ir##div[class="container ad2b"]:if(div>div[class^="ad2"])
 soft98.ir##div[class="container adzb"]:if(div>div[class^="adzb"])
+soft98.ir##div[class^="ad2b "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 soft98.ir##div[class^="adzb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
@@ -1689,6 +1692,7 @@ zoomit.ir##DIV.ThirdPost
 ##*[id="adsbar"]
 ##*[id="adsimg"]
 ##*[id="advBan"]
+##div[id="AdvTop"]
 ##*[id="banner"]
 ##div[id="lightbox-easy-popup"]
 ##*[id="tabliq"]
@@ -2102,6 +2106,8 @@ seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 shopdey.ir#@#a[href*="shopdey.ir/product"]>img
+soft98.ir#@#*[class^="ad2"]
+soft98.ir#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
