@@ -1344,7 +1344,7 @@ trainbit.com##script:inject(abort-current-inline-script.js, getCookie)
 trainbit.com##script:inject(nano-setTimeout-booster.js)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 !-----------------------Specific Cosmetic Filters------------------------!
-1pezeshk.com##div[class="textwidget widget-text"]
+1pezeshk.com##div[class^="rd-post-item"]:if(div>div>div>div[class^="yn-bnr"])
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
 1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
 1pezeshk.com##div[class*="category-ad-sidebar"]
@@ -1457,15 +1457,16 @@ soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="adx"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="adzb"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="acdb"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div>a[title*="زولا"])
-soft98.ir##div[class="col-12 col-lg"]:if(div>div>a[href="https://bit.ly/2OQIZGg"])
+soft98.ir##div[class="col-12 col-lg"]:if(div>div>a[href*="/bit.ly/"])
 soft98.ir##div[class="container ad2b"]:if(div>div[class^="ad2"])
 soft98.ir##div[class="container adzb"]:if(div>div[class^="adzb"])
 soft98.ir##div[class="container acdb"]:if(div>div[class^="acdb"])
 soft98.ir##div[class="container acdb"]:if(div>div>a[title*="سونی"])
+soft98.ir##a[href*="/bit.ly/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
+soft98.ir##a[class^="acdb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 soft98.ir##div[class^="ad2b "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 soft98.ir##div[class^="adzb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-soft98.ir##a[class^="acdb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-soft98.ir##a[href="https://dfile.ir/make/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
+soft98.ir##a[href*="/dfile.ir/make/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
@@ -1475,7 +1476,9 @@ tikfilm.net,tikfilm.org##section[class="post"]:if(section>article>section>sectio
 tikfilm.net,tikfilm.org##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
 tikfilm.net,tikfilm.org##section[class="post-content"]:if(section>div>div>a[href*="jarmizanam.ir"])
 tikfilm.net,tikfilm.org##section[class="post-content"]:if(section>div>div>a[href*="tankionline.com/fa?utm_source"])
-top2download.com##article:if(article>header>div>a[href*=".com/ads."])
+top2download.com,top2download.net##article:if(article>header>div>a[href*=".com/ads."])
+top2download.com##*[class="ads-tmain"]
+top2download.net##div[class="post-body text-center"]:if(div>a>img[width="468"][height="60"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir"])
 uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
@@ -1516,21 +1519,24 @@ zoomit.ir##DIV.ThirdPost
 ##a[href^="http://adgup.com"]
 ##a[href^="http://astiak.net"]>img
 ##a[href^="http://botsaz.com"]>img
+##a[href^="http://ham3da.ir"]>img
 ##a[href^="http://iran20tel.ir"]>img
 ##a[href^="http://izee.ir/"]>img
 ##a[href^="https://pfh.co.ir"]>img
 ##a[href^="http://pooyano.com"]>img
 ##a[href^="http://shahrekaghazdivari.com"]>img
-##a[href^="http://www.aradsamaneh.com"]>img
-##a[href^="http://www.barsait.com"]>img
-##a[href^="http://www.favaafzar.com"]>img
-##a[href^="http://www.tsmandegar.com"]>img
 ##a[href^="https://bahavarit.com"]>img
 ##a[href^="https://link.limo/"]>img
 ##a[href^="https://mehran-web.com"]>img
 ##a[href^="https://rasanegar.com"]>img
 ##a[href^="https://sazmanhost.com"]>img
+##a[href^="http://seegotravel.com"]>img
 ##a[href^="https://teskaco.com"]>img
+##a[href^="http://www.aradsamaneh.com"]>img
+##a[href^="http://www.barsait.com"]>img
+##a[href^="http://www.favaafzar.com"]>img
+##a[href^="http://www.shahinparvaz.com"]>img
+##a[href^="http://www.tsmandegar.com"]>img
 ##a[href*=" ads "]
 ##a[href*=" ads-"]
 ##a[href*=" ads_"]
@@ -2068,6 +2074,7 @@ favaafzar.com#@#a[href^="http://www.favaafzar.com"]>img
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
 gizmodo.com,lifehacker.com#@#*[class*="_ads_"]
+ham3da.ir#@#a[href^="http://ham3da.ir"]>img
 hormozhotel.com#@#a[href*="hormozhotel.com"]>img
 hostiran.net#@#a[href*="hostiran.net"]>img
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
@@ -2109,7 +2116,9 @@ rasanegar.com#@#a[href^="https://rasanegar.com"]>img
 samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
+seegotravel.com#@#a[href^="http://seegotravel.com"]>img
 seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
+shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 shopdey.ir#@#a[href*="shopdey.ir/product"]>img
