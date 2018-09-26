@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 2.2
+! Version: 2.3
 ! http://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -1453,20 +1453,21 @@ soft98.ir##section[class="card bg-light"]:if(section>header>h4:has-text(مکان
 soft98.ir##.adx-image:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 ! The upper filter is taken from okiehsch in Github/uBlockOrigin/uAssets/issues/3011
 soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="ad2"])
+soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="acdb"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="adx"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="adzb"])
-soft98.ir##div[class="col-12 col-lg"]:if(div>div[class^="acdb"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div>a[title*="زولا"])
 soft98.ir##div[class="col-12 col-lg"]:if(div>div>a[href*="/bit.ly/"])
 soft98.ir##div[class="container ad2b"]:if(div>div[class^="ad2"])
-soft98.ir##div[class="container adzb"]:if(div>div[class^="adzb"])
 soft98.ir##div[class="container acdb"]:if(div>div[class^="acdb"])
 soft98.ir##div[class="container acdb"]:if(div>div>a[title*="سونی"])
+soft98.ir##div[class="container adzb"]:if(div>div[class^="adzb"])
 soft98.ir##a[href*="/bit.ly/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-soft98.ir##a[class^="acdb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-soft98.ir##div[class^="ad2b "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-soft98.ir##div[class^="adzb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
+soft98.ir##a[href*="/clc.to/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 soft98.ir##a[href*="/dfile.ir/make/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
+soft98.ir##*[class^="acdb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
+soft98.ir##*[class^="ad2b "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
+soft98.ir##*[class^="adzb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
