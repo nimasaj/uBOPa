@@ -980,6 +980,7 @@
 ||mobon.com/vendor/*.php*
 ||mobua.com/f/dg.php*
 ||modiseh.com/public/campaign/*$third-party
+||mootanroo.com*$third-party,script
 *text.mplayer.org.cn/*/*.html*
 ||mtagmonetizationb.com*
 ||mtpjldykpuhnmg.bid*
@@ -1563,6 +1564,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/ads/"]>img
 ##a[href*="/agahi"]
 ##a[href*="/banners/click/"]>img
+##a[href*="/bernardwatch.ir"]>img
 ##a[href*="/counter/click.php?id"]>img
 ##a[href*="&utm_medium=banner&utm_campaign="]>img
 ##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
@@ -2060,6 +2062,7 @@ bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 banifilm.ir#@#*[class="banner"]
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com#@#*[class*="-ads-"]
+bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 boorsika.com#@#a[href*="boorsika.com"]>img
 bozemanscience.com,ucsd.edu,cable.co.uk,truustneuroimaging.com#@#*[class*=" banner-"]
 bozemanscience.com#@#*[id^="banner-"]
