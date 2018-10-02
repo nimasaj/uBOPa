@@ -578,6 +578,7 @@
 ||32a79e2833309ebe.com*
 ||3l4r8d61yz.com^$popup
 ||4d5.net*
+||4f2sm1y1ss.com*
 ||4reh.com/displaycode.php*
 ||4dsply.com*
 ||51yes.com/click.aspx?id*
@@ -780,6 +781,7 @@
 ||ditwrite.com/Redirect.*
 ||dl-gate.net*
 ||dlyads.com*
+||dnckawxatc.com*$document,popup
 ||do69ifsly4.me*
 ||dortina.com/em/pop-up^$popup
 ||double-click.ir*$third-party
@@ -827,6 +829,7 @@
 ||ffinwwfpqi.gq*$third-party
 ||fileir.ir^$popup
 ||findepended.com^$popup
+||fingahvf.top*$popup,document
 ||finishclueobscure.info*
 ||fitone.ir/iq$script
 ||fitone.ir/pop.php*$popup,document
@@ -1384,6 +1387,7 @@ edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
+esam.ir##div[id$="CornerBanner"]
 faceit.ir##div[class$=" advertising"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
