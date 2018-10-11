@@ -2126,6 +2126,7 @@ sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
 seegotravel.com#@#a[href^="http://seegotravel.com"]>img
 seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
+sendspace.com#@#*[class$="_ads"]
 shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
@@ -2143,3 +2144,4 @@ titrebartar.ir#@#a[href*="titrebartar.ir"]>img
 trainbit.com#@#a[href$="=banner"]>img
 tsmandegar.com#@#a[href^="http://www.tsmandegar.com"]>img
 webmd.com#@#*[class$="-banner"]
+zoomit.ir#@#*[class*=" adv-"]
