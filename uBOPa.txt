@@ -1073,7 +1073,7 @@
 ||pop-bazar.ru*
 ||popads.net*
 ||popadscdn.net*$script
-||poparya.com*/js*$third-party
+||poparya.com*$third-party
 ||poparya.com^$third-party,popup
 ||popcash.net*$script
 ||popcpm.com*$script
@@ -1567,6 +1567,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/bernardwatch.ir"]>img
 ##a[href*="/counter/click.php?id"]>img
 ##a[href*="&utm_medium=banner&utm_campaign="]>img
+##a[href*="&utm_content=banner"]>img
 ##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
@@ -1631,6 +1632,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="pandcaspian.com/news"]>img
 ##*[href*="parsnafe.com/?utm_source"]>img
 ##a[href*="rahoja.com"]>img
+##a[href*="s.click.aliexpress.com/"]>img
 ##*[href*="samiclick.com"]
 ##*[href*="sarafiroyal.com"]>img
 ##a[href*="shahrfarang.net"]>img
@@ -2051,6 +2053,7 @@ zoomit.ir##DIV.ThirdPost
 40nama.com#@#a[href^="http://40nama.com"]>img
 adgup.com#@#a[href^="http://adgup.com"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
+aliexpress.com#@#a[href*="s.click.aliexpress.com/"]>img
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
 aparat.com#@#*[class*=" ads-"]
 aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
