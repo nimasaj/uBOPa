@@ -586,6 +586,7 @@
 ||55online.ir/da55*$document,popup
 ||55online.ir/daa55*$document,popup
 !55online.ir/da55ot.html,55online.ir/da55trd.html,55online.ir/daa55ed7120.html,55online.ir/daa55nvcasdfg1.html,55online.ir/daa55qsdsdsd.html,55online.ir/daa55457x4w.html
+||5db8d92zi2.com*$third-party
 ||5rah.*/linkbox*$third-party
 ||6198399e4910e66-ovc.com*$popup
 ||7mu36somt5.com*$~third-party
@@ -1382,6 +1383,7 @@ asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="text-asan"]:if(div>h3:has-text(Text ADS in AsanDownload))
 bia4music.org,bia4music.ir##div[class="box"]:if(div>div>p>a>img[alt*="زولا"])
 bia4music.org,bia4music.ir##div[class="fixedpost"]:if(div>div>h4:has-text(زولا))
+cooldownload.ir##div[class="pm"]:if(div>div>p>a[title*="زولا"])
 dlroozane.net##div[class="static-post"]:if(div>div>h4:has-text(تبلیغ))
 dlroozane.net##div[class="blockin"]:if(div>div>div>h3:has-text(تبلیغ))
 donya-e-eqtesad.com##DIV.sizebaneer
@@ -1575,6 +1577,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/counter/click.php?id"]>img
 ##a[href*="&utm_medium=banner&utm_campaign="]>img
 ##a[href*="&utm_content=banner"]>img
+##a[href*="&utm_medium=affiliate"]>img
 ##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
