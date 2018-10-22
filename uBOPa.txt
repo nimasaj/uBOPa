@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 2.3
+! Version: 2.4
 ! http://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -389,6 +389,7 @@
 */cash4pop/*
 */centralad/*
 */channelad/*
+*/click?banner_id=*
 */click?pid*
 */click/display?pid*
 */code/popup*
@@ -1000,6 +1001,7 @@
 ||netadclick.com*$third-party
 ||netbina.net/webcodes/*$third-party
 ||netpool.netbookia.net*$third-party
+||netwas.net*$third-party
 ||newagahi.ir^$popup
 ||newsjet.ir/jet1005.html*$document,popup
 ||nex1network.com*$third-party
@@ -1314,6 +1316,7 @@
 ||zirve100.com*
 ||zlx.com.br/assets/playermon.js*
 ||zmbvnvhzpx.ga*$third-party
+||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
 androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir,tinymov.top##script:inject(abort-current-inline-script.js, checkCookie)
@@ -1628,6 +1631,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="mihanstore.net/in.php?id="]>img
 ##*[href*="mizbanwp.com"]>img
 ##a[href*="modiryatnovin.com"]>img
+##a[href*="netwas.net"]
 ##a[href*="nikfarshop.ir"]>img
 ##*[href*="novakala.com"]>img
 ##*[href*="onspd.tk"]>img
