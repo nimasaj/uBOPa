@@ -670,8 +670,9 @@
 ||amazon.com/widgets/*
 ||widgets.amazon.com/Amazon*Widget/?id*
 *ws.amazon.com/widgets/q?ServiceVersion*
-!||cdn.ampproject.org*$script
-! ^^issue on https://netnevesht.com/amp/
+||cdn.ampproject.org/*-ad-*$script
+! ^^check for issues on https://netnevesht.com/amp/
+! ^^ cdn.ampproject.org/v0/amp-ad-0.1.js  ,  cdn.ampproject.org/v0/amp-sticky-ad-1.0.js
 ||androidkade.com/tag/^$popup
 ||anetwork.ir*$script,third-party
 ||apanet.net*$third-party
