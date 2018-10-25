@@ -871,9 +871,12 @@
 ||hitpop.ir/website/js*$third-party
 ||hostmir.net/21_36_240_f.js*$third-party,script
 ||hostmir.net/click.php?site*$third-party
+||hvooyieoei.com*$third-party
 ||hzsod71wov.me*
-||script.i30t.com/script/*$third-party,script
 ||process.i-frame.ir/index.php?params*$third-party
+||script.i30t.com/script/*$third-party,script
+||i62e2b4mfy.com*$third-party
+||i62e2b4mfy.com*$popup
 ||iclik.ir/widget*$third-party
 ||ichlnk.com/offer?prod*$document,popup
 ||icqwindow.com/okno.php?*
@@ -1332,6 +1335,7 @@ dlroozane.net##script:inject(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##script:inject(abort-on-property-read.js, urlToShow)
 farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
 farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
+hastidl.me##script:inject(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
@@ -1379,7 +1383,9 @@ asaldl.com##*[class="banas"]
 asandl.com##article[class^="post"]:if(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class^="post"]:if(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
 asandl.com##article[class^="post"]:if(article>div>figure>a[href*="webzi.ir/?utm_source"])
+asandl.com##article[class="post mobile"]:if(article>footer>a[href*="charge.asandl.com/app"])
 asandl.com##*[class="asan468 box center"]
+asandl.com##div[class="asan250 box center"]:if(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:if(div>h3:has-text(Text ADS in AsanDownload))
 bia4music.org,bia4music.ir##div[class="box"]:if(div>div>p>a>img[alt*="زولا"])
 bia4music.org,bia4music.ir##div[class="fixedpost"]:if(div>div>h4:has-text(زولا))
@@ -1405,6 +1411,11 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
+hastidl.me##center
+hastidl.me##div[id^="SC_TBlock_"]
+hastidl.me##div[class="head"]:if(div>h1:has-text(تبلیغات))
+hastidl.me##div[class="main-content"]:if(div>center:has-text(زولا))
+hastidownloadz.info##div[class="post"]:if(div>p>a[href*="bit.ly/mahoot"])
 hexdownload.net##div[class="widget-con"]:if(div>figure>a[href*="zula.ir"])
 hidoctor.ir##*[class^="pdsifradsbn"]
 ir-dl.com##*[id="stickytop"]
@@ -1537,6 +1548,7 @@ zoomit.ir##DIV.ThirdPost
 ##a[href^="http://ham3da.ir"]>img
 ##a[href^="http://iran20tel.ir"]>img
 ##a[href^="http://izee.ir/"]>img
+##a[href^="http://novinav.ir"]>img
 ##a[href^="https://pfh.co.ir"]>img
 ##a[href^="http://pooyano.com"]>img
 ##a[href^="http://shahrekaghazdivari.com"]>img
@@ -1575,10 +1587,11 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/banners/click/"]>img
 ##a[href*="/bernardwatch.ir"]>img
 ##a[href*="/counter/click.php?id"]>img
+##a[href*="/glamora.com"]>img
 ##a[href*="&utm_medium=banner&utm_campaign="]>img
 ##a[href*="&utm_content=banner"]>img
 ##a[href*="&utm_medium=affiliate"]>img
-##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
+
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
@@ -1588,13 +1601,13 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="2dda.ir"]>img
 ##a[href*="3dmaxclass.com"]>img
 ##a[href*="7sharj.ir"]>img
-##a[href*="app.adjust.com"]>img
+##*[href*="account.zula.ir/pages/new-iran?utm_source"]>img
 ##*[href*="adonisparvaz.com"]>img
 ##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
 ##a[href*="amlakbaharan.com"]>img
 ##a[href*="amlakvitrin.com"]>img
-##a[href*="tracking.appdana.com"]>img
+##a[href*="app.adjust.com"]>img
 ##*[href*="arefrayaneh.com"]>img
 ##*[href*="arian-motor.com"]>img
 ##*[href*="arshantour.net"]>img
@@ -1646,14 +1659,18 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="s.click.aliexpress.com/"]>img
 ##*[href*="samiclick.com"]
 ##*[href*="sarafiroyal.com"]>img
+##a[href*="shahingasht.info"]>img
 ##a[href*="shahrfarang.net"]>img
 ##a[href*="sharifngo.com"]>img
 ##a[href*="shopdey.ir/product"]>img
 ##a[href*="stnews.ir"]>img
 ##a[href*="tikstore.ir/product.php?id"]>img
 ##a[href*="titrebartar.ir"]>img
+##a[href*="tracking.appdana.com"]>img
+##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
 ##a[href*="utm_source=aparat&utm_medium=htmlBanner&utm_campaign="]>img
-##*[href*="account.zula.ir/pages/new-iran?utm_source"]>img
+##a[href*="www.hairfiix.com"]>img
+##a[href*="www.lotuslaptop.com"]>img
 ##a[href$="/ads"]
 ##a[href$="=banner"]>img
 !
