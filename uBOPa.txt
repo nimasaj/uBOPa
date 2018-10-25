@@ -13,6 +13,7 @@
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
 ! https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide
 ! https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode
+https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 ! https://github.com/uBlockAdmin/uBlock/issues/433#issuecomment-68488686
 ! https://github.com/uBlockOrigin/uAssets/issues/1896
 ! https://github.com/uBlockOrigin/uAssets/issues/2505
@@ -726,6 +727,7 @@
 ||brightonclick.com*/display.php*
 ||bu520.com/popup.php*
 ||bubblesmedia.ru/invoke.php?id*
+||byst.ir/ads/*$third-party
 ||c0594.com*
 ||www3.cbox.ws/box/*
 ||rsc.cdn77.org*$popup
@@ -1324,7 +1326,7 @@
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
-androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir,tinymov.top##script:inject(abort-current-inline-script.js, checkCookie)
+androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir,tinymov.top,manidl.ir##script:inject(abort-current-inline-script.js, checkCookie)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
 androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
 ava2music.com,shirazsong.net,ariapix.net##script:inject(abort-on-property-read.js, checkCookie)
@@ -1587,11 +1589,12 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="/banners/click/"]>img
 ##a[href*="/bernardwatch.ir"]>img
 ##a[href*="/counter/click.php?id"]>img
+##a[href*="/didekhalagh.com"]>img
 ##a[href*="/glamora.com"]>img
+##a[href*="/riradokht.ir"]>img
 ##a[href*="&utm_medium=banner&utm_campaign="]>img
 ##a[href*="&utm_content=banner"]>img
 ##a[href*="&utm_medium=affiliate"]>img
-
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
@@ -1645,6 +1648,8 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="jarmizanam.ir/getapp"]>img
 ##a[href*="kamelpack.ir"]
 ##a[href*="kingsera.ir"]>img
+##a[href*="mftmirdamad.com"]>img
+##a[href*="mftvanak.com"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
 ##*[href*="mizbanwp.com"]>img
 ##a[href*="modiryatnovin.com"]>img
@@ -1664,13 +1669,18 @@ zoomit.ir##DIV.ThirdPost
 ##a[href*="sharifngo.com"]>img
 ##a[href*="shopdey.ir/product"]>img
 ##a[href*="stnews.ir"]>img
+##a[href*="tankionline.com/fa?utm_source="]
+##a[href*="tasvirental.com"]>img
 ##a[href*="tikstore.ir/product.php?id"]>img
 ##a[href*="titrebartar.ir"]>img
+##a[href*="torangshop.ir"]>img
 ##a[href*="tracking.appdana.com"]>img
 ##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
 ##a[href*="utm_source=aparat&utm_medium=htmlBanner&utm_campaign="]>img
+##a[href*="uzee.ir/jadval"]>img
 ##a[href*="www.hairfiix.com"]>img
 ##a[href*="www.lotuslaptop.com"]>img
+##a[href*="www.tkadak.com"]>img
 ##a[href$="/ads"]
 ##a[href$="=banner"]>img
 !
@@ -2104,6 +2114,7 @@ chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
 cyber.ir,utah.edu,cable.co.uk,truustneuroimaging.com,chaharrah.tv#@#*[class^="banner-"]
 dateesco.com#@#a[href*="dateesco.com?site"]>img
+didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
 favajam.com#@#a[href*="favajam.com"]>img
@@ -2136,6 +2147,8 @@ mail.google.com#@#*[class$="7ad"]
 mail.google.com#@#*[class$="8ad"]
 mail.google.com#@#*[class$="9ad"]
 mehran-web.com#@#a[href^="https://mehran-web.com"]>img
+mftmirdamad.com#@#a[href*="mftmirdamad.com"]>img
+mftvanak.com#@#a[href*="mftvanak.com"]>img
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
@@ -2152,6 +2165,7 @@ qr-code-generator.com#@#*[class$="-ad"]
 quora.com,downloadly.ir#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 rasanegar.com#@#a[href^="https://rasanegar.com"]>img
+riradokht.ir#@#a[href*="/riradokht.ir"]>img
 samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
@@ -2170,8 +2184,13 @@ soft98.ir#@#img[src*="ironia.ml"]
 sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
+takro.net#@#*[class*="-ads "]
+takro.net#@#*[id^="ads1"]
+tasvirental.com#@#a[href*="tasvirental.com"]>img
 teskaco.com#@#a[href^="https://teskaco.com"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
+tkadak.com#@#a[href*="www.tkadak.com"]>img
+torangshop.ir#@#a[href*="torangshop.ir"]>img
 trainbit.com#@#a[href$="=banner"]>img
 tsmandegar.com#@#a[href^="http://www.tsmandegar.com"]>img
 webmd.com,live.com#@#*[class$="-banner"]
