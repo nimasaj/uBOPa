@@ -1522,6 +1522,7 @@ yasdl.com##*[id^="post-sabet-"]
 yasdl.com##div[class="post-des-box"]:if(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
 zoomit.ir##DIV.ThirdPost
+zoomit.ir##div[class^="declaration-wrapper"]
 !------------------------Generic Cosmetic Filters-----------------------!
 ###sidebar.fixads
 ##*.agahi
