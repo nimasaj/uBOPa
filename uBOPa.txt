@@ -13,7 +13,7 @@
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
 ! https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide
 ! https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode
-https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
+! https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
 ! https://github.com/uBlockAdmin/uBlock/issues/433#issuecomment-68488686
 ! https://github.com/uBlockOrigin/uAssets/issues/1896
 ! https://github.com/uBlockOrigin/uAssets/issues/2505
@@ -1359,6 +1359,8 @@ topseda.me,mytopseda.ir##script:inject(abort-current-inline-script.js, APOP_LINK
 trainbit.com##script:inject(abort-current-inline-script.js, getCookie)
 trainbit.com##script:inject(nano-setTimeout-booster.js)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
+zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
+! The upper rule is taken from https://github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
 1pezeshk.com##div[class^="rd-post-item"]:if(div>div>div>div[class^="yn-bnr"])
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
@@ -1522,7 +1524,7 @@ yasdl.com##*[id^="post-sabet-"]
 yasdl.com##div[class="post-des-box"]:if(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
 zoomit.ir##DIV.ThirdPost
-zoomit.ir##div[class^="declaration-wrapper"]
+!zoomit.ir##div[class^="declaration-wrapper"]
 !------------------------Generic Cosmetic Filters-----------------------!
 ###sidebar.fixads
 ##*.agahi
@@ -2069,9 +2071,10 @@ zoomit.ir##div[class^="declaration-wrapper"]
 !$ource,@mynext.pro/BLF.txt
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
+@@/ads-$domain=pasteboard.co
 @@-ads.$domain=aparat.com
 @@_banner*$domain=utah.edu|cable.co.uk
-@@.com/ads.$domain=uploadboy.com
+@@.com/ads.$domain=uploadboy.com,pasteboard.co
 @@banner.$domain=msdn.microsoft.com
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||digitaltrends.com^$generichide
@@ -2194,5 +2197,5 @@ tkadak.com#@#a[href*="www.tkadak.com"]>img
 torangshop.ir#@#a[href*="torangshop.ir"]>img
 trainbit.com#@#a[href$="=banner"]>img
 tsmandegar.com#@#a[href^="http://www.tsmandegar.com"]>img
-webmd.com,live.com#@#*[class$="-banner"]
+webmd.com,live.com,microsoftonline.com#@#*[class$="-banner"]
 zoomit.ir#@#*[class*=" adv-"]
