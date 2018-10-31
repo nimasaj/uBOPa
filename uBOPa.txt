@@ -776,6 +776,7 @@
 ||dariconline.ir/ii88/*$document,popup
 ||datefunclub.com/pics.php?did*
 ||debadu.com*$third-party
+||deema.agency*$third-party
 ||adapi.digikala.com*
 !||advertising.digikala.com*
 ||directadvert.ru/show.cgi*
@@ -1359,8 +1360,8 @@ topseda.me,mytopseda.ir##script:inject(abort-current-inline-script.js, APOP_LINK
 trainbit.com##script:inject(abort-current-inline-script.js, getCookie)
 trainbit.com##script:inject(nano-setTimeout-booster.js)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
-zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
-! The upper rule is taken from https://github.com/uBlockOrigin/uAssets/issues/3959
+!zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
+! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
 1pezeshk.com##div[class^="rd-post-item"]:if(div>div>div>div[class^="yn-bnr"])
 1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
@@ -1524,7 +1525,12 @@ yasdl.com##*[id^="post-sabet-"]
 yasdl.com##div[class="post-des-box"]:if(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
 zoomit.ir##DIV.ThirdPost
-!zoomit.ir##div[class^="declaration-wrapper"]
+!->
+zoomit.ir##.declarations
+zoomit.ir##body:style(padding-top: 0px !important;)
+zoomit.ir##.hotMenu:style(top: 0px !important;)
+zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
+!-< upper filters are taken from github.com/uBlockOrigin/uAssets/issues/3959
 !------------------------Generic Cosmetic Filters-----------------------!
 ###sidebar.fixads
 ##*.agahi
