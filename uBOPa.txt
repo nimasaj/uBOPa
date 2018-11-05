@@ -913,6 +913,7 @@
 ||jumpstartmediavault.com/abd/*$script
 ||justclicktowatch.to*
 ||kakgu.ru*
+||kaprila.com/a/images/loading.gif
 ||kaprila.com*/show.*$third-party
 ||khabarehonline.ir/khonkhon130.html*$document,popup
 ||kho3au7l4z.me*
@@ -1101,6 +1102,7 @@
 ||popup94.ir^$third-party,script
 ||popupad.net*
 ||popupads.ir/popupcode*$third-party
+||popupaval.com^$third-party
 ||popupearn.com*$third-party,script
 !||popupearn.com/website/*
 !||popupearn.com/popbox/*
