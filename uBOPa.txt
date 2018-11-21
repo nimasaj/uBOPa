@@ -1205,6 +1205,7 @@
 ||superfastcdn.com*$document,popup
 ||t.me*$popup,domain=~virgool.io
 !||t.me/joinchat/*$third-party,popup
+||t3l.ir*$third-party
 !||tabligheirani.com*
 !||tablighfa.com*
 ||tafrihi.com/link*
@@ -1584,18 +1585,18 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*=" ads_"]
 ##a[href*=" ads/"]
 ##a[href*="-ads "]
-##a[href*="-ads-"]
-##a[href*="-ads_"]
+##a[href*="-ads-"]>img
+##a[href*="-ads_"]>img
 ##a[href*="-ads/"]
 ##a[href*="_ads "]
 ##a[href*="_ads-"]
-##a[href*="_ads_"]
+##a[href*="_ads_"]>img
 ##a[href*="_ads/"]
 ##a[href*="//gig-dl.ir"]>img
 ##a[href*="/ads "]
 ##a[href*="/ads?"]
-##a[href*="/ads-"]
-##a[href*="/ads_"]
+##a[href*="/ads-"]>img
+##a[href*="/ads_"]>img
 ##a[href*="/ads/"]
 ##a[href*="/ads/"]>img
 ##a[href*="/agahi"]
