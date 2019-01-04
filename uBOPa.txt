@@ -1493,9 +1493,12 @@ soft98.ir##*[class="col-lg pt-3 pl-0 pr-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"]:styl
 soft98.ir##*[class="card d-block bg-light"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
 !< The upper filters are taken from okiehsch in Github/uBlockOrigin/uAssets/issues/3011
 soft98.ir##a[href*="/goo.gl/"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-soft98.ir##*[class="col-lg pt-3 pr-0 pl-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-soft98.ir##*[class="col-lg pr-0 pl-0 pl-sm-3 pr-sm-3 pr-sm-3"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-soft98.ir##section[class="card bg-light"]:style(visibility: collapse !important;):if(section>header>h4:has-text(تبلیغات))
+!soft98.ir##*[class="col-lg pt-3 pr-0 pl-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
+!soft98.ir##*[class="col-lg pr-0 pl-0 pl-sm-3 pr-sm-3 pr-sm-3"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
+soft98.ir##*[class$=" pr-sm-3 pr-sm-3"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
+soft98.ir##*[class$=" pr-sm-3 pt-lg-0 pr-lg-0"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
+!soft98.ir##section[class="card bg-light"]:style(visibility: collapse !important;):if(section>header>h4:has-text(تبلیغات))
+soft98.ir##section[class$="card bg-light"]:style(visibility: collapse !important;):if(section>header>h4:has-text(تبلیغات))
 soft98.ir##section[class="d-block card bg-light"]:if(section>header>h4:has-text(پشتیبان))
 softgozar.com##div[class="DTOPBan"]
 softgozar.com##div[id="donate"]
@@ -1608,6 +1611,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="?utm_medium=banner&utm_source="]>img
 ##a[href*="&utm_content=banner"]>img
 ##a[href*="&utm_medium=affiliate"]>img
+##a[href*="&utm_medium=banner&utm_campaign="]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
