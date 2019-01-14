@@ -41,5 +41,5 @@ Download from <a href=https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBO
 یک فهرست فراگیر از لیست های دیگر، شامل لیست های فارسی زبان، از <a href=https://filterlists.com/><b> اینجا</b></a> در دسترس است.
 </p>
 <p dir="ltr">
-A comprehensive directory of filter lists is available at <a href=https://filterlists.com/><b>here</b></a>.
+A comprehensive directory of other filter lists is available at <a href=https://filterlists.com/><b>here</b></a>.
 </p></br>
