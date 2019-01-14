@@ -27,11 +27,19 @@ In case of any unblocked advertisement, or false blocking, please open a <a href
 دریافت از <a href=https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt><b>اینجا</b></a>.
 </p>
 <p dir="ltr">
-Get it <a href=https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt><b>Here</b></a>.
+Download from <a href=https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt><b>here</b></a>.
 </p></br>
 
 <h2 dir="rtl">- راهنمای پارسی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHelp in Parsi -</h2>
 <p dir="rtl">
 برای اضافه کردن این لیست، بعد از باز کردن صفحه ی تنظیمات افزونه، به تب Filter lists رفته و آدرس را در انتهای صفحه در بخش Custom اضافه کنید.</br>
 راهنمای کامل نصب افزونه و اضافه کردن این فیلتر لیست را هم میتوانید از <a href="http://mynext.pro/uBO_installation_help_Parsi.pdf">اینجا</a> دریافت کنید.
+</p></br>
+
+<h2 dir="rtl">- پیوندها&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLinks -</h2>
+<p dir="rtl">
+یک فهرست فراگیر از لیست های دیگر، شامل لیست های فارسی زبان، از <a href=https://filterlists.com/><b> اینجا</b></a> در دسترس است.
 </p>
+<p dir="ltr">
+A comprehensive directory of filter lists is available at <a href=https://filterlists.com/><b>here</b></a>.
+</p></br>
