@@ -1353,7 +1353,7 @@ hastidl.me,hastidl1.org,hastidl1.xyz##script:inject(abort-on-property-read.js,Ob
 ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com##script:inject(abort-on-property-read.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com,msbmusic.ir##script:inject(abort-on-property-read.js, vc_url)
 iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
 iranfilmplus.net##script:inject(abort-on-property-read.js, $)
 itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
@@ -1455,6 +1455,7 @@ mihandownload.com##*[class="fix well"]
 mihandownload.com##*[class="post-body"]:if(div>a[href*="uzee.ir"])
 mihandownload.com##div[class="textwidget widget-text"]:if(div>div>div>a[href*="tracking.travian.ir"])
 mihandownload.com##div[class="well tip tags"]
+msbmusic.ir##div[id="postesabetads"]
 mytopseda.ir##.textwidget > p:nth-of-type(1)
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
@@ -1583,6 +1584,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href^="http://iran20tel.ir"]>img
 ##a[href^="http://izee.ir/"]>img
 ##a[href^="http://novinav.ir"]>img
+##a[href^="http://parcham.asia"]>img
 ##a[href^="https://pfh.co.ir"]>img
 ##a[href^="http://pooyano.com"]>img
 ##a[href^="http://shahrekaghazdivari.com"]>img
@@ -1686,6 +1688,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="mftmirdamad.com"]>img
 ##a[href*="mftvanak.com"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
+##a[href*="mihanwebhost.com/aff.php?aff="]
 ##*[href*="mizbanwp.com"]>img
 ##a[href*="modiryatnovin.com"]>img
 ##a[href*="netwas.net"]
