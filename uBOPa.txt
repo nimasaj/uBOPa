@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 2.4
+! Version: 2.5
 ! http://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -1393,6 +1393,7 @@ androidiha.net##*[class*="afarinak"]
 androidiha.net##*[class*="lightbox-easy-popup"]
 androidiha.net##*[id*="lightbox-easy-popup"]
 aparat.com##*[class*="-banner-wrapper"]
+aparat.com##a[href*="&utm_medium=htmlBanner&utm_campaign="]>img
 aparat.com##div[class="ac_main-wrapper"]
 aparat.com##div[class="aparat-pause-ad show"]
 aparat.com##div[class="filimo_movies_wrapper]
@@ -1550,7 +1551,7 @@ yasdl.com##div[class="post-des-box"]:if(div>div>div>div:has-text(تبليغات)
 yasdl.com##div[class="post-body post-tags row"]
 zoomit.ir##DIV.ThirdPost
 !->
-zoomit.ir##.declarations
+!zoomit.ir##.declarations
 zoomit.ir##body:style(padding-top: 0px !important;)
 zoomit.ir##.hotMenu:style(top: 0px !important;)
 zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
@@ -2103,7 +2104,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[data-extension="gif"][class="ad"]
 !---------------------------Whitelist Section---------------------------!
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
-!$ource,@mynext.pro/BLF.txt
+!$ource,@mynext.pro/uBOPa.txt
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
 @@/ads-$domain=pasteboard.co
