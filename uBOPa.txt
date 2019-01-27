@@ -1627,11 +1627,10 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="/didekhalagh.com"]>img
 ##a[href*="/glamora.com"]>img
 ##a[href*="/riradokht.ir"]>img
-##a[href*="&utm_medium=banner&utm_campaign="]>img
-##a[href*="?utm_medium=banner&utm_source="]>img
-##a[href*="&utm_content=banner"]>img
-##a[href*="&utm_medium=affiliate"]>img
-##a[href*="&utm_medium=banner&utm_campaign="]>img
+##a[href*="utm_content=banner"]>img
+##a[href*="utm_medium=affiliate"]>img
+##a[href*="utm_medium=banner"]>img
+##a[href*="utm_medium=htmlBanner"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
@@ -1714,14 +1713,11 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="titrebartar.ir"]>img
 ##a[href*="torangshop.ir"]>img
 ##a[href*="tracking.appdana.com"]>img
-##a[href*="utm_campaign=tb_banner&amp;utm_medium=banner"]>img
-##a[href*="utm_source=aparat&utm_medium=htmlBanner&utm_campaign="]>img
 ##a[href*="uzee.ir/jadval"]>img
 ##a[href*="www.hairfiix.com"]>img
 ##a[href*="www.lotuslaptop.com"]>img
 ##a[href*="www.tkadak.com"]>img
 ##a[href$="/ads"]
-##a[href$="=banner"]>img
 !
 ##*[data-href*="ads.ad-center.com/offer?prod"]
 ##*[data-href*="look.ichlnk.com/offer?prod="]
@@ -1792,7 +1788,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[id="adsimg"]
 ##*[id="advBan"]
 ##div[id="AdvTop"]
-##*[id="banner"]
 ##div[id="lightbox-easy-popup"]
 ##*[id="tabliq"]
 ##*[id^="ad "]
@@ -1833,8 +1828,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[id^="adv7"]
 ##*[id^="adv8"]
 ##*[id^="adv9"]
-##*[id^="banner-"]
-##*[id^="banner_"]
 ##*[id^="banner0"]
 ##*[id^="banner1"]
 ##*[id^="banner2"]
@@ -1845,7 +1838,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[id^="banner7"]
 ##*[id^="banner8"]
 ##*[id^="banner9"]
-##*[id^="banners"]
 ##*[id*="-ad-container"]
 ##*[id*="-ads0"]
 ##*[id*="-ads1"]
@@ -1892,10 +1884,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[id$=" ads"]
 ##*[id$="-ad"]
 ##*[id$="-ads"]
-##*[id$="-banner"]
 ##*[id$="_ad"]
 ##*[id$="_ads"]
-##*[id$="_banner"]
 ##*[id$="0ad"]
 ##*[id$="1ad"]
 ##*[id$="2ad"]
@@ -1933,7 +1923,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class="ads"]
 ##*[class="adsheader"]
 ##*[class="adsimg"]
-##*[class="banner"]
 ##*[class="inneradv"]
 ##*[class^="ad "]
 !##*[class^="ad-"]
@@ -1981,8 +1970,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class^="adv9"]
 ##*[class^="advert"]
 ##*[class^="adx"]
-##*[class^="banner-"]
-##*[class^="banner_"]
 ##*[class^="banner0"]
 ##*[class^="banner1"]
 ##*[class^="banner2"]
@@ -1993,7 +1980,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class^="banner7"]
 ##*[class^="banner8"]
 ##*[class^="banner9"]
-##*[class^="banners"]
 ##*[class^="bannerWrapper"]
 ##*[class^="e3lan e3lan-"]
 ##*[class^="text-adv-row"]
@@ -2006,8 +1992,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class*=" adv "]
 ##*[class*=" adv-"]
 ##*[class*=" adv_"]
-##*[class*=" banner "]
-##*[class*=" banner-"]
 ##*[class*=" topadver "]
 ##*[class*="-ad-container"]
 ##*[class*="-ads "]
@@ -2049,24 +2033,19 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class*="LeftAds-"]
 ##*[class*="random-ad-"]
 ##*[class*="RightAds-"]
-##*[class*="sbanner"]
 ##*[class*="sidebgbanner"]
 ##*[class*="tabliq"]
 ##*[class*="tabligh"]
 ##*[class*="Tadsb"]
 ##*[class*="TopAds"]
-##*[class*="topbanner"]
-##*[class*="TopBanner"]
 ##*[class*="Xbanner"]
 ##*[class$=" ads"]
 ##*[class$=" advContainer"]
 ##*[class$=" fixedadv"]
 ##*[class$="-ad"]
 ##*[class$="-ads"]
-##*[class$="-banner"]
 ##*[class$="_ad"]
 ##*[class$="_ads"]
-##*[class$="_banner"]
 ##*[class$="0ad"]
 ##*[class$="0ads"]
 ##*[class$="0banner"]
@@ -2141,19 +2120,14 @@ arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
 astiak.net#@#a[href^="http://astiak.net"]>img
 bahavarit.com#@#a[href^="https://bahavarit.com"]>img
-banifilm.ir,arcot.com#@#*[class="banner"]
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com#@#*[class*="-ads-"]
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 boorsika.com#@#a[href*="boorsika.com"]>img
-bozemanscience.com,ucsd.edu,cable.co.uk,truustneuroimaging.com#@#*[class*=" banner-"]
-bozemanscience.com#@#*[id^="banner-"]
-cable.co.uk#@#*[class*=" banner "]
 caranddriver.com#@#*[class^="ads-"]
 watch.cbc.ca,instructables.com,turbofuture.com,blogspot.com#@#*[class$="-ads"]
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
-cyber.ir,utah.edu,cable.co.uk,truustneuroimaging.com,chaharrah.tv#@#*[class^="banner-"]
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
@@ -2175,7 +2149,6 @@ jadvalyab.ir#@#a[href*="jadvalyab.ir"]>img
 janebi.com#@#*[href*="janebi.com"]>img
 jarmizanam.ir#@#a[href*="jarmizanam.ir/getapp"]>img
 kamelpack.ir#@#a[href*="kamelpack.ir"]
-khabarfarsi.com#@#*[id^="banners"]
 mail.google.com,shirazsong.net,shirazsong.in#@#*[class$=" ads"]
 mail.google.com#@#*[class$="0ad"]
 mail.google.com#@#*[class$="1ad"]
@@ -2208,11 +2181,7 @@ orico-iran.ir#@#a[href*="orico-iran.ir"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
-poptaraneh.com#@#*[class^="banners"]
-putlockertoday.org,truustneuroimaging.com#@#*[id$="-banner"]
-putlockertoday.org,ngmodem.com#@#*[id="banner"]
 qr-code-generator.com#@#*[class$="-ad"]
-quora.com,downloadly.ir#@#*[class$="_banner"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 rasanegar.com#@#a[href^="https://rasanegar.com"]>img
 riradokht.ir#@#a[href*="/riradokht.ir"]>img
@@ -2241,7 +2210,5 @@ teskaco.com#@#a[href^="https://teskaco.com"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
 tkadak.com#@#a[href*="www.tkadak.com"]>img
 torangshop.ir#@#a[href*="torangshop.ir"]>img
-trainbit.com#@#a[href$="=banner"]>img
 tsmandegar.com#@#a[href^="http://www.tsmandegar.com"]>img
-webmd.com,live.com,microsoftonline.com,nxp.com#@#*[class$="-banner"]
 zoomit.ir#@#*[class*=" adv-"]
