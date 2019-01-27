@@ -1338,45 +1338,45 @@
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
-androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir,tinymov.top,manidl.ir##script:inject(abort-current-inline-script.js, checkCookie)
-androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup)
-androidiha.net##script:inject(abort-current-inline-script.js, lightbox_easy_popup_mobile)
-ava2music.com,shirazsong.net,ariapix.net,smusic.ir##script:inject(abort-on-property-read.js, checkCookie)
-ava2music.com##script:inject(abort-current-inline-script.js, newtabopenornot)
-avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##script:inject(abort-on-property-read.js, InitPop)
-edaboard.com##script:inject(abort-on-property-read.js, interstitialBox)
-dlroozane.net##script:inject(abort-current-inline-script.js, show_fm_popup)
-downloadsoftware.ir##script:inject(abort-on-property-read.js, urlToShow)
-farspatogh.ir##script:inject(abort-current-inline-script.js, sitepop)
-farsroid.com##script:inject(abort-on-property-read.js, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz##script:inject(abort-on-property-read.js,Object.defineProperty)
-ibcomputing.com##script:inject(setTimeout-defuser.js, adsbygoogle)
-i-video.ir##script:inject(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##script:inject(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com,msbmusic.ir##script:inject(abort-on-property-read.js, vc_url)
-iranfilmplus.com##script:inject(abort-current-inline-script.js, $)
-iranfilmplus.net##script:inject(abort-on-property-read.js, $)
-itresan.com##script:inject(abort-on-property-read.js, ulp_popup_id)
-khabarfarsi.com##script:inject(abort-current-inline-script.js, jQuery, document.createElement)
+androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir,tinymov.top,manidl.ir##+js(abort-current-inline-script.js, checkCookie)
+androidiha.net##+js(abort-current-inline-script.js, lightbox_easy_popup)
+androidiha.net##+js(abort-current-inline-script.js, lightbox_easy_popup_mobile)
+ava2music.com,shirazsong.net,ariapix.net,smusic.ir##+js(abort-on-property-read.js, checkCookie)
+ava2music.com##+js(abort-current-inline-script.js, newtabopenornot)
+avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##+js(abort-on-property-read.js, InitPop)
+edaboard.com##+js(abort-on-property-read.js, interstitialBox)
+dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
+downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
+farspatogh.ir##+js(abort-current-inline-script.js, sitepop)
+farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
+hastidl.me,hastidl1.org,hastidl1.xyz##+js(abort-on-property-read.js,Object.defineProperty)
+ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
+i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##+js(abort-current-inline-script.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com,msbmusic.ir##+js(abort-on-property-read.js, vc_url)
+iranfilmplus.com##+js(abort-current-inline-script.js, $)
+iranfilmplus.net##+js(abort-on-property-read.js, $)
+itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
+khabarfarsi.com##+js(abort-current-inline-script.js, jQuery, document.createElement)
 listenpersian.net##+js(bab-defuser.js)
-makeuseof.com##script:inject(abort-on-property-read.js, alternativeAds)
-music-online.ir,hexdownload.net##script:inject(set-constant.js, needpop, 0)
-nokiapoweruser.com##script:inject(abort-current-inline-script.js, anOptions)
-nwtehranmusic.com##script:inject(abort-on-property-write.js, open)
-p30day.com##script:inject(abort-on-property-read.js, window.open)
-putlockers.*##script:inject(abort-on-property-read.js, performance)
-putlockers.*##script:inject(nowebrtc.js)
-seehd.*##script:inject(abort-current-inline-script.js, adBlockDetected)
-seemorgh.com##script:inject(abort-current-inline-script.js, jQuery)
-topseda.me,mytopseda.ir##script:inject(abort-current-inline-script.js, APOP_LINKS)
-trainbit.com##script:inject(abort-current-inline-script.js, getCookie)
-trainbit.com##script:inject(nano-setTimeout-booster.js)
+makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
+music-online.ir,hexdownload.net##+js(set-constant.js, needpop, 0)
+nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
+nwtehranmusic.com##+js(abort-on-property-write.js, open)
+p30day.com##+js(abort-on-property-read.js, window.open)
+putlockers.*##+js(abort-on-property-read.js, performance)
+putlockers.*##+js(nowebrtc.js)
+seehd.*##+js(abort-current-inline-script.js, adBlockDetected)
+seemorgh.com##+js(abort-current-inline-script.js, jQuery)
+topseda.me,mytopseda.ir##+js(abort-current-inline-script.js, APOP_LINKS)
+trainbit.com##+js(abort-current-inline-script.js, getCookie)
+trainbit.com##+js(nano-setTimeout-booster.js)
 !tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 !zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
-1pezeshk.com##div[class^="rd-post-item"]:if(div>div>div>div[class^="yn-bnr"])
-1pezeshk.com##*[class="widget_text"]:if(div > div > div:has-text(آگهی))
+1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div[class^="yn-bnr"])
+1pezeshk.com##*[class="widget_text"]:has(div > div > div:has-text(آگهی))
 1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
 1pezeshk.com##div[class*="category-ad-"]
 123gomovies.co##.embed-container
@@ -1399,18 +1399,18 @@ aparat.com##div[class="aparat-pause-ad show"]
 aparat.com##div[class="filimo_movies_wrapper]
 aparat.com##div[class="videoonepromotion--wrapper hidden-end-recom"]
 asaldl.com##*[class="banas"]
-asandl.com##article[class^="post"]:if(article>div>figure>a[href*="zula.ir"])
-asandl.com##article[class^="post"]:if(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
-asandl.com##article[class^="post"]:if(article>div>figure>a[href*="webzi.ir/?utm_source"])
-asandl.com##article[class="post mobile"]:if(article>footer>a[href*="charge.asandl.com/app"])
+asandl.com##article[class^="post"]:has(article>div>figure>a[href*="zula.ir"])
+asandl.com##article[class^="post"]:has(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
+asandl.com##article[class^="post"]:has(article>div>figure>a[href*="webzi.ir/?utm_source"])
+asandl.com##article[class="post mobile"]:has(article>footer>a[href*="charge.asandl.com/app"])
 asandl.com##*[class="asan468 box center"]
-asandl.com##div[class="asan250 box center"]:if(div>a[href*="charge.asandl.com/app"])
-asandl.com##div[class="text-asan"]:if(div>h3:has-text(Text ADS in AsanDownload))
-bia4music.org,bia4music.ir##div[class="box"]:if(div>div>p>a>img[alt*="زولا"])
-bia4music.org,bia4music.ir##div[class="fixedpost"]:if(div>div>h4:has-text(زولا))
-cooldownload.ir##div[class="pm"]:if(div>div>p>a[title*="زولا"])
-dlroozane.net##div[class="static-post"]:if(div>div>h4:has-text(تبلیغ))
-dlroozane.net##div[class="blockin"]:if(div>div>div>h3:has-text(تبلیغ))
+asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
+asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
+bia4music.org,bia4music.ir##div[class="box"]:has(div>div>p>a>img[alt*="زولا"])
+bia4music.org,bia4music.ir##div[class="fixedpost"]:has(div>div>h4:has-text(زولا))
+cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
+dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
+dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
@@ -1432,12 +1432,12 @@ gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
 hastidl.me,hastidl1.org,hastidl1.xyz##center
 hastidl.me,hastidl1.org,hastidl1.xyz##div[id^="SC_TBlock_"]
-hastidl.me,hastidl1.org,hastidl1.xyz##div[class="head"]:if(div>h1:has-text(تبلیغات))
-hastidl.me,hastidl1.org,hastidl1.xyz##div[class="main-content"]:if(div>center:has-text(زولا))
+hastidl.me,hastidl1.org,hastidl1.xyz##div[class="head"]:has(div>h1:has-text(تبلیغات))
+hastidl.me,hastidl1.org,hastidl1.xyz##div[class="main-content"]:has(div>center:has-text(زولا))
 hastidownloadz.info##center > div:nth-of-type(1)
-hastidownloadz.info##div[class="post-content"]:if(div>a[style="text-align:center;display:block"])
-hastidownloadz.info##div[class="post"]:if(div>p>a[href*="bit.ly/mahoot"])
-hexdownload.net##div[class="widget-con"]:if(div>figure>a[href*="zula.ir"])
+hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:center;display:block"])
+hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
+hexdownload.net##div[class="widget-con"]:has(div>figure>a[href*="zula.ir"])
 hidoctor.ir##*[class^="pdsifradsbn"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
@@ -1447,52 +1447,52 @@ iranfilmplus.net##div[id="infoi"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
 khabarfarsi.com##*[id="banners_120_top"]
-live.com##div:if(:scope > div > span:has-text(an ad blocker))
-live.com##div:if(:scope > div > div > span:has-text(an ad blocker))
+live.com##div:has(:scope > div > span:has-text(an ad blocker))
+live.com##div:has(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 mihandownload.com##*[class="fix well"]
-mihandownload.com##*[class="post-body"]:if(div>a[href*="uzee.ir"])
-mihandownload.com##div[class="textwidget widget-text"]:if(div>div>div>a[href*="tracking.travian.ir"])
+mihandownload.com##*[class="post-body"]:has(div>a[href*="uzee.ir"])
+mihandownload.com##div[class="textwidget widget-text"]:has(div>div>div>a[href*="tracking.travian.ir"])
 mihandownload.com##div[class="well tip tags"]
 msbmusic.ir##div[id="postesabetads"]
 mytopseda.ir##.textwidget > p:nth-of-type(1)
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 namnak.com##a[href*="/ag_"]>img
-naslemusic.com##div[class="post"]:if(div>div>div>a[title="Jadval"])
-naslemusic.com##div[class="post"]:if(div>div>div>a[title="tanki"])
-naslemusic.com##div[class="post"]:if(div>div>div>a[title="zula"])
+naslemusic.com##div[class="post"]:has(div>div>div>a[title="Jadval"])
+naslemusic.com##div[class="post"]:has(div>div>div>a[title="tanki"])
+naslemusic.com##div[class="post"]:has(div>div>div>a[title="zula"])
 netnevesht.com##div[class^="netne-content"]
 netnevesht.com##div[class="netne-after-content"]
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nokiapoweruser.com##*[class="wpa"]
 p30day.com##*[class="static_posts adsblockpop"]
-p30download.com##div[class="article-wrapper"]:if(div>article>header>h1>a[href*="zula.ir"])
-p30download.com##div[class="article-wrapper"]:if(div>article>header>h1:has-text(زولا))
-p30download.com##div[class="article-wrapper"]:if(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
-p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:if(span>iframe[src*="kaprila.com/a/show.php"])
+p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
+p30download.com##div[class="article-wrapper"]:has(div>article>header>h1:has-text(زولا))
+p30download.com##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
+p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:has(span>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
-p30download.com##article[class="post"]:if(article>div>p>a[href*="filestore.persiangfx.com"])
+p30download.com##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
 rapidvideo.com##*[id^="top350"]
-rokna.net##div[class*="zxc clearbox noprint"]:if(div>div>a[href*="/advertisements/"])
+rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
 !rokna.net##div[class*="type-scriptiframe position"]>iframe
 rokna.net##div[class^="type-script"]
-rooziato.com##*[class="single_section"]:if([src*="clickyab.com"])
+rooziato.com##*[class="single_section"]:has([src*="clickyab.com"])
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
-seemorgh.com##div[class="SC_TBlock"]:if(:has-text(loading))
-shirazsong.net##div[class="box"]:if(div>div>p>a[href*="zula.ir"])
-shirazsong.net##div[class="content"]:if(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
-shirazsong.net##div[style="text-align:center"]>div[class="content"]:if(div>div>p>a[href*="tankionline.com/fa?utm_source"])
+seemorgh.com##div[class="SC_TBlock"]:has(:has-text(loading))
+shirazsong.net##div[class="box"]:has(div>div>p>a[href*="zula.ir"])
+shirazsong.net##div[class="content"]:has(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
+shirazsong.net##div[style="text-align:center"]>div[class="content"]:has(div>div>p>a[href*="tankionline.com/fa?utm_source"])
 skyscanner.net##li[id*="tame-slot-day-view-inline"]
-smusic.ir##article:if(article>center>div>a[title*="زولا"])
-smusic.ir##article:if(article>div>div>a[title*="زولا"])
-smusic.ir##article:if(article>center>div>a[href*="tankionline.com/fa?utm_source"])
-smusic.ir##article:if(article>div>div>a[href*="tankionline.com/fa?utm_source"])
+smusic.ir##article:has(article>center>div>a[title*="زولا"])
+smusic.ir##article:has(article>div>div>a[title*="زولا"])
+smusic.ir##article:has(article>center>div>a[href*="tankionline.com/fa?utm_source"])
+smusic.ir##article:has(article>div>div>a[href*="tankionline.com/fa?utm_source"])
 !>
 !soft98.ir##a[href*="/bit.ly/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
 !soft98.ir##a[href*="/clc.to/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
@@ -1514,40 +1514,40 @@ soft98.ir##a[href*="/goo.gl/"]:style(height: 1px !important; width: 1px !importa
 !soft98.ir##*[class^="col-lg pl-"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
 !soft98.ir##*[class*="col-lg "]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
 !soft98.ir##*[class*=" pr-sm-"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##section[class="card bg-light"]:style(visibility: collapse !important;):if(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class*="card bg-light"]:style(visibility: collapse !important;):if(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class*="bg-light card"]:style(visibility: collapse !important;):if(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class$="bg-light card "]:style(visibility: collapse !important;):if(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class="d-block card bg-light"]:if(section>header>h4:has-text(پشتیبان))
+!soft98.ir##section[class="card bg-light"]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
+!soft98.ir##section[class*="card bg-light"]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
+!soft98.ir##section[class*="bg-light card"]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
+!soft98.ir##section[class$="bg-light card "]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
+!soft98.ir##section[class="d-block card bg-light"]:has(section>header>h4:has-text(پشتیبان))
 softgozar.com##div[class="DTOPBan"]
 softgozar.com##div[id="donate"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
-texahang.org##article:if(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
-texahang.org##article:if(article>center>a[href*="tracking.travian.ir"])
-tikfilm.net,tikfilm.org##*[class="wapper-posts"]:if(div>a[href*="zula.ir"])
-tikfilm.net,tikfilm.org##section[class="post"]:if(section>article>section>section>div>div>a[href*="tankionline.com/fa"])
-tikfilm.net,tikfilm.org##div[class="content_text"]:if(div>div>a[href*="netkar.org/radyab"])
-tikfilm.net,tikfilm.org##section[class="post-content"]:if(section>div>div>a[href*="jarmizanam.ir"])
-tikfilm.net,tikfilm.org##section[class="post-content"]:if(section>div>div>a[href*="tankionline.com/fa?utm_source"])
-top2download.com,top2download.net##article:if(article>header>div>a[href*=".com/ads."])
+texahang.org##article:has(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
+texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
+tikfilm.net,tikfilm.org##*[class="wapper-posts"]:has(div>a[href*="zula.ir"])
+tikfilm.net,tikfilm.org##section[class="post"]:has(section>article>section>section>div>div>a[href*="tankionline.com/fa"])
+tikfilm.net,tikfilm.org##div[class="content_text"]:has(div>div>a[href*="netkar.org/radyab"])
+tikfilm.net,tikfilm.org##section[class="post-content"]:has(section>div>div>a[href*="jarmizanam.ir"])
+tikfilm.net,tikfilm.org##section[class="post-content"]:has(section>div>div>a[href*="tankionline.com/fa?utm_source"])
+top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/ads."])
 top2download.com##*[class="ads-tmain"]
-top2download.net##div[class="post-body text-center"]:if(div>a>img[width="468"][height="60"])
+top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 www.uptvs.com##article.post:nth-of-type(2)
 www.uptvs.com##article.post:nth-of-type(3)
-!uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="uzee.ir"])
-!uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="zula.ir"])
-!uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
-!uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
-!uptvs.com,uptv.ir##article[class="post"]:if(article>div>div>p>a[href$="goo.gl/y3oDgW"])
-uptvs.com,uptv.ir##div[class="widget-con"]:if(div>h4:has-text(زولا))
+!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href*="uzee.ir"])
+!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href*="zula.ir"])
+!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
+!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
+!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href$="goo.gl/y3oDgW"])
+uptvs.com,uptv.ir##div[class="widget-con"]:has(div>h4:has-text(زولا))
 uptvs.com,uptv.ir##div[class*="-popup-"]
 uptvs.com##div[class="tags"]
-uupload.ir##div[class="tab_box"]:if(div>div:has-text(تبلیغ))
+uupload.ir##div[class="tab_box"]:has(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
 yasdl.com##*[id^="post-sabet-"]
-yasdl.com##div[class="post-des-box"]:if(div>div>div>div:has-text(تبليغات))
+yasdl.com##div[class="post-des-box"]:has(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
 zoomit.ir##DIV.ThirdPost
 !->
