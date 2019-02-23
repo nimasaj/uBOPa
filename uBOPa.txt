@@ -610,6 +610,7 @@
 ||adhitzads.com*
 ||adhoc2.net*
 ||adhref.pl*$script
+||adiran.co*
 ||adjuggler.net*
 ||adk2.co*
 ||adk2x.com*$third-party,document,popup
@@ -1650,6 +1651,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[href*="arefrayaneh.com"]>img
 ##*[href*="arian-motor.com"]>img
 ##*[href*="arshantour.net"]>img
+##a[href*="banimode.com/landing/"]
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
 ##a[href*="bitgame.ir/?"]>img
@@ -2129,6 +2131,7 @@ chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
+dlroozane.net#@#.adsbox
 dlroozane.net#@#.topads
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
