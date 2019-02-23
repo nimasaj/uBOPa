@@ -1413,6 +1413,7 @@ cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
 dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
 dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
 dlroozane.net##div[class="widget-con"]:has(div>h4:has-text(بانی مد))
+dlroozane.net##div[class="adsbox"]>center
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
@@ -2132,6 +2133,7 @@ chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
+dlroozane.net#@#.adsbox
 dlroozane.net#@#.topads
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
