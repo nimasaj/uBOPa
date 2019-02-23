@@ -1653,6 +1653,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
 ##a[href*="bitgame.ir/?"]>img
+##a[href*="bodogame.com/?p="]>img
 ##a[href*="boorsika.com"]>img
 ##*[href*="bunjee-link.tk"]>img
 ##a[href*="campaign=SideAds&"]>img
@@ -2043,7 +2044,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class$=" advContainer"]
 ##*[class$=" fixedadv"]
 ##*[class$="-ad"]
-##*[class$="-ads"]
 ##*[class$="_ad"]
 ##*[class$="_ads"]
 ##*[class$="0ad"]
@@ -2125,11 +2125,11 @@ bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com#@#*[class*="-ads-"]
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 boorsika.com#@#a[href*="boorsika.com"]>img
 caranddriver.com#@#*[class^="ads-"]
-watch.cbc.ca,instructables.com,turbofuture.com,blogspot.com#@#*[class$="-ads"]
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
+dlroozane.net#@#.topads
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
 favajam.com#@#a[href*="favajam.com"]>img
