@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 2.5
+! Version: 2.6
 ! http://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -1407,6 +1407,7 @@ asandl.com##article[class="post mobile"]:has(article>footer>a[href*="charge.asan
 asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
+behmusic.com##*[class$="_ads"]>p[style="text-align: center;"]
 bia4music.org,bia4music.ir##div[class="box"]:has(div>div>p>a>img[alt*="زولا"])
 bia4music.org,bia4music.ir##div[class="fixedpost"]:has(div>div>h4:has-text(زولا))
 cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
@@ -1488,6 +1489,7 @@ seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:has(:has-text(loading))
+shahrsakhtafzar.com##div[class*=" ads2col"]
 shirazsong.net##div[class="box"]:has(div>div>p>a[href*="zula.ir"])
 shirazsong.net##div[class="content"]:has(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
 shirazsong.net##div[style="text-align:center"]>div[class="content"]:has(div>div>p>a[href*="tankionline.com/fa?utm_source"])
@@ -1608,6 +1610,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*=" ads-"]
 ##a[href*=" ads_"]
 ##a[href*=" ads/"]
+##a[href*=".aspx?AdId="]
 ##a[href*="-ads "]
 ##a[href*="-ads-"]>img
 ##a[href*="-ads_"]>img
@@ -2195,7 +2198,7 @@ sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
 seegotravel.com#@#a[href^="http://seegotravel.com"]>img
 seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
-sendspace.com#@#*[class$="_ads"]
+sendspace.com,behmusic.com#@#*[class$="_ads"]
 shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
@@ -2205,6 +2208,10 @@ soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
+softgozar.com##div[id="advBan"]
+softgozar.com##div[id="AdvTop"]
+softgozar.com##*[class="adv_text"]
+softgozar.com##div[class="advUN"]
 sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
