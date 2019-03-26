@@ -640,6 +640,8 @@
 ||adsfast.com*
 ||adshost2.com*
 ||adshuffle.com*
+||adsima.net*$popup
+||adsima.net*$third-party,script
 ||adskeeper.co.*
 ||adsmarket.com*
 ||adsniper.ru*
