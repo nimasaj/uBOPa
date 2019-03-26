@@ -1350,7 +1350,7 @@ dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
 farspatogh.ir##+js(abort-current-inline-script.js, sitepop)
 farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##+js(abort-on-property-read.js,Object.defineProperty)
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top##+js(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##+js(abort-current-inline-script.js, vc_url)
@@ -1434,10 +1434,10 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##center
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##div[id^="SC_TBlock_"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##div[class="head"]:has(div>h1:has-text(تبلیغات))
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##div[class="main-content"]:has(div>center:has-text(زولا))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top##center
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top##div[id^="SC_TBlock_"]
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top##div[class="main-content"]:has(div>center:has-text(زولا))
 hastidownloadz.info##center > div:nth-of-type(1)
 hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:center;display:block"])
 hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
