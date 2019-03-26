@@ -1350,11 +1350,11 @@ dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
 farspatogh.ir##+js(abort-current-inline-script.js, sitepop)
 farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz##+js(abort-on-property-read.js,Object.defineProperty)
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##+js(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##+js(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com,msbmusic.ir##+js(abort-on-property-read.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com,msbmusic.ir,lianmovie.com##+js(abort-on-property-read.js, vc_url)
 iranfilmplus.com##+js(abort-current-inline-script.js, $)
 iranfilmplus.net##+js(abort-on-property-read.js, $)
 itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
@@ -1434,10 +1434,10 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
-hastidl.me,hastidl1.org,hastidl1.xyz##center
-hastidl.me,hastidl1.org,hastidl1.xyz##div[id^="SC_TBlock_"]
-hastidl.me,hastidl1.org,hastidl1.xyz##div[class="head"]:has(div>h1:has-text(تبلیغات))
-hastidl.me,hastidl1.org,hastidl1.xyz##div[class="main-content"]:has(div>center:has-text(زولا))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##center
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##div[id^="SC_TBlock_"]
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##div[class="head"]:has(div>h1:has-text(تبلیغات))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz##div[class="main-content"]:has(div>center:has-text(زولا))
 hastidownloadz.info##center > div:nth-of-type(1)
 hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:center;display:block"])
 hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
@@ -1624,7 +1624,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="/ads?"]
 ##a[href*="/ads-"]>img
 ##a[href*="/ads_"]>img
-##a[href*="/ads/"]
+!##a[href*="/ads/"]
 ##a[href*="/ads/"]>img
 ##a[href*="/agahi"]
 ##a[href*="/banners/click/"]>img
@@ -2119,6 +2119,9 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 adgup.com#@#a[href^="http://adgup.com"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 aliexpress.com#@#a[href*="s.click.aliexpress.com/"]>img
+all3dp.com#@#*[class*="-ad-container"]
+amazon.*#@#*[id$="-ads"]
+amazon.*#@#*[class$="-ad"]
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
 aparat.com#@#*[class*=" ads-"]
 aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
