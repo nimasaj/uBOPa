@@ -37,3 +37,4 @@
 @@||trialpay.com
 @@||uasdenmark.dk
 @@||epayment.bbs.no
+@@||payment.quickpay.net
