@@ -38,3 +38,4 @@
 @@||uasdenmark.dk
 @@||epayment.bbs.no
 @@||payment.quickpay.net
+@@||monetico-services.com
