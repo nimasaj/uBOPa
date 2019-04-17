@@ -690,6 +690,7 @@
 ||asrfarda.ir/page.php$document,popup
 *wms.assoc-amazon.com*$script
 ||atiehnews.ir/7001/*$document,popup
+||landing.atighgasht.com*$third-party
 ||atis.ir/script?*$third-party
 ||avablog.ir/redirect.php^$popup
 ||avalanchers.com/wcode/*
@@ -809,6 +810,7 @@
 ||eda-prosto.ru*
 ||edomz.net/popup.js*
 ||efotdwuui.bid*$script
+||eghamat24.com*$third-party
 ||eghtesadazad.com/a1aa/*$document,popup
 ||eghtesadban.com*$document,popup
 ||eghtesadi.org/600e/*$document,popup
