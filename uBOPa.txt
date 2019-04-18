@@ -1494,7 +1494,6 @@ rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisemen
 !rokna.net##div[class*="type-scriptiframe position"]>iframe
 rokna.net##div[class^="type-script"]
 rooziato.com##*[class="single_section"]:has([src*="clickyab.com"])
-##div[class^="modal"]
 scnlog.me,scnlog1.unblocked.is,scnlog.unblocked.win,scnlog.unblocked.krd,scnlog.unblocked.llc,scnlog.unblocked2.website##div[class^="modal"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
