@@ -517,6 +517,7 @@
 ||34.212.19.168*
 ||35.188.14.213*$document,popup
 ||35.188.59.75*$document,popup
+||35.226.75.50*$document,popup
 ||54.68.166.58*
 ||80.93.49.192/*.php?id*
 ||104.154.237.193^$popup
@@ -880,9 +881,11 @@
 ||hitplus.net*$third-party,script
 ||hitplus.net/go/popup/*
 ||hitpop.ir/website/js*$third-party
+||hntntnfizowo.com*
 ||hostmir.net/21_36_240_f.js*$third-party,script
 ||hostmir.net/click.php?site*$third-party
 ||hvooyieoei.com*$third-party
+||hysnqwbokyuvsm.com*
 ||hzsod71wov.me*
 ||process.i-frame.ir/index.php?params*$third-party
 ||script.i30t.com/script/*$third-party,script
@@ -1227,6 +1230,7 @@
 !||tapshow.ir/iq*$script
 ||tasvirrooz.ir/8222f.html*$document,popup
 ||cbn.tbn.ru/sa/image?parentid*
+||tczvikamowfjte.com*
 ||teasernet.com/block2.htm*
 ||teasernet.ru/step*.php*
 ||teasernet.ru/funcs*.php*
@@ -1490,11 +1494,8 @@ rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisemen
 !rokna.net##div[class*="type-scriptiframe position"]>iframe
 rokna.net##div[class^="type-script"]
 rooziato.com##*[class="single_section"]:has([src*="clickyab.com"])
-scnlog.me##div[class^="modal"]
-scnlog1.unblocked.is##div[class^="modal"]
-scnlog.unblocked.krd##div[class^="modal"]
-scnlog.unblocked.llc##div[class^="modal"]
-scnlog.unblocked2.website##div[class^="modal"]
+##div[class^="modal"]
+scnlog.me,scnlog1.unblocked.is,scnlog.unblocked.win,scnlog.unblocked.krd,scnlog.unblocked.llc,scnlog.unblocked2.website##div[class^="modal"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
