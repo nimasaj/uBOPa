@@ -37,5 +37,7 @@
 @@||trialpay.com
 @@||uasdenmark.dk
 @@||epayment.bbs.no
+@@||payment.architrade.com
 @@||payment.quickpay.net
 @@||monetico-services.com
+@@||wlp-acs.com
