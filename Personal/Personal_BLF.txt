@@ -17,12 +17,9 @@
 @@||arduinotech.dk
 @@||cgi5.ebay.com
 @@||dcc.godaddy.com
-@@||danskebank.dk
 @@||lycamobileeshop.dk
 @@||lycamobile.dk
 @@||partners.sigfox.com
-@@||pay1.dibspayment.com
-@@||secure.oceanpayment.com
 @@||tickets.airbaltic.com
 @@||banggood.com
 @@||dsb.dk
@@ -34,6 +31,10 @@
 @@||sciencedirect.com
 @@||skyscanner.net
 @@||talahost.com
+!----------------Bank portals/ Payment gateways-----------------!
+@@||secure.oceanpayment.com
+@@||pay1.dibspayment.com
+@@||danskebank.dk
 @@||trialpay.com
 @@||uasdenmark.dk
 @@||epayment.bbs.no
