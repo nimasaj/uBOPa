@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 2.6
+! Version: 2.7
 ! http://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -1280,7 +1280,6 @@
 ||uelect.com*$script
 ||unblockmyproxy.site/js/*
 ||unztsvrjofqp.com*$script
-||uploadgoogle.ir/go.php?go=queue*
 ||cdn.uservoice.com/javascripts/widgets/tab.js*
 ||utop.ir*$third-party
 ||vatanclick.ir*$third-party
@@ -1485,6 +1484,7 @@ nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nokiapoweruser.com##*[class="wpa"]
 p30day.com##*[class="static_posts adsblockpop"]
+p30day.com##div[id^="ADbox-"]
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1:has-text(زولا))
 p30download.com##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
