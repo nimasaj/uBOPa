@@ -699,7 +699,8 @@
 ||awin1.com^$popup
 ||b0b.ir*$third-party
 ||backlinka.ir^$popup
-||backority.ir*$script,third-party
+||backority.ir*$third-party
+||backority.ir*$popup
 ||badongo.com/js/ua-remote.js*
 ||bannersnack.com*$script
 ||bannersnack.com/iframe/*
@@ -1279,6 +1280,7 @@
 ||uelect.com*$script
 ||unblockmyproxy.site/js/*
 ||unztsvrjofqp.com*$script
+||uploadgoogle.ir/go.php?go=queue*
 ||cdn.uservoice.com/javascripts/widgets/tab.js*
 ||utop.ir*$third-party
 ||vatanclick.ir*$third-party
@@ -1359,7 +1361,7 @@ dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
 farspatogh.ir##+js(abort-current-inline-script.js, sitepop)
 farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top##+js(abort-on-property-read.js,Object.defineProperty)
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##+js(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##+js(abort-current-inline-script.js, vc_url)
@@ -1373,7 +1375,7 @@ makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
 music-online.ir,hexdownload.net##+js(set-constant.js, needpop, 0)
 nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
 nwtehranmusic.com##+js(abort-on-property-write.js, open)
-p30day.com##+js(abort-on-property-read.js, window.open)
+p30day.com,uploadgoogle.ir##+js(abort-on-property-read.js, window.open)
 putlockers.*##+js(abort-on-property-read.js, performance)
 putlockers.*##+js(nowebrtc.js)
 seehd.*##+js(abort-current-inline-script.js, adBlockDetected)
@@ -1443,10 +1445,10 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top##center
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top##div[id^="SC_TBlock_"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top##div[class="main-content"]:has(div>center:has-text(زولا))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##center
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##div[id^="SC_TBlock_"]
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##div[class="main-content"]:has(div>center:has-text(زولا))
 hastidownloadz.info##center > div:nth-of-type(1)
 hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:center;display:block"])
 hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
@@ -2160,6 +2162,15 @@ favaafzar.com#@#a[href^="http://www.favaafzar.com"]>img
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
 gig-dl.ir#@#a[href*="//gig-dl.ir"]>img
+github.com#@#*[id$="1ad"]
+github.com#@#*[id$="2ad"]
+github.com#@#*[id$="3ad"]
+github.com#@#*[id$="4ad"]
+github.com#@#*[id$="5ad"]
+github.com#@#*[id$="6ad"]
+github.com#@#*[id$="7ad"]
+github.com#@#*[id$="8ad"]
+github.com#@#*[id$="9ad"]
 gizmodo.com,lifehacker.com#@#*[class*="_ads_"]
 ham3da.ir#@#a[href^="http://ham3da.ir"]>img
 hormozhotel.com#@#a[href*="hormozhotel.com"]>img
