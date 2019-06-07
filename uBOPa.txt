@@ -660,6 +660,7 @@
 ||adverigo.com*
 ||advon.net^
 ||adweb.ir*$third-party
+||adwised.com*$third-party
 ||adziran.ml*$third-party
 ||afdads.com/widget*$third-party
 ||affilize.com*
@@ -964,6 +965,7 @@
 ||mahdiyar.ir/webmaster/*
 ||mahshar.com/hafez.htm*
 ||mahshar.com/speak_masterfully/speak_masterfully.php*
+||landings.matbakh-app.com*$third-party,popup
 ||marketgid.com*
 ||marinsm.com/serve/*
 ||maxpopup.ir*.php*user*
@@ -1371,7 +1373,7 @@ itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##+js(abort-current-inline-script.js, jQuery, document.createElement)
 listenpersian.net##+js(bab-defuser.js)
 makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
-music-online.ir,hexdownload.net##+js(set-constant.js, needpop, 0)
+music-online.ir,hexdownload.net,cdmusic.ir##+js(set-constant.js, needpop, 0)
 nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
 nwtehranmusic.com##+js(abort-on-property-write.js, open)
 p30day.com,uploadgoogle.ir##+js(abort-on-property-read.js, window.open)
