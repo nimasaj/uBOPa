@@ -542,6 +542,7 @@
 ||123movies.party/assets/js/custombanner.js*
 ||123gomovies.co/hd/index.php
 ||1dar1.com/shop_box*$third-party
+||1movies.is/site/*
 ||1phads.com*
 *1traff.ru/script/js.php?id*
 ||1under.ru*
