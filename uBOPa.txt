@@ -1663,7 +1663,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="7sharj.ir"]>img
 ##*[href*="account.zula.ir/pages/new-iran?utm_source"]>img
 ##*[href*="adonisparvaz.com"]>img
-##a[href*="advertisement"]
+!##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
 ##a[href*="amlakbaharan.com"]>img
 ##a[href*="amlakvitrin.com"]>img
@@ -2114,6 +2114,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@.com/ads.$domain=uploadboy.com,pasteboard.co
 @@.com/clk?$domain=varzesh3.com
 @@banner.$domain=msdn.microsoft.com
+@@||1movies.is/site/captcha?*
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||digitaltrends.com^$generichide
 @@||fbdown.net/js/adframe.js
@@ -2216,7 +2217,7 @@ orico-iran.ir#@#a[href*="orico-iran.ir"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
-psypost.org#@#a[href*="advertisement"]
+!psypost.org#@#a[href*="advertisement"]
 qr-code-generator.com#@#*[class$="-ad"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 rasanegar.com#@#a[href^="https://rasanegar.com"]>img
