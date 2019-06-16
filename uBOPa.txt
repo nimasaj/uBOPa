@@ -1456,6 +1456,7 @@ hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:cente
 hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
 hexdownload.net##div[class="widget-con"]:has(div>figure>a[href*="zula.ir"])
 hidoctor.ir##*[class^="pdsifradsbn"]
+ilna.ir##div[class$=" zxc"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
 ir-dl.com##div[class="beetads block"]
@@ -1635,6 +1636,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="_ads_"]>img
 ##a[href*="_ads/"]
 ##a[href*="//gig-dl.ir"]>img
+##a[href*="/advertisements/"]>img
 ##a[href*="/ads "]
 ##a[href*="/ads?"]
 ##a[href*="/ads-"]>img
@@ -1696,6 +1698,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="ghasedak24.org"]>img
 ##a[href*="giftcard.ir"]>img
 ##a[href*="go.oclaserver.com/afu.php?zoneid"]>img
+##a[href*="hesabehamrah.com/campaign"]
 ##a[href*="hibids10.com"]>img
 ##*[href*="hicpm10.com/watch?key"]>img
 ##a[href*="hormozhotel.com"]>img
@@ -1943,6 +1946,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[id$="topAdv"]
 !
 ##*[class="ad-desktop-container"]
+##div[class="adbox"]
 ##*[class="ads"]
 ##*[class="adsheader"]
 ##*[class="adsimg"]
