@@ -2215,6 +2215,7 @@ nikfarshop.ir#@#a[href*="nikfarshop.ir"]>img
 novakala.com#@#*[href*="novakala.com"]>img
 orico-iran.ir#@#a[href*="orico-iran.ir"]>img
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
+paypal.com#@#*[id^="ads-"]
 pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
 !psypost.org#@#a[href*="advertisement"]
