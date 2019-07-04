@@ -2061,6 +2061,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class*="random-ad-"]
 ##*[class*="RightAds-"]
 ##*[class*="sidebgbanner"]
+##*[class*="showBanner"]
 ##*[class*="tabliq"]
 ##*[class*="tabligh"]
 ##*[class*="Tadsb"]
