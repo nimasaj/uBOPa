@@ -1653,6 +1653,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="utm_content=banner"]>img
 ##a[href*="utm_medium=affiliate"]>img
 ##a[href*="utm_medium=banner"]>img
+##a[href*="utm_medium=Display&utm_"]
+##a[href*="utm_medium=Display&amp;utm_"]
 ##a[href*="utm_medium=htmlBanner"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
@@ -1663,7 +1665,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="2dda.ir"]>img
 ##a[href*="3dmaxclass.com"]>img
 ##a[href*="7sharj.ir"]>img
-##*[href*="account.zula.ir/pages/new-iran?utm_source"]>img
+##*[href*="account.zula.ir/pages/"]>img
 ##*[href*="adonisparvaz.com"]>img
 !##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
