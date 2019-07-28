@@ -2070,7 +2070,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
 @@/ads-$domain=pasteboard.co
-@@-ads.$domain=aparat.com
+@@-ads.$domain=aparat.com|varzesh3.com
 @@_banner*$domain=utah.edu|cable.co.uk
 @@.com/ads.$domain=uploadboy.com,pasteboard.co
 @@.com/clk?$domain=varzesh3.com
