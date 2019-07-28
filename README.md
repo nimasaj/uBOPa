@@ -1,6 +1,6 @@
 <h1 dir="ltr">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspuBOPa - uBO Parsi filter list</h1>
 <p dir="rtl">
-فیلتر لیستی برای مسدود سازی تبلیغات.
+فیلتر لیستی برای بستن تبلیغات.
   </br>
   این فیلتر لیست بصورت مشخص برای افزونه ی <a href="https://github.com/gorhill/uBlock/">uBlock Origin</a> نوشته شده است، ولی امکان استفاده از این لیست در افزونه های دیگر هم وجود دارد، گرچه بعضی از فیلتر ها/دستورات توسط افزونه های دیگر شناسایی نمیشوند. این لیست برای پوشش سایت های پارسی زبان و همچنین سایت های پربازدید (غیرپارسی زبان) که توسط لیست های مرجع پشتیبانی نمیشوند نوشته شده است.
 </p>
@@ -17,7 +17,7 @@ As a precaution, it is advisable to <b>disable</b> your Adblocker when you take 
 </p></br>
 <h2 dir="rtl">- پشتیبانی&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSupport -</h2>
 <p dir="rtl">
-در صورتی که تبلیغی مسدود نشده بود، و یا بخشی از وبسایت به اشتباه مسدود شده بود، <a href="https://github.com/nimasaj/uBOPa/issues/new">اینجا</a> و یا از راه ایمیل hello at mynext.pro مشکل را توضیح دهید. 
+در صورتی که تبلیغی بسته نشده بود، و یا بخشی از وبسایت به اشتباه بسته شده بود، <a href="https://github.com/nimasaj/uBOPa/issues/new">اینجا</a> و یا از راه ایمیل hello at mynext.pro مشکل را توضیح دهید. 
 </p>
 <p dir="ltr">
 In case of any unblocked advertisement, or false blocking, please open a <a href="https://github.com/nimasaj/uBOPa/issues/new">new issue</a> and explain the problem.
