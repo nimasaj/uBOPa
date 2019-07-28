@@ -1496,32 +1496,10 @@ smusic.ir##article:has(article>center>div>a[title*="زولا"])
 smusic.ir##article:has(article>div>div>a[title*="زولا"])
 smusic.ir##article:has(article>center>div>a[href*="tankionline.com/fa?utm_source"])
 smusic.ir##article:has(article>div>div>a[href*="tankionline.com/fa?utm_source"])
-!>
-!soft98.ir##a[href*="/bit.ly/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-!soft98.ir##a[href*="/clc.to/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-!soft98.ir##a[href*="/dfile.ir/make/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-!soft98.ir##a[href*="/irco.cf/"]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-!soft98.ir##*[class^="acdb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-!soft98.ir##*[class^="ad2b "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-!soft98.ir##*[class^="adzb "]:style(height: 0px !important; width: 0px !important; visibility: collapse !important;)
-!soft98.ir##*[class="col-lg pl-0 pr-0 pl-sm-3 pr-sm-3 pr-sm-3"]
-!soft98.ir##*[class^="adx-image"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class="col-lg pt-3 pl-0 pr-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class="card d-block bg-light"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!< The upper filters are taken from okiehsch in Github/uBlockOrigin/uAssets/issues/3011
-soft98.ir##a[href*="/goo.gl/"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class="col-lg pt-3 pr-0 pl-0 pl-sm-3 pr-sm-3 pt-lg-0 pr-lg-0"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class="col-lg pr-0 pl-0 pl-sm-3 pr-sm-3 pr-sm-3"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class^="col-lg pt-"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class^="col-lg pr-"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class^="col-lg pl-"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class*="col-lg "]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##*[class*=" pr-sm-"]:style(height: 1px !important; width: 1px !important; visibility: collapse !important;)
-!soft98.ir##section[class="card bg-light"]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class*="card bg-light"]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class*="bg-light card"]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class$="bg-light card "]:style(visibility: collapse !important;):has(section>header>h4:has-text(تبلیغات))
-!soft98.ir##section[class="d-block card bg-light"]:has(section>header>h4:has-text(پشتیبان))
+soft98.ir##*[class="container adt"]
+soft98.ir##header[class="card-header"]:has(header>h4[class="card-title"]:has-text(آسیاتک))
+soft98.ir##header[class="card-header"]:has(header>h4[class="card-title"]:has-text(تبـلیغات))
+soft98.ir##div[class="card-body text-center"]:has(div>*[class*="adx"])
 softgozar.com##div[class="DTOPBan"]
 softgozar.com##div[id="donate"]
 solidfiles.com##*[class^="bnr"]
@@ -1544,6 +1522,9 @@ uptvs.com,uptv.ir##div[class*="-popup-"]
 uptvs.com##div[class="tags"]
 uupload.ir##div[class="tab_box"]:has(div>div:has-text(تبلیغ))
 videotoolbox.com##.advertisement_section_top
+vigiato.net##figure[class="wpb_wrapper vc_figure"]
+vigiato.net##a[class="adsbeforecontent"]
+vigiato.net##div[id="adstopside"]
 yasdl.com##*[id^="post-sabet-"]
 yasdl.com##div[class="post-des-box"]:has(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
@@ -1632,6 +1613,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="utm_medium=Display&utm_"]
 ##a[href*="utm_medium=Display&amp;utm_"]
 ##a[href*="utm_medium=htmlBanner"]>img
+##a[href*="utm_medium=referral"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
