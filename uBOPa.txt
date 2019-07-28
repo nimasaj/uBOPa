@@ -72,7 +72,6 @@
 *-ad/*
 *-ads-*
 *-ads.*
-!*-ads/*
 *-adserv*
 *-adv-*
 *-adv.*
@@ -103,11 +102,9 @@
 *-reklama.*
 *_ad&*
 *_ad.*
-!*_ad/*
 *_ad1*
 *_ad?*
 *_ads.*
-!*_ads/*
 *_adserv*
 *_adswidget_*
 *_adv-*
@@ -288,7 +285,6 @@
 */ads?*
 */ads.*
 */ads-*
-!*/ads_*
 */ads/$image
 */ads/$script
 */ads0*
@@ -395,14 +391,12 @@
 */click?pid*
 */click/display?pid*
 */code/popup*
-!alborzpatogh.ir
 */cryptonight.wasm*
 */currentads/*
 */earn.php?zone*$third-party,popup
 */feedclick?*
 */flashbanners/*
 */fluxads/*
-!*/follow_ad?*
 */forumads/*
 */framead/*
 */getad.*
@@ -431,7 +425,6 @@
 */linkads.*
 */linkbox-*
 */linkbox.*
-!*/linkbox/*
 */linkbox1*
 */linkbox2*
 */linkbox3*
@@ -481,7 +474,6 @@
 */reklama_*
 */renderAds?*
 */show_ad/*
-!*/show_ads.*
 */show_ads_*
 */showad.*
 */showad/*
@@ -872,7 +864,6 @@
 ||healthline.com/js/partner/mw/link.js*
 ||hezarlink.com/newslink*$document,popup
 ||hezarlink.com/newsfa*$document,popup
-!m00d.ir/
 ||hiad.biz*$script
 ||hiad.biz/pop/*$document
 ||hiapple.ir*$popup
@@ -992,7 +983,6 @@
 ||cdn.mgsrvr.com/clicktraffic/*
 ||cdn.mihan360.com*$script
 ||mihannama.ir*$script
-!||mikhak.net*
 ||minimumpay.info*
 ||club.minoogroup.com*
 ||mitranet.ir^$third-party
@@ -1066,7 +1056,6 @@
 ||oxinads.com*
 ||oxincode.com*
 ||oxoclick.com*$third-party
-!||p30rank.ir/popup.php?secid*
 ||p30world.com/blog/popnew*$script
 ||p30world.com/blog2/*.php*$document,popup
 ||padsdel.com*
@@ -1138,7 +1127,6 @@
 ||pub2srv.com*
 ||puhtml.com*
 ||content.pulse360.com/cgi-bin/context.cgi?id*
-!||puserving.com*$third=party,script
 ||pushance.com/ntfc.php*$third-party
 ||puyeshnews47.ir/back.js^$script
 ||pxl2015x1.com*
@@ -1172,10 +1160,8 @@
 ||saghybux.com*$document,popup
 ||salamaneh.com/a100/*$document,popup
 ||salamatism.com/e91/*$document,popup
-!||salammag.com^$popup,document
 ||salammag.com^$popup
 ||sanjagh.net/assets/client.js$third-party,script
-!||sarzaminekhabar.com*
 ||galleries.secure-softwaremanager.com*
 ||js.securesoft.info/galleries/software_lp_deprecated.js*
 ||selectmedia.asia/adi.evt*
@@ -1224,8 +1210,6 @@
 !||t.me/joinchat/*$third-party,popup
 ||t3l.ir*$third-party,document
 ||t3l.ir/me?*$third-party,popup
-!||tabligheirani.com*
-!||tablighfa.com*
 ||tafrihi.com/link*
 ||takkhal.net*
 ||talaads.com/website/js*
@@ -1385,7 +1369,6 @@ seemorgh.com##+js(abort-current-inline-script.js, jQuery)
 topseda.me,mytopseda.ir##+js(abort-current-inline-script.js, APOP_LINKS)
 trainbit.com##+js(abort-current-inline-script.js, getCookie)
 trainbit.com##+js(nano-setTimeout-booster.js)
-!tak3da.com##script:inject(abort-on-property-read.js, urlToShow)
 !zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
@@ -1497,7 +1480,6 @@ p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
 p30download.com##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
 rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
-!rokna.net##div[class*="type-scriptiframe position"]>iframe
 rokna.net##div[class^="type-script"]
 rooziato.com##*[class="single_section"]:has([src*="clickyab.com"])
 scnlog.me,scnlog1.unblocked.is,scnlog.unblocked.win,scnlog.unblocked.krd,scnlog.unblocked.llc,scnlog.unblocked2.website##div[class^="modal"]
@@ -1557,11 +1539,6 @@ top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][
 tubeload.tv##a[href*="/po-direct.html?type="]
 www.uptvs.com##article.post:nth-of-type(2)
 www.uptvs.com##article.post:nth-of-type(3)
-!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href*="uzee.ir"])
-!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href*="zula.ir"])
-!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p:has-text(اپلیکیشن موبایل آفرینک))
-!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href*="tankionline.com/fa?utm_source"])
-!uptvs.com,uptv.ir##article[class="post"]:has(article>div>div>p>a[href$="goo.gl/y3oDgW"])
 uptvs.com,uptv.ir##div[class="widget-con"]:has(div>h4:has-text(زولا))
 uptvs.com,uptv.ir##div[class*="-popup-"]
 uptvs.com##div[class="tags"]
@@ -1641,7 +1618,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="/ads?"]
 ##a[href*="/ads-"]>img
 ##a[href*="/ads_"]>img
-!##a[href*="/ads/"]
 ##a[href*="/ads/"]>img
 ##a[href*="/agahi"]
 ##a[href*="/banners/click/"]>img
@@ -1667,7 +1643,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="7sharj.ir"]>img
 ##*[href*="account.zula.ir/pages/"]>img
 ##*[href*="adonisparvaz.com"]>img
-!##a[href*="advertisement"]
 ##a[href*="alibaba.ir"]>img
 ##a[href*="amlakbaharan.com"]>img
 ##a[href*="amlakvitrin.com"]>img
@@ -1752,7 +1727,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !
 ##*[alt*="آگهی"]
 ##*[alt*="تبلیغ"]
-!##img[alt="ad"]
 !
 ##img[src*="/ads/"]
 ##*[src*="/agahi"]
@@ -1954,7 +1928,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class="adsimg"]
 ##*[class="inneradv"]
 ##*[class^="ad "]
-!##*[class^="ad-"]
 ##*[class^="ad_"]
 ##*[class^="ad0"]
 ##*[class^="ad1"]
@@ -2105,7 +2078,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class$="9ad"]
 ##*[class$="9ads"]
 ##*[class$="9banner"]
-!##*[class$="random-ad"]
 ##*[class$="topAdv"]
 ##*[class$="topadvers"]
 !
@@ -2156,6 +2128,7 @@ bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com#@#*[class*="-ads-"]
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
+blocklist.site#@#a[href$="/ads"]
 boorsika.com#@#a[href*="boorsika.com"]>img
 caranddriver.com#@#*[class^="ads-"]
 chinstore.ir#@#*[href*="chinstore.ir"]>img
@@ -2225,7 +2198,6 @@ pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 paypal.com#@#*[id^="ads-"]
 pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
-!psypost.org#@#a[href*="advertisement"]
 qr-code-generator.com#@#*[class$="-ad"]
 rahoja.com#@#a[href*="rahoja.com"]>img
 rasanegar.com#@#a[href^="https://rasanegar.com"]>img
