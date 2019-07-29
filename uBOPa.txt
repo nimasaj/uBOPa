@@ -626,6 +626,7 @@
 ||adplxmd.com*
 ||adpulse.ir*
 ||adrich.cash*
+||adro.ir^$third-party
 ||adrunnr.com*
 ||adsclick.click*
 ||adscloob.com*$script
@@ -775,6 +776,7 @@
 ||d-h.st/assets/img/download*
 *img.daodao001.cn/*/*.html*
 ||dariconline.ir/ii88/*$document,popup
+||landing.dasyaar.com*$document,popup
 ||datefunclub.com/pics.php?did*
 ||debadu.com*$third-party
 ||deema.agency*$third-party
@@ -1094,6 +1096,8 @@
 ||poparya.com^$third-party,popup
 ||popcash.net*$script
 ||popcpm.com*$script
+||popfa.ir*$third-party
+||popfa.ir*$third-party,popup
 ||popgozar.ir/pop.php*
 ||popitunder.com*
 ||popkade.ir*$third-party
@@ -1188,6 +1192,7 @@
 ||skurki.info/js/^$popup
 ||skyactivate.com/*/gallery.js?*
 ||slopeac.com/static/*$script
+||landing.symaart.com*$document,popup
 ||smi2.ru/data/js/*
 ||softexia.com/wp-content/*/js/attentionGrabber.js*
 ||solhkhabar.ir/t5t/*
@@ -1347,10 +1352,10 @@ dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
 farspatogh.ir##+js(abort-current-inline-script.js, sitepop)
 farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##+js(abort-on-property-read.js,Object.defineProperty)
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##+js(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir##+js(abort-current-inline-script.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com,msbmusic.ir,lianmovie.com##+js(abort-on-property-read.js, vc_url)
 iranfilmplus.com##+js(abort-current-inline-script.js, $)
 iranfilmplus.net##+js(abort-on-property-read.js, $)
@@ -1414,6 +1419,7 @@ dlroozane.net##div[class="adsbox"]>center
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
+doostihaa.com##*[id^="ADdownload-"]
 doostihaa.com##div[class="adsfix_box"]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
@@ -1430,10 +1436,10 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##center
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##div[id^="SC_TBlock_"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top##div[class="main-content"]:has(div>center:has-text(زولا))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##center
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##div[id^="SC_TBlock_"]
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##div[class="main-content"]:has(div>center:has-text(زولا))
 hastidownloadz.info##center > div:nth-of-type(1)
 hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:center;display:block"])
 hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
@@ -1506,11 +1512,11 @@ solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 texahang.org##article:has(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
 texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
-tikfilm.net,tikfilm.org##*[class="wapper-posts"]:has(div>a[href*="zula.ir"])
-tikfilm.net,tikfilm.org##section[class="post"]:has(section>article>section>section>div>div>a[href*="tankionline.com/fa"])
-tikfilm.net,tikfilm.org##div[class="content_text"]:has(div>div>a[href*="netkar.org/radyab"])
-tikfilm.net,tikfilm.org##section[class="post-content"]:has(section>div>div>a[href*="jarmizanam.ir"])
-tikfilm.net,tikfilm.org##section[class="post-content"]:has(section>div>div>a[href*="tankionline.com/fa?utm_source"])
+tikfilm.net,tikfilm.org,tikfilm.us##*[class="wapper-posts"]:has(div>a[href*="zula.ir"])
+tikfilm.net,tikfilm.org,tikfilm.us##section[class="post"]:has(section>article>section>section>div>div>a[href*="tankionline.com/fa"])
+tikfilm.net,tikfilm.org,tikfilm.us##div[class="content_text"]:has(div>div>a[href*="netkar.org/radyab"])
+tikfilm.net,tikfilm.org,tikfilm.us##section[class="post-content"]:has(section>div>div>a[href*="jarmizanam.ir"])
+tikfilm.net,tikfilm.org,tikfilm.us##section[class="post-content"]:has(section>div>div>a[href*="tankionline.com/fa?utm_source"])
 top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/ads."])
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
