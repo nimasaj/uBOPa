@@ -18,7 +18,7 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/1896
 ! https://github.com/uBlockOrigin/uAssets/issues/2505
 ! https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering
-https://github.com/uBlockOrigin/uAssets/commit/16ea13af9899bc5abd8410276a40655e8e250f12#commitcomment-26398559
+! https://github.com/uBlockOrigin/uAssets/commit/16ea13af9899bc5abd8410276a40655e8e250f12#commitcomment-26398559
 !
 ! website##^script:has-text(adbDetect)
 ! html filtering-FF>57 only
