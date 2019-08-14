@@ -1380,7 +1380,7 @@ trainbit.com##+js(nano-setTimeout-booster.js)
 !-----------------------Specific Cosmetic Filters------------------------!
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div[class^="yn-bnr"])
 1pezeshk.com##*[class="widget_text"]:has(div > div > div:has-text(آگهی))
-1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
+!1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
 1pezeshk.com##div[class*="category-ad-"]
 1pezeshk.com##div[class="rd-post-item  rd-col-1-1"]:has(div>div>div>div>div>a[href*="/category/"]:has-text(رپورتاژ))
 123gomovies.co##.embed-container
