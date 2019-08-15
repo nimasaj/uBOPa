@@ -687,7 +687,7 @@
 ||asrfarda.ir/page.php$document,popup
 *wms.assoc-amazon.com*$script
 ||atiehnews.ir/7001/*$document,popup
-||landing.atighgasht.com*$third-party
+||landing.atighgasht.com*$third-party,popup
 ||atis.ir/script?*$third-party
 ||avablog.ir/redirect.php^$popup
 ||avalanchers.com/wcode/*
@@ -848,6 +848,7 @@
 ||fitone.ir/tgch.php$popup,document
 ||fluidads.co*
 ||js.freedownloadsoft.net/*/gallery.js*
+||landings.frekaans.ir*$third-party,popup
 *m.friendlyduck.com*/MediaServer/*
 ||funfarsi.ir/*pop.js*$third-party,script
 ||fungoiddempseyimpasse.info*
@@ -1303,6 +1304,7 @@
 ||wideads.com/website/js*$third-party
 ||wie9eig.top*$script
 ||wigetmedia.com*
+||adwised.blob.core.windows.net*$third-party
 ||wordupiran.com/images/*
 ||wtoqymftbf.bid*$script
 ||wwwpromoter.com*
@@ -1497,7 +1499,6 @@ seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:has(:has-text(loading))
-shahrsakhtafzar.com##div[class*=" ads2col"]
 shirazsong.net##div[class="box"]:has(div>div>p>a[href*="zula.ir"])
 shirazsong.net##div[class="content"]:has(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
 shirazsong.net##div[style="text-align:center"]>div[class="content"]:has(div>div>p>a[href*="tankionline.com/fa?utm_source"])
