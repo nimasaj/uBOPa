@@ -1510,6 +1510,8 @@ soft98.ir##*[class="container adt"]
 soft98.ir##header[class="card-header"]:has(header>h4[class="card-title"]:has-text(آسیاتک))
 soft98.ir##header[class="card-header"]:has(header>h4[class="card-title"]:has-text(تبـلیغات))
 soft98.ir##div[class="card-body text-center"]:has(div>*[class*="adx"])
+softgozar.com##*[class="adv_text"]
+softgozar.com##div[class="advUN"]
 softgozar.com##div[class="DTOPBan"]
 softgozar.com##div[id="donate"]
 solidfiles.com##*[class^="bnr"]
@@ -2211,10 +2213,6 @@ soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
-softgozar.com##div[id="advBan"]
-softgozar.com##div[id="AdvTop"]
-softgozar.com##*[class="adv_text"]
-softgozar.com##div[class="advUN"]
 sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
