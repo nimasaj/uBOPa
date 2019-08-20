@@ -736,6 +736,7 @@
 ||rsc.cdn77.org*$popup
 ||channelsho.ir^$popup,document
 !||channelsho.ir/tg.php*
+||promote.chidaneh.com^$third-party
 ||chikhanos.info*$script
 ||ckyxscaeockj.bid*
 ||clickar.ir/?ref*$third-party
@@ -777,7 +778,7 @@
 ||d-h.st/assets/img/download*
 *img.daodao001.cn/*/*.html*
 ||dariconline.ir/ii88/*$document,popup
-||landing.dasyaar.com*$document,popup
+||landing.dasyaar.com*$third-party,popup
 ||datefunclub.com/pics.php?did*
 ||debadu.com*$third-party
 ||deema.agency*$third-party
@@ -1141,7 +1142,7 @@
 !||r98.ir/code/popup*$third-party
 ||radikal.ru/bh.ashx?pt*
 ||rarenok.biz*
-||landings.ravitel.com/seq*$popup
+||landings.ravitel.com/seq*$third-party,popup
 ||readserver.net*
 ||recomendedsite.com/*
 ||recreativ.ru/rcode.js*
@@ -1167,6 +1168,7 @@
 ||salamaneh.com/a100/*$document,popup
 ||salamatism.com/e91/*$document,popup
 ||salammag.com^$popup
+||sanjagh.com^$third-party
 ||sanjagh.net/assets/client.js$third-party,script
 ||galleries.secure-softwaremanager.com*
 ||js.securesoft.info/galleries/software_lp_deprecated.js*
@@ -1194,7 +1196,7 @@
 ||skurki.info/js/^$popup
 ||skyactivate.com/*/gallery.js?*
 ||slopeac.com/static/*$script
-||landing.symaart.com*$document,popup
+||landing.symaart.com*$third-party,popup
 ||smi2.ru/data/js/*
 ||softexia.com/wp-content/*/js/attentionGrabber.js*
 ||solhkhabar.ir/t5t/*
@@ -1366,7 +1368,7 @@ itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##+js(abort-current-inline-script.js, jQuery, document.createElement)
 listenpersian.net##+js(bab-defuser.js)
 makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
-music-online.ir,hexdownload.net,cdmusic.ir##+js(set-constant.js, needpop, 0)
+music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir##+js(set-constant.js, needpop, 0)
 nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
 nwtehranmusic.com##+js(abort-on-property-write.js, open)
 p30day.com,uploadgoogle.ir##+js(abort-on-property-read.js, window.open)
@@ -1449,7 +1451,7 @@ hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top
 hastidownloadz.info##center > div:nth-of-type(1)
 hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:center;display:block"])
 hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
-hexdownload.net##div[class="widget-con"]:has(div>figure>a[href*="zula.ir"])
+hexdownload.net,hexdownload.org##div[class="widget-con"]:has(div>figure>a[href*="zula.ir"])
 hidoctor.ir##*[class^="pdsifradsbn"]
 ilna.ir##div[class$=" zxc"]
 ir-dl.com##*[id="stickytop"]
@@ -1621,14 +1623,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="/didekhalagh.com"]>img
 ##a[href*="/glamora.com"]>img
 ##a[href*="/riradokht.ir"]>img
-##a[href*="utm_content=banner"]>img
-##a[href*="utm_medium=affiliate"]>img
-##a[href*="utm_medium=banner"]>img
-##a[href*="utm_medium=Display&utm_"]
-##a[href*="utm_medium=display&utm_"]
-##a[href*="utm_medium=Display&amp;utm_"]
-##a[href*="utm_medium=htmlBanner"]>img
-##a[href*="utm_medium=referral"]>img
 ##a[href*="1000sakhteman.ir"]>img
 ##a[href*="1000site.ir"]>img
 ##a[href*="1000SITE.IR"]>img
@@ -1647,6 +1641,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[href*="arefrayaneh.com"]>img
 ##*[href*="arian-motor.com"]>img
 ##*[href*="arshantour.net"]>img
+##a[href*="atramiz.com"]
 ##a[href*="banimode.com/landing/"]
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
@@ -1668,6 +1663,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="fastclick.biz/helper/click/"]>img
 ##a[href*="favajam.com"]>img
 ##a[href*="followeryab.com/?utm_source"]>img
+##a[href*="ghandaan.com"]
 ##a[href*="ghasedak24.com"]>img
 ##a[href*="ghasedak24.org"]>img
 ##a[href*="giftcard.ir"]>img
@@ -1685,12 +1681,21 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="jarmizanam.ir/getapp"]>img
 ##a[href*="kamelpack.ir"]
 ##a[href*="kingsera.ir"]>img
+##a[href*="landing.atighgasht.com"]
+##a[href*="landing.dasyaar.com"]
+##a[href*="landings.frekaans.ir"]
+##a[href*="landings.matbakh-app.com"]
+##a[href*="landings.ravitel.com"]
+##a[href*="landings.simayeaval.com"]
+##a[href*="landing.symaart.com"]
 ##a[href*="mftmirdamad.com"]>img
 ##a[href*="mftvanak.com"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
 ##a[href*="mihanwebhost.com/aff.php?aff="]
 ##*[href*="mizbanwp.com"]>img
+##a[href*="mobadtracking.com"]
 ##a[href*="modiryatnovin.com"]>img
+##a[href*="netbina.com/click"]
 ##a[href*="netwas.net"]
 ##a[href*="nikfarshop.ir"]>img
 ##*[href*="novakala.com"]>img
@@ -1709,14 +1714,24 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="stnews.ir"]>img
 ##a[href*="tankionline.com/fa?utm_source="]
 ##a[href*="tasvirental.com"]>img
+##a[href*="tehjanebi.ir"]>img
 ##a[href*="tikstore.ir/product.php?id"]>img
 ##a[href*="titrebartar.ir"]>img
 ##a[href*="torangshop.ir"]>img
 ##a[href*="tracking.appdana.com"]>img
+##a[href*="utm_content=banner"]>img
+##a[href*="utm_medium=affiliate"]>img
+##a[href*="utm_medium=banner"]>img
+##a[href*="utm_medium=Display&utm_"]
+##a[href*="utm_medium=display&utm_"]
+##a[href*="utm_medium=Display&amp;utm_"]
+##a[href*="utm_medium=htmlBanner"]>img
+##a[href*="utm_medium=referral"]>img
 ##a[href*="uzee.ir/jadval"]>img
 ##a[href*="www.hairfiix.com"]>img
 ##a[href*="www.lotuslaptop.com"]>img
 ##a[href*="www.tkadak.com"]>img
+##a[href*="xbuzzi.ir/landing"]
 ##a[href$="/ads"]
 !
 ##*[data-href*="ads.ad-center.com/offer?prod"]
@@ -2121,6 +2136,7 @@ arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
 astiak.net#@#a[href^="http://astiak.net"]>img
+atramiz.com#@#a[href*="atramiz.com"]
 bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com#@#*[class*="-ads-"]
@@ -2140,6 +2156,7 @@ favajam.com#@#a[href*="favajam.com"]>img
 faraz-system.com#@#a[href*="faraz-system.com"]>img
 farzamweb.com#@#a[href*="farzamweb.com"]>img
 favaafzar.com#@#a[href^="http://www.favaafzar.com"]>img
+ghandaan.com#@#a[href*="ghandaan.com"]
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
 gig-dl.ir#@#a[href*="//gig-dl.ir"]>img
@@ -2220,6 +2237,7 @@ stnews.ir#@#a[href*="stnews.ir"]>img
 takro.net#@#*[class*="-ads "]
 takro.net#@#*[id^="ads1"]
 tasvirental.com#@#a[href*="tasvirental.com"]>img
+tehjanebi.ir#@#a[href*="tehjanebi.ir"]>img
 teskaco.com#@#a[href^="https://teskaco.com"]>img
 titrebartar.ir#@#a[href*="titrebartar.ir"]>img
 tkadak.com#@#a[href*="www.tkadak.com"]>img
