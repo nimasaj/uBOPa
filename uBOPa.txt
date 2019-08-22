@@ -1346,22 +1346,19 @@
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
-androidiha.net,webgardee.ir,birmusic.org,tinymvs.xyz,gamelive.ir,tinymov.top,manidl.ir##+js(abort-current-inline-script.js, checkCookie)
-androidiha.net##+js(abort-current-inline-script.js, lightbox_easy_popup)
-androidiha.net##+js(abort-current-inline-script.js, lightbox_easy_popup_mobile)
 ava2music.com,shirazsong.net,ariapix.net,smusic.ir##+js(abort-on-property-read.js, checkCookie)
 ava2music.com##+js(abort-current-inline-script.js, newtabopenornot)
-avangmusic.net,nwtehranmusic.com,pixnaz.info,taknaz.net##+js(abort-on-property-read.js, InitPop)
+avangmusic.net,pixnaz.info,taknaz.net##+js(abort-on-property-read.js, InitPop)
 edaboard.com##+js(abort-on-property-read.js, interstitialBox)
+dailys.ir##+js(abort-current-inline-script.js, website)
 dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
-farspatogh.ir##+js(abort-current-inline-script.js, sitepop)
 farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
 hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##+js(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,nimche.biz,netgasht.com,downloadhappymp3.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,nwtehranmusic.com,msbmusic.ir,lianmovie.com##+js(abort-on-property-read.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,msbmusic.ir,lianmovie.com##+js(abort-on-property-read.js, vc_url)
 iranfilmplus.com##+js(abort-current-inline-script.js, $)
 iranfilmplus.net##+js(abort-on-property-read.js, $)
 itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
@@ -1370,7 +1367,6 @@ listenpersian.net##+js(bab-defuser.js)
 makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
 music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir##+js(set-constant.js, needpop, 0)
 nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
-nwtehranmusic.com##+js(abort-on-property-write.js, open)
 p30day.com,uploadgoogle.ir##+js(abort-on-property-read.js, window.open)
 putlockers.*##+js(abort-on-property-read.js, performance)
 putlockers.*##+js(nowebrtc.js)
@@ -1379,6 +1375,7 @@ seemorgh.com##+js(abort-current-inline-script.js, jQuery)
 topseda.me,mytopseda.ir##+js(abort-current-inline-script.js, APOP_LINKS)
 trainbit.com##+js(abort-current-inline-script.js, getCookie)
 trainbit.com##+js(nano-setTimeout-booster.js)
+webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 !zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
@@ -2241,10 +2238,9 @@ soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
-sourceforge.net,instructables.com,solidfiles.com#@#*[class*="-ads "]
+sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
-takro.net#@#*[class*="-ads "]
 takro.net#@#*[id^="ads1"]
 tasvirental.com#@#a[href*="tasvirental.com"]>img
 tehjanebi.ir#@#a[href*="tehjanebi.ir"]>img
