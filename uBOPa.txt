@@ -1451,7 +1451,6 @@ hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top
 hastidownloadz.info##center > div:nth-of-type(1)
 hastidownloadz.info##div[class="post-content"]:has(div>a[style="text-align:center;display:block"])
 hastidownloadz.info##div[class="post"]:has(div>p>a[href*="bit.ly/mahoot"])
-hexdownload.net,hexdownload.org##div[class="widget-con"]:has(div>figure>a[href*="zula.ir"])
 hidoctor.ir##*[class^="pdsifradsbn"]
 ilna.ir##div[class$=" zxc"]
 ir-dl.com##*[id="stickytop"]
@@ -1469,6 +1468,9 @@ mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 mihandownload.com##*[class="fix well"]
 mihandownload.com##*[class="post-body"]:has(div>a[href*="uzee.ir"])
+mihandownload.com##a[href*="bit.ly"]
+mihandownload.com##div[class*="center-ads"]
+mihandownload.com##div[class="post-body"]:has(div>a[href*="mihanwebhost.com/cart.php"])
 mihandownload.com##div[class="textwidget widget-text"]:has(div>div>div>a[href*="tracking.travian.ir"])
 mihandownload.com##div[class="well tip tags"]
 msbmusic.ir##div[id="postesabetads"]
@@ -1479,10 +1481,12 @@ namnak.com##a[href*="/ag_"]>img
 naslemusic.com##div[class="post"]:has(div>div>div>a[title="Jadval"])
 naslemusic.com##div[class="post"]:has(div>div>div>a[title="tanki"])
 naslemusic.com##div[class="post"]:has(div>div>div>a[title="zula"])
+netnevesht.com##a[href*="yon.ir"]>img
 netnevesht.com##div[class^="netne-content"]
 netnevesht.com##div[class="netne-after-content"]
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
+nex1music.ir##div[class*="a"]:has(div>a[href*="account.zula.ir/pages/"])
 nokiapoweruser.com##*[class="wpa"]
 p30day.com##*[class="static_posts adsblockpop"]
 p30day.com##div[id^="ADbox-"]
@@ -1658,6 +1662,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="dateesco.com?site"]>img
 ##*[href*="dtour.ir"]>img
 ##a[href*="eshopfa.net/Detail.aspx"]>img
+##a[href*="facenama.com/click"]
 ##a[href*="faraz-system.com"]>img
 ##a[href*="farzamweb.com"]>img
 ##a[href*="fastclick.biz/helper/click/"]>img
@@ -1680,6 +1685,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[href*="janebi.com"]>img
 ##a[href*="jarmizanam.ir/getapp"]>img
 ##a[href*="kamelpack.ir"]
+##a[href*="khanwars.ir/?track"]
 ##a[href*="kingsera.ir"]>img
 ##a[href*="landing.atighgasht.com"]
 ##a[href*="landing.dasyaar.com"]
@@ -1719,6 +1725,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="titrebartar.ir"]>img
 ##a[href*="torangshop.ir"]>img
 ##a[href*="tracking.appdana.com"]>img
+##a[href*="tracking.travian.ir"]
 ##a[href*="utm_content=banner"]>img
 ##a[href*="utm_medium=affiliate"]>img
 ##a[href*="utm_medium=banner"]>img
@@ -1998,6 +2005,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class^="e3lan e3lan-"]
 ##*[class^="text-adv-row"]
 ##*[class^="topadv"]
+##*[class^="wideBannerContainer"]
 ##*[class*="تبلیغ"]
 ##*[class*=" ads "]
 ##*[class*=" ads-"]
@@ -2205,6 +2213,8 @@ microchip.com,microsoft.com#@#*[id^="ad9"]
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
+nex1music.ir#@#.postads
+! ^^ Above filter, to fix issue caused by EasyList ^^
 nikfarshop.ir#@#a[href*="nikfarshop.ir"]>img
 novakala.com#@#*[href*="novakala.com"]>img
 orico-iran.ir#@#a[href*="orico-iran.ir"]>img
