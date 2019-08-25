@@ -985,7 +985,7 @@
 ||mdn2015x4.com*
 ||media-fire.org*
 ||mediaad.org/serve/*$third-party
-||mediaad.org*$script
+||mediaad.org*$third-party
 ||medianaft.ru/js/bodyclick.php?*
 ||medianaft.ru/js/vk.php*
 ||mediapalmtree.com*$script
