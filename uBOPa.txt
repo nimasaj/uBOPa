@@ -73,7 +73,7 @@
 *-ad/*
 *-ads-*
 *-ads.*
-*-adserv*
+*-adserv*,domain=~digikala.com|~soft98.ir
 *-adv-*
 *-adv.*
 *-adv/*
@@ -795,7 +795,7 @@
 ||datefunclub.com/pics.php?did*
 ||debadu.com*$third-party
 ||deema.agency*$third-party
-||adapi.digikala.com*
+||adapi.digikala.com*$third-party
 !||advertising.digikala.com*
 ||directadvert.ru/show.cgi*
 ||directoral.info*
@@ -1034,7 +1034,7 @@
 ||nabzino.com/client/*$third-party,script
 ||najva.com/static/*$third-party,script
 ||landings.namanetapp.com*$third-party,popup
-||namasha.com/advast?id*
+||namasha.com/advast?*
 ||narsense.com/redirect.*$document
 ||narsense.com/redirect.*$popup
 ||navrcholu.cz/code?site*
@@ -1542,6 +1542,9 @@ seemorgh.com##div[class="SC_TBlock"]:has(:has-text(loading))
 shirazsong.net##div[class="box"]:has(div>div>p>a[href*="zula.ir"])
 shirazsong.net##div[class="content"]:has(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
 shirazsong.net##div[style="text-align:center"]>div[class="content"]:has(div>div>p>a[href*="tankionline.com/fa?utm_source"])
+shomanews.com##a[href*="/advertisements/"]
+shomanews.com##div[class="mauto_div desktop_only"]:has(div>div[style="width: 320px; height: 160px; overflow: hidden; position: relative;"])
+shomanews.com##div[class="mnb_wrapper noprint"]:has(div>div>div[style="width: 120px; height: 240px; overflow: hidden; position: relative;"])
 skyscanner.net##li[id*="tame-slot-day-view-inline"]
 smusic.ir##article:has(article>center>div>a[title*="زولا"])
 smusic.ir##article:has(article>div>div>a[title*="زولا"])
@@ -1689,11 +1692,13 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="banimode.com/landing/"]
 ##a[href*="betchi90.club"]>img
 ##a[href*="bit.do"]>img
+##a[href*="bit.ly"]>img[width="160"][height="600"]
 ##a[href*="bitgame.ir/?"]>img
 ##a[href*="bodogame.com/?p="]>img
 ##a[href*="boorsika.com"]>img
 ##*[href*="bunjee-link.tk"]>img
 ##a[href*="campaign=SideAds&"]>img
+##a[href*="chicken-device.ir"]>img
 ##*[href*="chinstore.ir"]>img
 ##a[href*="cigoul-clothing.com"]>img
 ##a[href*="click_ads.php?id"]>img
@@ -1739,6 +1744,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="landings.namanetapp.com"]
 ##a[href*="landings.ravitel.com"]
 ##a[href*="landings.simayeaval.com"]
+##a[href*="marcotravel.ir"]>img
 ##a[href*="mftmirdamad.com"]>img
 ##a[href*="mftvanak.com"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
@@ -1753,6 +1759,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[href*="onspd.tk"]>img
 ##a[href*="orico-iran.ir"]>img
 ##a[href*="pandcaspian.com/news"]>img
+##a[href*="parsehkitchen.com"]>img
 ##*[href*="parsnafe.com/?utm_source"]>img
 ##a[href*="rahoja.com"]>img
 ##a[href*="s.click.aliexpress.com/"]>img
@@ -1776,12 +1783,12 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="utm_medium=affiliate"]
 ##a[href*="utm_medium=Banner"]
 ##a[href*="utm_medium=banner"]
-##a[href*="utm_medium=Display&utm_"]
-##a[href*="utm_medium=display&utm_"]
-##a[href*="utm_medium=Display&amp;utm_"]
+##a[href*="utm_medium=bmi_banner"]
+##a[href*="utm_medium=Display"]
+##a[href*="utm_medium=display"]
 ##a[href*="utm_medium=htmlBanner"]
 ##a[href*="utm_medium=referral"]
-##a[href*="utm_medium=bmi_banner"]
+##a[href*="utm_medium=shomanews"]
 ##a[href*="uzee.ir/cardland"]
 ##a[href*="uzee.ir/esmfamil"]
 ##a[href*="uzee.ir/jadval"]
@@ -1853,6 +1860,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[alt*="-ads7"]
 ##*[alt*="-ads8"]
 ##*[alt*="-ads9"]
+##img[alt*="ایران بازار"][width="160"][height="600"]
+##img[alt*="خانه ساعت"][width="160"][height="600"]
 ##*[alt$="-ad"]
 ##*[alt$="_ad"]
 !
@@ -2172,11 +2181,12 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||digitaltrends.com^$generichide
 @@||fbdown.net/js/adframe.js
 !@@||ironia.ml*$third-party,domain=soft98.ir
-@@||scarabresearch.com^$third-party,domain=www.digikala.com|www.digistyle.com
+@@||scarabresearch.com^$third-party,domain=digikala.com|digistyle.com
 @@||varagh.com/advertisement.js
 !----------------------Whitelist Cosmetic Filters-----------------------!
-@@||lasttours.net^$generichide
-@@||videotoolbox.com^$generichide
+!@@||lasttours.net^$generichide
+!@@||videotoolbox.com^$generichide
+@@*$generichide,domain=digikala.com|divar.ir|emalls.ir|lasttours.net|videotoolbox.com
 !!!!!!!!!!!!!!!!@@*$generichide,domain=magesy.be|magesy.eu|magesy.club|magesy.info|magesy.website
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
