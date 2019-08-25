@@ -1033,6 +1033,7 @@
 ||clk.myretargeting.com*
 ||nabzino.com/client/*$third-party,script
 ||najva.com/static/*$third-party,script
+||landings.namanetapp.com*$third-party,popup
 ||namasha.com/advast?id*
 ||narsense.com/redirect.*$document
 ||narsense.com/redirect.*$popup
@@ -1402,6 +1403,7 @@ listenpersian.net##+js(bab-defuser.js)
 makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
 music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir##+js(set-constant.js, needpop, 0)
 nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
+p30afzar.com##+js(set-constant.js, ShowPopUp, false)
 p30day.com,uploadgoogle.ir,tabtaraneh.net##+js(abort-on-property-read.js, window.open)
 putlockers.*##+js(abort-on-property-read.js, performance)
 putlockers.*##+js(nowebrtc.js)
@@ -1730,11 +1732,13 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="kingsera.ir"]>img
 ##a[href*="landing.atighgasht.com"]
 ##a[href*="landing.dasyaar.com"]
+##a[href*="landing.symaart.com"]
 ##a[href*="landings.frekaans.ir"]
+##a[href*="landings.hamavaapp.com"]
 ##a[href*="landings.matbakh-app.com"]
+##a[href*="landings.namanetapp.com"]
 ##a[href*="landings.ravitel.com"]
 ##a[href*="landings.simayeaval.com"]
-##a[href*="landing.symaart.com"]
 ##a[href*="mftmirdamad.com"]>img
 ##a[href*="mftvanak.com"]>img
 ##a[href*="mihanstore.net/in.php?id="]>img
@@ -1768,17 +1772,19 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="tourantech.com"]>img
 ##a[href*="tracking.appdana.com"]>img
 ##a[href*="tracking.travian.ir"]
-##a[href*="utm_content=banner"]>img
-##a[href*="utm_medium=affiliate"]>img
-##a[href*="utm_medium=banner"]>img
+##a[href*="utm_content=banner"]
+##a[href*="utm_medium=affiliate"]
+##a[href*="utm_medium=Banner"]
+##a[href*="utm_medium=banner"]
 ##a[href*="utm_medium=Display&utm_"]
 ##a[href*="utm_medium=display&utm_"]
 ##a[href*="utm_medium=Display&amp;utm_"]
-##a[href*="utm_medium=htmlBanner"]>img
-##a[href*="utm_medium=referral"]>img
-##a[href*="utm_medium=bmi_banner"]>img
-##a[href*="uzee.ir/cardland"]>img
-##a[href*="uzee.ir/jadval"]>img
+##a[href*="utm_medium=htmlBanner"]
+##a[href*="utm_medium=referral"]
+##a[href*="utm_medium=bmi_banner"]
+##a[href*="uzee.ir/cardland"]
+##a[href*="uzee.ir/esmfamil"]
+##a[href*="uzee.ir/jadval"]
 ##a[href*="www.hairfiix.com"]>img
 ##a[href*="www.lotuslaptop.com"]>img
 ##a[href*="www.tkadak.com"]>img
