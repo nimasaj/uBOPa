@@ -985,7 +985,6 @@
 ||mdn2015x2.com*
 ||mdn2015x4.com*
 ||media-fire.org*
-||mediaad.org/serve/*$third-party
 ||mediaad.org*$third-party
 ||medianaft.ru/js/bodyclick.php?*
 ||medianaft.ru/js/vk.php*
@@ -2172,6 +2171,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
 @@/ads-$domain=pasteboard.co
+@@/content/ads/*$domain=tamin.ir
+! ^^ Above filter, to fix issue caused by EasyList ^^
 @@-ads.$domain=aparat.com|varzesh3.com
 @@_banner*$domain=utah.edu|cable.co.uk
 @@.com/ads.$domain=uploadboy.com,pasteboard.co
@@ -2179,7 +2180,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@banner.$domain=msdn.microsoft.com
 @@||1movies.is/site/captcha?*
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
-@@||digitaltrends.com^$generichide
 @@||fbdown.net/js/adframe.js
 !@@||ironia.ml*$third-party,domain=soft98.ir
 @@||scarabresearch.com^$third-party,domain=digikala.com|digistyle.com
@@ -2187,7 +2187,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !----------------------Whitelist Cosmetic Filters-----------------------!
 !@@||lasttours.net^$generichide
 !@@||videotoolbox.com^$generichide
-@@*$generichide,domain=digikala.com|divar.ir|emalls.ir|lasttours.net|videotoolbox.com
+@@*$generichide,domain=digikala.com|digitaltrends.com,divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
 !!!!!!!!!!!!!!!!@@*$generichide,domain=magesy.be|magesy.eu|magesy.club|magesy.info|magesy.website
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
@@ -2313,6 +2313,9 @@ storystalk.net#@##banner_ad
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 storystalk.net#@#*[id$="_ad"]
 takro.net#@#*[id^="ads1"]
+tamin.ir#@#.ads2
+! ^^ Above filter, to fix issue caused by EasyList ^^
+tamin.ir#@#img[src*="/ads/"]
 tasvirental.com#@#a[href*="tasvirental.com"]>img
 tehjanebi.ir#@#a[href*="tehjanebi.ir"]>img
 teskaco.com#@#a[href^="https://teskaco.com"]>img
