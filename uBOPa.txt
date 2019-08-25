@@ -1639,7 +1639,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*=".aspx?AdId="]
 ##a[href*=".isnet.ir"]>img
 ##a[href*=".kermany.com"]>img
-##a[href*=".minevisam.com"]<img
+##a[href*=".minevisam.com"]>img
 ##a[href*="-ads "]
 ##a[href*="-ads-"]>img
 ##a[href*="-ads_"]>img
