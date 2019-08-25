@@ -761,6 +761,7 @@
 ||clickiran.ir/script?*$third-party
 ||clksite.com*
 ||clickunder.ru*
+||clickweb.click^$third-party
 ||clickyab.com*$third-party
 ||group.clip2ni.com*
 ||clix.ir*$third-party
