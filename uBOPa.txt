@@ -2185,10 +2185,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||scarabresearch.com^$third-party,domain=digikala.com|digistyle.com
 @@||varagh.com/advertisement.js
 !----------------------Whitelist Cosmetic Filters-----------------------!
-!@@||lasttours.net^$generichide
 !@@||videotoolbox.com^$generichide
-@@*$generichide,domain=digikala.com|digitaltrends.com,divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
-!!!!!!!!!!!!!!!!@@*$generichide,domain=magesy.be|magesy.eu|magesy.club|magesy.info|magesy.website
+@@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
 1o2.ir#@#a[href*="1o2.ir"]>img
