@@ -575,7 +575,8 @@
 ||5db8d92zi2.com*$third-party
 ||5rah.*/linkbox*$third-party
 ||6198399e4910e66-ovc.com*$popup
-||7mu36somt5.com*$third-party
+||7mu36somt5.com*$document
+||7mu36somt5.com*$popup
 ||click.8tad.ir/click/*$third-party
 ||a1channel.net*$script
 ||a1channel.net/img/*$third-party
@@ -1337,7 +1338,6 @@ donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
 doostihaa.com##*[id^="ADdownload-"]
 doostihaa.com##div[class="adsfix_box"]
-doradu.com##div[class="flads"]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
@@ -1348,6 +1348,8 @@ esam.ir##div[id$="CornerBanner"]
 faceit.ir##div[class$=" advertising"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
+foreignpolicy.com##div[class="-mobile-ad "]
+foreignpolicy.com##div[class="paywall_counter"]
 ganool.*##div[id*="banner"]
 gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
@@ -1907,6 +1909,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class="ads"]
 ##*[class="adsheader"]
 ##*[class="adsimg"]
+##div[class="flads"]>a>img[width="120"][height="240"]
 ##*[class="inneradv"]
 ##*[class^="ad "]
 ##*[class^="ad_"]
@@ -2123,6 +2126,8 @@ dateesco.com#@#a[href*="dateesco.com?site"]>img
 didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
 dlroozane.net#@#.adsbox
 dlroozane.net#@#.topads
+doradu.com#@#.mom-ad
+! ^^ Above filter, to fix issue caused by EasyList ^^
 dorsa.ir#@#a[href$="dorsa.ir"]>img
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
@@ -2219,7 +2224,7 @@ soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
-sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com#@#*[class*="-ads "]
+sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentral.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 storystalk.net#@##banner_ad
