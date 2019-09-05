@@ -2,10 +2,10 @@
 <p dir="rtl">
 فیلتر لیستی برای بستن تبلیغات.
   </br>
-  این فیلتر لیست بصورت مشخص برای افزونه ی <a href="https://github.com/gorhill/uBlock/">uBlock Origin</a> نوشته شده است، ولی امکان استفاده از این لیست در افزونه های دیگر هم وجود دارد، گرچه بعضی از فیلتر ها/دستورات توسط افزونه های دیگر شناسایی نمیشوند. این لیست برای پوشش سایت های پارسی زبان و همچنین سایت های پربازدید (غیرپارسی زبان) که توسط لیست های مرجع پشتیبانی نمیشوند نوشته شده است.
+  این فیلتر لیست بصورت مشخص برای افزونه ی <a href="https://github.com/gorhill/uBlock/">uBlock Origin</a> نوشته شده است، ولی امکان استفاده از این لیست در بعضی افزونه های دیگر هم وجود دارد. اگرچه، بعضی از فیلتر ها/دستورات توسط افزونه های دیگر شناسایی نمیشوند و فقط افزونه هایی که از دستورات uBo پشتیبانی میکنند (مانند Nano adblocker) میتوانند تمام فیلترها را شناسایی کنند. این لیست برای پوشش سایت های پارسی زبان و همچنین سایت های پربازدید (غیرپارسی زبان) که توسط لیست های مرجع پشتیبانی نمیشوند نوشته شده است.
 </p>
 <p dir="ltr">
-A filterlist to block ads. </br>It's specifically written for <a href="https://github.com/gorhill/uBlock">uBlock Origin</a>, but still compatible with most ad blockers. However, some filters could only be detected by uBO. Main focus of this filter list is to cover Parsi websites and also most-visited websites in Iran, or other Parsi speaking countries, that are not covered by other major filter lists.
+A filterlist to block ads. </br>It's specifically written for <a href="https://github.com/gorhill/uBlock">uBlock Origin</a>, but still compatible with some other ad blockers. However, some filters could only be detected by uBO, or adblockers that are either based on uBo or support uBo rule format (e.g. Nano adblocker). Main focus of this filter list is to cover Parsi websites and also most-visited websites in Iran, or other Parsi-speaking countries, that are not covered by other major filter lists.
 </p></br>
 <h2 dir="rtl">- پروا&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspNote -</h2>
 
