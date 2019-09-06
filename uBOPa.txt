@@ -1269,7 +1269,7 @@ hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,msbmusic.ir,lianmovie.com##+js(abort-on-property-read.js, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir##+js(abort-on-property-read.js, vc_url)
 iranfilmplus.com##+js(abort-current-inline-script.js, $)
 iranfilmplus.net##+js(abort-on-property-read.js, $)
 itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
@@ -1305,11 +1305,6 @@ webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
 anaj.ir##*[class="bannerPosition"]
-android30t.com##*[id="modal-body"]
-android30t.com##*[id="modal-overlay"]
-androidiha.net##*[class*="afarinak"]
-androidiha.net##*[class*="lightbox-easy-popup"]
-androidiha.net##*[id*="lightbox-easy-popup"]
 aparat.com##*[class*="-banner-wrapper"]
 aparat.com##div[class="ac_main-wrapper"]
 aparat.com##div[class="aparat-pause-ad show"]
@@ -1348,7 +1343,7 @@ esam.ir##div[id$="CornerBanner"]
 faceit.ir##div[class$=" advertising"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
-foreignpolicy.com##div[class*="-mobile-ad "]
+!foreignpolicy.com##div[class*="-mobile-ad "]
 foreignpolicy.com##div[class*="paywall_counter"]
 ganool.*##div[id*="banner"]
 gomostream.com##.adtimes
@@ -1369,6 +1364,7 @@ ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
 ir-dl.com##div[class="beetads block"]
 iranfilmplus.com##div[id="infoi"]
 iranfilmplus.net##div[id="infoi"]
+itresan.com##div[itemtype*="WPAdBlock"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
 khabarfarsi.com##*[id="banners_120_top"]
@@ -1515,6 +1511,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*=".pfh.co.ir"]>img
 ##a[href*=".pooyano.com"]>img
 ##a[href*=".rasanegar.com"]>img
+##a[href*=".raya-ex.net"]
 ##a[href*=".sazmanhost.com"]>img
 ##a[href*=".seegotravel.com"]>img
 ##a[href*=".shahinparvaz.com"]>img
@@ -1560,6 +1557,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##a[href*="/pfh.co.ir"]>img
 ##a[href*="/pooyano.com"]>img
 ##a[href*="/rasanegar.com"]>img
+##a[href*="/raya-ex.net"]
 ##a[href*="/riradokht.ir"]>img
 ##a[href*="/sazmanhost.com"]>img
 ##a[href*="/seegotravel.com"]>img
@@ -2019,6 +2017,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ##*[class*="headbanners"]
 ##*[class*="itemAds"]
 ##*[class*="LeftAds-"]
+##*[class*="mobile-ad "]
 ##*[class*="random-ad-"]
 ##*[class*="RightAds-"]
 ##*[class*="sidebgbanner"]
