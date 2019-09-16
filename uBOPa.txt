@@ -2072,6 +2072,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !-----------------------Whitelist Network Filters-----------------------!
 @@/ads_$domain=mail.yahoo.com
 @@/ads-$domain=pasteboard.co
+@@/advs.$domain=wiley.com
 @@/content/ads/*$domain=tamin.ir
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 @@-ads.$domain=aparat.com|varzesh3.com
