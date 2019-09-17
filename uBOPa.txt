@@ -71,7 +71,7 @@
 *?linkson*
 *-ad/*
 *-ads-*
-*-ads.*
+*-ads.*$domain=~aparat.com|~varzesh3.com
 *-adserv*,domain=~digikala.com|~soft98.ir
 *-adv-*
 *-adv.*
@@ -117,7 +117,7 @@
 *_affiliate*
 *_artbannersxtd*
 *_ban_*$image
-*_banner*
+*_banner*$domain=~utah.edu|~cable.co.uk
 *_linkbox-*
 *_linkbox.*
 *_linkbox/*
@@ -198,7 +198,7 @@
 */ad&*
 */ad/*
 */ad?*
-*/advs.*
+*/advs.*$domain=~wiley.com
 */advs/*
 */ad_*
 */adban/*
@@ -276,7 +276,7 @@
 */ads%*
 */ads?*
 */ads.*
-*/ads-*
+*/ads-*$domain=~pasteboard.co
 */ads/$image
 */ads/$script
 */ads0*
@@ -2017,16 +2017,12 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !!@@||mail.yahoo.com^$document!!entire page!!https://adblockplus.org/filters!!
 !$ource,@mynext.pro/uBOPa.txt
 !-----------------------Whitelist Network Filters-----------------------!
-@@/ads_$domain=mail.yahoo.com
-@@/ads-$domain=pasteboard.co
-@@/advs.$domain=wiley.com
+!@@/ads_$domain=mail.yahoo.com
 @@/content/ads/*$domain=tamin.ir
 ! ^^ Above filter, to fix issue caused by EasyList ^^
-@@-ads.$domain=aparat.com|varzesh3.com
-@@_banner*$domain=utah.edu|cable.co.uk
-@@.com/ads.$domain=uploadboy.com,pasteboard.co
-@@.com/clk?$domain=varzesh3.com
-@@banner.$domain=msdn.microsoft.com
+!@@.com/ads.$domain=uploadboy.com|pasteboard.co
+!@@.com/clk?$domain=varzesh3.com
+!@@banner.$domain=msdn.microsoft.com
 @@||1movies.is/site/captcha?*
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||fbdown.net/js/adframe.js
