@@ -970,7 +970,6 @@
 ||parsads.com*$script
 ||parscloob.com*$script
 ||parsindex.com/directory/service.aspx?cat*
-||parstoOls.net/text_day/shiayan-hadith.js*
 ||parstools.com^$popup
 ||payeganltd.com/nabimages/*
 ||paypop.org*
@@ -1213,7 +1212,7 @@ dailys.ir##+js(abort-current-inline-script.js, website)
 dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
 downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
 farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##+js(abort-on-property-read.js,Object.defineProperty)
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
@@ -1298,10 +1297,10 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##center
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##div[id^="SC_TBlock_"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top##div[class="main-content"]:has(div>center:has-text(زولا))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##center
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##div[id^="SC_TBlock_"]
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##div[class="main-content"]:has(div>center:has-text(زولا))
 hidoctor.ir##*[class^="pdsifradsbn"]
 ilna.ir##div[class$=" zxc"]
 ir-dl.com##*[id="stickytop"]
@@ -1340,6 +1339,7 @@ nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nex1music.ir##div[class*="a"]:has(div>a[href*="account.zula.ir/pages/"])
 nokiapoweruser.com##*[class="wpa"]
+p30afzar.com##div[class="code-block code-block-5"]
 p30day.com##*[class="static_posts adsblockpop"]
 p30day.com##div[id^="ADbox-"]
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
@@ -1494,6 +1494,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/ham3da.ir"]>img
 *##a[href*="/izee.ir/"]>img
 *##a[href*="/kermany.com"]>img
+*##a[href*="/landing2?code="]>img
+!^^asaldl.com
 *##a[href*="/link.limo/"]>img
 *##a[href*="/mehran-web.com"]>img
 *##a[href*="/minevisam.com"]>img
