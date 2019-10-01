@@ -644,7 +644,7 @@
 ||asrfarda.ir/newslink*.php^$all
 ||asrfarda.ir/page.php$all
 ||atiehnews.ir/7001/*$all
-||landing.atighgasht.com*$third-party,popup
+||landing.atighgasht.com*$all
 ||atis.ir/script?*$third-party
 ||avablog.ir/redirect.php^$popup
 ||avalanchers.com/wcode/*
@@ -726,7 +726,7 @@
 ||server.cpmstar.com/cached/*$script
 ||cpxserving.com*
 ||d-h.st/assets/img/download*
-||landing.dasyaar.com*$third-party,popup
+||landing.dasyaar.com*$all
 ||datefunclub.com/pics.php?did*
 ||debadu.com*$third-party
 ||deema.agency*$third-party
@@ -782,7 +782,7 @@
 ||fitone.ir/tgch.php$all
 ||fluidads.co*
 ||js.freedownloadsoft.net/*/gallery.js*
-||landings.frekaans.ir*$third-party,popup
+||landings.frekaans.ir*$all
 ||funfarsi.ir/*pop.js*$third-party,script
 ||gikvmseyuk.ml*$third-party
 ||globaltraffico.com*
@@ -790,7 +790,7 @@
 ||grand-casino.com/?eugn*
 ||grt02.org*
 ||vu.hadith.ac.ir/tipofday*
-||landings.hamavaapp.com^$third-party,popup
+||landings.hamavaapp.com^$all
 ||healthline.com/js/partner/mw/link.js*
 ||hezarlink.com/newslink*$all
 ||hezarlink.com/newsfa*$all
@@ -876,7 +876,7 @@
 ||mahdiyar.ir/webmaster/*
 ||mahshar.com/hafez.htm*
 ||mahshar.com/speak_masterfully/speak_masterfully.php*
-||landings.matbakh-app.com*$third-party,popup
+||landings.matbakh-app.com*$all
 ||marketgid.com*
 ||marinsm.com/serve/*
 ||maxpopup.ir*.php*user*
@@ -921,7 +921,7 @@
 ||clk.myretargeting.com*
 ||nabzino.com/client/*$third-party,script
 ||najva.com/static/*$third-party,script
-||landings.namanetapp.com*$third-party,popup
+||landings.namanetapp.com*$all
 ||namasha.com/advast?*
 ||narsense.com/redirect.*$all
 ||neginpop.ir*/js*
@@ -1035,7 +1035,7 @@
 ||queenmag.ir/widgets/rsswidget.php^$third-party
 !||r98.ir/code/popup*$third-party
 ||rarenok.biz*
-||landings.ravitel.com/seq*$third-party,popup
+||landings.ravitel.com/seq*$all
 ||readserver.net*
 ||recomendedsite.com/*
 ||regpole.com*
@@ -1054,6 +1054,7 @@
 ||salammag.com^$popup
 ||sanjagh.com^$third-party
 ||sanjagh.net/assets/client.js$third-party,script
+||landings.sarnakh-mob.ir*$all
 ||galleries.secure-softwaremanager.com*
 ||js.securesoft.info/galleries/software_lp_deprecated.js*
 ||selectmedia.asia/adi.evt*
@@ -1072,7 +1073,7 @@
 ||shopty.in^$popup
 ||shwclk.com/click*$all
 ||sigmaad.com*$script,third-party
-||landings.simayeaval.com*$third-party,popup
+||landings.simayeaval.com*$all
 ||sitemerkezi.net*
 ||sixsigmatraffic.com/cs/iframe*
 ||skimresources.com*
@@ -1080,7 +1081,7 @@
 ||skurki.info/js/^$popup
 ||skyactivate.com/*/gallery.js?*
 ||slopeac.com/static/*$script
-||landing.symaart.com*$third-party,popup
+||landing.symaart.com*$all
 ||softexia.com/wp-content/*/js/attentionGrabber.js*
 ||solhkhabar.ir/t5t/*
 ||solic.info*
@@ -1209,7 +1210,7 @@
 !--------------------------uBO Scriptlet Filters-------------------------!
 ava2music.com,shirazsong.net,ariapix.net,smusic.ir##+js(abort-on-property-read.js, checkCookie)
 ava2music.com##+js(abort-current-inline-script.js, newtabopenornot)
-avangmusic.net,pixnaz.info,taknaz.net,texahang.org##+js(abort-on-property-read.js, InitPop)
+avangmusic.net,pixnaz.info,taknaz.net,texahang.org,upmusics.com##+js(abort-on-property-read.js, InitPop)
 edaboard.com##+js(abort-on-property-read.js, interstitialBox)
 dailys.ir##+js(abort-current-inline-script.js, website)
 dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
@@ -1591,6 +1592,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="landings.matbakh-app.com"]
 *##a[href*="landings.namanetapp.com"]
 *##a[href*="landings.ravitel.com"]
+*##a[href*="landings.sarnakh-mob.ir"]
 *##a[href*="landings.simayeaval.com"]
 *##a[href*="marcotravel.ir"]>img
 *##a[href*="mftmirdamad.com"]>img
