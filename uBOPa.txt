@@ -898,6 +898,7 @@
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
 ||cdn.mihan360.com*$script
+||mihanbacklink.ir*$all
 ||mihannama.ir*$script
 ||minimumpay.info*
 ||club.minoogroup.com*
@@ -912,6 +913,7 @@
 ||mobon.com/vendor/*.php*
 ||mobua.com/f/dg.php*
 ||modiseh.com/public/campaign/*$third-party
+||montiego.ir/dl/popmon.js
 ||mootanroo.com*$third-party,script
 ||mtagmonetizationb.com*
 ||mtpjldykpuhnmg.bid*
@@ -1117,6 +1119,7 @@
 ||api.ticketing-service.com/topTickets/*$third-party
 ||tikfilm.net/wp-content/uploads/ub.png
 ||tikfilm.org/wp-content/uploads/ub.png
+||tikfilm.us/wp-content/uploads/ub.png
 ||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
 ||tizer*.net/tizer*.php?sid*
@@ -1215,7 +1218,7 @@ farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
 hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(abort-on-property-read.js,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
 i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,song2song.com,musicone.ir,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tikfilm.us,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir##+js(abort-on-property-read.js, vc_url)
 iranfilmplus.com##+js(abort-current-inline-script.js, $)
 iranfilmplus.net##+js(abort-on-property-read.js, $)
@@ -1223,10 +1226,10 @@ itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
 khabarfarsi.com##+js(abort-current-inline-script.js, jQuery, document.createElement)
 listenpersian.net##+js(bab-defuser.js)
 makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
-music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir##+js(set-constant.js, needpop, 0)
+music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir,montiego.ir,sornamusic.ir##+js(set-constant.js, needpop, 0)
 nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
 p30afzar.com##+js(set-constant.js, ShowPopUp, false)
-p30day.com,uploadgoogle.ir,tabtaraneh.net##+js(abort-on-property-read.js, window.open)
+p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net##+js(abort-on-property-read.js, window.open)
 putlockers.*##+js(abort-on-property-read.js, performance)
 putlockers.*##+js(nowebrtc.js)
 seehd.*##+js(abort-current-inline-script.js, adBlockDetected)
@@ -1258,6 +1261,7 @@ aparat.com##div[class="aparat-pause-ad show"]
 aparat.com##div[class="filimo_movies_wrapper]
 aparat.com##div[class="videoonepromotion--wrapper hidden-end-recom"]
 asaldl.com##*[class="banas"]
+asaldl.com##*[id^="ADdownload-btn"]
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="webzi.ir/?utm_source"])
@@ -1325,7 +1329,6 @@ mihandownload.com##div[class="post-body"]:has(div>a[href*="mihanwebhost.com/cart
 mihandownload.com##div[class="textwidget widget-text"]:has(div>div>div>a[href*="tracking.travian.ir"])
 mihandownload.com##div[class="well tip tags"]
 msbmusic.ir##div[id="postesabetads"]
-mytopseda.ir##.textwidget > p:nth-of-type(1)
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 namnak.com##a[href*="/ag_"]>img
