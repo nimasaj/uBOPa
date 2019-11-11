@@ -19,7 +19,7 @@
 ! https://github.com/uBlockOrigin/uAssets/issues/2505
 ! https://github.com/gorhill/uBlock/wiki/Inline-script-tag-filtering
 ! https://github.com/uBlockOrigin/uAssets/commit/16ea13af9899bc5abd8410276a40655e8e250f12#commitcomment-26398559
-!
+! https://whotracks.me/blog/adblockers_performance_study.html
 ! website##^script:has-text(adbDetect)
 ! html filtering-FF>57 only
 !
@@ -438,7 +438,6 @@
 */newads/*
 */nextads*$script
 */novintabligh/*
-*/OneSignalSDKWorker.js*
 */page/shopads*
 */paidads/*
 */panelad/*
@@ -455,7 +454,7 @@
 */popunder_*
 */popunder/*
 */popup.htm*
-*/popup.js|
+!*/popup.js|  https://github.com/nimasaj/uBOPa/issues/5
 */popup.php*
 */popupkp.*
 */renderAds?*
@@ -516,7 +515,6 @@
 ||1133.cc*/show_code.php?pid*$third-party
 ||1133.cc*/showpage.php?pid*$third-party
 ||11news.ir/9200/*$all
-||123movies.party/assets/js/custombanner.js*
 ||123gomovies.co/hd/index.php
 ||1dar1.com/shop_box*$third-party
 ||1movies.is/site/*
@@ -552,7 +550,6 @@
 ||2daylink.com/ip-lightbox/*
 ||2leep.com/ticker*
 ||2mdn.net/*flashwrite*$script
-||2shared.com/js/functions.js*
 ||30dkadeh.com/images/*$third-party
 ||30nama.com^$popup
 ||32a79e2833309ebe.com*
@@ -573,7 +570,6 @@
 ||a1channel.net*$script
 ||a1channel.net/img/*$third-party
 ||acff.ir*$script
-||redir.adap.tv/redir/javascript/adaptvAdPlayer.js*
 ||adbrau.com*
 ||adcash.com*
 ||addfreestats.com/cgi-bin/afstrack.cgi*
@@ -647,14 +643,12 @@
 ||landing.atighgasht.com*$all
 ||atis.ir/script?*$third-party
 ||avablog.ir/redirect.php^$popup
-||avalanchers.com/wcode/*
 ||avokvnpqunol.bid*$script
 ||awin1.com^$popup
 ||b0b.ir*$third-party
 ||backlinka.ir^$popup
 ||backority.ir*$third-party
 ||backority.ir*$popup
-||badongo.com/js/ua-remote.js*
 ||bannersnack.com*$script
 ||bannersnack.com/iframe/*
 ||bannerv.cf*
@@ -693,7 +687,6 @@
 ||clickar.ir/?ref*$third-party
 ||clickbux.ir*
 ||clickcpm.com*
-||clickdensity.com/cr.js*
 ||clickiran.ir/script?*$third-party
 ||clksite.com*
 ||clickweb.click^$third-party
@@ -745,14 +738,12 @@
 ||dortina.com/em/pop-up^$popup
 ||double-click.ir*$third-party
 ||download-performance.com/dt*
-||dramafever.com/*/blockAdBlock.js*
 ||dt07.net*$script
 ||dunro.com/embeded*
 ||e3cript.com*$third-party
 ||e85440ec98f04725.com^$popup
 ||eads.ir*
 ||adn.ebay.com*
-||edomz.net/popup.js*
 ||efotdwuui.bid*$script
 ||eghamat24.com*$third-party
 ||eghtesadban.com*$popup
@@ -781,7 +772,6 @@
 ||fitone.ir/pop.php*$all
 ||fitone.ir/tgch.php$all
 ||fluidads.co*
-||js.freedownloadsoft.net/*/gallery.js*
 ||landings.frekaans.ir*$all
 ||funfarsi.ir/*pop.js*$third-party,script
 ||gikvmseyuk.ml*$third-party
@@ -941,8 +931,6 @@
 ||nickhel.com*$script
 ||novintabligh.com/peikiran/*$third-party
 ||npdaqy6x1.me*
-||ns-cdn.com/dsatserving2/scripts/netseerads.js*
-||cdn.nsimg.net/shared/js/im/im.js*
 ||nuggad.net/*&nuggsid*
 ||o-oo.ooo*$third-party
 ||oaogilidstvm.bid*
@@ -957,7 +945,6 @@
 ||onesignal.com/webPushIframe*$third-party
 ||onesignal.com*$script
 ||optimuum.com*
-||widgets.outbrain.com/OutbrainRater.js*
 ||ov2ochu.bid*$script
 ||oxado.com*
 ||oxcash.com*
@@ -982,6 +969,7 @@
 ||persiannode.ir/iq*$script
 ||persianv.com*box.php*
 ||pichak.net/nohe/amar.js^
+||pichak.net/blogcod/^$script
 ||pishtazweb.org/eshop/*$third-party
 ||pishtazweb.org*view.php?uid*$third-party
 ||pixazza.com/widget/*
@@ -1056,7 +1044,6 @@
 ||sanjagh.net/assets/client.js$third-party,script
 ||landings.sarnakh-mob.ir*$all
 ||galleries.secure-softwaremanager.com*
-||js.securesoft.info/galleries/software_lp_deprecated.js*
 ||selectmedia.asia/adi.evt*
 ||cdn.sendpulse.com*$script
 ||sendword.ir*$third-party
@@ -1082,7 +1069,6 @@
 ||skyactivate.com/*/gallery.js?*
 ||slopeac.com/static/*$script
 ||landing.symaart.com*$all
-||softexia.com/wp-content/*/js/attentionGrabber.js*
 ||solhkhabar.ir/t5t/*
 ||solic.info*
 ||soob.xyz*$third-party
@@ -1091,8 +1077,6 @@
 ||sparkstudios.com*$script
 ||rts.sparkstudios.com/pp/*?pid*
 ||spop.ir/website/js*$third-party
-||spottt.com/js/spottt.js*
-||spottt.com/sp_*
 ||squartedo.info*
 ||starpopup.com/website/js*$third-party
 ||superfastcdn.com*$all
@@ -1131,7 +1115,6 @@
 !tolideirani.com/datonx.html,tolideirani.com/datoyk.html
 ||tookan.ir/lb.php?*
 ||hadis.toolsir.com*
-||tophot-news.com/ldr.js*
 ||toplinks.dom.ir*
 ||toppopup.com*
 ||tooscom.com/linkkey.js*
@@ -1146,14 +1129,12 @@
 ||uelect.com*$script
 ||unblockmyproxy.site/js/*
 ||unztsvrjofqp.com*$script
-||cdn.uservoice.com/javascripts/widgets/tab.js*
 ||utop.ir*$third-party
 ||vatanclick.ir*$third-party
 ||vatanshop.com/webmaster/*
 ||vcfs6ip5h6.bid*
 ||velocecdn.com*$all
 ||venturead.com*$all
-||vidlox.tv/js/hrpr.js*
 ||vixono.com*$popup
 ||vixono.com/redirect.*$third-party
 ||vogodita.com*
@@ -1180,8 +1161,6 @@
 ||xbuzzi.ir/landing/download?clickid=*$all
 ||xdoygumiams.com*$third-party,popup
 ||xtgem.com*
-||ard.xxxblackbook.com/geoprofiles/iframe.php*
-||ard.xxxblackbook.com/impopup/im_pop.js*
 ||yahnataetu.com*
 ||yaisha0.bid*$script
 ||yasell.biz/images/pop/*$all
@@ -1203,14 +1182,13 @@
 ||zedo.com*
 ||zeroredirect1.com*
 ||zirve100.com*
-||zlx.com.br/assets/playermon.js*
 ||zmbvnvhzpx.ga*$third-party
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
 ava2music.com,shirazsong.net,ariapix.net,smusic.ir##+js(abort-on-property-read.js, checkCookie)
 ava2music.com##+js(abort-current-inline-script.js, newtabopenornot)
-avangmusic.net,pixnaz.info,taknaz.net,texahang.org,upmusics.com##+js(abort-on-property-read.js, InitPop)
+avangmusic.net,pixnaz.info,taknaz.net,texahang.org,upmusics.com,music-fa.com##+js(abort-on-property-read.js, InitPop)
 edaboard.com##+js(abort-on-property-read.js, interstitialBox)
 dailys.ir##+js(abort-current-inline-script.js, website)
 dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
@@ -1230,7 +1208,7 @@ makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
 music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir,montiego.ir,sornamusic.ir##+js(set-constant.js, needpop, 0)
 nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
 p30afzar.com##+js(set-constant.js, ShowPopUp, false)
-p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net##+js(abort-on-property-read.js, window.open)
+p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(abort-on-property-read.js, window.open)
 putlockers.*##+js(abort-on-property-read.js, performance)
 putlockers.*##+js(nowebrtc.js)
 seehd.*##+js(abort-current-inline-script.js, adBlockDetected)
@@ -1352,6 +1330,7 @@ p30download.com##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*=
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:has(span>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
 p30download.com##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
+par30dl.com##div[class="post-sabet"]
 rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
 rokna.net##div[class^="type-script"]
@@ -2028,7 +2007,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@/content/ads/*$domain=tamin.ir
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 !@@.com/ads.$domain=uploadboy.com|pasteboard.co
-!@@.com/clk?$domain=varzesh3.com
 !@@banner.$domain=msdn.microsoft.com
 @@||1movies.is/site/captcha?*
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
@@ -2054,7 +2032,6 @@ all3dp.com#@#*[class*="-ad-container"]
 amazon.*,alibaba.com#@#*[id$="-ads"]
 amazon.*#@#*[class$="-ad"]
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
-aparat.com#@#*[class*=" ads-"]
 aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
@@ -2162,7 +2139,7 @@ samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
 seegotravel.com#@#a[href^="http://seegotravel.com"]>img
-seemorgh.com,bbc.com,oprah.com#@#*[class*=" ads-"]
+seemorgh.com,bbc.com,oprah.com,aparat.com#@#*[class*=" ads-"]
 sendspace.com,behmusic.com#@#*[class$="_ads"]
 shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
@@ -2176,7 +2153,6 @@ soft98.ir#@#img[src*="ironia.ml"]
 sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentral.com#@#*[class*="-ads "]
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
-storystalk.net#@##banner_ad
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 storystalk.net#@#*[id$="_ad"]
 takro.net#@#*[id^="ads1"]
