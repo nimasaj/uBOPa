@@ -738,6 +738,7 @@
 ||dortina.com/em/pop-up^$popup
 ||double-click.ir*$third-party
 ||download-performance.com/dt*
+||downloadly.ir/wp-content/uploads/2020/01/Haj-Qasem.png
 ||dt07.net*$script
 ||dunro.com/embeded*
 ||e3cript.com*$third-party
@@ -1265,6 +1266,8 @@ doostihaa.com##*[id^="ADdownload-"]
 doostihaa.com##div[class="adsfix_box"]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
+downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
+downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(assemSole))
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
@@ -1921,7 +1924,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class*="-ads7"]
 *##*[class*="-ads8"]
 *##*[class*="-ads9"]
-*##*[class*="-ads-"]
+!*##*[class*="-ads-"]
 *##*[class*="-ads_"]
 *##*[class*="-adv-box"]
 *##*[class*="-e3lanat "]
@@ -2008,6 +2011,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 !@@.com/ads.$domain=uploadboy.com|pasteboard.co
 !@@banner.$domain=msdn.microsoft.com
+@@/wpdcookiejs/*$domain=vigiato.net
+! ^^ Above filter, to fix issue caused by EasyPrivacy ^^ Sample: https://vigiato.net/p/63058 or https://vigiato.net/p/62738in comment section | expamd comment is disabled 
 @@||1movies.is/site/captcha?*
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||fbdown.net/js/adframe.js
@@ -2040,7 +2045,7 @@ astiak.net#@#a[href^="http://astiak.net"]>img
 atramiz.com#@#a[href*="atramiz.com"]
 bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 barsait.com#@#a[href^="http://www.barsait.com"]>img
-bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com#@#*[class*="-ads-"]
+!bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com,cnn.com#@#*[class*="-ads-"]
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 blocklist.site#@#a[href$="/ads"]
 boorsika.com#@#a[href*="boorsika.com"]>img
@@ -2145,6 +2150,7 @@ shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 shopdey.ir#@#a[href*="shopdey.ir/product"]>img
+sigfox.com#@#*[class^="ad3"]
 soft98.ir#@#*[class^="ad2"]
 soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
@@ -2167,5 +2173,5 @@ tkadak.com#@#a[href*="www.tkadak.com"]>img
 tourantech.com#@#a[href*="tourantech.com"]>img
 torangshop.ir#@#a[href*="torangshop.ir"]>img
 tsmandegar.com#@#a[href^="http://www.tsmandegar.com"]>img
-zoomit.ir#@#*[class*=" adv-"]
+zoomit.ir,godaddy.com#@#*[class*=" adv-"]
 zuperi.com#@#a[href$="zuperi.com"]>img
