@@ -33,7 +33,7 @@
 @@||talahost.com
 !----------------Bank portals/ Payment gateways-----------------!
 @@||secure.oceanpayment.com
-@@||pay1.dibspayment.com
+@@||dibspayment.com
 @@||danskebank.dk
 @@||trialpay.com
 @@||uasdenmark.dk
@@ -42,3 +42,4 @@
 @@||payment.quickpay.net
 @@||monetico-services.com
 @@||wlp-acs.com
+@@||arcot.com
