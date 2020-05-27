@@ -2011,6 +2011,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !$ource,@mynext.pro/uBOPa.txt
 !-----------------------Whitelist Network Filters-----------------------!
 !@@/ads_$domain=mail.yahoo.com
+@@_ad&$domain=glassdoor.com
 @@/content/ads/*$domain=tamin.ir
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 !@@.com/ads.$domain=uploadboy.com|pasteboard.co
@@ -2020,9 +2021,11 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||1movies.is/site/captcha?*
 @@||content.uplynk.com/preplay/*$xmlhttprequest,domain=www.fox.com
 @@||fbdown.net/js/adframe.js
+@@||go-mpulse.net^$domain=microsoftcrmportals.com
 !@@||ironia.ml*$3p,domain=soft98.ir
 @@||scarabresearch.com^$3p,domain=digikala.com|digistyle.com
 @@||varagh.com/advertisement.js
+@@||yottaa.com/rapid.min.js^$domain=omega.com
 !----------------------Whitelist Cosmetic Filters-----------------------!
 !@@||videotoolbox.com^$generichide
 @@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
@@ -2125,6 +2128,7 @@ microchip.com,microsoft.com#@#*[id^="ad6"]
 microchip.com,microsoft.com#@#*[id^="ad7"]
 microchip.com,microsoft.com#@#*[id^="ad8"]
 microchip.com,microsoft.com#@#*[id^="ad9"]
+microsoftcrmportals.com#@#*[id$="7ad"]
 mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 minevisam.com#@#a[href*=".minevisam.com"]>img
 minevisam.com#@#a[href*="/minevisam.com"]>img
