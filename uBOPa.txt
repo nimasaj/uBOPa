@@ -1805,7 +1805,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[id$=" ads"]
 *##*[id$="-ad"]
 *##*[id$="-ads"]
-*##*[id$="_ad"]
+!*##*[id$="_ad"]
 *##*[id$="_ads"]
 *##*[id$="0ad"]
 *##*[id$="1ad"]
@@ -1909,7 +1909,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class^="wideBannerContainer"]
 *##*[class*="تبلیغ"]
 *##*[class*=" ads "]
-*##*[class*=" ads-"]
+!*##*[class*=" ads-"]
 *##*[class*=" ads_"]
 *##*[class*=" ads2col"]
 *##*[class*=" adv "]
@@ -1970,7 +1970,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class$=" advContainer"]
 *##*[class$=" fixedadv"]
 *##*[class$="-ad"]
-*##*[class$="_ad"]
+!*##*[class$="_ad"]
 *##*[class$="_ads"]
 *##*[class$="0ad"]
 *##*[class$="0ads"]
@@ -1999,7 +1999,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class$="8ad"]
 *##*[class$="8ads"]
 *##*[class$="8banner"]
-*##*[class$="9ad"]
+!*##*[class$="9ad"]
 *##*[class$="9ads"]
 *##*[class$="9banner"]
 *##*[class$="topAdv"]
@@ -2114,7 +2114,7 @@ mail.google.com#@#*[class$="5ad"]
 mail.google.com#@#*[class$="6ad"]
 mail.google.com#@#*[class$="7ad"]
 mail.google.com#@#*[class$="8ad"]
-mail.google.com#@#*[class$="9ad"]
+!mail.google.com,keep.google.com#@#*[class$="9ad"]
 marcotravel.ir#@#a[href*="marcotravel.ir"]>img
 mehran-web.com#@#a[href^="https://mehran-web.com"]>img
 mftmirdamad.com#@#a[href*="mftmirdamad.com"]>img
@@ -2154,7 +2154,7 @@ samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
 seegotravel.com#@#a[href^="http://seegotravel.com"]>img
-seemorgh.com,bbc.com,oprah.com,aparat.com#@#*[class*=" ads-"]
+!seemorgh.com,bbc.com,bbc.co.uk,oprah.com,aparat.com#@#*[class*=" ads-"]
 sendspace.com,behmusic.com#@#*[class$="_ads"]
 shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
@@ -2170,7 +2170,7 @@ sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentr
 spiceworks.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 ! ^^ Above filter, to fix issue caused by EasyList ^^
-storystalk.net#@#*[id$="_ad"]
+!storystalk.net,bbc.co.uk#@#*[id$="_ad"]
 takro.net#@#*[id^="ads1"]
 tamin.ir#@#.ads2
 ! ^^ Above filter, to fix issue caused by EasyList ^^
