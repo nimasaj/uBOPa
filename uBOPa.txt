@@ -1002,6 +1002,7 @@
 ||popupad.net*
 ||popupads.ir/popupcode*$3p
 ||popupaval.com^$3p
+||popupaval.ir^$3p
 ||popupearn.com*$3p,script
 !||popupearn.com/website/*
 !||popupearn.com/popbox/*
@@ -1392,6 +1393,7 @@ yasdl.com##div[class="post-des-box"]:has(div>div>div>div:has-text(تبليغات
 yasdl.com##div[class="post-body post-tags row"]
 zoomit.ir##DIV.ThirdPost
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>ul>li>a[class="Home__LatestTopic_Cat"]:has-text(آگهی))
+zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(رپورتاژ آگهی))
 !->
 !zoomit.ir##.declarations
 zoomit.ir##body:style(padding-top: 0px !important;)
