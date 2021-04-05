@@ -1258,6 +1258,9 @@ bia4music.org,bia4music.ir,mybia4music.com##div[class="fixedpost"]:has(div>div>h
 cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
 digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption>footer>div>span:has-text(تبلیغ))
 digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
+digiato.com##div[id^="digiad-"]
+digiato.com##div[class^="digiad-"]
+digiato.com##div[class="theiaStickySidebar"]
 dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
 dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
 dlroozane.net##div[class="widget-con"]:has(div>h4:has-text(بانی مد))
@@ -1341,6 +1344,8 @@ rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
 rokna.net##div[class^="type-script"]
 rooziato.com##*[class="single_section"]:has([src*="clickyab.com"])
+rooziato.com##div[class^="digiad-"]
+rooziato.com##div[id^="digiad-"]
 scnlog.me,scnlog1.unblocked.is,scnlog.unblocked.win,scnlog.unblocked.krd,scnlog.unblocked.llc,scnlog.unblocked2.website##div[class^="modal"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
