@@ -1260,7 +1260,6 @@ digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption
 digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
-digiato.com##div[class="theiaStickySidebar"]
 dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
 dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
 dlroozane.net##div[class="widget-con"]:has(div>h4:has-text(بانی مد))
