@@ -1230,6 +1230,10 @@ webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 1pezeshk.com##div[class*="category-ad-"]
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div>div>a[href*="/category/"]:has-text(رپورتاژ))
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div>div[class^="rd-"]:has-text(رپورتاژ))
+1pezeshk.com##div[class="wpb_raw_code wpb_content_element wpb_raw_html"]
+!1pezeshk.com##div[class="wpb_raw_code wpb_content_element wpb_raw_html"]:has(div>div>a>img[src*=banner])
+!1pezeshk.com##div[class="wpb_raw_code wpb_content_element wpb_raw_html"]:has(div>div>a>img[src*=baner])
+1pezeshk.com##div[class*=" adcontainer"]
 123gomovies.co##.embed-container
 2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
 2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
