@@ -567,6 +567,8 @@
 ||6198399e4910e66-ovc.com*$popup
 ||7mu36somt5.com*$all
 ||click.8tad.ir/click/*$3p
+||ad2ad.ir*
+||adad.ir*
 ||a1channel.net*$script
 ||a1channel.net/img/*$3p
 ||acff.ir*$script
@@ -583,6 +585,7 @@
 ||adment.me*
 ||adment.space*
 ||admixer.net^
+||admpads.com*
 ||admpads.com/x1_webfly_popup.php*
 ||adnegah.net*$3p
 ||adnetworkperformance.com/a/display.php*$3p
@@ -817,10 +820,14 @@
 ||ilivid.com/?appid*
 ||impressions.ir*.php*
 ||ininmacerad.pro*$3p
+||ipopup.ir*
+||ipsell.ir*
 ||iptsunami.com/show/*
 ||iranmoosighi.ir*$script
 ||iranshop24.ir/js/*$script
 ||cdn.iranweb.click*
+||iranwebads.com*
+||irclick.net*
 ||irhc.in*.php*
 ||ironia.ml*$3p,domain=~soft98.ir
 ||irpopup.ir^$3p
@@ -847,6 +854,7 @@
 !||kimiaonline.com/redirect.*
 ||kixer.com*$script
 ||krutilka.net*
+||landyab.com*
 ||liczniki.org*$3p
 ||linkafarin.com*
 ||linkchin.com/code.php*
@@ -888,10 +896,13 @@
 ||mellati.com/h/*$all
 ||meried.co*$all
 ||merikhi.com/index.php?iduser*
+||merita.ir*
+||metrix.ir*
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
 ||cdn.mihan360.com*$script
 ||mihanbacklink.ir*$all
+||mihanclick.info*
 ||mihannama.ir*$script
 ||minimumpay.info*
 ||club.minoogroup.com*
@@ -924,6 +935,7 @@
 ||netbina.net/webcodes/*$3p
 ||netpool.netbookia.net*$3p
 ||netwas.net*$3p
+||networksara.com*
 ||newagahi.ir^$popup
 ||newsjet.ir/jet1005.html*$all
 ||nex1network.com*$3p
@@ -970,6 +982,9 @@
 ||adverse.persiangig.com/*
 ||persiannode.ir^$popup
 ||persiannode.ir/iq*$script
+||persianrank.ir*
+||persianstat.com*
+||persianstat.ir*
 ||persianv.com*box.php*
 ||pichak.net/nohe/amar.js^
 ||pichak.net/blogcod/^$script
@@ -992,6 +1007,7 @@
 ||popitunder.com*
 ||popkade.ir*$3p
 ||popking.ir/*p*$3p
+||popland.info*
 ||popland.ir*.php*user*
 ||popmaster.ir/pop.php*$3p
 ||poppop.ir*$3p
@@ -1396,6 +1412,8 @@ videotoolbox.com##.advertisement_section_top
 vigiato.net##figure[class="wpb_wrapper vc_figure"]
 vigiato.net##a[class="adsbeforecontent"]
 vigiato.net##div[id="adstopside"]
+vigiato.net##div[class="digiad-item"]
+vigiato.net##div[id^="digiad-"]
 yasdl.com##*[id^="post-sabet-"]
 yasdl.com##div[class="post-des-box"]:has(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
