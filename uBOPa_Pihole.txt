@@ -206,7 +206,7 @@ magnetadservices.com
 mahdiyar.ir
 mahshar.com
 landings.matbakh-app.com
-marketgid.com*
+marketgid.com
 marinsm.com
 maxpopup.ir
 mdn2015x2.com
@@ -222,7 +222,7 @@ meried.co
 merikhi.com
 merita.ir
 metrix.ir
-jsn.mgid.com*
+jsn.mgid.com
 cdn.mgsrvr.com
 cdn.mihan360.com
 mihanbacklink.ir
@@ -247,8 +247,8 @@ netbina.com
 netbina.net
 netpool.netbookia.net
 netwas.net
-newagahi.ir
 networksara.com
+newagahi.ir
 nex1network.com
 nextads.ir
 nextpopup.ir
@@ -368,7 +368,6 @@ talaads.com
 tapsell.ir
 tczvikamowfjte.com
 teasernet.com
-te1.ir
 theads.me
 theadsnet.com
 ths9j89.com
@@ -428,4 +427,4 @@ zedo.com
 zeroredirect1.com
 zirve100.com
 zmbvnvhzpx.ga
-zyxtecsff.bid*
+zyxtecsff.bid
