@@ -1049,6 +1049,7 @@
 ||regpole.com*
 ||remarketingpixel.com/stats*
 ||roozno.com/3044/*$all
+||rozblog.com/include/rozblog_ads_js.php
 ||rozfa.ir*
 ||rozup.ir/up/*$script
 ||rtbsystem.com*
@@ -1257,6 +1258,7 @@ webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 2baksa.net##*[id^="bn_"]
 2baksa.net##div[align^="justify"]
 2baksa.net##td:nth-of-type(2) > center
+8pic.ir##a[class="link-button"]
 anaj.ir##*[class="bannerPosition"]
 aparat.com##*[class*="-banner-wrapper"]
 aparat.com##div[class="ac_main-wrapper"]
@@ -1299,6 +1301,7 @@ emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
 esam.ir##div[id$="CornerBanner"]
 faceit.ir##div[class$=" advertising"]
+farsroid.com##*[class="cas cas-pubg"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
 !foreignpolicy.com##div[class*="-mobile-ad "]
@@ -1359,6 +1362,7 @@ p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px
 p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
 p30download.com##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
 par30dl.com##div[class="post-sabet"]
+par30games.net##div[class="fixedbanner"]
 rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
 rokna.net##div[class^="type-script"]
@@ -1402,12 +1406,16 @@ top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
 tubeload.tv##a[href*="/po-direct.html?type="]
+upload-fa.ir##div[class="banners"]
+upload-fa.ir##div[class="tagslist"]
+uplooder.net##div[class="special_links"]
 www.uptvs.com##article.post:nth-of-type(2)
 www.uptvs.com##article.post:nth-of-type(3)
 uptvs.com,uptv.ir##div[class="widget-con"]:has(div>h4:has-text(زولا))
 uptvs.com,uptv.ir##div[class*="-popup-"]
 uptvs.com##div[class="tags"]
-uupload.ir##div[class="tab_box"]:has(div>div:has-text(تبلیغ))
+uupload.ir,imgurl.ir##div[class="tab_box"]
+uupload.ir,8pic.ir,imgurl.ir##div[class="links_footer"]
 videotoolbox.com##.advertisement_section_top
 vigiato.net##figure[class="wpb_wrapper vc_figure"]
 vigiato.net##a[class="adsbeforecontent"]
@@ -1731,6 +1739,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[alt$="-ad"]
 *##*[alt$="_ad"]
 !
+*##*[id*="تبلیغ"]
 *##*[id="adnFloatbr"]
 *##*[id="ads"]
 *##*[id="adsbar"]
@@ -1738,6 +1747,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[id="advBan"]
 *##div[id="AdvTop"]
 *##div[id="lightbox-easy-popup"]
+*##*[id="tabligh"]
 *##*[id="tabliq"]
 *##*[id^="ad "]
 *##*[id^="ad-"]
@@ -2040,6 +2050,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !-----------------------Whitelist Network Filters-----------------------!
 !@@/ads_$domain=mail.yahoo.com
 @@_ad&$domain=glassdoor.com
+@@*/ads.*$1p,domain=filecr.com
+@@*/adv-*$1p,domain=tosinso.com
 @@/content/ads/*$domain=tamin.ir
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 !@@.com/ads.$domain=uploadboy.com|pasteboard.co
@@ -2066,6 +2078,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 40nama.com#@#a[href^="http://40nama.com"]>img
 7haftstores.com#@#a[href*="7haftstores.com"]>img
 adgup.com#@#a[href^="http://adgup.com"]>img
+adlock.com#@#a[href*="-ads/"]
+adlock.com#@#a[href*="-ads-"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 aliexpress.com#@#a[href*="s.click.aliexpress.com/"]>img
 all3dp.com,lifewire.com#@#*[class*="-ad-container"]
@@ -2084,7 +2098,7 @@ barsait.com#@#a[href^="http://www.barsait.com"]>img
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 blocklist.site#@#a[href$="/ads"]
 boorsika.com#@#a[href*="boorsika.com"]>img
-caranddriver.com#@#*[class^="ads-"]
+caranddriver.com,farsroid.com#@#*[class^="ads-"]
 chicken-device.ir#@#a[href*="chicken-device.ir"]>img
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
@@ -2193,7 +2207,7 @@ soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
-sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentral.com,wired.com#@#*[class*="-ads "]
+sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentral.com,wired.com,adlock.com#@#*[class*="-ads "]
 spiceworks.com,wired.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 ! ^^ Above filter, to fix issue caused by EasyList ^^
