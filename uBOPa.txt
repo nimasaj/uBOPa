@@ -1151,6 +1151,7 @@
 ||unblockmyproxy.site/js/*
 ||unztsvrjofqp.com*$script
 ||utop.ir*$3p
+||utopclick.com^$3p
 ||vatanclick.ir*$3p
 ||vatanshop.com/webmaster/*
 ||vcfs6ip5h6.bid*
@@ -1407,6 +1408,7 @@ top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
 tubeload.tv##a[href*="/po-direct.html?type="]
 upload-fa.ir##div[class="banners"]
+upload-fa.ir##div[class="footer_nav"]
 upload-fa.ir##div[class="tagslist"]
 uplooder.net##div[class="special_links"]
 www.uptvs.com##article.post:nth-of-type(2)
