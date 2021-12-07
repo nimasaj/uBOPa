@@ -581,6 +581,7 @@
 ||adhitzads.com*
 ||adhoc2.net*
 ||adiran.co*
+||adivery.com^$3p
 ||adjuggler.net*
 ||adment.me*
 ||adment.space*
@@ -617,6 +618,7 @@
 ||adsvidsdouble.com*
 ||adsvip.ir*$3p
 ||adtgs.com*$script
+||adtrace.io^$3p
 ||adtube.ir*$3p,script
 ||adverigo.com*
 ||adweb.ir*$3p
@@ -627,6 +629,7 @@
 ||aftabshop.com/links.htm*
 ||agreemand.com^$popup
 ||click.alibaba.com*$3p,popup
+||alipopup.ir^$3p
 ||always-parser.xyz*
 ||am15.net/*.php?s*
 ||amarfa.ir*$script
@@ -682,6 +685,7 @@
 ||c0594.com*
 ||www3.cbox.ws/box/*
 ||rsc.cdn77.org*$popup
+||chabok.io^$3p
 ||channelsho.ir^$popup
 !||channelsho.ir/tg.php*
 ||promote.chidaneh.com^$3p
@@ -744,6 +748,7 @@
 ||downloadly.ir/wp-content/uploads/2020/01/Haj-Qasem.png
 ||dt07.net*$script
 ||dunro.com/embeded*
+||e-earn.ir^$3p
 ||e3cript.com*$3p
 ||e85440ec98f04725.com^$popup
 ||eads.ir*
@@ -1003,6 +1008,7 @@
 ||popcpm.com*$script
 ||popfa.ir*$3p
 ||popfa.ir*$3p,popup
+||popgozar.com^$3p
 ||popgozar.ir/pop.php*
 ||popitunder.com*
 ||popkade.ir*$3p
@@ -1105,6 +1111,7 @@
 !||t.me/joinchat/*$3p,popup
 ||t3l.ir*$all
 !||t3l.ir/me?*$3p,popup
+||tabligheirani.com^$3p
 ||tafrihi.com/link*
 ||takkhal.net*
 ||talaads.com/website/js*
@@ -1283,6 +1290,7 @@ digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption
 digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
+digiro.ir##div[itemtype$="WPAdBlock"]
 dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
 dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
 dlroozane.net##div[class="widget-con"]:has(div>h4:has-text(بانی مد))
