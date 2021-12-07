@@ -275,7 +275,7 @@
 */adroot/*
 */ads%*
 */ads?*
-*/ads.*
+*/ads.*$domain=~filecr.com
 */ads-*$domain=~pasteboard.co
 */ads/$image
 */ads/$script
@@ -320,7 +320,7 @@
 */adtrack.*
 */adtype.*
 */adv%*
-*/adv-*
+*/adv-*$domain=~tosinso.com
 */adv.*
 */adv/*
 */adv_*
@@ -2054,8 +2054,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !-----------------------Whitelist Network Filters-----------------------!
 !@@/ads_$domain=mail.yahoo.com
 @@_ad&$domain=glassdoor.com
-@@*/ads.*$1p,domain=filecr.com
-@@*/adv-*$1p,domain=tosinso.com
 @@/content/ads/*$domain=tamin.ir
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 !@@.com/ads.$domain=uploadboy.com|pasteboard.co
