@@ -1220,6 +1220,7 @@ seemorgh.com##+js(abort-current-inline-script.js, jQuery)
 topseda.me,mytopseda.ir##+js(abort-current-inline-script.js, APOP_LINKS)
 trainbit.com##+js(abort-current-inline-script.js, getCookie)
 trainbit.com,uploadboy.com##+js(nano-setTimeout-booster.js)
+uploadboy.com##+js(cookie-remover, captcha_key)
 webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 !zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -1392,6 +1393,7 @@ tubeload.tv##a[href*="/po-direct.html?type="]
 upload-fa.ir##div[class="banners"]
 upload-fa.ir##div[class="footer_nav"]
 upload-fa.ir##div[class="tagslist"]
+uploadboy.com##div[class^="litebox"]
 uplooder.net##div[class="special_links"]
 www.uptvs.com##article.post:nth-of-type(2)
 www.uptvs.com##article.post:nth-of-type(3)
