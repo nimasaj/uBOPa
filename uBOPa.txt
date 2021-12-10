@@ -117,7 +117,7 @@
 *_affiliate*
 *_artbannersxtd*
 *_ban_*$image
-*_banner*$domain=~utah.edu|~cable.co.uk
+*_banner*$domain=~utah.edu|~cable.co.uk|~grammarly.com
 *_linkbox-*
 *_linkbox.*
 *_linkbox/*
@@ -522,31 +522,6 @@
 ||20popup.com/website/js*
 ||24smile.org/top/*
 *inf.24smile.org/informer.php?inf*
-||2baksa.net/download/00*
-||2baksa.net/download/actionpay.gif*
-||2baksa.net/download/468_60*
-||2baksa.net/download/IAM*
-||2baksa.net/download/Traffic_Inspector*
-||2baksa.net/download/azcoc*
-||2baksa.net/download/box1*
-||2baksa.net/download/granirealnosti*
-||2baksa.net/download/haus*
-||2baksa.net/download/lscr*
-||2baksa.net/download/maik*
-||2baksa.net/download/prostit*
-||2baksa.net/download/ves2007*
-||2baksa.net/download/xstars*
-||2baksa.net/counter.js*
-||2baksa.net/download/amoney.swf*
-||2baksa.net/download/600x200_moneyteacher.gif*
-||2baksa.net/body.js*
-||2baksa.net/*clk.js*
-||2baksa.net/js/base.js*
-||2baksa.net/download/vsexshop*.gif*
-||2baksa.net/download/hideme.gif*
-||2baksa.net/download/kinofer.swf*
-||2baksa.net/js/vivo.js*
-||2baksa.net/msg.php*
 ||2daylink.com/ip-lightbox/*
 ||2leep.com/ticker*
 ||2mdn.net/*flashwrite*$script
@@ -1244,7 +1219,7 @@ seehd.*##+js(abort-current-inline-script.js, adBlockDetected)
 seemorgh.com##+js(abort-current-inline-script.js, jQuery)
 topseda.me,mytopseda.ir##+js(abort-current-inline-script.js, APOP_LINKS)
 trainbit.com##+js(abort-current-inline-script.js, getCookie)
-trainbit.com##+js(nano-setTimeout-booster.js)
+trainbit.com,uploadboy.com##+js(nano-setTimeout-booster.js)
 webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 !zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -1260,13 +1235,8 @@ webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 !1pezeshk.com##div[class="wpb_raw_code wpb_content_element wpb_raw_html"]:has(div>div>a>img[src*=baner])
 1pezeshk.com##div[class*=" adcontainer"]
 123gomovies.co##.embed-container
-2baksa.net##*[style="width: 100%; border-spacing: 1px !important; table-layout: auto;background-color: #FF8F0F !important; cellpadding="]
-2baksa.net##*[style="padding: 3px 3px 3px; border-top: #e1a347 2px solid; height: 65px;"]
-2baksa.net##div[id^="smile_teaser_"]
-2baksa.net##*[id^="bn_"]
-2baksa.net##div[align^="justify"]
-2baksa.net##td:nth-of-type(2) > center
 8pic.ir##a[class="link-button"]
+8pic.ir##*[class*="main"]:has-text(تبلیغ)
 anaj.ir##*[class="bannerPosition"]
 aparat.com##*[class*="-banner-wrapper"]
 aparat.com##div[class="ac_main-wrapper"]
@@ -1335,6 +1305,8 @@ itresan.com##div[itemtype*="WPAdBlock"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
 khabarfarsi.com##*[id="banners_120_top"]
+lamtakam.com##*[class*=" msg_ad_"]
+lamtakam.com##*[class$="_adv"]
 live.com##div:has(:scope > div > span:has-text(an ad blocker))
 live.com##div:has(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
@@ -1656,6 +1628,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="shopdey.ir/product"]>img
 *##a[href*="stnews.ir"]>img
 *##a[href*="tankionline.com/fa?utm_source="]
+*##a[href*="tankionline.com/fa/?utm_source="]
 *##a[href*="tasvirental.com"]>img
 *##a[href*="tehjanebi.ir"]>img
 *##a[href*="thanos-soft.com/landing"]>img
