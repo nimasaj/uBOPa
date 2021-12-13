@@ -1358,6 +1358,7 @@ seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:has(:has-text(loading))
+seemorgh.com##div[class^="bannergroup "]
 shirazsong.net##div[class="box"]:has(div>div>p>a[href*="zula.ir"])
 shirazsong.net##div[class="content"]:has(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
 shirazsong.net##div[style="text-align:center"]>div[class="content"]:has(div>div>p>a[href*="tankionline.com/fa?utm_source"])
@@ -1379,6 +1380,7 @@ softgozar.com##div[class="DTOPBan"]
 softgozar.com##div[id="donate"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
+takblog.net,yektablog.net##*[id^="popbox-"]
 texahang.org##article:has(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
 texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
 tikfilm.net,tikfilm.org,tikfilm.us##*[class="wapper-posts"]:has(div>a[href*="zula.ir"])
