@@ -1226,7 +1226,8 @@ webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div[class^="yn-bnr"])
-1pezeshk.com##*[class="widget_text"]:has(div > div > div:has-text(آگهی))
+1pezeshk.com##*[class*="widget_text"]:has(div > div > div:has-text(آگهی))
+1pezeshk.com##*[class*="wpb_wrapper"]:has(div > div > div:has-text(آگهی))
 !1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
 1pezeshk.com##div[class*="category-ad-"]
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div>div>a[href*="/category/"]:has-text(رپورتاژ))
@@ -2083,7 +2084,7 @@ bahavarit.com#@#a[href^="https://bahavarit.com"]>img
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 !bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com,cnn.com#@#*[class*="-ads-"]
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
-blocklist.site#@#a[href$="/ads"]
+blocklist.site,blogfa.com#@#a[href$="/ads"]
 boorsika.com#@#a[href*="boorsika.com"]>img
 caranddriver.com,farsroid.com#@#*[class^="ads-"]
 chicken-device.ir#@#a[href*="chicken-device.ir"]>img
