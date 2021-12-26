@@ -71,7 +71,7 @@
 *?linkson*
 *-ad/*
 *-ads-*
-*-ads.*$domain=~aparat.com|~varzesh3.com
+*-ads.*$domain=~aparat.com|~varzesh3.com|~makeuseof.com
 *-adserv*,domain=~digikala.com|~soft98.ir
 *-adv-*
 *-adv.*
@@ -162,7 +162,7 @@
 ||adv_*
 ||advert*
 ||ariabox.*
-||ashoora.*
+! ||ashoora.* - https://github.com/nimasaj/uBOPa/issues/22
 ||baner.*
 ||baner1*
 ||baner2*
@@ -344,7 +344,7 @@
 */ban/*$script
 */ban1$image
 */baner/*
-*/banner/*.gif
+!*/banner/*.gif  - https://github.com/nimasaj/uBOPa/issues/29
 */banners/*.gif
 */baners.*
 */baners/*
@@ -1190,39 +1190,43 @@
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
-ava2music.com,shirazsong.net,ariapix.net,smusic.ir##+js(abort-on-property-read.js, checkCookie)
-ava2music.com##+js(abort-current-inline-script.js, newtabopenornot)
-avangmusic.net,pixnaz.info,taknaz.net,texahang.org,upmusics.com,music-fa.com##+js(abort-on-property-read.js, InitPop)
-edaboard.com##+js(abort-on-property-read.js, interstitialBox)
-dailys.ir##+js(abort-current-inline-script.js, website)
-dlroozane.net##+js(abort-current-inline-script.js, show_fm_popup)
-downloadsoftware.ir##+js(abort-on-property-read.js, urlToShow)
-farsroid.com##+js(abort-on-property-read.js, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(abort-on-property-read.js,Object.defineProperty)
+ava2music.com,shirazsong.net,ariapix.net,smusic.ir##+js(aopr, checkCookie)
+ava2music.com##+js(acis, newtabopenornot)
+avangmusic.net,pixnaz.info,taknaz.net,texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
+blogfa.com##+js(aopr, showbanner)
+cpubenchmark.net##+js(set, canRunAds, true)
+dailys.ir##+js(acis, website)
+dlroozane.net##+js(acis, show_fm_popup)
+downloadsoftware.ir##+js(aopr, urlToShow)
+edaboard.com##+js(aopr, interstitialBox)
+farsroid.com##+js(aopr, ShowPopUp)
+hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(aopr,Object.defineProperty)
 ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
-i-video.ir##+js(abort-on-property-read.js, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tikfilm.us,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(abort-current-inline-script.js, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir##+js(abort-on-property-read.js, vc_url)
-iranfilmplus.com##+js(abort-current-inline-script.js, $)
-iranfilmplus.net##+js(abort-on-property-read.js, $)
-itresan.com##+js(abort-on-property-read.js, ulp_popup_id)
-khabarfarsi.com##+js(abort-current-inline-script.js, jQuery, document.createElement)
+i-video.ir##+js(aopr, sendword_vc_url)
+integromat.com##+js(set, imt.adblock, false)
+ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tikfilm.us,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir##+js(aopr, vc_url)
+iranfilmplus.com##+js(acis, $)
+iranfilmplus.net##+js(aopr, $)
+itresan.com##+js(aopr, ulp_popup_id)
+khabarfarsi.com##+js(acis, jQuery, document.createElement)
 listenpersian.net##+js(bab-defuser.js)
-makeuseof.com##+js(abort-on-property-read.js, alternativeAds)
-music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net##+js(set-constant.js, needpop, 0)
-nokiapoweruser.com##+js(abort-current-inline-script.js, anOptions)
-p30afzar.com##+js(set-constant.js, ShowPopUp, false)
-p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(abort-on-property-read.js, window.open)
-putlockers.*##+js(abort-on-property-read.js, performance)
+makeuseof.com##+js(aopr, alternativeAds)
+music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net##+js(set, needpop, 0)
+nokiapoweruser.com##+js(acis, anOptions)
+p30afzar.com##+js(set, ShowPopUp, false)
+p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
+putlockers.*##+js(aopr, performance)
 putlockers.*##+js(nowebrtc.js)
-seehd.*##+js(abort-current-inline-script.js, adBlockDetected)
-seemorgh.com##+js(abort-current-inline-script.js, jQuery)
-topseda.me,mytopseda.ir##+js(abort-current-inline-script.js, APOP_LINKS)
-trainbit.com##+js(abort-current-inline-script.js, getCookie)
+seehd.*##+js(acis, adBlockDetected)
+seemorgh.com##+js(acis, jQuery)
+topseda.me,mytopseda.ir##+js(acis, APOP_LINKS)
+trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com##+js(nano-setTimeout-booster.js)
 uploadboy.com##+js(cookie-remover, captcha_key)
-webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
-!zoomit.ir##+js(abort-on-property-read.js, setHeightOfAd)
+uupload.ir##+js(nano-sib)
+webgardee.ir,gamelive.ir##+js(acis, checkCookie)
+!zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div[class^="yn-bnr"])
@@ -1230,6 +1234,7 @@ webgardee.ir,gamelive.ir##+js(abort-current-inline-script.js, checkCookie)
 1pezeshk.com##*[class*="wpb_wrapper"]:has(div > div > div:has-text(آگهی))
 !1pezeshk.com##div[class^="rd-post-item"]>div[id^="rd-row-"]
 1pezeshk.com##div[class*="category-ad-"]
+1pezeshk.com##div[class*="su-box"]:has-text(آگهی)
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div>div>a[href*="/category/"]:has-text(رپورتاژ))
 1pezeshk.com##div[class^="rd-post-item"]:has(div>div>div>div>div[class^="rd-"]:has-text(رپورتاژ))
 1pezeshk.com##div[class="wpb_raw_code wpb_content_element wpb_raw_html"]
@@ -2059,8 +2064,9 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
-1o2.ir#@#a[href*="1o2.ir"]>img
 19kala.com#@#a[href*="19kala.com"]>img
+1o2.ir#@#a[href*="1o2.ir"]>img
+1pezeshk.com#@#*[title*="تبلیغ"]
 2dda.ir#@#a[href*="2dda.ir"]>img
 3dmaxclass.com#@#a[href*="3dmaxclass.com"]>img
 40nama.com#@#a[href^="http://40nama.com"]>img
@@ -2078,6 +2084,10 @@ aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
+ashoora.ir#@#*[class^="banner1"]
+ashoora.ir#@#*[class^="banner2"]
+ashoora.ir#@#img[src*="/banners/"]
+ashoora.ir#@#a[href*="/banners/click/"]>img
 astiak.net#@#a[href^="http://astiak.net"]>img
 atramiz.com#@#a[href*="atramiz.com"]
 bahavarit.com#@#a[href^="https://bahavarit.com"]>img
@@ -2094,6 +2104,7 @@ dateesco.com#@#a[href*="dateesco.com?site"]>img
 didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
 dlroozane.net#@#.adsbox
 dlroozane.net#@#.topads
+dontasktoask.ir#@#a[href*="utm_medium=banner"]
 doradu.com#@#.mom-ad
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 dorsa.ir#@#a[href$="dorsa.ir"]>img
