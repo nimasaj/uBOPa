@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 3.0
+! Version: 3.1
 ! http://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -1019,6 +1019,7 @@
 ||pub2srv.com*
 ||puhtml.com*
 ||content.pulse360.com/cgi-bin/context.cgi?id*
+||pushe.co/*$domain=~pushe.co
 ||pushance.com/ntfc.php*$3p
 ||puyeshnews47.ir/back.js^$script
 ||pxl2015x1.com*
@@ -1084,7 +1085,7 @@
 ||squartedo.info*
 ||starpopup.com/website/js*$3p
 ||superfastcdn.com*$all
-||t.me*$popup,domain=~virgool.io
+!||t.me*$popup,domain=~virgool.io
 !||t.me/joinchat/*$3p,popup
 ||t3l.ir*$all
 !||t3l.ir/me?*$3p,popup
@@ -1098,7 +1099,7 @@
 ||tczvikamowfjte.com*
 ||teasernet.com/block2.htm*
 ||te1.ir*$script
-||telegram.me/joinchat/*$popup
+!||telegram.me/joinchat/*$popup
 ||terraclicks.com/watch*
 ||tgju.org/mme.html*$all
 ||tgju.org/channel/*$all
@@ -1202,7 +1203,6 @@ dlroozane.net##+js(acis, show_fm_popup)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 farsroid.com##+js(aopr, ShowPopUp)
-hamtamovie.bar,soft98.ir##+js(nano-stb)
 hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(aopr,Object.defineProperty)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
@@ -1225,7 +1225,7 @@ seehd.*##+js(acis, adBlockDetected)
 seemorgh.com##+js(acis, jQuery)
 topseda.me,mytopseda.ir##+js(acis, APOP_LINKS)
 trainbit.com##+js(acis, getCookie)
-trainbit.com,uploadboy.com##+js(nano-stb)
+trainbit.com,uploadboy.com,hamtamovie.bar,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
 uupload.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
@@ -1253,8 +1253,6 @@ aparat.com##div[class="ac_main-wrapper"]
 aparat.com##div[class="aparat-pause-ad show"]
 aparat.com##div[class="filimo_movies_wrapper]
 aparat.com##div[class="videoonepromotion--wrapper hidden-end-recom"]
-asaldl.com##*[class="banas"]
-asaldl.com##*[id^="ADdownload-btn"]
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="webzi.ir/?utm_source"])
@@ -1263,8 +1261,8 @@ asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
 behmusic.com##*[class$="_ads"]>p[style="text-align: center;"]
-bia4music.org,bia4music.ir,mybia4music.com##div[class="box"]:has(div>div>p>a>img[alt*="زولا"])
-bia4music.org,bia4music.ir,mybia4music.com##div[class="fixedpost"]:has(div>div>h4:has-text(زولا))
+bia4music.ir,mybia4music.com##div[class="box"]:has(div>div>p>a>img[alt*="زولا"])
+bia4music.ir,mybia4music.com##div[class="fixedpost"]:has(div>div>h4:has-text(زولا))
 cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
 digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption>footer>div>span:has-text(تبلیغ))
 digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
@@ -1469,7 +1467,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*=".isnet.ir"]>img
 *##a[href*=".izee.ir/"]>img
 *##a[href*=".kermany.com"]>img
-*##a[href*=".link.limo/"]>img
 *##a[href*=".minevisam.com"]>img
 *##a[href*=".novinav.ir"]>img
 *##a[href*=".parcham.asia"]>img
@@ -1516,7 +1513,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/kermany.com"]>img
 *##a[href*="/landing2?code="]>img
 !^^asaldl.com
-*##a[href*="/link.limo/"]>img
 *##a[href*="/minevisam.com"]>img
 *##a[href*="/novinav.ir"]>img
 *##a[href*="/parcham.asia"]>img
