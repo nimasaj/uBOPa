@@ -1203,7 +1203,7 @@ downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 farsroid.com##+js(aopr, ShowPopUp)
 hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(aopr,Object.defineProperty)
-ibcomputing.com##+js(setTimeout-defuser.js, adsbygoogle)
+ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
 integromat.com##+js(set, imt.adblock, false)
 ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tikfilm.us,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
@@ -1212,19 +1212,19 @@ iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
 itresan.com##+js(aopr, ulp_popup_id)
 khabarfarsi.com##+js(acis, jQuery, document.createElement)
-listenpersian.net##+js(bab-defuser.js)
+listenpersian.net##+js(nobab)
 makeuseof.com##+js(aopr, alternativeAds)
 music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net##+js(set, needpop, 0)
 nokiapoweruser.com##+js(acis, anOptions)
 p30afzar.com##+js(set, ShowPopUp, false)
 p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
 putlockers.*##+js(aopr, performance)
-putlockers.*##+js(nowebrtc.js)
+putlockers.*##+js(nowebrtc)
 seehd.*##+js(acis, adBlockDetected)
 seemorgh.com##+js(acis, jQuery)
 topseda.me,mytopseda.ir##+js(acis, APOP_LINKS)
 trainbit.com##+js(acis, getCookie)
-trainbit.com,uploadboy.com##+js(nano-setTimeout-booster.js)
+trainbit.com,uploadboy.com##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
 uupload.ir,hamtamovie.bar,soft98.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
@@ -2063,7 +2063,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||yottaa.com/rapid.min.js^$domain=omega.com
 !----------------------Whitelist Cosmetic Filters-----------------------!
 !@@||videotoolbox.com^$generichide
-@@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com|makeuseof.com/advertise
+@@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
 19kala.com#@#a[href*="19kala.com"]>img
@@ -2147,17 +2147,20 @@ kamelpack.ir#@#a[href*="kamelpack.ir"]
 Karo.Studio#@#a[href*="Karo.Studio"]>img
 kermany.com#@#a[href*=".kermany.com"]>img
 kermany.com#@#a[href*="/kermany.com"]>img
-mail.google.com,shirazsong.net,shirazsong.in#@#*[class$=" ads"]
-mail.google.com#@#*[class$="0ad"]
-mail.google.com#@#*[class$="1ad"]
-mail.google.com#@#*[class$="2ad"]
-mail.google.com#@#*[class$="3ad"]
-mail.google.com#@#*[class$="4ad"]
-mail.google.com#@#*[class$="5ad"]
-mail.google.com#@#*[class$="6ad"]
-mail.google.com#@#*[class$="7ad"]
-mail.google.com#@#*[class$="8ad"]
-!mail.google.com,keep.google.com#@#*[class$="9ad"]
+mail.google.com,keep.google.com,shirazsong.net,shirazsong.in#@#*[class$=" ads"]
+mail.google.com,keep.google.com#@#*[class$="0ad"]
+mail.google.com,keep.google.com#@#*[class$="1ad"]
+mail.google.com,keep.google.com#@#*[class$="2ad"]
+mail.google.com,keep.google.com#@#*[class$="3ad"]
+mail.google.com,keep.google.com#@#*[class$="4ad"]
+mail.google.com,keep.google.com#@#*[class$="5ad"]
+mail.google.com,keep.google.com#@#*[class$="6ad"]
+mail.google.com,keep.google.com#@#*[class$="7ad"]
+mail.google.com,keep.google.com#@#*[class$="8ad"]
+mail.google.com,keep.google.com#@#*[class$="9ad"]
+makeuseof.com#@#a[href*="utm_medium=affiliate"]
+makeuseof.com#@#*[class^="advert"]
+makeuseof.com#@#*[class*=" adv-"]
 marcotravel.ir#@#a[href*="marcotravel.ir"]>img
 mehran-web.com#@#a[href^="https://mehran-web.com"]>img
 mftmirdamad.com#@#a[href*="mftmirdamad.com"]>img
