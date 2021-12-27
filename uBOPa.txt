@@ -11,6 +11,8 @@
 ! https://github.com/gorhill/uBlock/wiki
 ! https://github.com/gorhill/uBlock/wiki/Static-filter-syntax#scriptinject
 ! https://github.com/uBlockOrigin/uAssets/blob/master/filters/resources.txt
+! https://github.com/DandelionSprout/adfilt/blob/master/Wiki/SyntaxMeaningsThatAreActuallyHumanReadable.md
+! https://github.com/gorhill/uBlock/wiki/Resources-Library
 ! https://github.com/gorhill/uBlock/wiki/Dynamic-filtering:-quick-guide
 ! https://github.com/gorhill/uBlock/wiki/Blocking-mode:-medium-mode
 ! https://github.com/gorhill/uBlock/wiki/Procedural-cosmetic-filters
@@ -1224,7 +1226,7 @@ topseda.me,mytopseda.ir##+js(acis, APOP_LINKS)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com##+js(nano-setTimeout-booster.js)
 uploadboy.com##+js(cookie-remover, captcha_key)
-uupload.ir##+js(nano-sib)
+uupload.ir,hamtamovie.bar,soft98.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -2061,7 +2063,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||yottaa.com/rapid.min.js^$domain=omega.com
 !----------------------Whitelist Cosmetic Filters-----------------------!
 !@@||videotoolbox.com^$generichide
-@@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
+@@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com|makeuseof.com/advertise
 1000sakhteman.ir#@#a[href*="1000sakhteman.ir"]>img
 1000site.ir#@#a[href*="1000site.ir"]
 19kala.com#@#a[href*="19kala.com"]>img
