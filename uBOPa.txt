@@ -1202,6 +1202,7 @@ dlroozane.net##+js(acis, show_fm_popup)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 farsroid.com##+js(aopr, ShowPopUp)
+hamtamovie.bar,soft98.ir##+js(nano-stb)
 hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(aopr,Object.defineProperty)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
@@ -1226,7 +1227,7 @@ topseda.me,mytopseda.ir##+js(acis, APOP_LINKS)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
-uupload.ir,hamtamovie.bar,soft98.ir##+js(nano-sib)
+uupload.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -1469,7 +1470,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*=".izee.ir/"]>img
 *##a[href*=".kermany.com"]>img
 *##a[href*=".link.limo/"]>img
-*##a[href*=".mehran-web.com"]>img
 *##a[href*=".minevisam.com"]>img
 *##a[href*=".novinav.ir"]>img
 *##a[href*=".parcham.asia"]>img
@@ -1517,7 +1517,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/landing2?code="]>img
 !^^asaldl.com
 *##a[href*="/link.limo/"]>img
-*##a[href*="/mehran-web.com"]>img
 *##a[href*="/minevisam.com"]>img
 *##a[href*="/novinav.ir"]>img
 *##a[href*="/parcham.asia"]>img
@@ -2162,7 +2161,6 @@ makeuseof.com#@#a[href*="utm_medium=affiliate"]
 makeuseof.com#@#*[class^="advert"]
 makeuseof.com#@#*[class*=" adv-"]
 marcotravel.ir#@#a[href*="marcotravel.ir"]>img
-mehran-web.com#@#a[href^="https://mehran-web.com"]>img
 mftmirdamad.com#@#a[href*="mftmirdamad.com"]>img
 mftvanak.com#@#a[href*="mftvanak.com"]>img
 microchip.com,microsoft.com#@#*[id^="ad0"]
