@@ -1108,9 +1108,6 @@
 ||ths9j89.com*$all
 !||ths9j89.com/watch^$all
 ||api.ticketing-service.com/topTickets/*$3p
-||tikfilm.net/wp-content/uploads/ub.png
-||tikfilm.org/wp-content/uploads/ub.png
-||tikfilm.us/wp-content/uploads/ub.png
 ||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
 ||tizer*.net/tizer*.php?sid*
@@ -1203,12 +1200,10 @@ dlroozane.net##+js(acis, show_fm_popup)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 farsroid.com##+js(aopr, ShowPopUp)
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##+js(aopr,Object.defineProperty)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
-integromat.com##+js(set, imt.adblock, false)
-ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tikfilm.net,tikfilm.org,tikfilm.us,tarfandha.net,radiojavan-iran.com,radii0javan.com,gratomic.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.net,shirazsong.in,nicmusic.net,musicbambo.org,musicma.ir,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir##+js(aopr, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tarfandha.net,radiojavan-iran.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam##+js(aopr, vc_url)
 iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
 itresan.com##+js(aopr, ulp_popup_id)
@@ -1217,13 +1212,11 @@ listenpersian.net##+js(nobab)
 makeuseof.com##+js(aopr, alternativeAds)
 music-online.ir,hexdownload.net,hexdownload.org,asaldl.com,cdmusic.ir,musicdel.com,tirganmusic.com,musicmedia.ir,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net##+js(set, needpop, 0)
 nokiapoweruser.com##+js(acis, anOptions)
-p30afzar.com##+js(set, ShowPopUp, false)
 p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
 putlockers.*##+js(aopr, performance)
 putlockers.*##+js(nowebrtc)
 seehd.*##+js(acis, adBlockDetected)
 seemorgh.com##+js(acis, jQuery)
-topseda.me,mytopseda.ir##+js(acis, APOP_LINKS)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com,hamtamovie.bar,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
@@ -1298,10 +1291,6 @@ gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##center
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##div[id^="SC_TBlock_"]
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##div[class="head"]:has(div>h1:has-text(تبلیغات))
-hastidl.me,hastidl1.org,hastidl1.xyz,myhastidl.xyz,myhastidl1.top,myhastidl2.top,myhastidl4.top,myhastidl5.top,myhastidl6.top##div[class="main-content"]:has(div>center:has-text(زولا))
 hidoctor.ir##*[class^="pdsifradsbn"]
 ilna.ir##div[class$=" zxc"]
 ir-dl.com##*[id="stickytop"]
@@ -1343,7 +1332,6 @@ nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nex1music.ir##div[class*="a"]:has(div>a[href*="account.zula.ir/pages/"])
 nokiapoweruser.com##*[class="wpa"]
-p30afzar.com##div[class="code-block code-block-5"]
 p30day.com##*[class="static_posts adsblockpop"]
 p30day.com##div[id^="ADbox-"]
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
@@ -1366,9 +1354,6 @@ seehd.*##footer[id*="gk-footer"]
 seemorgh.com##*[id="floatadheadid"]
 seemorgh.com##div[class="SC_TBlock"]:has(:has-text(loading))
 seemorgh.com##div[class^="bannergroup "]
-shirazsong.net##div[class="box"]:has(div>div>p>a[href*="zula.ir"])
-shirazsong.net##div[class="content"]:has(div>div>article>p>a[href*="tankionline.com/fa?utm_source"])
-shirazsong.net##div[style="text-align:center"]>div[class="content"]:has(div>div>p>a[href*="tankionline.com/fa?utm_source"])
 shomanews.com##a[href*="/advertisements/"]
 shomanews.com##div[class="mauto_div desktop_only"]:has(div>div[style="width: 320px; height: 160px; overflow: hidden; position: relative;"])
 shomanews.com##div[class="mnb_wrapper noprint"]:has(div>div>div[style="width: 120px; height: 240px; overflow: hidden; position: relative;"])
@@ -1390,11 +1375,6 @@ solidfiles.com##*[class="box-content promoted-dl"]
 takblog.net,yektablog.net##*[id^="popbox-"]
 texahang.org##article:has(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
 texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
-tikfilm.net,tikfilm.org,tikfilm.us##*[class="wapper-posts"]:has(div>a[href*="zula.ir"])
-tikfilm.net,tikfilm.org,tikfilm.us##section[class="post"]:has(section>article>section>section>div>div>a[href*="tankionline.com/fa"])
-tikfilm.net,tikfilm.org,tikfilm.us##div[class="content_text"]:has(div>div>a[href*="netkar.org/radyab"])
-tikfilm.net,tikfilm.org,tikfilm.us##section[class="post-content"]:has(section>div>div>a[href*="jarmizanam.ir"])
-tikfilm.net,tikfilm.org,tikfilm.us##section[class="post-content"]:has(section>div>div>a[href*="tankionline.com/fa?utm_source"])
 top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/ads."])
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
