@@ -1927,7 +1927,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class*=" adv_"]
 *##*[class*=" topadver "]
 *##*[class*="-ad-container"]
-*##*[class*="-ads "]
+!*##*[class*="-ads "] - too many errors, look for whitelisted domains. It's aggressivle & broad to be generic.
 *##*[class*="-ads0"]
 *##*[class*="-ads1"]
 *##*[class*="-ads2"]
@@ -2187,7 +2187,7 @@ soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
-sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentral.com,wired.com,adlock.com#@#*[class*="-ads "]
+!sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentral.com,wired.com,adlock.com,windowscentral.com#@#*[class*="-ads "]
 spiceworks.com,wired.com#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 ! ^^ Above filter, to fix issue caused by EasyList ^^
