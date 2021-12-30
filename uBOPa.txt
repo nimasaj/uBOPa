@@ -1276,6 +1276,9 @@ downloadly.ir##div[class="widget widget_text"]
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(assemSole))
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
+eghtesadonline.com##div[class="lSSlideWrapper usingCss"]:has(div>div>a[href*="/advertisements/"])
+eghtesadonline.com##div[class^="talfighat-"]:has(div>div>a[href*="/advertisements/"])
+eghtesadonline.com##div[class^="mb8 noprint"]:has(div>div>a[href*="/advertisements/"])
 electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
@@ -2036,6 +2039,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||scarabresearch.com^$3p,domain=digikala.com|digistyle.com
 @@||varagh.com/advertisement.js
 @@||yottaa.com/rapid.min.js^$domain=omega.com
+@@||s1.khf.nz/sites/default/files/upload_banner/02_78.jpg
+!^^ https://github.com/nimasaj/uBOPa/issues/34
 !----------------------Whitelist Cosmetic Filters-----------------------!
 !@@||videotoolbox.com^$generichide
 @@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
@@ -2061,10 +2066,6 @@ aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
-ashoora.ir#@#*[class^="banner1"]
-ashoora.ir#@#*[class^="banner2"]
-ashoora.ir#@#img[src*="/banners/"]
-ashoora.ir#@#a[href*="/banners/click/"]>img
 astiak.net#@#a[href^="http://astiak.net"]>img
 atramiz.com#@#a[href*="atramiz.com"]
 bahavarit.com#@#a[href^="https://bahavarit.com"]>img
