@@ -18,9 +18,12 @@ As a precaution, it is advisable to <b>disable</b> your Adblocker when you take 
 <h2  align="center">- Support&nbsp&nbspپشتیبانی&nbsp&nbsp؞ -</h2>
 <p dir="rtl">
 در صورتی که تبلیغی بسته نشده بود، و یا بخشی از وبسایت به اشتباه بسته شده بود، <a href="https://github.com/nimasaj/uBOPa/issues/new">اینجا</a> و یا از راه ایمیل hello at mynext.pro مشکل را توضیح دهید. 
+</p><p dir="rtl">
+هیچ پشتیبانی از وب سایت هایی که خشونت، نادانی، تروریسم و اسلام را ترویج می کنند وجود ندارد.
 </p>
 <p dir="ltr">
 In case of any unblocked advertisement, or false blocking, please open a <a href="https://github.com/nimasaj/uBOPa/issues/new">new issue</a> and explain the problem.
+  </p>There is no support for websites that are promoting viollence, ignorance, terrorism and Islam.
 </p></br>
 <h2  align="center">- Download&nbsp&nbspدریافت&nbsp&nbsp؞ -</h2>
 <p dir="rtl">
