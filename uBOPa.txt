@@ -1277,6 +1277,7 @@ downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(assemSole))
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 eghtesadonline.com##div[class="lSSlideWrapper usingCss"]:has(div>div>a[href*="/advertisements/"])
+eghtesadonline.com##div[class="lSSlideWrapper usingCss"]:has(div>div>div>a[href*="/advertisements/"])
 eghtesadonline.com##div[class^="talfighat-"]:has(div>div>a[href*="/advertisements/"])
 eghtesadonline.com##div[class^="mb8 noprint"]:has(div>div>a[href*="/advertisements/"])
 electro-tech-online.com##*[id="post-00000"]
