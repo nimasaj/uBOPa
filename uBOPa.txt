@@ -1220,7 +1220,7 @@ seemorgh.com##+js(acis, jQuery)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com,hamtamovie.bar,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
-uupload.ir##+js(nano-sib)
+uupload.ir,iwo.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -1404,6 +1404,7 @@ vigiato.net##div[id^="digiad-"]
 yasdl.com##*[id^="post-sabet-"]
 yasdl.com##div[class="post-des-box"]:has(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
+yun.ir##*[class$=" advertisements"]
 zoomit.ir##DIV.ThirdPost
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>ul>li>a[class="Home__LatestTopic_Cat"]:has-text(آگهی))
 zoomit.ir##div[class^="item-list-row col-xs-"]:has(div>div>div>div>ul>li>a:has-text(رپورتاژ آگهی))
