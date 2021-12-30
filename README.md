@@ -23,7 +23,7 @@ As a precaution, it is advisable to <b>disable</b> your Adblocker when you take 
 </p>
 <p dir="ltr">
 In case of any unblocked advertisement, or false blocking, please open a <a href="https://github.com/nimasaj/uBOPa/issues/new">new issue</a> and explain the problem.
-  </p>There is no support for websites that are promoting viollence, ignorance, terrorism and Islam.
+  </p>There is no support for websites that are promoting violence, ignorance, terrorism and Islam.
 </p></br>
 <h2  align="center">- Download&nbsp&nbspدریافت&nbsp&nbsp؞ -</h2>
 <p dir="rtl">
