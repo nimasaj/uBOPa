@@ -119,8 +119,7 @@
 *_affiliate*
 *_artbannersxtd*
 *_ban_*$image
-*_banner*$domain=~utah.edu|~cable.co.uk|~grammarly.com|~khf.nz
-!^^ khf.nz - https://github.com/nimasaj/uBOPa/issues/34
+*_banner*$domain=~utah.edu|~cable.co.uk|~grammarly.com
 *_linkbox-*
 *_linkbox.*
 *_linkbox/*
@@ -199,7 +198,7 @@
 ||webads.*
 */ad%*
 */ad&*
-*/ad/*
+!*/ad/*
 */ad?*
 */advs.*$domain=~wiley.com
 */advs/*
@@ -402,6 +401,7 @@
 */htmlads/*
 */iframeAd.*
 */iframeAd/*
+*/images/adsbeytoote/img/*$image
 */imgadv/*
 */innerads/*
 */klipads.*
@@ -639,6 +639,7 @@
 ||baxfa.in/pop*$all
 ||bebinin.com/popads*$script,3p
 ||bermoda.biz*$3p
+||adsc.beytoote.com^
 ||bia2dj.com/link*
 ||bia*movie.com^$popup
 ||bikarane.ir^$popup
@@ -1191,7 +1192,7 @@
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
-ava2music.com,shirazsong.net,ariapix.net,smusic.ir##+js(aopr, checkCookie)
+ava2music.com,shirazsong.net,ariapix.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
 ava2music.com##+js(acis, newtabopenornot)
 avangmusic.net,pixnaz.info,taknaz.net,texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 blogfa.com##+js(aopr, showbanner)
@@ -1255,6 +1256,13 @@ asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
 behmusic.com##*[class$="_ads"]>p[style="text-align: center;"]
+beytoote.com##div[class*="-ads-banner "]
+beytoote.com##div[class="content-slider"]:has(div>ul[id^="adv_slider"])
+beytoote.com##div[class*=" countclick "]
+beytoote.com##div[id="bil_fix_top_pc"]:has(div>div[class*=" countclick "])
+beytoote.com##div[id="text_place"]:has(div>ul>li[class^="countclick "])
+beytoote.com##div[class^="pcfadv"]
+beytoote.com##ul[id$="_adv_free"]
 bia4music.ir,mybia4music.com##div[class="box"]:has(div>div>p>a>img[alt*="زولا"])
 bia4music.ir,mybia4music.com##div[class="fixedpost"]:has(div>div>h4:has-text(زولا))
 cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
@@ -1286,6 +1294,7 @@ emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
 esam.ir##div[id$="CornerBanner"]
 faceit.ir##div[class$=" advertising"]
+farnet.io##img[class="scy-image"]
 farsroid.com##*[class="cas cas-pubg"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
@@ -1379,6 +1388,7 @@ softgozar.com##div[id="donate"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 takblog.net,yektablog.net##*[id^="popbox-"]
+techna.news##div[id^="custom_html-"]:has(div>div>div:has-text(تبلیغ))
 texahang.org##article:has(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
 texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
 top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/ads."])
@@ -1640,6 +1650,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="utm_medium=Display"]
 *##a[href*="utm_medium=display"]
 *##a[href*="utm_medium=htmlBanner"]
+*##a[href*="utm_medium=it&utm_campaign=resan"]
+*##a[href*="utm_medium=menu&utm_campaign=hiazshanbe"]
 *##a[href*="utm_medium=referral"]
 *##a[href*="utm_medium=shomanews"]
 *##a[href*="uzee.ir/cardland"]
@@ -2040,6 +2052,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||fbdown.net/js/adframe.js
 @@||go-mpulse.net^$domain=microsoftcrmportals.com
 !@@||ironia.ml*$3p,domain=soft98.ir
+@@||khf.nz/sites/default/files/upload_banner/*$image
+!^^ https://github.com/nimasaj/uBOPa/issues/34
 @@||scarabresearch.com^$3p,domain=digikala.com|digistyle.com
 @@||varagh.com/advertisement.js
 @@||yottaa.com/rapid.min.js^$domain=omega.com
