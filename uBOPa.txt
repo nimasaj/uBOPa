@@ -1017,6 +1017,7 @@
 ||popwin.net*$3p
 ||pqowedazx.bid*$3p
 ||prepay.ir/prepyin/*$3p
+||pintermusic.ir/copu2.js
 ||propellerads.com*
 ||pub2srv.com*
 ||puhtml.com*
@@ -1272,6 +1273,7 @@ digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
 digiro.ir##div[itemtype$="WPAdBlock"]
 dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
+dlroozane.net##article:has(article>header>h2:has-text(تبلیغ))
 dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
 dlroozane.net##div[class="widget-con"]:has(div>h4:has-text(بانی مد))
 dlroozane.net##div[class="adsbox"]>center
@@ -1331,6 +1333,11 @@ mihandownload.com##div[class*="center-ads"]
 mihandownload.com##div[class="post-body"]:has(div>a[href*="mihanwebhost.com/cart.php"])
 mihandownload.com##div[class="textwidget widget-text"]:has(div>div>div>a[href*="tracking.travian.ir"])
 mihandownload.com##div[class="well tip tags"]
+mihandownload.com##div[class^="bg-all-box ads-between "]
+mihandownload.com##div[class*=" ads-box-"]
+mihandownload.com##div[class*=" ads-post-fix "]
+mihandownload.com##div[class*=" ads-text-"]
+mihandownload.com##div[class^="bg-all-box py-3"]:has(div>span[class*="-botom-ads-"])
 moderndl.com##section[class="m-ads"]
 moderndl.com##section[class="sidebar-left-item content"]:has(section>a>h5:has-text(تبلیغات متنی))
 msbmusic.ir##div[id="postesabetads"]
