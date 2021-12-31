@@ -119,7 +119,8 @@
 *_affiliate*
 *_artbannersxtd*
 *_ban_*$image
-*_banner*$domain=~utah.edu|~cable.co.uk|~grammarly.com
+*_banner*$domain=~utah.edu|~cable.co.uk|~grammarly.com|~khf.nz
+!^^ khf.nz - https://github.com/nimasaj/uBOPa/issues/34
 *_linkbox-*
 *_linkbox.*
 *_linkbox/*
@@ -1311,6 +1312,7 @@ lamtakam.com##*[class$="_adv"]
 live.com##div:has(:scope > div > span:has-text(an ad blocker))
 live.com##div:has(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
+marzfun.com##aside:has(aside>div>div>span:has-text(تبلیغ))
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 mihandownload.com##*[class="fix well"]
@@ -2041,8 +2043,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 @@||scarabresearch.com^$3p,domain=digikala.com|digistyle.com
 @@||varagh.com/advertisement.js
 @@||yottaa.com/rapid.min.js^$domain=omega.com
-@@||s1.khf.nz/sites/default/files/upload_banner/02_78.jpg
-!^^ https://github.com/nimasaj/uBOPa/issues/34
 !----------------------Whitelist Cosmetic Filters-----------------------!
 !@@||videotoolbox.com^$generichide
 @@*$generichide,domain=digikala.com|digitaltrends.com|divar.ir|emalls.ir|lasttours.net|sheypoor.com|videotoolbox.com
