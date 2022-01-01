@@ -601,6 +601,7 @@
 ||adverigo.com*
 ||adweb.ir*$3p
 ||adwised.com*$3p
+||adwisedfs.com^$3p
 ||adziran.ml*$3p
 ||afdads.com/widget*$3p
 ||affilize.com*
@@ -798,6 +799,7 @@
 ||ichlnk.com/offer?prod*$all
 ||icqwindow.com/okno.php?*
 ||icqwindow.com/click.php?*
+||landing.igap.net^$popup
 ||ihriduffgkel.com*$script
 ||ijms.ir^$popup
 ||iliama.com^$3p
@@ -861,6 +863,7 @@
 ||mahdiyar.ir/webmaster/*
 ||mahshar.com/hafez.htm*
 ||mahshar.com/speak_masterfully/speak_masterfully.php*
+||panel.mahson.net^$popup
 ||landings.matbakh-app.com*$all
 ||marketgid.com*
 ||marinsm.com/serve/*
@@ -881,7 +884,7 @@
 ||meried.co*$all
 ||merikhi.com/index.php?iduser*
 ||merita.ir*
-||metrix.ir*
+||metrix.ir^$popup
 ||jsn.mgid.com*
 ||cdn.mgsrvr.com/clicktraffic/*
 ||cdn.mihan360.com*$script
@@ -1193,6 +1196,7 @@
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
+androidgozar.com##+js(aopr, website)
 ava2music.com,shirazsong.net,ariapix.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
 ava2music.com##+js(acis, newtabopenornot)
 avangmusic.net,taknaz.net,texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
@@ -1203,6 +1207,7 @@ dlroozane.net##+js(acis, show_fm_popup)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 farsroid.com##+js(aopr, ShowPopUp)
+getandroid.ir##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tarfandha.net,radiojavan-iran.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
