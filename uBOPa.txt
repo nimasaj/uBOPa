@@ -47,7 +47,7 @@
 *&ads=*
 *&ad_*
 *&adID=*
-*&advert*
+*&advert*$domain=~pelazio.com
 *&advId*
 *&ban=*
 *=ad&*
@@ -578,6 +578,7 @@
 ||adpulse.ir*
 ||adrich.cash*
 ||adro.ir^$3p
+||api.adrooz.com^$3p
 ||adrunnr.com*
 ||adsclick.click*
 ||adscloob.com*$script
@@ -710,6 +711,7 @@
 ||datefunclub.com/pics.php?did*
 ||debadu.com*$3p
 ||deema.agency*$3p
+||deemanetwork.com/pxjs/^$script
 ||adapi.digikala.com*$3p
 !||advertising.digikala.com*
 ||directoral.info*
@@ -871,7 +873,7 @@
 ||mdn2015x2.com*
 ||mdn2015x4.com*
 ||media-fire.org*
-||mediaad.org*$3p
+||mediaad.org^$3p
 ||mediapalmtree.com*$script
 ||meebo.com/cim/*
 ||meebocdn.net/cim/*
@@ -973,8 +975,10 @@
 ||persianstat.com*
 ||persianstat.ir*
 ||persianv.com*box.php*
+||phoenixad.io^$popup
 ||pichak.net/nohe/amar.js^
 ||pichak.net/blogcod/^$script
+||pintermusic.ir/copu2.js
 ||pishtazweb.org/eshop/*$3p
 ||pishtazweb.org*view.php?uid*$3p
 ||pixazza.com/widget/*
@@ -1020,7 +1024,6 @@
 ||popwin.net*$3p
 ||pqowedazx.bid*$3p
 ||prepay.ir/prepyin/*$3p
-||pintermusic.ir/copu2.js
 ||propellerads.com*
 ||pub2srv.com*
 ||puhtml.com*
@@ -1207,7 +1210,7 @@ dlroozane.net##+js(acis, show_fm_popup)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 farsroid.com##+js(aopr, ShowPopUp)
-getandroid.ir##+js(aopr, faPa)
+getandroid.ir,p30afzar.com,applicationha.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tarfandha.net,radiojavan-iran.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
@@ -1255,6 +1258,7 @@ aparat.com##div[class="ac_main-wrapper"]
 aparat.com##div[class="aparat-pause-ad show"]
 aparat.com##div[class="filimo_movies_wrapper]
 aparat.com##div[class="videoonepromotion--wrapper hidden-end-recom"]
+apktops.ir##img[class="lazy-loaded"]
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="zula.ir"])
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="tankionline.com/fa?utm_source"])
 asandl.com##article[class^="post"]:has(article>div>figure>a[href*="webzi.ir/?utm_source"])
@@ -1262,6 +1266,7 @@ asandl.com##article[class="post mobile"]:has(article>footer>a[href*="charge.asan
 asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
+barato.ir##div[id="featured"][class="owl-carousel owl-rtl owl-loaded owl-drag"]
 behmusic.com##*[class$="_ads"]>p[style="text-align: center;"]
 beytoote.com##div[class*="-ads-banner "]
 beytoote.com##div[class="content-slider"]:has(div>ul[id^="adv_slider"])
@@ -1315,6 +1320,7 @@ gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
 gooyait.com##*[itemtype*="WPAdBlock"]
 hidoctor.ir##*[class^="pdsifradsbn"]
+idehaltech.com##div[class="col-sm-2 sidebar-column sidebar-column-secondary"]
 ilna.ir##div[class$=" zxc"]
 ir-dl.com##*[id="stickytop"]
 ir-dl.com##*[id*="_ad_ir-dl_com_static-post"]
@@ -1324,6 +1330,11 @@ iranfilmplus.net##div[id="infoi"]
 itresan.com##div[itemtype*="WPAdBlock"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
+jalebamooz.com##div[class="jaleb-before-content"]
+jalebamooz.com##div[class^="jaleb-sabet-dakhel-matn"]
+jalebamooz.com##div[class="tie-col-md-8 stream-item stream-item-top-wrapper"]
+jalebamooz.com##div[id="text-11"][class="container-wrapper widget widget_text"]
+jalebamooz.com##div[id="block-2"][class="container-wrapper widget widget_block widget_media_image"]
 khabarfarsi.com##*[id="banners_120_top"]
 lamtakam.com##*[class*=" msg_ad_"]
 lamtakam.com##*[class$="_adv"]
@@ -1359,6 +1370,8 @@ nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nex1music.ir##div[class*="a"]:has(div>a[href*="account.zula.ir/pages/"])
 nokiapoweruser.com##*[class="wpa"]
+p30afzar.com##div[class="ADS_header_all"]
+p30afzar.com##div[class^="download-link-ads-"]
 p30day.com##*[class="static_posts adsblockpop"]
 p30day.com##div[id^="ADbox-"]
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
@@ -1375,6 +1388,9 @@ rokna.net##div[class^="type-script"]
 rooziato.com##*[class="single_section"]:has([src*="clickyab.com"])
 rooziato.com##div[class^="digiad-"]
 rooziato.com##div[id^="digiad-"]
+sariasan.com##div[class="l-subheader-cell at_center"]
+sariasan.com##div[class="saria-before-content"]
+sariasan.com##div[class="saria-after-content"]
 scnlog.me,scnlog1.unblocked.is,scnlog.unblocked.win,scnlog.unblocked.krd,scnlog.unblocked.llc,scnlog.unblocked2.website##div[class^="modal"]
 seehd.*##div[class*="adBlockDetectModal"]
 seehd.*##footer[id*="gk-footer"]
@@ -1401,11 +1417,13 @@ solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 takblog.net,yektablog.net##*[id^="popbox-"]
 techna.news##div[id^="custom_html-"]:has(div>div>div:has-text(تبلیغ))
+technolife.ir##div[class="boxgreen"]
 texahang.org##article:has(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
 texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
 top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/ads."])
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
+toranji.ir##div[class="tr_footer_fixed"]
 tubeload.tv##a[href*="/po-direct.html?type="]
 upload-fa.ir##div[class="banners"]
 upload-fa.ir##div[class="footer_nav"]
@@ -1459,6 +1477,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[title*="تبلیغ"]
 !
 *##a[href^="ads/"]
+*##a[href^="https://spellads.com"]
+*##a[href^="https://zarad.net/"]
 *##a[href*=" ads "]
 *##a[href*=" ads-"]
 *##a[href*=" ads_"]
@@ -1633,6 +1653,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="parsehkitchen.com"]>img
 *##*[href*="parsnafe.com/?utm_source"]>img
 *##a[href*="payehrizan.com"]>img
+*##a[href*="phoenixad.io/click/"]
 *##a[href*="rahoja.com"]>img
 *##a[href*="s.click.aliexpress.com/"]>img
 *##*[href*="samiclick.com"]
