@@ -669,6 +669,7 @@
 ||chabok.io^$3p
 ||channelsho.ir^$popup
 !||channelsho.ir/tg.php*
+||chavosh.org^$popup
 ||promote.chidaneh.com^$3p
 ||chikhanos.info*$script
 ||ckyxscaeockj.bid*
@@ -711,6 +712,7 @@
 ||datefunclub.com/pics.php?did*
 ||debadu.com*$3p
 ||deema.agency*$3p
+||deemanetwork.com^$popup
 ||deemanetwork.com/pxjs/^$script
 ||adapi.digikala.com*$3p
 !||advertising.digikala.com*
@@ -884,7 +886,6 @@
 ||mellati.com/c/*$all
 ||mellati.com/h/*$all
 ||meried.co*$all
-||merikhi.com/index.php?iduser*
 ||merita.ir*
 ||metrix.ir^$popup
 ||jsn.mgid.com*
@@ -1221,7 +1222,7 @@ itresan.com##+js(aopr, ulp_popup_id)
 khabarfarsi.com##+js(acis, jQuery, document.createElement)
 listenpersian.net##+js(nobab)
 makeuseof.com##+js(aopr, alternativeAds)
-musicmedia.ir,hexdownload.net,hexdownload.org,asaldl.com,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net##+js(set, needpop, 0)
+musicmedia.ir,hexdownload.net,hexdownload.org,asaldl.com,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net,pintermusic.ir,download1music.ir##+js(set, needpop, 0)
 mybia4music.com##+js(aopr, pa_vc_url)
 nokiapoweruser.com##+js(acis, anOptions)
 p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
@@ -1284,8 +1285,10 @@ digiato.com##article[class="home-entry generic clearfix "]:has(article>div>heade
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
 digiro.ir##div[itemtype$="WPAdBlock"]
-dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
 dlroozane.net##article:has(article>header>h2:has-text(تبلیغ))
+dlroozane.net##article:has(article>header:has-text(تبلیغ))
+dlroozane.net##aside[class="linkbox"]:has(aside>header>h3:has-text(تبلیغ))
+dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
 dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
 dlroozane.net##div[class="widget-con"]:has(div>h4:has-text(بانی مد))
 dlroozane.net##div[class="adsbox"]>center
@@ -1298,6 +1301,8 @@ downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(assemSole))
+download1music.ir##a:has(a>img[class^="aligncenter size-full "])
+download1music.ir##div[id^="pos-article-display-"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 eghtesadonline.com##div[class="lSSlideWrapper usingCss"]:has(div>div>a[href*="/advertisements/"])
 eghtesadonline.com##div[class="lSSlideWrapper usingCss"]:has(div>div>div>a[href*="/advertisements/"])
@@ -1585,6 +1590,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="boorsika.com"]>img
 *##*[href*="bunjee-link.tk"]>img
 *##a[href*="campaign=SideAds&"]>img
+*##a[href*="chavosh.org/click/"]
 *##a[href*="chicken-device.ir"]>img
 *##*[href*="chinstore.ir"]>img
 *##a[href*="cigoul-clothing.com"]>img
