@@ -277,7 +277,7 @@
 */adroot/*
 */ads%*
 */ads?*
-*/ads.*$domain=~filecr.com
+*/ads.*$domain=~filecr.com|~usanewstoday.club
 */ads-*$domain=~pasteboard.co
 */ads/$image
 */ads/$script
@@ -347,6 +347,7 @@
 */ban1$image
 */baner/*
 !*/banner/*.gif  - https://github.com/nimasaj/uBOPa/issues/29
+*/banner/*.gif$domain=uploadboy.com
 */banners/*.gif
 */baners.*
 */baners/*
@@ -1210,6 +1211,8 @@ dailys.ir##+js(acis, website)
 dlroozane.net##+js(acis, show_fm_popup)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
+enbdev.com##+js(set, isexistAd, true)
+! ^^ https://github.com/nimasaj/uBOPa/issues/46
 farsroid.com##+js(aopr, ShowPopUp)
 getandroid.ir,p30afzar.com,applicationha.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
@@ -1434,6 +1437,7 @@ upload-fa.ir##div[class="banners"]
 upload-fa.ir##div[class="footer_nav"]
 upload-fa.ir##div[class="tagslist"]
 uploadboy.com##div[class^="litebox"]
+uploadboy.com##a[href="http://www.asiatech.ir/"]
 uplooder.net##div[class="special_links"]
 www.uptvs.com##article.post:nth-of-type(2)
 www.uptvs.com##article.post:nth-of-type(3)
@@ -2037,7 +2041,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class$=" ads"]
 *##*[class$=" advContainer"]
 *##*[class$=" fixedadv"]
-*##*[class$="-ad"]
+!*##*[class$="-ad"] // https://github.com/nimasaj/uBOPa/issues/44 | https://github.com/nimasaj/uBOPa/issues/48
 !*##*[class$="_ad"]
 *##*[class$="_ads"]
 *##*[class$="0ad"]
@@ -2115,7 +2119,7 @@ adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 aliexpress.com#@#a[href*="s.click.aliexpress.com/"]>img
 all3dp.com,lifewire.com#@#*[class*="-ad-container"]
 amazon.*,alibaba.com#@#*[id$="-ads"]
-amazon.*,qr-code-generator.com,wired.com,#@#*[class$="-ad"]
+!amazon.*,qr-code-generator.com,wired.com,#@#*[class$="-ad"]
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
 aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
@@ -2129,7 +2133,7 @@ barsait.com#@#a[href^="http://www.barsait.com"]>img
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 blocklist.site,blogfa.com#@#a[href$="/ads"]
 boorsika.com#@#a[href*="boorsika.com"]>img
-caranddriver.com,farsroid.com#@#*[class^="ads-"]
+caranddriver.com,farsroid.com,pop-music.ir#@#*[class^="ads-"]
 chicken-device.ir#@#a[href*="chicken-device.ir"]>img
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
@@ -2260,6 +2264,7 @@ tkadak.com#@#a[href*="www.tkadak.com"]>img
 tourantech.com#@#a[href*="tourantech.com"]>img
 torangshop.ir#@#a[href*="torangshop.ir"]>img
 tsmandegar.com#@#a[href^="http://www.tsmandegar.com"]>img
+usanewstoday.club#@#*[id^="ad-"]
 wired.com#@#*[class^="ad_"]
 zoomit.ir,godaddy.com#@#*[class*=" adv-"]
 zuperi.com#@#a[href$="zuperi.com"]>img
