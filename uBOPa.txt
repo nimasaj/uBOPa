@@ -1214,7 +1214,7 @@ edaboard.com##+js(aopr, interstitialBox)
 enbdev.com##+js(set, isexistAd, true)
 ! ^^ https://github.com/nimasaj/uBOPa/issues/46
 farsroid.com##+js(aopr, ShowPopUp)
-getandroid.ir,p30afzar.com,applicationha.com##+js(aopr, faPa)
+getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tarfandha.net,radiojavan-iran.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
@@ -1388,7 +1388,9 @@ p30download.com##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*=
 p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:has(span>iframe[src*="kaprila.com/a/show.php"])
 p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
 p30download.com##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
+par30dl.com##article[class^="container-post wbox post-"]:has(article>div>h2:has-text(تبلیغ))
 par30dl.com##div[class="post-sabet"]
+par30dl.com##div[class="sidebar-home"]:has(div>p>a[href*="coinex.com/register"])
 par30games.net##div[class="fixedbanner"]
 rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
@@ -2165,7 +2167,7 @@ github.com#@#*[id$="6ad"]
 github.com#@#*[id$="7ad"]
 github.com#@#*[id$="8ad"]
 github.com#@#*[id$="9ad"]
-gizmodo.com,lifehacker.com#@#*[class*="_ads_"]
+gizmodo.com,lifehacker.com,moderndl.com#@#*[class*="_ads_"]
 ham3da.ir#@#a[href^="http://ham3da.ir"]>img
 hormozhotel.com#@#a[href*="hormozhotel.com"]>img
 hostiran.net#@#a[href*="hostiran.net"]>img
@@ -2186,7 +2188,7 @@ mail.google.com,keep.google.com,shirazsong.net,shirazsong.in#@#*[class$=" ads"]
 mail.google.com,keep.google.com#@#*[class$="0ad"]
 mail.google.com,keep.google.com#@#*[class$="1ad"]
 mail.google.com,keep.google.com#@#*[class$="2ad"]
-mail.google.com,keep.google.com#@#*[class$="3ad"]
+mail.google.com,keep.google.com,ir-dl.com#@#*[class$="3ad"]
 mail.google.com,keep.google.com#@#*[class$="4ad"]
 mail.google.com,keep.google.com#@#*[class$="5ad"]
 mail.google.com,keep.google.com#@#*[class$="6ad"]
@@ -2236,7 +2238,7 @@ sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
 sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
 seegotravel.com#@#a[href^="http://seegotravel.com"]>img
 !seemorgh.com,bbc.com,bbc.co.uk,oprah.com,aparat.com#@#*[class*=" ads-"]
-sendspace.com,behmusic.com#@#*[class$="_ads"]
+sendspace.com,behmusic.com,moderndl.com#@#*[class$="_ads"]
 shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
 shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
@@ -2248,7 +2250,7 @@ soft98.ir#@#*[id^="adx"]
 soft98.ir#@#*[class^="adx"]
 soft98.ir#@#img[src*="ironia.ml"]
 !sourceforge.net,instructables.com,solidfiles.com,takro.net,time.com,androidcentral.com,wired.com,adlock.com,windowscentral.com#@#*[class*="-ads "]
-spiceworks.com,wired.com#@#*[class*="_ads "]
+spiceworks.com,wired.com,cheatsquad.gg#@#*[class*="_ads "]
 stnews.ir#@#a[href*="stnews.ir"]>img
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 !storystalk.net,bbc.co.uk#@#*[id$="_ad"]
