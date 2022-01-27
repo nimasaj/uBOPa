@@ -1217,7 +1217,7 @@ farsroid.com##+js(aopr, ShowPopUp)
 getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tarfandha.net,radiojavan-iran.com,radioplayer.ir,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tarfandha.net,radiojavan-iran.com,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam##+js(aopr, vc_url)
 iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
@@ -1320,6 +1320,9 @@ farnet.io##img[class="scy-image"]
 farsroid.com##*[class="cas cas-pubg"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
+farsroid.com,downloadha.com##*[class*="-ads "]
+farsroid.com##*[class$="-ads"]
+farsroid.com##*[class*="-ads-"]
 !foreignpolicy.com##div[class*="-mobile-ad "]
 foreignpolicy.com##div[class*="paywall_counter"]
 ganool.*##div[id*="banner"]
@@ -1486,6 +1489,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 !
 *##*[title*="آگهی"]
 *##*[title*="تبلیغ"]
+!
+*##div[data-target="trc.metrix.ir/"]
 !
 *##a[href^="ads/"]
 *##a[href^="https://spellads.com"]
@@ -1687,6 +1692,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="tourantech.com"]>img
 *##a[href*="tracking.appdana.com"]>img
 *##a[href*="tracking.travian.ir"]
+*##a[href*="trc.metrix.ir/"]
 *##a[href*="utm_content=banner"]
 *##a[href*="utm_medium=affiliate"]
 *##a[href*="utm_medium=Banner"]
