@@ -968,6 +968,7 @@
 ||parstools.com^$popup
 ||payeganltd.com/nabimages/*
 ||paypop.org*
+||pegah.tech^$3p
 ||pegasoweb.com*
 ||persiaLink.com*
 ||adverse.persiangig.com/*
@@ -1204,7 +1205,6 @@
 androidgozar.com##+js(aopr, website)
 ava2music.com,shirazsong.net,ariapix.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
 ava2music.com##+js(acis, newtabopenornot)
-avangmusic.net,taknaz.net,texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 blogfa.com##+js(aopr, showbanner)
 cpubenchmark.net##+js(set, canRunAds, true)
 dailys.ir##+js(acis, website)
@@ -1233,6 +1233,7 @@ putlockers.*##+js(aopr, performance)
 putlockers.*##+js(nowebrtc)
 seehd.*##+js(acis, adBlockDetected)
 seemorgh.com##+js(acis, jQuery)
+texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com,hamtamovie.bar,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
@@ -1257,6 +1258,7 @@ webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 8pic.ir##a[class="link-button"]
 8pic.ir##*[class*="main"]:has-text(تبلیغ)
 anaj.ir##*[class="bannerPosition"]
+androidgozar.com##div[class^="col-"]:has(div>div>a[class="ag-agah"])
 aparat.com##*[class*="-banner-wrapper"]
 aparat.com##div[class="ac_main-wrapper"]
 aparat.com##div[class="aparat-pause-ad show"]
@@ -1314,10 +1316,12 @@ eghtesadonline.com##div[class^="mb8 noprint"]:has(div>div>a[href*="/advertisemen
 electro-tech-online.com##*[id="post-00000"]
 emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
+eghtesadonline.com##div[class*="-adv-"]
 esam.ir##div[id$="CornerBanner"]
 faceit.ir##div[class$=" advertising"]
 farnet.io##img[class="scy-image"]
-farsroid.com##*[class="cas cas-pubg"]
+farsroid.com##*[class="banner"]
+farsroid.com,androidgozar.com##*[class="cas cas-pubg"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
 farsroid.com,downloadha.com##*[class*="-ads "]
@@ -1329,7 +1333,7 @@ ganool.*##div[id*="banner"]
 gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
 gooyait.com##*[id^="anetwork-"]
-gooyait.com##*[itemtype*="WPAdBlock"]
+gooyait.com,farnet.io##*[itemtype*="WPAdBlock"]
 hidoctor.ir##*[class^="pdsifradsbn"]
 idehaltech.com##div[class="col-sm-2 sidebar-column sidebar-column-secondary"]
 ilna.ir##div[class$=" zxc"]
@@ -1395,7 +1399,6 @@ par30dl.com##article[class^="container-post wbox post-"]:has(article>div>h2:has-
 par30dl.com##div[class="post-sabet"]
 par30dl.com##div[class="sidebar-home"]:has(div>p>a[href*="coinex.com/register"])
 par30games.net##div[class="fixedbanner"]
-rapidvideo.com##*[id^="top350"]
 rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
 rokna.net##div[class^="type-script"]
 rooziato.com##*[class="single_section"]:has([src*="clickyab.com"])
@@ -1437,7 +1440,6 @@ top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
 toranji.ir##div[class="tr_footer_fixed"]
-tubeload.tv##a[href*="/po-direct.html?type="]
 upload-fa.ir##div[class="banners"]
 upload-fa.ir##div[class="footer_nav"]
 upload-fa.ir##div[class="tagslist"]
@@ -1672,6 +1674,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="payehrizan.com"]>img
 *##a[href*="phoenixad.io/click/"]
 *##a[href*="rahoja.com"]>img
+*##a[href*="redirect.appmetrica.yandex.com/serve/"]
 *##a[href*="s.click.aliexpress.com/"]>img
 *##*[href*="samiclick.com"]
 *##*[href*="sarafiroyal.com"]>img
