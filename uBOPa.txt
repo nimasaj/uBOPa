@@ -389,7 +389,8 @@
 */cryptonight.wasm*
 */currentads/*
 */earn.php?zone*$3p,popup
-*/feedclick?*
+*/feedclick?^
+*/feedclick?*$popup
 */flashbanners/*
 */fluxads/*
 */forumads/*
@@ -754,6 +755,8 @@
 ||facenama.com*$3p
 ||facepop.org/website/js*$3p
 ||farakav.com/api/ad*$3p
+||farakav.com/v3content/assets/js/advertisement.js$3p
+!^^ observed on https://www.varzesh3.com/. Do not block whole domain as it offers hosting services too.
 ||farin724.com*
 ||fastclick.ir^$3p
 ||fbfd396918c60838.com^$popup
@@ -1203,8 +1206,7 @@
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
 androidgozar.com##+js(aopr, website)
-ava2music.com,shirazsong.net,ariapix.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
-ava2music.com##+js(acis, newtabopenornot)
+ariapix.net,shirazsong.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
 blogfa.com##+js(aopr, showbanner)
 cpubenchmark.net##+js(set, canRunAds, true)
 dailys.ir##+js(acis, website)
@@ -1237,7 +1239,7 @@ texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com,hamtamovie.bar,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
-uupload.ir,iwo.ir##+js(nano-sib)
+uupload.ir,iwo.ir,upload-fa.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -1697,6 +1699,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="tracking.travian.ir"]
 *##a[href*="trc.metrix.ir/"]
 *##a[href*="utm_content=banner"]
+*##a[href*="utm_medium=ad_baner"]
+*##a[href*="utm_medium=ad&"]
 *##a[href*="utm_medium=affiliate"]
 *##a[href*="utm_medium=Banner"]
 *##a[href*="utm_medium=banner"]
@@ -1706,13 +1710,19 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="utm_medium=htmlBanner"]
 *##a[href*="utm_medium=it&utm_campaign=resan"]
 *##a[href*="utm_medium=menu&utm_campaign=hiazshanbe"]
+*##a[href*="utm_medium=Niksalehi"]
 *##a[href*="utm_medium=referral"]
 *##a[href*="utm_medium=shomanews"]
+*##a[href*="utm_source=asandl"]
+*##a[href*="utm_source=itresan_com"]
+*##a[href*="utm_source=technanews"]
 *##a[href*="uzee.ir/cardland"]
 *##a[href*="uzee.ir/esmfamil"]
 *##a[href*="uzee.ir/jadval"]
+*##a[href*="www.gamecityshop.ir"]>img
 *##a[href*="www.hairfiix.com"]>img
 *##a[href*="www.lotuslaptop.com"]>img
+*##a[href*="www.sigma.cloud"]>img
 *##a[href*="www.tkadak.com"]>img
 *##a[href*="xbuzzi.ir/landing"]
 *##a[href*="yasell.biz"]>img[alt="کلیک کنید"][width="400"][height="299"]
@@ -2193,6 +2203,7 @@ kamelpack.ir#@#a[href*="kamelpack.ir"]
 Karo.Studio#@#a[href*="Karo.Studio"]>img
 kermany.com#@#a[href*=".kermany.com"]>img
 kermany.com#@#a[href*="/kermany.com"]>img
+gamecityshop.ir#@#a[href*="www.gamecityshop.ir"]>img
 mail.google.com,keep.google.com,shirazsong.net,shirazsong.in#@#*[class$=" ads"]
 mail.google.com,keep.google.com#@#*[class$="0ad"]
 mail.google.com,keep.google.com#@#*[class$="1ad"]
@@ -2253,6 +2264,7 @@ shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 shopdey.ir#@#a[href*="shopdey.ir/product"]>img
 sigfox.com#@#*[class^="ad3"]
+sigma.cloud#@#a[href*="www.sigma.cloud"]>img
 soft98.ir#@#*[class^="ad2"]
 soft98.ir,microsoft.com#@#*[id^="ad2"]
 soft98.ir#@#*[id^="adx"]
