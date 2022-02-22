@@ -468,8 +468,12 @@
 */showad.*
 */showad/*
 !*/signup?ad_domain=*$all
-*/tablig/*
-*/tabligh*
+*/tablig/^$image
+*/tablig/^$popup
+*/tablig/^$script
+*/tabligh^$image
+*/tabligh^$popup
+*/tabligh^$script
 */telegram.html^$popup
 */textad.*
 */textad/*
@@ -754,6 +758,8 @@
 ||facebogh.com^$popup
 ||facenama.com*$3p
 ||facepop.org/website/js*$3p
+||*-ws.farakav.com^$3p,domain=tamasha.com
+!^^ observed on Tamasha.com
 ||farakav.com/api/ad*$3p
 ||farakav.com/v3content/assets/js/advertisement.js$3p
 !^^ observed on https://www.varzesh3.com/. Do not block whole domain as it offers hosting services too.
@@ -848,6 +854,8 @@
 !||kimiaonline.com/redirect.*
 ||kixer.com*$script
 ||krutilka.net*
+||landin.ir^$3p
+||landin.ir^$popup
 ||landyab.com*
 ||liczniki.org*$3p
 ||linkafarin.com*
@@ -1105,12 +1113,16 @@
 ||t3l.ir*$all
 !||t3l.ir/me?*$3p,popup
 ||tabligheirani.com^$3p
+||tablighyab.com^$3p
+||tablighyab.com^$popup
 ||tafrihi.com/link*
 ||takkhal.net*
 ||talaads.com/website/js*
 ||tapsell.ir*$3p
 ||tapshow.ir^$popup,script
 !||tapshow.ir/iq*$script
+||tavoos.net^$3p
+!^^ Advertising agency. Observed on Tamasha.com - 
 ||tczvikamowfjte.com*
 ||teasernet.com/block2.htm*
 ||te1.ir*$script
@@ -1435,6 +1447,9 @@ solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
 takblog.net,yektablog.net##*[id^="popbox-"]
 techna.news##div[id^="custom_html-"]:has(div>div>div:has-text(تبلیغ))
+techna.news##div[class*="_banner"]
+techna.news##div[class="widget_text sidebar-box"]:has-text(تبلیغ)
+techna.news##div[class="widget_text sidebar-box"]:has(div[id*="kaprila_"])
 technolife.ir##div[class="boxgreen"]
 texahang.org##article:has(article>section>center>p>a[href*="tankionline.com/fa?utm_source"])
 texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
@@ -1655,6 +1670,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="landings.ravitel.com"]
 *##a[href*="landings.sarnakh-mob.ir"]
 *##a[href*="landings.simayeaval.com"]
+*##a[href*="landing.tablighyab.com"]
 *##a[href*="lans.story-app.ir"]
 *##a[href*="marcotravel.ir"]>img
 *##a[href*="mftmirdamad.com"]>img
