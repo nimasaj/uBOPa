@@ -337,7 +337,9 @@
 */adz.*
 */adz/*
 */affads/*
-*/agahi/*
+*/agahi/^$image
+*/agahi/^$popup
+*/agahi/^$script
 */aparatAds_*$script
 */ariabox.*
 */backlink/*
@@ -403,7 +405,6 @@
 */htmlads/*
 */iframeAd.*
 */iframeAd/*
-*/images/adsbeytoote/img/*$image
 */imgadv/*
 */innerads/*
 */klipads.*
@@ -648,6 +649,9 @@
 ||bebinin.com/popads*$script,3p
 ||bermoda.biz*$3p
 ||adsc.beytoote.com^
+||beytoote.com*/ads_css/*
+||beytoote.com*/adsbeytoote/*
+||beytoote.com*/html_ads/*
 ||bia2dj.com/link*
 ||bia*movie.com^$popup
 ||bikarane.ir^$popup
@@ -1239,7 +1243,7 @@ itresan.com##+js(aopr, ulp_popup_id)
 khabarfarsi.com##+js(acis, jQuery, document.createElement)
 listenpersian.net##+js(nobab)
 makeuseof.com##+js(aopr, alternativeAds)
-musicmedia.ir,hexdownload.net,hexdownload.org,asaldl.com,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net,pintermusic.ir,download1music.ir##+js(set, needpop, 0)
+musicmedia.ir,hexdownload.net,hexdownload.org,asaldl.com,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net,download1music.ir##+js(set, needpop, 0)
 mybia4music.com##+js(aopr, pa_vc_url)
 nokiapoweruser.com##+js(acis, anOptions)
 p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
@@ -1249,7 +1253,7 @@ seehd.*##+js(acis, adBlockDetected)
 seemorgh.com##+js(acis, jQuery)
 texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 trainbit.com##+js(acis, getCookie)
-trainbit.com,uploadboy.com,hamtamovie.bar,soft98.ir##+js(nano-stb)
+trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
 uupload.ir,iwo.ir,upload-fa.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
@@ -1663,6 +1667,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="landing.atighgasht.com"]
 *##a[href*="landing.dasyaar.com"]
 *##a[href*="landing.symaart.com"]
+*##a[href*="landing.tablighyab.com"]
 *##a[href*="landings.frekaans.ir"]
 *##a[href*="landings.hamavaapp.com"]
 *##a[href*="landings.matbakh-app.com"]
@@ -1670,7 +1675,6 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="landings.ravitel.com"]
 *##a[href*="landings.sarnakh-mob.ir"]
 *##a[href*="landings.simayeaval.com"]
-*##a[href*="landing.tablighyab.com"]
 *##a[href*="lans.story-app.ir"]
 *##a[href*="marcotravel.ir"]>img
 *##a[href*="mftmirdamad.com"]>img
