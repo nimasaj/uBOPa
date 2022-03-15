@@ -324,7 +324,7 @@
 */adv%*
 */adv-*$domain=~tosinso.com
 */adv.*
-*/adv/*
+*/adv/*domain=~yjc.news
 */adv_*
 */adver/*
 */advert*
@@ -963,6 +963,8 @@
 ||onclickads.net*
 ||onclkds.com*
 ||onegate.ir*$3p
+||oneshare.ir*$3p
+||oneshare.ir*$popup
 ||onesignal.com/webPushIframe*$3p
 ||onesignal.com*$script
 ||optimuum.com*
@@ -1338,6 +1340,9 @@ eghtesadonline.com##div[class*="-adv-"]
 esam.ir##div[id$="CornerBanner"]
 faceit.ir##div[class$=" advertising"]
 farnet.io##img[class="scy-image"]
+farsnews.ir##div[class="col-3 d-none d-lg-inline-block p-0"]
+farsnews.ir##div[class="w-100 my-2"]
+farsnews.ir##div[id="carousel_adsss"]
 farsroid.com##*[class="banner"]
 farsroid.com,androidgozar.com##*[class="cas cas-pubg"]
 farsroid.com##*[class="warn-copyright-note row"]
@@ -1374,6 +1379,7 @@ lamtakam.com##*[class$="_adv"]
 live.com##div:has(:scope > div > span:has-text(an ad blocker))
 live.com##div:has(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
+live.com##div[class="_1BzBhk-fs2zhbsyuQ2foXb"]
 marzfun.com##aside:has(aside>div>div>span:has-text(تبلیغ))
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
@@ -1727,6 +1733,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="utm_medium=bmi_banner"]
 *##a[href*="utm_medium=Display"]
 *##a[href*="utm_medium=display"]
+*##a[href*="utm_medium=flashbanner"]
 *##a[href*="utm_medium=htmlBanner"]
 *##a[href*="utm_medium=it&utm_campaign=resan"]
 *##a[href*="utm_medium=menu&utm_campaign=hiazshanbe"]
@@ -1734,6 +1741,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="utm_medium=referral"]
 *##a[href*="utm_medium=shomanews"]
 *##a[href*="utm_source=asandl"]
+*##a[href*="utm_source=bannerweb"]
 *##a[href*="utm_source=itresan_com"]
 *##a[href*="utm_source=technanews"]
 *##a[href*="uzee.ir/cardland"]
