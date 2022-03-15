@@ -1379,7 +1379,8 @@ lamtakam.com##*[class$="_adv"]
 live.com##div:has(:scope > div > span:has-text(an ad blocker))
 live.com##div:has(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
-live.com##div[class="_1BzBhk-fs2zhbsyuQ2foXb"]
+live.com##*[id="aboutInboxShopping"]:upward(3)
+! ^ blocking MS ads loaded within MS emails (i.e., Windows Insider emails) | alternative: live.com##div:has(:scope > div > div > button[id="aboutInboxShopping"])
 marzfun.com##aside:has(aside>div>div>span:has-text(تبلیغ))
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
@@ -1412,7 +1413,7 @@ nokiapoweruser.com##*[class="wpa"]
 p30afzar.com##div[class="ADS_header_all"]
 p30afzar.com##div[class^="download-link-ads-"]
 p30day.com##*[class="static_posts adsblockpop"]
-p30day.com##div[id^="ADbox-"]
+p30day.com,coffeeapps.ir##div[id^="ADbox-"]
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1:has-text(زولا))
 p30download.com##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
