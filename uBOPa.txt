@@ -2317,5 +2317,7 @@ torangshop.ir#@#a[href*="torangshop.ir"]>img
 tsmandegar.com#@#a[href^="http://www.tsmandegar.com"]>img
 usanewstoday.club#@#*[id^="ad-"]
 wired.com#@#*[class^="ad_"]
+yjc.news#@#*[class*=" adv-"]
+yjc.news#@#a[href*="/ads/"]>img
 zoomit.ir,godaddy.com#@#*[class*=" adv-"]
 zuperi.com#@#a[href$="zuperi.com"]>img
