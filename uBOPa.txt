@@ -340,6 +340,7 @@
 */agahi/^$image
 */agahi/^$popup
 */agahi/^$script
+*/agahi/*.webm
 */aparatAds_*$script
 */ariabox.*
 */backlink/*
@@ -472,9 +473,11 @@
 */tablig/^$image
 */tablig/^$popup
 */tablig/^$script
+*/tablig/*.webm
 */tabligh^$image
 */tabligh^$popup
 */tabligh^$script
+*/tabligh*.webm
 */telegram.html^$popup
 */textad.*
 */textad/*
@@ -1223,6 +1226,7 @@
 ||zoomit.ir/banners/videos/*
 ||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
+alaatv.com##+js(acis, watermarkAdData)
 androidgozar.com##+js(aopr, website)
 ariapix.net,shirazsong.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
 blogfa.com##+js(aopr, showbanner)
@@ -1248,7 +1252,8 @@ makeuseof.com##+js(aopr, alternativeAds)
 musicmedia.ir,hexdownload.net,hexdownload.org,asaldl.com,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net,download1music.ir##+js(set, needpop, 0)
 mybia4music.com##+js(aopr, pa_vc_url)
 nokiapoweruser.com##+js(acis, anOptions)
-p30day.com,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
+p30day.com,p30day.ir,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
+p30day.ir##+js(aopr, pa_vc_url)
 putlockers.*##+js(aopr, performance)
 putlockers.*##+js(nowebrtc)
 seehd.*##+js(acis, adBlockDetected)
@@ -1352,6 +1357,13 @@ farsroid.com##*[class$="-ads"]
 farsroid.com##*[class*="-ads-"]
 !foreignpolicy.com##div[class*="-mobile-ad "]
 foreignpolicy.com##div[class*="paywall_counter"]
+freedownload.ir##*[class="moduleads"]
+freedownload.ir##div[class="module"]>div[class="mod-wrapper clearfix"]
+freedownload.ir##div[class="module"]>div[class="mod-wrapper-flat clearfix"]
+gamefa.com##*[class*=" bnr "]
+gamefa.com,techfars.com##*[id="top-banners"]
+gamefa.com##div[class^="banner"]
+gamefa.com##section[class*=" baners"]
 ganool.*##div[id*="banner"]
 gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
@@ -1373,7 +1385,6 @@ jalebamooz.com##div[class^="jaleb-sabet-dakhel-matn"]
 jalebamooz.com##div[class="tie-col-md-8 stream-item stream-item-top-wrapper"]
 jalebamooz.com##div[id="text-11"][class="container-wrapper widget widget_text"]
 jalebamooz.com##div[id="block-2"][class="container-wrapper widget widget_block widget_media_image"]
-khabarfarsi.com##*[id="banners_120_top"]
 lamtakam.com##*[class*=" msg_ad_"]
 lamtakam.com##*[class$="_adv"]
 live.com##div:has(:scope > div > span:has-text(an ad blocker))
@@ -1412,8 +1423,8 @@ nex1music.ir##div[class*="a"]:has(div>a[href*="account.zula.ir/pages/"])
 nokiapoweruser.com##*[class="wpa"]
 p30afzar.com##div[class="ADS_header_all"]
 p30afzar.com##div[class^="download-link-ads-"]
-p30day.com##*[class="static_posts adsblockpop"]
-p30day.com,coffeeapps.ir##div[id^="ADbox-"]
+p30day.com,p30day.ir##*[class^="adsblockpop"]
+p30day.com,p30day.ir,coffeeapps.ir##div[id^="ADbox-"]
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
 p30download.com##div[class="article-wrapper"]:has(div>article>header>h1:has-text(زولا))
 p30download.com##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
@@ -1468,7 +1479,7 @@ top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
 toranji.ir##div[class="tr_footer_fixed"]
-upload-fa.ir##div[class="banners"]
+upload-fa.ir,p30day.ir,khabarfarsi.com##div[class^="banners"]
 upload-fa.ir##div[class="footer_nav"]
 upload-fa.ir##div[class="tagslist"]
 uploadboy.com##div[class^="litebox"]
@@ -2274,6 +2285,7 @@ nex1music.ir#@#.postads
 nikfarshop.ir#@#a[href*="nikfarshop.ir"]>img
 novakala.com#@#*[href*="novakala.com"]>img
 orico-iran.ir#@#a[href*="orico-iran.ir"]>img
+osdn.net#@#*[class$="_ads"]
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 paypal.com#@#*[id^="ads-"]
 parsehkitchen.com#@#a[href*="parsehkitchen.com"]>img
