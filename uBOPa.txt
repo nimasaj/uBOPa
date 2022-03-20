@@ -1,7 +1,7 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 3.1
-! http://mynext.pro/uBOPa.txt
+! Version: 3.2
+! https://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
 ! >> report issues on https://github.com/nimasaj/uBOPa/issues
@@ -1241,7 +1241,7 @@ farsroid.com##+js(aopr, ShowPopUp)
 getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,tarfandha.net,radiojavan-iran.com,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
+ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam##+js(aopr, vc_url)
 iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
@@ -1249,11 +1249,11 @@ itresan.com##+js(aopr, ulp_popup_id)
 khabarfarsi.com##+js(acis, jQuery, document.createElement)
 listenpersian.net##+js(nobab)
 makeuseof.com##+js(aopr, alternativeAds)
-musicmedia.ir,hexdownload.net,hexdownload.org,asaldl.com,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net,download1music.ir##+js(set, needpop, 0)
+musicmedia.ir,hexdownload.net,hexdownload.org,hexdownload.co,asaldl.com,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net,download1music.ir##+js(set, needpop, 0)
 mybia4music.com##+js(aopr, pa_vc_url)
 nokiapoweruser.com##+js(acis, anOptions)
-p30day.com,p30day.ir,uploadgoogle.ir,tabtaraneh.net,tarfandha.net,par30dl.com##+js(aopr, window.open)
-p30day.ir##+js(aopr, pa_vc_url)
+p30day.com,p30day.ir,uploadgoogle.ir,tabtaraneh.net,par30dl.com##+js(aopr, window.open)
+p30day.com,p30day.ir##+js(aopr, pa_vc_url)
 putlockers.*##+js(aopr, performance)
 putlockers.*##+js(nowebrtc)
 seehd.*##+js(acis, adBlockDetected)
@@ -1327,6 +1327,7 @@ donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
 doostihaa.com##*[id^="ADdownload-"]
 doostihaa.com##div[class="adsfix_box"]
+download.ir##*[class*="-ads "]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
@@ -1390,8 +1391,8 @@ lamtakam.com##*[class$="_adv"]
 live.com##div:has(:scope > div > span:has-text(an ad blocker))
 live.com##div:has(:scope > div > div > span:has-text(an ad blocker))
 ! two upper rules are taken from AAK-Cont list
-live.com##*[id="aboutInboxShopping"]:upward(3)
-! ^ blocking MS ads loaded within MS emails (i.e., Windows Insider emails) | alternative: live.com##div:has(:scope > div > div > button[id="aboutInboxShopping"])
+live.com##div:has(:scope > div > div > button[id="aboutInboxShopping"])
+! ^ blocking MS ads loaded within MS emails (i.e., Windows Insider emails) | alternative: live.com##*[id="aboutInboxShopping"]:upward(3)
 marzfun.com##aside:has(aside>div>div>span:has-text(تبلیغ))
 mediahide.com##div[id^="iklan"]
 merriam-webster.com##DIV[id="adaptvDiv"]
@@ -1433,7 +1434,9 @@ p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
 p30download.com##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
 par30dl.com##article[class^="container-post wbox post-"]:has(article>div>h2:has-text(تبلیغ))
 par30dl.com##div[class="post-sabet"]
-par30dl.com##div[class="sidebar-home"]:has(div>p>a[href*="coinex.com/register"])
+!par30dl.com##div[class="sidebar-home"]:has(div>p>a[href*="coinex.com/register"])
+par30dl.com##div[class="sidebar-home"]:has(div> p> a[rel="nofollow noopener"])
+par30dl.com##div:has(:scope > div > div> strong:has-text(تبلیغ))
 par30games.net##div[class="fixedbanner"]
 rokna.net##div[class*="zxc clearbox noprint"]:has(div>div>a[href*="/advertisements/"])
 rokna.net##div[class^="type-script"]
@@ -1819,6 +1822,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[alt^="adv7"]
 *##*[alt^="adv8"]
 *##*[alt^="adv9"]
+*##*[alt^="kaprila "]
+*##*[alt^="kaprila_"]
 *##*[alt*="-ads0"]
 *##*[alt*="-ads1"]
 *##*[alt*="-ads2"]
@@ -1892,6 +1897,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[id^="banner7"]
 *##*[id^="banner8"]
 *##*[id^="banner9"]
+*##*[id^="kaprila "]
+*##*[id^="kaprila_"]
 *##*[id*="-ad-container"]
 *##*[id*="-ads0"]
 *##*[id*="-ads1"]
@@ -2037,6 +2044,8 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class^="banner9"]
 *##*[class^="bannerWrapper"]
 *##*[class^="e3lan e3lan-"]
+*##*[class^="kaprila "]
+*##*[class^="kaprila_"]
 *##*[class^="text-adv-row"]
 *##*[class^="topadv"]
 *##*[class^="wideBannerContainer"]
