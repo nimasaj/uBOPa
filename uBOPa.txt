@@ -352,36 +352,49 @@
 !*/banner/*.gif  - https://github.com/nimasaj/uBOPa/issues/29
 */banner/*.gif$domain=uploadboy.com
 */banners/*.gif
-*/baners.*
-*/baners/*
+*/banners/^$script
+*/banners/^$popup
+*/baners.^$image
+*/baners.^$popup
+*/baners.^$script
+*/baners/^$image
+*/baners/^$popup
+*/baners/^$script
 */banner.aspx?code*
 */banner120x240$image
-*/bannerClick.*
-*/bannerad/*
+*/bannerClick.^$image
+*/bannerClick.^$popup
+*/bannerClick.^$script
+*/bannerad/^$image
+*/bannerad/^$popup
+*/bannerad/^$script
 */bannerasquare.*
 */bannerboxes/*
 */bannerbyte.*
 */bannerco-op/*
 */bannerdl*.*
-*/bannerfinal/*
 */banneri/*
-*/banneriki/*
-*/bannerimg/*
-*/bannerman/*
 */bannernew/*
 */bannernr/*
 */bannerplace/*
 */bannervip.php?tag*
-*/bannerx/*
-*/bannerz/*
-*/banserv/*
 */bigad/*
 */blogad/*
-*/bnnrs/*
-*/bnr/*
-*/bnrs/*
-*/boxads.*
-*/boxads/*
+*/bnnrs/^$image
+*/bnnrs/^$popup
+*/bnnrs/^$script
+*/bnr/^$image
+*/bnr/^$popup
+*/bnr/^$script
+*/bnrs/^$image
+*/bnrs/^$popup
+*/bnrs/^$script
+*/boxads.^$image
+*/boxads.^$popup
+*/boxads.^$script
+*/boxads/^$image
+*/boxads/^$popup
+*/boxads/^$script
 */cash4pop/*
 */centralad/*
 */channelad/*
@@ -397,17 +410,27 @@
 */flashbanners/*
 */fluxads/*
 */forumads/*
-*/framead/*
-*/getad.*
+*/framead/^$image
+*/framead/^$popup
+*/framead/^$script
+*/getad.^$image
+*/getad.^$popup
+*/getad.^$script
 */getads.*
-*/getBanner.*
+*/getBanner.^$image
+*/getBanner.^$popup
+*/getBanner.^$script
 */housead/*
 */htmlad/*
 */htmlads/*
 */iframeAd.*
 */iframeAd/*
-*/imgadv/*
-*/innerads/*
+*/imgadv/^$image
+*/imgadv/^$popup
+*/imgadv/^$script
+*/innerads/^$image
+*/innerads/^$popup
+*/innerads/^$script
 */klipads.*
 */klipads/*
 */largeadiframe.*
@@ -465,10 +488,18 @@
 */popup.php*
 */popupkp.*
 */renderAds?*
-*/show_ad/*
-*/show_ads_*
-*/showad.*
-*/showad/*
+*/show_ad/^$image
+*/show_ad/^$popup
+*/show_ad/^$script
+*/show_ads_^$image
+*/show_ads_^$popup
+*/show_ads_^$script
+*/showad.^$image
+*/showad.^$popup
+*/showad.^$script
+*/showad/^$image
+*/showad/^$popup
+*/showad/^$script
 !*/signup?ad_domain=*$all
 */tablig/^$image
 */tablig/^$popup
@@ -1262,7 +1293,7 @@ texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
-uupload.ir,iwo.ir,upload-fa.ir##+js(nano-sib)
+uupload.ir,iwo.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -1327,7 +1358,6 @@ donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
 doostihaa.com##*[id^="ADdownload-"]
 doostihaa.com##div[class="adsfix_box"]
-download.ir##*[class*="-ads "]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
@@ -1353,8 +1383,8 @@ farsroid.com##*[class="banner"]
 farsroid.com,androidgozar.com##*[class="cas cas-pubg"]
 farsroid.com##*[class="warn-copyright-note row"]
 farsroid.com##*[class^="post-sabets"]
-farsroid.com,downloadha.com##*[class*="-ads "]
-farsroid.com##*[class$="-ads"]
+farsroid.com,downloadha.com,download.ir##*[class*="-ads "]
+farsroid.com,download.ir##*[class$="-ads"]
 farsroid.com##*[class*="-ads-"]
 !foreignpolicy.com##div[class*="-mobile-ad "]
 foreignpolicy.com##div[class*="paywall_counter"]
@@ -1426,12 +1456,12 @@ p30afzar.com##div[class="ADS_header_all"]
 p30afzar.com##div[class^="download-link-ads-"]
 p30day.com,p30day.ir##*[class^="adsblockpop"]
 p30day.com,p30day.ir,coffeeapps.ir##div[id^="ADbox-"]
-p30download.com##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
-p30download.com##div[class="article-wrapper"]:has(div>article>header>h1:has-text(زولا))
-p30download.com##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
-p30download.com##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:has(span>iframe[src*="kaprila.com/a/show.php"])
-p30download.com##article[class^="post-"]>div>p[class$="-keywords"]
-p30download.com##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
+p30download.com,p30download.ir##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
+p30download.com,p30download.ir##div[class="article-wrapper"]:has(div>article>header>h1:has-text(زولا))
+p30download.com,p30download.ir##div[class="article-wrapper"]:has(div>article>div>p>iframe[src*="kaprila.com/a/show.php"])
+p30download.com,p30download.ir##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:has(span>iframe[src*="kaprila.com/a/show.php"])
+p30download.com,p30download.ir##article[class^="post-"]>div>p[class$="-keywords"]
+p30download.com,p30download.ir##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
 par30dl.com##article[class^="container-post wbox post-"]:has(article>div>h2:has-text(تبلیغ))
 par30dl.com##div[class="post-sabet"]
 !par30dl.com##div[class="sidebar-home"]:has(div>p>a[href*="coinex.com/register"])
