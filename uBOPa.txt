@@ -1498,7 +1498,7 @@ getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
 ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
-ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam##+js(aopr, vc_url)
+ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam,nex1.ir##+js(aopr, vc_url)
 iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
 itresan.com##+js(aopr, ulp_popup_id)
@@ -1808,6 +1808,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*=".botsaz.com"]>img
 *##a[href*=".favaafzar.com"]>img
 *##a[href*=".ham3da.ir"]>img
+*##a[href*=".instahello.ir"]>img
 *##a[href*=".isnet.ir"]>img
 *##a[href*=".izee.ir/"]>img
 *##a[href*=".kermany.com"]>img
@@ -1853,6 +1854,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/favaafzar.com"]>img
 *##a[href*="/glamora.com"]>img
 *##a[href*="/ham3da.ir"]>img
+*##a[href*="/instahello.ir"]>img
 *##a[href*="/izee.ir/"]>img
 *##a[href*="/kermany.com"]>img
 *##a[href*="/landing2?code="]>img
@@ -2367,8 +2369,10 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class$=" advContainer"]
 *##*[class$=" fixedadv"]
 !*##*[class$="-ad"] // https://github.com/nimasaj/uBOPa/issues/44 | https://github.com/nimasaj/uBOPa/issues/48
+*##*[class$="-adv"]
 !*##*[class$="_ad"]
 *##*[class$="_ads"]
+*##*[class$="_adv"]
 *##*[class$="0ad"]
 *##*[class$="0ads"]
 *##*[class$="0banner"]
