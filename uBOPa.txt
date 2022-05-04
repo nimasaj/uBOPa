@@ -2321,7 +2321,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[class*=" adv-"]
 *##*[class*=" adv_"]
 *##*[class*=" topadver "]
-*##*[class*="-ad-container"]
+!*##*[class*="-ad-container"] - too many errors, look for whitelisted domains. It's aggressivle & broad to be generic.
 !*##*[class*="-ads "] - too many errors, look for whitelisted domains. It's aggressivle & broad to be generic.
 *##*[class*="-ads0"]
 *##*[class*="-ads1"]
@@ -2452,7 +2452,7 @@ adlock.com#@#a[href*="-ads/"]
 adlock.com#@#a[href*="-ads-"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 aliexpress.com#@#a[href*="s.click.aliexpress.com/"]>img
-all3dp.com,lifewire.com#@#*[class*="-ad-container"]
+!all3dp.com,lifewire.com,thebalancecareers.com#@#*[class*="-ad-container"] | https://github.com/nimasaj/uBOPa/issues/55
 amazon.*,alibaba.com#@#*[id$="-ads"]
 !amazon.*,qr-code-generator.com,wired.com,#@#*[class$="-ad"]
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
