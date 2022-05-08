@@ -1490,7 +1490,6 @@ ariapix.net,shirazsong.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
 blogfa.com##+js(aopr, showbanner)
 cpubenchmark.net##+js(set, canRunAds, true)
 dailys.ir##+js(acis, website)
-dlroozane.net##+js(acis, show_fm_popup)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 enbdev.com##+js(set, isexistAd, true)
@@ -1499,7 +1498,7 @@ farsroid.com##+js(aopr, ShowPopUp)
 getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
-ir-music.ir,musighima.com,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
+ir-music.ir,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam,nex1.ir##+js(aopr, vc_url)
 iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
@@ -1507,7 +1506,7 @@ itresan.com##+js(aopr, ulp_popup_id)
 khabarfarsi.com##+js(acis, jQuery, document.createElement)
 listenpersian.net##+js(nobab)
 makeuseof.com##+js(aopr, alternativeAds)
-musicmedia.ir,hexdownload.net,hexdownload.org,hexdownload.co,heromusic.ir,montiego.ir,sornamusic.ir,dlroozane.net,download1music.ir##+js(set, needpop, 0)
+musicmedia.ir,hexdownload.net,hexdownload.org,hexdownload.co,montiego.ir,sornamusic.ir,download1music.ir##+js(set, needpop, 0)
 mybia4music.com##+js(aopr, pa_vc_url)
 nokiapoweruser.com##+js(acis, anOptions)
 p30day.com,p30day.ir,uploadgoogle.ir,tabtaraneh.net,par30dl.com##+js(aopr, window.open)
@@ -1518,7 +1517,7 @@ seehd.*##+js(acis, adBlockDetected)
 seemorgh.com##+js(acis, jQuery)
 texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 trainbit.com##+js(acis, getCookie)
-trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,soft98.ir##+js(nano-stb)
+trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,hamtamovie.li,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
 uupload.ir,iwo.ir##+js(nano-sib)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
@@ -1567,25 +1566,19 @@ beytoote.com##div[class^="pcfadv"]
 beytoote.com##ul[id$="_adv_free"]
 mybia4music.com##div[class="box"]:has(div>div>p>a>img[alt*="زولا"])
 mybia4music.com##div[class="fixedpost"]:has(div>div>h4:has-text(زولا))
-cooldl.net##a[title="Ads"]
-cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
+cooldl.net,cooldownload.ir##a[title="Ads"]
+cooldl.net,cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
 digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption>footer>div>span:has-text(تبلیغ))
 digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
 digiro.ir##div[itemtype$="WPAdBlock"]
-dlroozane.net##article:has(article>header>h2:has-text(تبلیغ))
-dlroozane.net##article:has(article>header:has-text(تبلیغ))
-dlroozane.net##aside[class="linkbox"]:has(aside>header>h3:has-text(تبلیغ))
-dlroozane.net##div[class="static-post"]:has(div>div>h4:has-text(تبلیغ))
-dlroozane.net##div[class="blockin"]:has(div>div>div>h3:has-text(تبلیغ))
-dlroozane.net##div[class="widget-con"]:has(div>h4:has-text(بانی مد))
-dlroozane.net##div[class="adsbox"]>center
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
 doostihaa.com##*[id^="ADdownload-"]
 doostihaa.com##div[class="adsfix_box"]
+download.ir##div[class^="content-top-ads-box"]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
@@ -2474,8 +2467,6 @@ chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
 dateesco.com#@#a[href*="dateesco.com?site"]>img
 didekhalagh.com#@#a[href*="/didekhalagh.com"]>img
-dlroozane.net#@#.adsbox
-dlroozane.net#@#.topads
 dontasktoask.ir#@#a[href*="utm_medium=banner"]
 doradu.com#@#.mom-ad
 ! ^^ Above filter, to fix issue caused by EasyList ^^
