@@ -1489,7 +1489,6 @@ androidgozar.com##+js(aopr, website)
 ariapix.net,shirazsong.net,smusic.ir,beytoote.com##+js(aopr, checkCookie)
 blogfa.com##+js(aopr, showbanner)
 cpubenchmark.net##+js(set, canRunAds, true)
-dailys.ir##+js(acis, website)
 downloadsoftware.ir##+js(aopr, urlToShow)
 edaboard.com##+js(aopr, interstitialBox)
 enbdev.com##+js(set, isexistAd, true)
@@ -1498,7 +1497,7 @@ farsroid.com##+js(aopr, ShowPopUp)
 getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
-ir-music.ir,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,dailys.ir,downloadha.com##+js(acis, vc_url)
+ir-music.ir,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,downloadha.com##+js(acis, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam,nex1.ir##+js(aopr, vc_url)
 iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
@@ -1683,6 +1682,8 @@ p30download.com,p30download.ir##div[class="article-wrapper"]:has(div>article>div
 p30download.com,p30download.ir##span[style="width: 728px; height: 90px; float:right;border: 1px solid rgb(170, 170, 170);margin: 0px 3px 0px 0px;"]:has(span>iframe[src*="kaprila.com/a/show.php"])
 p30download.com,p30download.ir##article[class^="post-"]>div>p[class$="-keywords"]
 p30download.com,p30download.ir##article[class="post"]:has(article>div>p>a[href*="filestore.persiangfx.com"])
+par30dl.net##*[class^="adsidimg"]
+par30dl.net##*[class="adbody"]
 par30dl.com##article[class^="container-post wbox post-"]:has(article>div>h2:has-text(تبلیغ))
 par30dl.com##article[class^="container-post wbox post-"]:has(article>div>h2:has-text(یوتوپیا))
 par30dl.com##div[class="post-sabet"]
@@ -1811,8 +1812,10 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*=".izee.ir/"]>img
 *##a[href*=".kermany.com"]>img
 *##a[href*=".minevisam.com"]>img
+*##a[href*=".mobinhost.com"]
 *##a[href*=".novinav.ir"]>img
 *##a[href*=".parcham.asia"]>img
+*##a[href*=".parsvds.com"]
 *##a[href*=".pfh.co.ir"]>img
 *##a[href*=".pooyano.com"]>img
 *##a[href*=".rasanegar.com"]>img
@@ -1858,8 +1861,10 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/landing2?code="]>img
 !^^asaldl.com
 *##a[href*="/minevisam.com"]>img
+*##a[href*="/mobinhost.com"]
 *##a[href*="/novinav.ir"]>img
 *##a[href*="/parcham.asia"]>img
+*##a[href*="/parsvds.com"]
 *##a[href*="/pfh.co.ir"]>img
 *##a[href*="/pooyano.com"]>img
 *##a[href*="/rasanegar.com"]>img
@@ -1905,6 +1910,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[href*="chinstore.ir"]>img
 *##a[href*="cigoul-clothing.com"]>img
 *##a[href*="click_ads.php?id"]>img
+*##a[href*="click.adtrace.io/"]
 *##a[href*="clicksgear.com/watch"]
 *##a[href*="cobal.ir/app?utm_source"]>img
 *##a[href*="dateesco.com?site"]>img
