@@ -1449,7 +1449,7 @@
 ||weclick.ir*$script
 ||whistorica.info*
 ||wideads.com^$3p,popup
-||wideads.com/website/js*$3p
+||wideads.com*$3p
 ||wie9eig.top*$script
 ||wigetmedia.com*
 ||adwised.blob.core.windows.net*$3p
@@ -1519,6 +1519,7 @@ trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,hamtamovie.li,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
 uupload.ir,iwo.ir##+js(nano-sib)
+up44.ir##+js(nano-sib, , , 0)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
@@ -1736,6 +1737,7 @@ top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
 toranji.ir##div[class="tr_footer_fixed"]
+up44.ir##div[class="right box full2"]
 upload-fa.ir,p30day.ir,khabarfarsi.com##div[class^="banners"]
 upload-fa.ir##div[class="footer_nav"]
 upload-fa.ir##div[class="tagslist"]
@@ -2546,6 +2548,8 @@ mihanstore.net#@#a[href*="mihanstore.net/in.php?id="]>img
 minevisam.com#@#a[href*=".minevisam.com"]>img
 minevisam.com#@#a[href*="/minevisam.com"]>img
 mizbanwp.com#@#*[href*="mizbanwp.com"]>img
+mobinhost.com#@#a[href*=".mobinhost.com"]
+mobinhost.com#@#a[href*="/mobinhost.com"]
 moderndl.com#@#*[alt*="تبلیغ"]
 moderndl.com#@#*[id^="ads_"]
 modiryatnovin.com#@#a[href*="modiryatnovin.com"]>img
@@ -2560,6 +2564,8 @@ osdn.net#@#*[class$="_ads"]
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
 paypal.com#@#*[id^="ads-"]
 parsehkitchen.com#@#a[href*="parsehkitchen.com"]>img
+parsvds.com#@#a[href*=".parsvds.com"]
+parsvds.com#@#a[href*="/parsvds.com"]
 pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
 pooyano.com#@#a[href^="http://pooyano.com"]>img
 rahoja.com#@#a[href*="rahoja.com"]>img
