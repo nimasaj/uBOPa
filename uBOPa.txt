@@ -1,6 +1,7 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 3.3
+! Version: 202205
+! Homepage: https://github.com/nimasaj/uBOPa/
 ! https://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
 !
@@ -1194,6 +1195,7 @@
 ||najva.com/static/*$3p,script
 ||landings.namanetapp.com*$all
 ||namasha.com/advast?*
+||namasha.com*/vast.js
 ||narsense.com/redirect.*$all
 ||neginpop.ir*/js*
 ||negolist.com/backend.php/*
@@ -1555,6 +1557,7 @@ asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
 barato.ir##div[id="featured"][class="owl-carousel owl-rtl owl-loaded owl-drag"]
+bartarinha.ir##div[class^="zxc"]
 behmusic.com##*[class$="_ads"]>p[style="text-align: center;"]
 beytoote.com##div[class*="-ads-banner "]
 beytoote.com##div[class="content-slider"]:has(div>ul[id^="adv_slider"])
@@ -1572,7 +1575,9 @@ digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption
 digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
-digiro.ir##div[itemtype$="WPAdBlock"]
+digiboy.ir##div[class="slider-tab-ring"]:not(:has(>:has-text(دیدگاه)))
+digiboy.ir##div[class$="-digiads"]
+digiro.ir,technet24.ir##div[itemtype$="WPAdBlock"]
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
 donya-e-eqtesad.com##*[class*="overview-auto zxc"]
@@ -1632,6 +1637,7 @@ iranfilmplus.net##div[id="infoi"]
 itresan.com##div[itemtype*="WPAdBlock"]
 itresan.com##*[style="float: right;font-size: 10px;text-align: center;transform: rotate(90deg);padding: 15px 0px 10px;"]
 itresan.com##*[style="border: 1px solid;text-align: center; float: center; margin: 10px 10px 20px; padding: 12px 5px 12px;"]
+jalebamooz.com##div[class="jaleb-after-content"]
 jalebamooz.com##div[class="jaleb-before-content"]
 jalebamooz.com##div[class^="jaleb-sabet-dakhel-matn"]
 jalebamooz.com##div[class="tie-col-md-8 stream-item stream-item-top-wrapper"]
@@ -1660,6 +1666,7 @@ mihandownload.com##div[class^="bg-all-box py-3"]:has(div>span[class*="-botom-ads
 moderndl.com##section[class="m-ads"]
 moderndl.com##section[class="sidebar-left-item content"]:has(section>a>h5:has-text(تبلیغ))
 msbmusic.ir##div[id="postesabetads"]
+mytopseda.ir,topseda.ir##div[id="toshare-dl-link"]:has(a[href*="urlshorter.org/page"])
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 namnak.com##a[href*="/ag_"]>img
@@ -1676,6 +1683,7 @@ nokiapoweruser.com##*[class="wpa"]
 p30afzar.com##div[class="ADS_header_all"]
 p30afzar.com##div[class^="download-link-ads-"]
 p30day.com,p30day.ir##*[class^="adsblockpop"]
+p30day.com,p30day.ir##article[class="nomobilebanner"]
 p30day.com,p30day.ir,coffeeapps.ir##div[id^="ADbox-"]
 p30download.com,p30download.ir##div[class="article-wrapper"]:has(div>article>header>h1>a[href*="zula.ir"])
 p30download.com,p30download.ir##div[class="article-wrapper"]:has(div>article>header>h1:has-text(زولا))
@@ -1725,6 +1733,9 @@ softgozar.com##div[class="DTOPBan"]
 softgozar.com##div[id="donate"]
 solidfiles.com##*[class^="bnr"]
 solidfiles.com##*[class="box-content promoted-dl"]
+tabnak.ir##aside[class*="_adv_"]
+tabnak.ir##div[class="visible-lg visible-md visible-sm visible-ms hidden-xs"]
+tabnak.ir##div[id*="_adv_"]
 takblog.net,yektablog.net##*[id^="popbox-"]
 techna.news##div[id^="custom_html-"]:has(div>div>div:has-text(تبلیغ))
 techna.news##div[class*="_banner"]
@@ -1738,7 +1749,7 @@ top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
 toranji.ir##div[class="tr_footer_fixed"]
 up44.ir##div[class="right box full2"]
-upload-fa.ir,p30day.ir,khabarfarsi.com##div[class^="banners"]
+upload-fa.ir,p30day.ir,p30day.com,khabarfarsi.com##*[class^="banners"]
 upload-fa.ir##div[class="footer_nav"]
 upload-fa.ir##div[class="tagslist"]
 uploadboy.com##div[class^="litebox"]
@@ -1801,32 +1812,42 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*=" ads/"]
 *##a[href*=".40nama.com"]>img
 *##a[href*=".adgup.com"]
-*##a[href*=".aradsamaneh.com"]>img
+*##a[href*=".alozaban.com"]
+*##a[href*=".aradsamane.com"]
+*##a[href*=".aradsamaneh.com"]
 *##a[href*=".aspx?AdId="]
 *##a[href*=".astiak.net"]>img
-*##a[href*=".bahavarit.com"]>img
+*##a[href*=".bahavarit.com"]
 *##a[href*=".barsait.com"]>img
 *##a[href*=".botsaz.com"]>img
-*##a[href*=".favaafzar.com"]>img
+*##a[href*=".drhp.ir"]
+*##a[href*=".favaafzar.com"]
 *##a[href*=".ham3da.ir"]>img
 *##a[href*=".instahello.ir"]>img
 *##a[href*=".isnet.ir"]>img
 *##a[href*=".izee.ir/"]>img
 *##a[href*=".kermany.com"]>img
+*##a[href*=".mecloud.ir"]
 *##a[href*=".minevisam.com"]>img
 *##a[href*=".mobinhost.com"]
 *##a[href*=".novinav.ir"]>img
-*##a[href*=".parcham.asia"]>img
+*##a[href*=".parcham.asia"]
+*##a[href*=".pardisan-edu.com"]
 *##a[href*=".parsvds.com"]
-*##a[href*=".pfh.co.ir"]>img
-*##a[href*=".pooyano.com"]>img
-*##a[href*=".rasanegar.com"]>img
+*##a[href*=".partian.co/"]
+*##a[href*=".pfh.co.ir"]
+*##a[href*=".pooyano.com"]
+*##a[href*=".rahoja.com"]
+*##a[href*=".rasanegar.com"]
 *##a[href*=".raya-ex.net"]
-*##a[href*=".sazmanhost.com"]>img
-*##a[href*=".seegotravel.com"]>img
-*##a[href*=".shahinparvaz.com"]>img
+*##a[href*=".saghehgroup.com"]
+*##a[href*=".sazmanhost.com"]
+*##a[href*=".seegotravel.com"]
+*##a[href*=".serverused.com"]
+*##a[href*=".shahinparvaz.com"]
 *##a[href*=".teskaco.com"]>img
 *##a[href*=".tsmandegar.com"]>img
+*##a[href*=".ysorkh.net"]
 *##a[href*="-ads "]
 *##a[href*="-ads-"]>img
 *##a[href*="-ads_"]>img
@@ -1845,16 +1866,19 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/ads_"]>img
 *##a[href*="/ads/"]>img
 *##a[href*="/agahi"]
-*##a[href*="/aradsamaneh.com"]>img
+*##a[href*="/alozaban.com"]
+*##a[href*="/aradsamane.com"]
+*##a[href*="/aradsamaneh.com"]
 *##a[href*="/astiak.net"]>img
-*##a[href*="/bahavarit.com"]>img
+*##a[href*="/bahavarit.com"]
 *##a[href*="/banners/click/"]>img
 *##a[href*="/barsait.com"]>img
 *##a[href*="/bernardwatch.ir"]>img
 *##a[href*="/botsaz.com"]>img
 *##a[href*="/counter/click.php?id"]>img
 *##a[href*="/didekhalagh.com"]>img
-*##a[href*="/favaafzar.com"]>img
+*##a[href*="/drhp.ir"]
+*##a[href*="/favaafzar.com"]
 *##a[href*="/glamora.com"]>img
 *##a[href*="/ham3da.ir"]>img
 *##a[href*="/instahello.ir"]>img
@@ -1862,21 +1886,28 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/kermany.com"]>img
 *##a[href*="/landing2?code="]>img
 !^^asaldl.com
+*##a[href*="/mecloud.ir"]
 *##a[href*="/minevisam.com"]>img
 *##a[href*="/mobinhost.com"]
 *##a[href*="/novinav.ir"]>img
-*##a[href*="/parcham.asia"]>img
+*##a[href*="/parcham.asia"]
+*##a[href*="/pardisan-edu.com"]
 *##a[href*="/parsvds.com"]
-*##a[href*="/pfh.co.ir"]>img
-*##a[href*="/pooyano.com"]>img
-*##a[href*="/rasanegar.com"]>img
+*##a[href*="/partian.co/"]
+*##a[href*="/pfh.co.ir"]
+*##a[href*="/pooyano.com"]
+*##a[href*="/rahoja.com"]
+*##a[href*="/rasanegar.com"]
 *##a[href*="/raya-ex.net"]
 *##a[href*="/riradokht.ir"]>img
-*##a[href*="/sazmanhost.com"]>img
-*##a[href*="/seegotravel.com"]>img
-*##a[href*="/shahinparvaz.com"]>img
+*##a[href*="/saghehgroup.com"]
+*##a[href*="/sazmanhost.com"]
+*##a[href*="/seegotravel.com"]
+*##a[href*="/serverused.com"]
+*##a[href*="/shahinparvaz.com"]
 *##a[href*="/teskaco.com"]>img
 *##a[href*="/tsmandegar.com"]>img
+*##a[href*="/ysorkh.net"]
 *##a[href*="1000sakhteman.ir"]>img
 *##a[href*="1000site.ir"]>img
 *##a[href*="1000SITE.IR"]>img
@@ -1907,6 +1938,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="boorsika.com"]>img
 *##*[href*="bunjee-link.tk"]>img
 *##a[href*="campaign=SideAds&"]>img
+*##a[href*="charbzaban.com/app"]
 *##a[href*="chavosh.org/click/"]
 *##a[href*="chicken-device.ir"]>img
 *##*[href*="chinstore.ir"]>img
@@ -1935,6 +1967,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="hibids10.com"]>img
 *##*[href*="hicpm10.com/watch?key"]>img
 *##a[href*="hormozhotel.com"]>img
+*##a[href*="hostida.com/host/?utm"]
 *##a[href*="hostiran.net"]>img
 *##a[href*="iran20tel.ir"]>img
 *##a[href*="iraneconomist.com"]>img
@@ -1975,17 +2008,19 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[href*="onspd.tk"]>img
 *##a[href*="orico-iran.ir"]>img
 *##a[href*="pandcaspian.com/news"]>img
+*##a[href*="parsdev.com/vps?utm"]
 *##a[href*="parsehkitchen.com"]>img
 *##*[href*="parsnafe.com/?utm_source"]>img
+*##a[href*="payam-resan.com/adv.aspx"]
 *##a[href*="payehrizan.com"]>img
 *##a[href*="phoenixad.io/click/"]
-*##a[href*="rahoja.com"]>img
+*##a[href*="pishgaman.net/?utm"]
 *##a[href*="redirect.appmetrica.yandex.com/serve/"]
 *##a[href*="s.click.aliexpress.com/"]>img
 *##*[href*="samiclick.com"]
 *##*[href*="sarafiroyal.com"]>img
 *##a[href*="shahingasht.info"]>img
-*##a[href*="shahrekaghazdivari.com"]>img
+*##a[href*="shahrekaghazdivari.com"]
 *##a[href*="shahrfarang.net"]>img
 *##a[href*="sharifngo.com"]>img
 *##a[href*="shopdey.ir/product"]>img
@@ -2016,6 +2051,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="utm_medium=htmlBanner"]
 *##a[href*="utm_medium=it&utm_campaign=resan"]
 *##a[href*="utm_medium=menu&utm_campaign=hiazshanbe"]
+*##a[href*="utm_medium=nex1music"]
 *##a[href*="utm_medium=Niksalehi"]
 *##a[href*="utm_medium=referral"]
 *##a[href*="utm_medium=shomanews"]
@@ -2454,22 +2490,29 @@ adlock.com#@#a[href*="-ads-"]>img
 adonisparvaz.com#@#*[href*="adonisparvaz.com"]>img
 aliexpress.com#@#a[href*="s.click.aliexpress.com/"]>img
 !all3dp.com,lifewire.com,thebalancecareers.com#@#*[class*="-ad-container"] | https://github.com/nimasaj/uBOPa/issues/55
+alozaban.com#@#a[href*=".alozaban.com"]
+alozaban.com#@#a[href*="/alozaban.com"]
 amazon.*,alibaba.com#@#*[id$="-ads"]
 !amazon.*,qr-code-generator.com,wired.com,#@#*[class$="-ad"]
 amlakbaharan.com#@#a[href*="amlakbaharan.com"]>img
-aradsamaneh.com#@#a[href^="http://www.aradsamaneh.com"]>img
+aradsamane.com#@#a[href*=".aradsamane.com"]
+aradsamane.com#@#a[href*="/aradsamane.com"]
+aradsamaneh.com#@#a[href*=".aradsamaneh.com"]
+aradsamaneh.com#@#a[href*="/aradsamaneh.com"]
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
 arshantour.net#@#*[href*="arshantour.net"]>img
 astiak.net#@#a[href^="http://astiak.net"]>img
 atramiz.com#@#a[href*="atramiz.com"]
-bahavarit.com#@#a[href^="https://bahavarit.com"]>img
+bahavarit.com#@#a[href*=".bahavarit.com"]
+bahavarit.com#@#a[href*="/bahavarit.com"]
 barsait.com#@#a[href^="http://www.barsait.com"]>img
 !bbc.com,pay98.net,icelove.ir,ofoghnews.ir,aparat.com,cnn.com#@#*[class*="-ads-"]
 bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 blocklist.site,blogfa.com#@#a[href$="/ads"]
 boorsika.com#@#a[href*="boorsika.com"]>img
 caranddriver.com,farsroid.com,pop-music.ir#@#*[class^="ads-"]
+charbzaban.com#@#a[href*="charbzaban.com/app"]
 chicken-device.ir#@#a[href*="chicken-device.ir"]>img
 chinstore.ir#@#*[href*="chinstore.ir"]>img
 cigoul-clothing.com#@#a[href*="cigoul-clothing.com"]>img
@@ -2479,12 +2522,15 @@ dontasktoask.ir#@#a[href*="utm_medium=banner"]
 doradu.com#@#.mom-ad
 ! ^^ Above filter, to fix issue caused by EasyList ^^
 dorsa.ir#@#a[href$="dorsa.ir"]>img
+drhp.ir#@#a[href*=".drhp.ir"]
+drhp.ir#@#a[href*="/drhp.ir"]
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
 favajam.com#@#a[href*="favajam.com"]>img
 faraz-system.com#@#a[href*="faraz-system.com"]>img
 farzamweb.com#@#a[href*="farzamweb.com"]>img
-favaafzar.com#@#a[href^="http://www.favaafzar.com"]>img
+favaafzar.com#@#a[href*=".favaafzar.com"]
+favaafzar.com#@#a[href*="/favaafzar.com"]
 fitamin.ir#@#a[href*="fitamin.ir"]>img
 ghandaan.com#@#a[href*="ghandaan.com"]
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
@@ -2502,6 +2548,7 @@ github.com#@#*[id$="9ad"]
 gizmodo.com,lifehacker.com,moderndl.com#@#*[class*="_ads_"]
 ham3da.ir#@#a[href^="http://ham3da.ir"]>img
 hormozhotel.com#@#a[href*="hormozhotel.com"]>img
+hostida.com#@#a[href*="hostida.com/host/?utm"]
 hostiran.net#@#a[href*="hostiran.net"]>img
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
 iranserver.com#@#*[href*="iranserver.com/aff.php?aff"]>img
@@ -2532,6 +2579,8 @@ makeuseof.com#@#a[href*="utm_medium=affiliate"]
 makeuseof.com#@#*[class^="advert"]
 makeuseof.com#@#*[class*=" adv-"]
 marcotravel.ir#@#a[href*="marcotravel.ir"]>img
+mecloud.ir#@#a[href*=".mecloud.ir"]
+mecloud.ir#@#a[href*="/mecloud.ir"]
 mftmirdamad.com#@#a[href*="mftmirdamad.com"]>img
 mftvanak.com#@#a[href*="mftvanak.com"]>img
 microchip.com,microsoft.com#@#*[id^="ad0"]
@@ -2562,23 +2611,43 @@ novakala.com#@#*[href*="novakala.com"]>img
 orico-iran.ir#@#a[href*="orico-iran.ir"]>img
 osdn.net#@#*[class$="_ads"]
 pandcaspian.com#@#a[href*="pandcaspian.com/news"]>img
-paypal.com#@#*[id^="ads-"]
+parcham.asia#@#a[href*=".parcham.asia"]
+parcham.asia#@#a[href*="/parcham.asia"]
+pardisan-edu.com#@#a[href*=".pardisan-edu.com"]
+pardisan-edu.com#@#a[href*="/pardisan-edu.com"]
+parsdev.com#@#a[href*="parsdev.com/vps?utm"]
 parsehkitchen.com#@#a[href*="parsehkitchen.com"]>img
 parsvds.com#@#a[href*=".parsvds.com"]
 parsvds.com#@#a[href*="/parsvds.com"]
-pfh.co.ir#@#a[href^="https://pfh.co.ir"]>img
-pooyano.com#@#a[href^="http://pooyano.com"]>img
-rahoja.com#@#a[href*="rahoja.com"]>img
-rasanegar.com#@#a[href^="https://rasanegar.com"]>img
+partian.co#@#a[href*=".partian.co/"]
+partian.co#@#a[href*="/partian.co/"]
+payam-resan.com#@#a[href*="payam-resan.com/adv.aspx"]
+paypal.com#@#*[id^="ads-"]
+pfh.co.ir#@#a[href*=".pfh.co.ir"]
+pfh.co.ir#@#a[href*="/pfh.co.ir"]
+pishgaman.net#@#a[href*="pishgaman.net/?utm"]
+pooyano.com#@#a[href*=".pooyano.com"]
+pooyano.com#@#a[href*="/pooyano.com"]
+rahoja.com#@#a[href*=".rahoja.com"]
+rahoja.com#@#a[href*="/rahoja.com"]
+rasanegar.com#@#a[href*=".rasanegar.com"]
+rasanegar.com#@#a[href*="/rasanegar.com"]
 riradokht.ir#@#a[href*="/riradokht.ir"]>img
+saghehgroup.com#@#a[href*=".saghehgroup.com"]
+saghehgroup.com#@#a[href*="/saghehgroup.com"]
 samiclick.com#@#*[href*="samiclick.com"]
 sarafiroyal.com#@#*[href*="sarafiroyal.com"]>img
-sazmanhost.com#@#a[href^="https://sazmanhost.com"]>img
-seegotravel.com#@#a[href^="http://seegotravel.com"]>img
+sazmanhost.com#@#a[href*=".sazmanhost.com"]
+sazmanhost.com#@#a[href*="/sazmanhost.com"]
+seegotravel.com#@#a[href*=".seegotravel.com"]
+seegotravel.com#@#a[href*="/seegotravel.com"]
 !seemorgh.com,bbc.com,bbc.co.uk,oprah.com,aparat.com#@#*[class*=" ads-"]
 sendspace.com,behmusic.com,moderndl.com#@#*[class$="_ads"]
-shahinparvaz.com#@#a[href^="http://www.shahinparvaz.com"]>img
-shahrekaghazdivari.com#@#a[href^="http://shahrekaghazdivari.com"]>img
+serverused.com#@#a[href*=".serverused.com"]
+serverused.com#@#a[href*="/serverused.com"]
+shahinparvaz.com#@#a[href*=".shahinparvaz.com"]
+shahinparvaz.com#@#a[href*="/shahinparvaz.com"]
+shahrekaghazdivari.com#@#a[href*="shahrekaghazdivari.com"]
 sharifngo.com#@#a[href*="sharifngo.com"]>img
 shopdey.ir#@#a[href*="shopdey.ir/product"]>img
 sigfox.com#@#*[class^="ad3"]
@@ -2610,5 +2679,7 @@ wired.com#@#*[class^="ad_"]
 yjc.news#@#*[class*=" adv-"]
 yjc.news#@#*[class$="-adv"]
 yjc.news#@#a[href*="/ads/"]>img
+ysorkh.net#@#a[href*=".ysorkh.net"]
+ysorkh.net#@#a[href*="/ysorkh.net"]
 zoomit.ir,godaddy.com#@#*[class*=" adv-"]
 zuperi.com#@#a[href$="zuperi.com"]>img
