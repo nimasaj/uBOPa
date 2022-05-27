@@ -1324,6 +1324,7 @@
 ||recomendedsite.com/*
 ||regpole.com*
 ||remarketingpixel.com/stats*
+||rizy.ir/js/ads.js
 ||roozno.com/3044/*$all
 ||rozblog.com/include/rozblog_ads_js.php
 ||rozfa.ir*
@@ -1556,6 +1557,7 @@ asandl.com##article[class="post mobile"]:has(article>footer>a[href*="charge.asan
 asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
+asiadl.ir##div[class="my-3"]
 barato.ir##div[id="featured"][class="owl-carousel owl-rtl owl-loaded owl-drag"]
 bartarinha.ir##div[class^="zxc"]
 behmusic.com##*[class$="_ads"]>p[style="text-align: center;"]
@@ -1600,6 +1602,8 @@ emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
 eghtesadonline.com##div[class*="-adv-"]
 esam.ir##div[id$="CornerBanner"]
+ezp30.com##a[class="ezp30-ads"]
+ezp30.com##div[class="fix-ez"]
 faceit.ir##div[class$=" advertising"]
 farnet.io##img[class="scy-image"]
 farsnews.ir##div[class="col-3 d-none d-lg-inline-block p-0"]
@@ -1676,6 +1680,7 @@ naslemusic.com##div[class="post"]:has(div>div>div>a[title="zula"])
 netnevesht.com##a[href*="yon.ir"]>img
 netnevesht.com##div[class^="netne-content"]
 netnevesht.com##div[class="netne-after-content"]
+netpaak.com##div[class="stream-item stream-item-above-post"]:has(>p:has-text(تبلیغ))
 nex1music.ir##*[class="blkc blkccn"]
 nex1music.ir##*[class="blkt blktads"]
 nex1music.ir##div[class*="a"]:has(div>a[href*="account.zula.ir/pages/"])
@@ -1768,6 +1773,9 @@ vigiato.net##a[class="adsbeforecontent"]
 vigiato.net##div[id="adstopside"]
 vigiato.net##div[class="digiad-item"]
 vigiato.net##div[id^="digiad-"]
+vgdl.ir##*[class^="sp-pcp-"]
+vgdl.ir##div[class="stream-item stream-item-above-post"]
+vgdl.ir##div[class="stream-item stream-item-in-post stream-item-inline-post aligncenter"]
 yasdl.com##*[id^="post-sabet-"]
 yasdl.com##div[class="post-des-box"]:has(div>div>div>div:has-text(تبليغات))
 yasdl.com##div[class="post-body post-tags row"]
@@ -1824,6 +1832,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*=".favaafzar.com"]
 *##a[href*=".ham3da.ir"]>img
 *##a[href*=".instahello.ir"]>img
+*##a[href*=".ipinz.ir"]
 *##a[href*=".isnet.ir"]>img
 *##a[href*=".izee.ir/"]>img
 *##a[href*=".kermany.com"]>img
@@ -1882,6 +1891,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/glamora.com"]>img
 *##a[href*="/ham3da.ir"]>img
 *##a[href*="/instahello.ir"]>img
+*##a[href*="/ipinz.ir"]
 *##a[href*="/izee.ir/"]>img
 *##a[href*="/kermany.com"]>img
 *##a[href*="/landing2?code="]>img
@@ -2553,6 +2563,8 @@ hostiran.net#@#a[href*="hostiran.net"]>img
 iraneconomist.com#@#a[href*="iraneconomist.com"]>img
 iranserver.com#@#*[href*="iranserver.com/aff.php?aff"]>img
 iransurfingguide.com#@#a[href*="iransurfingguide.com"]>img
+ipinz.ir#@#a[href*=".ipinz.ir"]
+ipinz.ir#@#a[href*="/ipinz.ir"]
 isnet.ir#@#a[href*=".isnet.ir"]>img
 isnet.ir#@#a[href*="/isnet.ir"]>img
 jadvalyab.ir#@#a[href*="jadvalyab.ir"]>img
