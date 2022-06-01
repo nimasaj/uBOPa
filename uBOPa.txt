@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 202205
+! Version: 202206
 ! Homepage: https://github.com/nimasaj/uBOPa/
 ! https://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
@@ -1297,6 +1297,7 @@
 ||popupearn.com*$3p,script
 !||popupearn.com/website/*
 !||popupearn.com/popbox/*
+||popupdl.ir*$3p
 ||popupha.com*$3p
 ||popupirani.ir*$3p,script
 !||popupirani.ir/popbox/*$3p
@@ -1500,7 +1501,7 @@ farsroid.com##+js(aopr, ShowPopUp)
 getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
-ir-music.ir,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,downloadha.com##+js(acis, vc_url)
+ir-music.ir,radiobaran.ir,rasanejavan.com,mixjavan.ir,mrcode.ir,radiojavan-iran.com,netgasht.com,nazshow.ir,downloadha.com,gamesetup.ir##+js(acis, vc_url)
 ir-song.com,behmusic.com,farskids.me,jenabmusic.com,shirazsong.in,nicmusic.net,sornamusic.ir,msbmusic.ir,lianmovie.com,smusic.ir,myhastidl.cam,nex1.ir##+js(aopr, vc_url)
 iranfilmplus.com##+js(acis, $)
 iranfilmplus.net##+js(aopr, $)
@@ -1519,9 +1520,9 @@ seehd.*##+js(acis, adBlockDetected)
 seemorgh.com##+js(acis, jQuery)
 texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 trainbit.com##+js(acis, getCookie)
-trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,hamtamovie.li,soft98.ir##+js(nano-stb)
+trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,hamtamovie.li,hamtamovie.lol,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
-uupload.ir,iwo.ir##+js(nano-sib)
+uupload.ir,iwo.ir,gold-team.org##+js(nano-sib)
 up44.ir##+js(nano-sib, , , 0)
 webgardee.ir,gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
@@ -1573,6 +1574,10 @@ mybia4music.com##div[class="box"]:has(div>div>p>a>img[alt*="زولا"])
 mybia4music.com##div[class="fixedpost"]:has(div>div>h4:has-text(زولا))
 cooldl.net,cooldownload.ir##a[title="Ads"]
 cooldl.net,cooldownload.ir##div[class="pm"]:has(div>div>p>a[title*="زولا"])
+dlfox.com##div[class="widget_wrapper blog_wrapper"]
+dlfox.com##div[class$="_post_banner"]
+dlfox.com##div[class$="_small_banner"]
+dlfox.com##img[alt="gameriver"]
 digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption>footer>div>span:has-text(تبلیغ))
 digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
 digiato.com##div[id^="digiad-"]
@@ -1602,7 +1607,8 @@ emp3e.com##a[href*="/spon/downloader/"]
 emp3e.com##a[href*="/spons/downloader/"]
 eghtesadonline.com##div[class*="-adv-"]
 esam.ir##div[id$="CornerBanner"]
-ezp30.com##a[class="ezp30-ads"]
+ezp30.com##*[class*="ezp30-ads"]
+ezp30.com##a[href*="utm_source=ezp30&"]
 ezp30.com##div[class="fix-ez"]
 faceit.ir##div[class$=" advertising"]
 farnet.io##img[class="scy-image"]
@@ -1656,6 +1662,7 @@ live.com##div:has(:scope > div > div > button[id="aboutInboxShopping"])
 ! ^ blocking MS ads loaded within MS emails (i.e., Windows Insider emails) | alternative: live.com##*[id="aboutInboxShopping"]:upward(3)
 marzfun.com##aside:has(aside>div>div>span:has-text(تبلیغ))
 mediahide.com##div[id^="iklan"]
+mer30download.com##div[class="adsfix_box"]
 merriam-webster.com##DIV[id="adaptvDiv"]
 mihandownload.com##*[class="fix well"]
 mihandownload.com##*[class="post-body"]:has(div>a[href*="uzee.ir"])
@@ -1670,7 +1677,6 @@ mihandownload.com##div[class^="bg-all-box py-3"]:has(div>span[class*="-botom-ads
 moderndl.com##section[class="m-ads"]
 moderndl.com##section[class="sidebar-left-item content"]:has(section>a>h5:has-text(تبلیغ))
 msbmusic.ir##div[id="postesabetads"]
-mytopseda.ir,topseda.ir##div[id="toshare-dl-link"]:has(a[href*="urlshorter.org/page"])
 namnak.com##*[class="leftct Bads"]
 namnak.com##*[id="adsarea"]
 namnak.com##a[href*="/ag_"]>img
@@ -1742,6 +1748,7 @@ tabnak.ir##aside[class*="_adv_"]
 tabnak.ir##div[class="visible-lg visible-md visible-sm visible-ms hidden-xs"]
 tabnak.ir##div[id*="_adv_"]
 takblog.net,yektablog.net##*[id^="popbox-"]
+tamirpc.net##div[class$=" ImageBnr"]
 techna.news##div[id^="custom_html-"]:has(div>div>div:has-text(تبلیغ))
 techna.news##div[class*="_banner"]
 techna.news##div[class="widget_text sidebar-box"]:has-text(تبلیغ)
@@ -1752,6 +1759,7 @@ texahang.org##article:has(article>center>a[href*="tracking.travian.ir"])
 top2download.com,top2download.net##article:has(article>header>div>a[href*=".com/ads."])
 top2download.com##*[class="ads-tmain"]
 top2download.net##div[class="post-body text-center"]:has(div>a>img[width="468"][height="60"])
+topseda.ir##div[id="toshare-dl-link"]:has(a[href*="urlshorter.org/page"])
 toranji.ir##div[class="tr_footer_fixed"]
 up44.ir##div[class="right box full2"]
 upload-fa.ir,p30day.ir,p30day.com,khabarfarsi.com##*[class^="banners"]
@@ -1828,8 +1836,11 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*=".bahavarit.com"]
 *##a[href*=".barsait.com"]>img
 *##a[href*=".botsaz.com"]>img
+*##a[href*=".cdkeyshare.ir"]
 *##a[href*=".drhp.ir"]
+*##a[href*=".estekhdamjo.com"]
 *##a[href*=".favaafzar.com"]
+*##a[href*=".gameriver.ir"]
 *##a[href*=".ham3da.ir"]>img
 *##a[href*=".instahello.ir"]>img
 *##a[href*=".ipinz.ir"]
@@ -1885,9 +1896,12 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##a[href*="/bernardwatch.ir"]>img
 *##a[href*="/botsaz.com"]>img
 *##a[href*="/counter/click.php?id"]>img
+*##a[href*="/cdkeyshare.ir"]
 *##a[href*="/didekhalagh.com"]>img
 *##a[href*="/drhp.ir"]
+*##a[href*="/estekhdamjo.com"]
 *##a[href*="/favaafzar.com"]
+*##a[href*="/gameriver.ir"]
 *##a[href*="/glamora.com"]>img
 *##a[href*="/ham3da.ir"]>img
 *##a[href*="/instahello.ir"]>img
@@ -1937,6 +1951,7 @@ zoomit.ir##.navbar.navbar-default:style(top: 0px !important;)
 *##*[href*="arefrayaneh.com"]>img
 *##*[href*="arian-motor.com"]>img
 *##a[href*="arjang.ac.ir"]>img
+*##a[href*="arongroups.co/?utm_source="]
 *##*[href*="arshantour.net"]>img
 *##a[href*="atramiz.com"]
 *##a[href*="banimode.com/landing/"]
@@ -2511,6 +2526,7 @@ aradsamaneh.com#@#a[href*=".aradsamaneh.com"]
 aradsamaneh.com#@#a[href*="/aradsamaneh.com"]
 arefrayaneh.com#@#*[href*="arefrayaneh.com"]>img
 arian-motor.com#@#*[href*="arian-motor.com"]>img
+arongroups.co#@#a[href*="arongroups.co/?utm_source="]
 arshantour.net#@#*[href*="arshantour.net"]>img
 astiak.net#@#a[href^="http://astiak.net"]>img
 atramiz.com#@#a[href*="atramiz.com"]
@@ -2522,6 +2538,8 @@ bernardwatch.ir#@#a[href*="/bernardwatch.ir"]>img
 blocklist.site,blogfa.com#@#a[href$="/ads"]
 boorsika.com#@#a[href*="boorsika.com"]>img
 caranddriver.com,farsroid.com,pop-music.ir#@#*[class^="ads-"]
+cdkeyshare.ir#@#a[href*=".cdkeyshare.ir"]
+cdkeyshare.ir#@#a[href*="/cdkeyshare.ir"]
 charbzaban.com#@#a[href*="charbzaban.com/app"]
 chicken-device.ir#@#a[href*="chicken-device.ir"]>img
 chinstore.ir#@#*[href*="chinstore.ir"]>img
@@ -2536,12 +2554,16 @@ drhp.ir#@#a[href*=".drhp.ir"]
 drhp.ir#@#a[href*="/drhp.ir"]
 dtour.ir#@#*[href*="dtour.ir"]>img
 eshopfa.net#@#a[href*="eshopfa.net/Detail.aspx"]>img
+estekhdamjo.com#@#a[href*=".estekhdamjo.com"]
+estekhdamjo.com#@#a[href*="/estekhdamjo.com"]
 favajam.com#@#a[href*="favajam.com"]>img
 faraz-system.com#@#a[href*="faraz-system.com"]>img
 farzamweb.com#@#a[href*="farzamweb.com"]>img
 favaafzar.com#@#a[href*=".favaafzar.com"]
 favaafzar.com#@#a[href*="/favaafzar.com"]
 fitamin.ir#@#a[href*="fitamin.ir"]>img
+gameriver.ir#@#a[href*=".gameriver.ir"]
+gameriver.ir#@#a[href*="/gameriver.ir"]
 ghandaan.com#@#a[href*="ghandaan.com"]
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
