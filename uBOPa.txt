@@ -1,6 +1,6 @@
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 202206
+! Version: 2206
 ! Homepage: https://github.com/nimasaj/uBOPa/
 ! https://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
@@ -1127,8 +1127,8 @@
 ||linkafarin.com*
 ||linkchin.com/code.php*
 ||linkchin.com/show.php*
-*creatives.livejasmin.com/iframes*
-||livetv4pc.tv/black*
+||linksoflondonuk.me.uk*$3p
+||linksoflondonuk.me.uk*$popup
 ||lkqd.net*
 ||static.locopoc.ir*
 ||loneday.com/*
@@ -1137,7 +1137,6 @@
 ||lqpkjasgqjve.com*$script
 ||lux-traf.net/?r*
 ||love4.ir^$popup
-||loxface.ir^$popup
 ||lycosu.com/j*.php*
 ||m80im.com*
 ||madadsmedia.com*
@@ -1319,7 +1318,6 @@
 ||qandak.ir*$3p
 ||queenmag.ir/widgets/rsswidget.php^$3p
 !||r98.ir/code/popup*$3p
-||rarenok.biz*
 ||landings.ravitel.com/seq*$all
 ||readserver.net*
 ||recomendedsite.com/*
@@ -1328,7 +1326,7 @@
 ||rizy.ir/js/ads.js
 ||roozno.com/3044/*$all
 ||rozblog.com/include/rozblog_ads_js.php
-||rozfa.ir*
+||rozfa.ir*$3p
 ||rozup.ir/up/*$script
 ||rtbsystem.com*
 ||rutvind.com*
@@ -1336,8 +1334,7 @@
 ||s2block.com*$script
 ||sabavision.com^$3p
 ||saghybux.com*$all
-||salamaneh.com/a100/*$all
-||salamatism.com/e91/*$all
+||salamatism.com*$all
 ||salammag.com^$popup
 ||sanjagh.com^$3p
 ||sanjagh.net/assets/client.js$3p,script
@@ -1347,7 +1344,6 @@
 ||cdn.sendpulse.com*$script
 ||sendword.ir*$3p
 ||sendword.ir/pop.php*$all
-||sfesd.net*$3p
 !||sheypoor.com/static/ra/nofollow.html*$3p
 !||sheypoor.com/static/ra/verticalnofollow.html*$3p
 !||sheypoor.com/static/ra/mininofollow.html*$3p
@@ -1361,7 +1357,6 @@
 ||sigmaad.com*$script,3p
 ||landings.simayeaval.com*$all
 ||sitemerkezi.net*
-||sixsigmatraffic.com/cs/iframe*
 ||skimresources.com*
 ||popbox.skinak.ir*
 ||skurki.info/js/^$popup
@@ -1369,11 +1364,8 @@
 ||slopeac.com/static/*$script
 ||landing.symaart.com*$all
 ||solhkhabar.ir/t5t/*
-||solic.info*
 ||soob.xyz*$3p
 ||sooran.ir/ac/?*$3p
-||sparkstudios.com/r.poptracking?*
-||sparkstudios.com*$script
 ||rts.sparkstudios.com/pp/*?pid*
 ||spop.ir/website/js*$3p
 ||squartedo.info*
@@ -1403,8 +1395,6 @@
 ||tgju.org/channel/*$all
 ||theads.me*
 ||theadsnet.com*
-||ths9j89.com*$all
-!||ths9j89.com/watch^$all
 ||api.ticketing-service.com/topTickets/*$3p
 ||tiunnitm.bid*$script
 ||tizermine.net/context.php?sid*
@@ -1426,23 +1416,16 @@
 ||trafficshop.com*
 ||trafmag.com*$script
 ||tvvsl.com/?secretKey=*$3p,popup
-||ubxtoqsqusyx.com*$script
-||uelect.com*$script
-||unblockmyproxy.site/js/*
-||unztsvrjofqp.com*$script
 ||utop.ir*$3p
 ||utopclick.com^$3p
 ||vatanclick.ir*$3p
 ||vatanshop.com/webmaster/*
-||vcfs6ip5h6.bid*
 ||velocecdn.com*$all
 ||venturead.com*$all
 ||vixono.com*$popup
 ||vixono.com/redirect.*$3p
 ||vogodita.com*
 ||voluumtrk.com*
-||waframedia20.com*
-||wdae57832.pw*
 ||weblogmaster.com*$popup
 ||weblogmaster.com/redirect.*
 !yalda.xyz
@@ -1480,13 +1463,9 @@
 ||zarin.link$script
 ||zarpop.com*/js*
 ||zarpop.com^$popup
-||zbzksshdcwrka.bid*
 ||zedo.com*
 ||zeroredirect1.com*
-||zirve100.com*
-||zmbvnvhzpx.ga*$3p
 ||zoomit.ir/banners/videos/*
-||zyxtecsff.bid*
 !--------------------------uBO Scriptlet Filters-------------------------!
 alaatv.com##+js(acis, watermarkAdData)
 androidgozar.com##+js(aopr, website)
@@ -1524,7 +1503,7 @@ trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,hamtamovie.li,hamtamov
 uploadboy.com##+js(cookie-remover, captcha_key)
 uupload.ir,iwo.ir,gold-team.org##+js(nano-sib)
 up44.ir##+js(nano-sib, , , 0)
-webgardee.ir,gamelive.ir##+js(acis, checkCookie)
+gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
@@ -1558,7 +1537,8 @@ asandl.com##article[class="post mobile"]:has(article>footer>a[href*="charge.asan
 asandl.com##*[class="asan468 box center"]
 asandl.com##div[class="asan250 box center"]:has(div>a[href*="charge.asandl.com/app"])
 asandl.com##div[class="text-asan"]:has(div>h3:has-text(Text ADS in AsanDownload))
-asiadl.ir##div[class="my-3"]
+asiadl.ir##div[class=" my-3"]
+asiadl.ir##div[class*=" tablig-box"]
 barato.ir##div[id="featured"][class="owl-carousel owl-rtl owl-loaded owl-drag"]
 bartarinha.ir##div[class^="zxc"]
 behmusic.com##*[class$="_ads"]>p[style="text-align: center;"]
@@ -1747,6 +1727,7 @@ solidfiles.com##*[class="box-content promoted-dl"]
 tabnak.ir##aside[class*="_adv_"]
 tabnak.ir##div[class="visible-lg visible-md visible-sm visible-ms hidden-xs"]
 tabnak.ir##div[id*="_adv_"]
+tabnak.ir##div[class="adv_news"]
 takblog.net,yektablog.net##*[id^="popbox-"]
 tamirpc.net##div[class$=" ImageBnr"]
 techna.news##div[id^="custom_html-"]:has(div>div>div:has-text(تبلیغ))
