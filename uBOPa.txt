@@ -781,7 +781,6 @@
 ||1000ip.com*$3p
 ||1000toman.com/webmasters/feed2js/*$3p,script
 ||100si.com*$3p
-||cdn.1120057983.world*
 ||1133.cc*/show_code.php?pid*$3p
 ||1133.cc*/showpage.php?pid*$3p
 ||11news.ir/9200/*$all
@@ -798,7 +797,6 @@
 ||30dkadeh.com/images/*$3p
 ||30nama.com^$popup
 ||32a79e2833309ebe.com*
-||3l4r8d61yz.com^$popup
 ||4d5.net*
 ||4f2sm1y1ss.com*
 ||4reh.com/displaycode.php*
@@ -807,10 +805,8 @@
 ||55online.ir/da55*$all
 ||55online.ir/daa55*$all
 !55online.ir/da55ot.html,55online.ir/da55trd.html,55online.ir/daa55ed7120.html,55online.ir/daa55nvcasdfg1.html,55online.ir/daa55qsdsdsd.html,55online.ir/daa55457x4w.html
-||5db8d92zi2.com*$3p
 ||5rah.*/linkbox*$3p
 ||6198399e4910e66-ovc.com*$popup
-||7mu36somt5.com*$all
 ||click.8tad.ir/click/*$3p
 ||ad2ad.ir*
 ||adad.ir*
@@ -898,7 +894,6 @@
 ||avablog.ir/redirect.php^$popup
 ||avokvnpqunol.bid*$script
 ||awin1.com^$popup
-||b0b.ir*$3p
 ||backlinka.ir^$popup
 ||backority.ir*$3p
 ||backority.ir*$popup
@@ -942,7 +937,6 @@
 ||chavosh.org^$popup
 ||promote.chidaneh.com^$3p
 ||chikhanos.info*$script
-||ckyxscaeockj.bid*
 ||clickar.ir/?ref*$3p
 ||clickbux.ir*
 ||clickcpm.com*
@@ -995,7 +989,6 @@
 ||dl-gate.net*
 ||dlyads.com*
 ||dnckawxatc.com*$all
-||do69ifsly4.me*
 ||dortina.com/em/pop-up^$popup
 ||double-click.ir*$3p
 ||download-performance.com/dt*
@@ -1007,7 +1000,6 @@
 ||e85440ec98f04725.com^$popup
 ||eads.ir*
 ||adn.ebay.com*
-||efotdwuui.bid*$script
 ||eghamat24.com*$3p
 ||eghtesadban.com*$popup
 ||egooad.c*$3p
@@ -1030,23 +1022,19 @@
 ||farin724.com*
 ||fastclick.ir^$3p
 ||fbfd396918c60838.com^$popup
-||ffinwwfpqi.gq*$3p
 ||fileir.ir^$popup
 ||findepended.com^$popup
 ||fingahvf.top*$all
-||finishclueobscure.info*
 ||fitone.ir/iq$script
 ||fitone.ir/pop.php*$all
 ||fitone.ir/tgch.php$all
 ||fluidads.co*
 ||landings.frekaans.ir*$all
 ||funfarsi.ir/*pop.js*$3p,script
-||gikvmseyuk.ml*$3p
 ||globaltraffico.com*
 ||landings.goosheh-mob.ir*$all
 ||gozarkade.ir/goz123.html*$all
 ||grand-casino.com/?eugn*
-||grt02.org*
 ||vu.hadith.ac.ir/tipofday*
 ||landings.hamavaapp.com^$all
 ||healthline.com/js/partner/mw/link.js*
@@ -1067,18 +1055,13 @@
 ||hostmir.net/21_36_240_f.js*$3p,script
 ||hostmir.net/click.php?site*$3p
 ||hvooyieoei.com*$3p
-||hysnqwbokyuvsm.com*
-||hzsod71wov.me*
 ||process.i-frame.ir/index.php?params*$3p
 ||script.i30t.com/script/*$3p,script
 ||i62e2b4mfy.com*$3p
 ||i62e2b4mfy.com*$popup
 ||iclik.ir/widget*$3p
 ||ichlnk.com/offer?prod*$all
-||icqwindow.com/okno.php?*
-||icqwindow.com/click.php?*
 ||landing.igap.net^$popup
-||ihriduffgkel.com*$script
 ||ijms.ir^$popup
 ||iliama.com^$3p
 ||ilivid.com/?appid*
@@ -1099,9 +1082,7 @@
 ||irpopup.ir^$3p
 ||iscanews.ir/daisc12*$all
 !iscanews.ir/daisc124.html,iscanews.ir/daisc123%20-%20copy.html
-||iu1xoe7o.com^$popup
 ||jamtalaie.com^$3p,popup
-||jiwvbck.com*$script
 ||jokemaster.ir^$popup
 ||joneself.com*$popup
 ||js1.ir*
@@ -1111,7 +1092,6 @@
 ||kaprila.com/a/images/loading.gif
 ||kaprila.com*/show.*$3p
 ||kaprila.com*/show-header.$3p
-||kho3au7l4z.me*
 ||kimate.com*$all
 !||kimate.com/redirect.*
 ||kimexa.com*$all
@@ -1134,8 +1114,6 @@
 ||loneday.com/*
 ||lop.com*$3p
 ||lordpopup.com/pop.php*$3p
-||lqpkjasgqjve.com*$script
-||lux-traf.net/?r*
 ||love4.ir^$popup
 ||lycosu.com/j*.php*
 ||m80im.com*
@@ -1149,8 +1127,6 @@
 ||marketgid.com*
 ||marinsm.com/serve/*
 ||maxpopup.ir*.php*user*
-||mdn2015x2.com*
-||mdn2015x4.com*
 ||media-fire.org*
 ||mediaad.org^$3p
 ||mediapalmtree.com*$script
@@ -1158,8 +1134,6 @@
 ||meebocdn.net/cim/*
 ||s.megaclick.com/mc.js*
 ||mehdi-online.ir*$popup
-||melatema.com/t/*$all
-||melatema.com/e/*$all
 ||mellati.com/c/*$all
 ||mellati.com/h/*$all
 ||meried.co*$all
@@ -1368,7 +1342,6 @@
 ||sooran.ir/ac/?*$3p
 ||rts.sparkstudios.com/pp/*?pid*
 ||spop.ir/website/js*$3p
-||squartedo.info*
 ||starpopup.com/website/js*$3p
 ||superfastcdn.com*$all
 !||t.me*$popup,domain=~virgool.io
@@ -1434,7 +1407,6 @@
 ||cdn.webrupee.com/js*
 ||webtrackerplus.com*
 ||weclick.ir*$script
-||whistorica.info*
 ||wideads.com^$3p,popup
 ||wideads.com*$3p
 ||wie9eig.top*$script
@@ -1444,12 +1416,8 @@
 ||wtoqymftbf.bid*$script
 ||wwwpromoter.com*
 ||xbuzzi.ir/landing/download?clickid=*$all
-||xdoygumiams.com*$3p,popup
 ||xtgem.com*
-||yahnataetu.com*
-||yaisha0.bid*$script
 ||yasell.biz/images/pop/*$all
-||ycfprujylukkx.bid*
 ||ydc.ir/web/?*
 ||yekmizban.com/web_tools/*$script
 ||yekpop.com*$script
@@ -1477,6 +1445,7 @@ edaboard.com##+js(aopr, interstitialBox)
 enbdev.com##+js(set, isexistAd, true)
 ! ^^ https://github.com/nimasaj/uBOPa/issues/46
 farsroid.com##+js(aopr, ShowPopUp)
+gamelive.ir##+js(acis, checkCookie)
 getandroid.ir,p30afzar.com,applicationha.com,farsroid.com##+js(aopr, faPa)
 ibcomputing.com##+js(nostif, adsbygoogle)
 i-video.ir##+js(aopr, sendword_vc_url)
@@ -1503,7 +1472,6 @@ trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,hamtamovie.li,hamtamov
 uploadboy.com##+js(cookie-remover, captcha_key)
 uupload.ir,iwo.ir,gold-team.org##+js(nano-sib)
 up44.ir##+js(nano-sib, , , 0)
-gamelive.ir##+js(acis, checkCookie)
 !zoomit.ir##+js(aopr, setHeightOfAd)
 ! The upper rule is taken from github.com/uBlockOrigin/uAssets/issues/3959
 !-----------------------Specific Cosmetic Filters------------------------!
@@ -1564,6 +1532,7 @@ digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
 digiboy.ir##div[class="slider-tab-ring"]:not(:has(>:has-text(دیدگاه)))
 digiboy.ir##div[class$="-digiads"]
+digiboy.ir##div[id="header-bar"]
 digiro.ir,technet24.ir##div[itemtype$="WPAdBlock"]
 donya-e-eqtesad.com##DIV.sizebaneer
 donya-e-eqtesad.com##*[class^="add-view-des"]
