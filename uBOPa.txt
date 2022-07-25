@@ -1484,6 +1484,7 @@ dlfox.com##div[class$="_post_banner"]
 dlfox.com##div[class$="_small_banner"]
 dlfox.com##img[alt="gameriver"]
 digiato.com##li:has(>div[class="rowCard"]>a:has-text(رپورتاژ آگهی))
+digiato.com##li:has(>div>div>div[class="card__overload--categories"]>a:has-text(رپورتاژ آگهی))
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
 digiboy.ir##div[class="slider-tab-ring"]:not(:has(>:has-text(دیدگاه)))
