@@ -1483,8 +1483,7 @@ dlfox.com##div[class="widget_wrapper blog_wrapper"]
 dlfox.com##div[class$="_post_banner"]
 dlfox.com##div[class$="_small_banner"]
 dlfox.com##img[alt="gameriver"]
-digiato.com##article[class="home-entry featured "]:has(article>figure>figcaption>footer>div>span:has-text(تبلیغ))
-digiato.com##article[class="home-entry generic clearfix "]:has(article>div>header>div>*[class="cursor-default "]:has-text(تبلیغ))
+digiato.com##li:has(>div[class="rowCard"]>a:has-text(رپورتاژ آگهی))
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
 digiboy.ir##div[class="slider-tab-ring"]:not(:has(>:has-text(دیدگاه)))
