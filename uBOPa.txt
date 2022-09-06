@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
 ! Version: 2206
