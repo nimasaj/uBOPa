@@ -1,3 +1,4 @@
+[uBlock Origin]
 ! Title: Nimasa personal adblock filter list
 ! Expires: 2 days (update frequency)
 ! Version: 0.1
