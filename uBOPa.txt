@@ -1,7 +1,6 @@
-[uBlock Origin]
 ! Title: uBOPa filter list
 ! Expires: 2 days (update frequency)
-! Version: 2206
+! Version: 2208
 ! Homepage: https://github.com/nimasaj/uBOPa/
 ! https://mynext.pro/uBOPa.txt
 ! https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa.txt
@@ -973,6 +972,7 @@
 ||deema.agency*$3p
 ||deemanetwork.com^$popup
 ||deemanetwork.com/pxjs/^$script
+||click.digiato.com/serve^
 ||adapi.digikala.com*$3p
 !||advertising.digikala.com*
 ||directoral.info*
@@ -1428,6 +1428,7 @@ texahang.org,upmusics.com,music-fa.com##+js(aopr, InitPop)
 trainbit.com##+js(acis, getCookie)
 trainbit.com,uploadboy.com,hamtamovie.bar,hamtamovie.asia,hamtamovie.li,hamtamovie.lol,soft98.ir##+js(nano-stb)
 uploadboy.com##+js(cookie-remover, captcha_key)
+uploadboy.com##+js(ra, disabled, #btn_download)
 uupload.ir,iwo.ir,gold-team.org##+js(nano-sib)
 up44.ir##+js(nano-sib, , , 0)
 !zoomit.ir##+js(aopr, setHeightOfAd)
@@ -1484,7 +1485,7 @@ dlfox.com##div[class="widget_wrapper blog_wrapper"]
 dlfox.com##div[class$="_post_banner"]
 dlfox.com##div[class$="_small_banner"]
 dlfox.com##img[alt="gameriver"]
-digiato.com##li:has(>div[class="rowCard"]>a:has-text(رپورتاژ آگهی))
+digiato.com##li:has(>div[class^="rowCard"]>a:has-text(رپورتاژ آگهی))
 digiato.com##li:has(>div>div>div[class="card__overload--categories"]>a:has-text(رپورتاژ آگهی))
 digiato.com##div[id^="digiad-"]
 digiato.com##div[class^="digiad-"]
@@ -1498,12 +1499,14 @@ donya-e-eqtesad.com##*[class*="overview-auto zxc"]
 doostihaa.com##*[id^="ADdownload-"]
 doostihaa.com##div[class="adsfix_box"]
 download.ir##div[class^="content-top-ads-box"]
+download1music.ir##a:has(a>img[class^="aligncenter size-full "])
+download1music.ir##div[id^="pos-article-display-"]
 downloadha.com##*[class="panel panel-warning fixed-posts post"]
 downloadly.ir##div[class="widget widget_text"]
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(SevereRevenge))
 downloadly.ir##p[dir="ltr"]:has(p>span>a:has-text(assemSole))
-download1music.ir##a:has(a>img[class^="aligncenter size-full "])
-download1music.ir##div[id^="pos-article-display-"]
+downloadlyir.com##div[class="-blackout active"]
+downloadlyir.com##div[class="-wrapper"]
 edaboard.com##li[class="postbitlegacy postbitim postcontainer"]
 eghtesadonline.com##div[class="lSSlideWrapper usingCss"]:has(div>div>a[href*="/advertisements/"])
 eghtesadonline.com##div[class="lSSlideWrapper usingCss"]:has(div>div>div>a[href*="/advertisements/"])
@@ -1537,7 +1540,9 @@ freedownload.ir##div[class="module"]>div[class="mod-wrapper-flat clearfix"]
 gamefa.com##*[class*=" bnr "]
 gamefa.com,techfars.com##*[id="top-banners"]
 gamefa.com##div[class^="banner"]
+gamefa.com##div[class^="single-advertise "]
 gamefa.com##section[class*=" baners"]
+gamesib.ir##div[id="next1-231"]
 ganool.*##div[id*="banner"]
 gomostream.com##.adtimes
 gooyait.com##*[class="header-popup"]
@@ -2472,6 +2477,10 @@ favaafzar.com#@#a[href*="/favaafzar.com"]
 fitamin.ir#@#a[href*="fitamin.ir"]>img
 gameriver.ir#@#a[href*=".gameriver.ir"]
 gameriver.ir#@#a[href*="/gameriver.ir"]
+gamesib.ir#@#*[class^="ads_"]
+!--VV to fix issue caused by Easylist VV --
+gamesib.ir#@#.ads_2
+!--^^ to fix issue caused by Easylist ^^ --
 ghandaan.com#@#a[href*="ghandaan.com"]
 ghasedak24.com#@#a[href*="ghasedak24.com"]>img
 giftcard.ir#@#a[href*="giftcard.ir"]>img
