@@ -1,8 +1,10 @@
 # uBOPa Pi-hole filter list___http://mynext.pro/uBOPa_Pihole.txt___https://raw.githubusercontent.com/nimasaj/uBOPa/master/uBOPa_Pihole.txt
 0098sms.com
+084kk.com
 1000click.ir
 100si.com
 1phads.com
+1x1x5.com
 20popup.com
 32a79e2833309ebe.com
 4d5.net
@@ -81,6 +83,7 @@ chabok.io
 channelsho.ir
 chavosh.org
 promote.chidaneh.com
+clckfltr.com
 clickar.ir
 clickbux.ir
 clickcpm.com
@@ -246,6 +249,7 @@ onegate.ir
 oneshare.ir
 onesignal.com
 optimuum.com
+otieu.com
 oxado.com
 oxcash.com
 oxinads.com
@@ -326,6 +330,7 @@ sitemerkezi.net
 sixsigmatraffic.com
 skimresources.com
 popbox.skinak.ir
+submissionthemecolonialism.com
 landing.symaart.com
 soob.xyz
 rts.sparkstudios.com
@@ -342,6 +347,7 @@ teasernet.com
 theadsnet.com
 api.ticketing-service.com
 tizermine.net
+tkh6.top
 tkqlhce.com
 hadis.toolsir.com
 toplinks.dom.ir
